@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.pi4j:pi4j-library-pigpio:2.2.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.pi4j/pi4j-library-pigpio/2.2.0/f260f63195eba4b3e430e4c67580723a6b4a2c4b/pi4j-library-pigpio-2.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.pi4j/pi4j-library-pigpio/2.2.0/696863c45ddf9fccff034ec61bf97728d944ea12/pi4j-library-pigpio-2.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

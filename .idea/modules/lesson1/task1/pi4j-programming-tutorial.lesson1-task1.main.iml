@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":lesson1-task1:main" external.linked.project.path="$MODULE_DIR$/../../../../lesson1/task1" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.group="pi4j-programming-tutorial" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../../lesson1/task1/out/production/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../lesson1/task1/src">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../lesson1/task1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../lesson1/task1/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../lesson1/task1/src/main/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="pi4j-programming-tutorial.util.main" />
+    <orderEntry type="library" name="Gradle: com.pi4j:pi4j-plugin-raspberrypi:2.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.pi4j:pi4j-plugin-pigpio:2.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.pi4j:pi4j-plugin-mock:2.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.pi4j:pi4j-plugin-linuxfs:2.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.pi4j:pi4j-core:2.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.32" level="project" />
+    <orderEntry type="library" name="Gradle: com.pi4j:pi4j-library-pigpio:2.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.pi4j:pi4j-library-linuxfs:2.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.jcraft:jsch:0.1.55" level="project" />
+  </component>
+</module>
