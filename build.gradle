@@ -19,7 +19,7 @@ subprojects {
     apply plugin: 'application'
     apply plugin: 'java'
 
-    //sourceCompatibility = JavaLanguageVersion.of(17)
+    sourceCompatibility = JavaVersion.VERSION_17//JavaLanguageVersion.of(17)
 
     repositories {
         mavenCentral()

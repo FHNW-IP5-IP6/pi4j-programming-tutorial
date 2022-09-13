@@ -2,7 +2,8 @@ plugins {
     id 'java'
 }
 
-version 'unspecified'
+//version 'unspecified'
+sourceCompatibility = JavaVersion.VERSION_17
 
 repositories {
     mavenCentral()
