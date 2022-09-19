@@ -4,5 +4,3 @@ files:
   visible: true
 - name: test/Tests.java
   visible: false
-- name: pom.xml
-  visible: false

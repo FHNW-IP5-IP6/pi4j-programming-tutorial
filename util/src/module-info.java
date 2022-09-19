@@ -42,7 +42,6 @@ module com.pi4j.example {
     uses com.pi4j.provider.Provider;
 
     requires java.logging;
-    requires info.picocli;
 
     // allow access to classes in the following namespaces for Pi4J annotation processing
     opens com.pi4j.catalog to info.picocli, com.pi4j;

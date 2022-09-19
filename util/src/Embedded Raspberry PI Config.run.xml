@@ -1,0 +1,20 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Embedded Raspberry PI Config" type="Run as an Embedded Java application" factoryName="Run as an Embedded Java application">
+    <option name="classesDirectory" />
+    <option name="hostname" value="crowpi.local" />
+    <option name="keyPath" value="" />
+    <option name="password" value="crowpi" />
+    <option name="port" value="5005" />
+    <option name="programArguments" value="" />
+    <option name="runAsRoot" value="true" />
+    <option name="sshPort" value="22" />
+    <option name="username" value="pi" />
+    <option name="usingKey" value="false" />
+    <option name="vmParameters" value="" />
+    <option name="moduleName" value="pi4j-programming-tutorial.lesson1-task1.main" />
+    <option name="mainclass" value="Task" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
