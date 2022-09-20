@@ -44,5 +44,5 @@ module com.pi4j.example {
     requires java.logging;
 
     // allow access to classes in the following namespaces for Pi4J annotation processing
-    opens com.pi4j.catalog to info.picocli, com.pi4j;
+    opens com.pi4j.catalog to com.pi4j;
 }

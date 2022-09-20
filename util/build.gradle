@@ -12,13 +12,6 @@ repositories {
 dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
-
-    //PI4J Dependencies
-    implementation 'com.pi4j:pi4j-core:2.2.0'
-    implementation 'com.pi4j:pi4j-plugin-raspberrypi:2.2.0'
-    implementation 'com.pi4j:pi4j-plugin-pigpio:2.2.0'
-    implementation 'com.pi4j:pi4j-plugin-mock:2.2.0'
-    implementation 'com.pi4j:pi4j-plugin-linuxfs:2.2.0'
 }
 
 test {
