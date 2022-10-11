@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Embedded Raspberry PI Config" type="Run as an Embedded Java application" factoryName="Run as an Embedded Java application">
+  <configuration default="false" name="Setup-Ausführung-AppStarter" type="Run as an Embedded Java application" factoryName="Run as an Embedded Java application">
     <option name="classesDirectory" />
     <option name="hostname" value="crowpi.local" />
     <option name="keyPath" value="" />
@@ -11,8 +11,8 @@
     <option name="username" value="pi" />
     <option name="usingKey" value="false" />
     <option name="vmParameters" value="" />
-    <option name="moduleName" value="pi4j-programming-tutorial.Tutorial-Übersicht-task1.main" />
-    <option name="mainclass" value="Task" />
+    <option name="moduleName" value="" />
+    <option name="mainclass" value="templatepuiapp.AppStarter" />
     <method v="2">
       <option name="Make" enabled="true" />
     </method>

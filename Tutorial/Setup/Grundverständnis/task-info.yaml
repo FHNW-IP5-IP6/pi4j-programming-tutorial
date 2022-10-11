@@ -6,6 +6,6 @@ options:
 - text: Incorrect
   is_correct: false
 files:
-- name: src/Main.java
+- name: src/templatepuiapp/AppStarter.java
   visible: true
 local_check: true

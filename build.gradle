@@ -34,6 +34,12 @@ subprojects {
         implementation 'com.pi4j:pi4j-plugin-pigpio:2.2.0'
         implementation 'com.pi4j:pi4j-plugin-mock:2.2.0'
         implementation 'com.pi4j:pi4j-plugin-linuxfs:2.2.0'
+
+        //javafx Dependencies
+        //implementation 'org.openjfx:javafx-base:17.0.1'
+        //implementation 'org.openjfx:javafx-graphics:17.0.1'
+        //implementation 'org.openjfx:javafx-controls:17.0.1'
+        //implementation 'org.openjfx:javafx:17.0.1'
     }
 
     sourceSets {

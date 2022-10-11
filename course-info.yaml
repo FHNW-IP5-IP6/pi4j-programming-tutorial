@@ -1,13 +1,14 @@
 type: marketplace
 title: pi4j-programming-tutorial
-language: English
+language: German
 summary: |-
-  This is an introductory Java course.
-  - The course will be most beneficial for beginner-level Java learners.
-  - The course covers core Java features.
-  - It contains hands-on examples of Java code implementation and exercises to practice new skills.
-  - The course is based on the author's personal experience in Java development.
+  Dies ist ein Einführungskurs für die Programmierung mit [PI4J](https://pi4j.com/).
+  - Der Kurs ist gedacht für Studenten der FHNW, welche mit dem IP12-Projekt anfangen und noch nicht viel Knowhow in der Programmierung haben.
+  - Der Kurs ist am besten geeignet, wenn er zusammen mit dem OOP1-Modul durchgeführt wird.
+  - Der Kurs deckt ab, wie PI4J verwendet werden kann, wie ein Projekt-Aufbau aussieht, wie die Komponenten angesteuert werden können und was das MVC-Pattern ist.
+  - Der Kurs beinhaltet Hands-On Beispiele von Java Code Implementationen und Übungen, um neue Skills zu verbessern.
+  - Der Kurs basiert auf dem PI4J-Komponenten-Katalog und den Erfahrungen von ehemaligen IP12-Projekten.
 programming_language: Java
 content:
-- section
+- Tutorial
 - util
