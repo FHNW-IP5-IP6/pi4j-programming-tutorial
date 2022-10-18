@@ -1,0 +1,29 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: Correct
+  is_correct: true
+- text: Incorrect
+  is_correct: false
+files:
+- name: src/util/mvcbase/PuiBase.java
+  visible: true
+- name: src/util/mvcbase/Projector.java
+  visible: true
+- name: src/util/mvcbase/ControllerBase.java
+  visible: true
+- name: src/util/mvcbase/ObservableValue.java
+  visible: true
+- name: src/util/mvcbase/ConcurrentTaskQueue.java
+  visible: true
+- name: src/util/Pi4JContext.java
+  visible: true
+- name: src/templatepuiapp/view/SomePUI.java
+  visible: true
+- name: src/templatepuiapp/model/SomeModel.java
+  visible: true
+- name: src/templatepuiapp/controller/SomeController.java
+  visible: true
+- name: src/templatepuiapp/AppStarter.java
+  visible: true
+local_check: true

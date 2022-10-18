@@ -1,48 +1,23 @@
-# Setup - Einführung
-This is a task description file.
-Its content will be displayed to a learner
-in the **Task Description** window.
+Diese Lektion soll Einführen in die Thematik des Raspberry PI's im Zusammenhang mit PI4J,
+der Java-Bibliothek für die Ansteuerung von Sensoren und Aktuatoren über die GPIO.
 
-It supports both Markdown and HTML.
-To toggle the format, you can rename **task.md**
-to **task.html**, or vice versa.
-The default task description format can be changed
-in **Preferences | Tools | Education**,
-but this will not affect any existing task description files.
+## PI4J
+Die Webseite sowie weitere Informationen zu PI4J lassen sich [Hier](https://pi4j.com/) finden.
 
-The following features are available in
-**task.md/task.html** which are specific to the EduTools plugin:
+## Plugins
+Damit dieses Tutorial richtig funktioniert, musste ja bereits ein Plugin in IntelliJ installiert werden.
+Durch dieses Plugin kann der Inhalt des Tutorials richtig dargestellt und geprüft werden.
 
-- Hints can be added anywhere in the task text.
-Type "hint" and press Tab.
-Hints should be added to an empty line in the task text.
-In hints you can use both HTML and Markdown.
-<div class="hint">
+Für das Ausführen des Java-Codes direkt auf dem Raspberry PI muss aber noch ein weiteres IntelliJ Plugin
+installiert werden. Das Plugin heisst "Embedded Linux JVM Debugger for Raspberry PI", und es soll in der
+neusten möglichsten Version installiert werden:
+![RPI-Plugin](/RPI-Plugin.png)
 
-Text of your hint
+Dieses Plugin sorgt dafür, dass die geschriebene Java-Klasse sowie alle Abhängigkeiten richtig kompiliert, 
+und direkt auf Raspberry PI ausgeführt werden kann. Dies wird in den nächsten Schritten gebraucht.
 
-</div>
+## Build and Run
+Wie kann ich es laufen lassen?
 
-- You may need to refer your learners to a particular lesson,
-task, or file. To achieve this, you can use the in-course links.
-Specify the path using the `[link_text](course://lesson1/task1/file1)` format.
-
-- You can insert shortcuts in the task description.
-While **task.html/task.md** is open, right-click anywhere
-on the **Editor** tab and choose the **Insert shortcut** option
-from the context menu.
-For example: &shortcut:FileStructurePopup;.
-
-- Insert the &percnt;`IDE_NAME`&percnt; macro,
-which will be replaced by the actual IDE name.
-For example, **%IDE_NAME%**.
-
-- Insert PSI elements, by using links like
-`[element_description](psi_element://link.to.element)`.
-To get such a link, right-click the class or method
-and select **Copy Reference**.
-Then press &shortcut:EditorPaste; to insert the link where appropriate.
-For example, a [link to the "contains" method](psi_element://java.lang.String#contains).
-
-- You can add link to file using **full path** like this:
-  `[file_link](file://lesson1/task1/file.txt)`.
+## Weiter
+In diesem Task muss noch nichts ausgeführt werden. Es kann somit der nächste Schritt begonnen werden per Klick auf den Button "Next".

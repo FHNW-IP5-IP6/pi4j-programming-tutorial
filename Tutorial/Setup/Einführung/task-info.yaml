@@ -2,3 +2,5 @@ type: theory
 files:
 - name: src/templatepuiapp/AppStarter.java
   visible: true
+- name: RPI-Plugin.png
+  visible: true
