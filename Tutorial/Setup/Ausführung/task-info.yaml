@@ -22,3 +22,13 @@ files:
   visible: true
 - name: src/templatepuiapp/AppStarter.java
   visible: true
+- name: src/Setup-Ausführung.run.xml
+  visible: false
+- name: src/com/pi4j/catalog/components/helpers/PIN.java
+  visible: true
+- name: src/com/pi4j/catalog/components/Component.java
+  visible: true
+- name: src/com/pi4j/catalog/components/SimpleLED.java
+  visible: true
+- name: src/com/pi4j/catalog/components/SimpleButton.java
+  visible: true

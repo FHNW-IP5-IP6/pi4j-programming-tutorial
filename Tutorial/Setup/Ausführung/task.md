@@ -1,48 +1,16 @@
+In diesem Task wird das [RaspiFX-Template](https://github.com/DieterHolz/RaspPiFX-Template-Project) vorgestellt.
+Dies ist ein Template, welches für FX-Anwendungen mit PI4J verwendet werden kann. Es implementiert bereits einen 
+Launcher, welcher das Programm interaktiv startet, und über [Maven](https://maven.apache.org/) wird die Applikation 
+gebaut und ausgeführt, je nach Konfiguration auf der eigenen Workstation oder direkt auf einem Remote-Gerät, wie bspw. 
+dem Raspberry PI.
 
-This is a task description file.
-Its content will be displayed to a learner
-in the **Task Description** window.
+## Remote Ausführung
+In diesem Task wurde eine Running-Config hinterlegt. Diese kann wie hier im Bild aufgezeigt ausgewählt werden:
+![RunningConfig](./RunningConfig.png)
+Mit dieser Konfiguration ausgewählt, kann die Ausführung nun gestartet werden.
+(Falls es zu Fehlern kommen sollte, muss die Konfiguration angepasst werden. Bspw. kann es vorkommen, dass der 
+Benutzername oder das Passwort des eigenen Raspberry PI nicht übereinstimmt mit der Konfiguration. Oder vielleicht 
+gibt es im gleichen Netzwerk mehrere Devices mit dem Hostnamen "Crowpi.local", dann müsste dort die IP eingetragen werden.)
 
-It supports both Markdown and HTML.
-To toggle the format, you can rename **task.md**
-to **task.html**, or vice versa.
-The default task description format can be changed
-in **Preferences | Tools | Education**,
-but this will not affect any existing task description files.
-
-The following features are available in
-**task.md/task.html** which are specific to the EduTools plugin:
-
-- Hints can be added anywhere in the task text.
-Type "hint" and press Tab.
-Hints should be added to an empty line in the task text.
-In hints you can use both HTML and Markdown.
-<div class="hint">
-
-Text of your hint
-
-</div>
-
-- You may need to refer your learners to a particular lesson,
-task, or file. To achieve this, you can use the in-course links.
-Specify the path using the `[link_text](course://lesson1/task1/file1)` format.
-
-- You can insert shortcuts in the task description.
-While **task.html/task.md** is open, right-click anywhere
-on the **Editor** tab and choose the **Insert shortcut** option
-from the context menu.
-For example: &shortcut:FileStructurePopup;.
-
-- Insert the &percnt;`IDE_NAME`&percnt; macro,
-which will be replaced by the actual IDE name.
-For example, **%IDE_NAME%**.
-
-- Insert PSI elements, by using links like
-`[element_description](psi_element://link.to.element)`.
-To get such a link, right-click the class or method
-and select **Copy Reference**.
-Then press &shortcut:EditorPaste; to insert the link where appropriate.
-For example, a [link to the "contains" method](psi_element://java.lang.String#contains).
-
-- You can add link to file using **full path** like this:
-  `[file_link](file://lesson1/task1/file.txt)`.
+Dies hier ist ein Edu-Task. Das bedeutet, dass hier der Code getestet wird. Jedoch wird hier noch nicht gefordert, dass 
+eigener Code erzeugt wird, sondern es wird geprüft, ob das Device richtig bereitgestellt ist, und das Programm laufen könnte.
