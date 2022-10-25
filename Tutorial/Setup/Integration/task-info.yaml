@@ -1,4 +1,4 @@
-type: edu
+type: output
 files:
 - name: src/com/pi4j/mvc/templatepuiapp/AppStarter.java
   visible: true
@@ -16,12 +16,31 @@ files:
   visible: true
 - name: src/com/pi4j/mvc/templatepuiapp/view/SomePUI.java
   visible: true
+  placeholders:
+  - offset: 674
+    length: 25
+    placeholder_text: /* TODO Add component */
+  - offset: 967
+    length: 37
+    placeholder_text: /* TODO initialise LCD Display */
+  - offset: 1696
+    length: 139
+    placeholder_text: /* TODO Update Display message */
 - name: src/com/pi4j/mvc/templatepuiapp/model/SomeModel.java
   visible: true
+  placeholders:
+  - offset: 286
+    length: 89
+    placeholder_text: /* TODO Create Observable */
 - name: src/com/pi4j/mvc/templatepuiapp/controller/SomeController.java
   visible: true
-- name: src/Setup-Ausführung.run.xml
-  visible: false
+  placeholders:
+  - offset: 411
+    length: 37
+    placeholder_text: /* TODO What happens when led is turned on?*/
+  - offset: 531
+    length: 38
+    placeholder_text: /* TODO What happens when LED is turned off? */
 - name: src/com/pi4j/catalog/components/helpers/PIN.java
   visible: true
 - name: src/com/pi4j/catalog/components/Component.java
@@ -30,11 +49,13 @@ files:
   visible: true
 - name: src/com/pi4j/catalog/components/SimpleButton.java
   visible: true
-- name: Breadboard.png
+- name: src/Setup-Integration.run.xml
   visible: false
-- name: Layout.png
-  visible: false
-- name: RunningConfig.png
-  visible: false
-- name: test/Tests.java
+- name: src/com/pi4j/catalog/components/LCDDisplay.java
+  visible: true
+  placeholders:
+  - offset: 0
+    length: 16545
+    placeholder_text: /* TODO copy class from pi4j component catalog*/
+- name: test/LCDDisplayTest.java
   visible: false

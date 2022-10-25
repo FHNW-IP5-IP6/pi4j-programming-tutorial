@@ -12,7 +12,25 @@
     <option name="usingKey" value="false" />
     <option name="vmParameters" value="" />
     <option name="moduleName" value="pi4j-programming-tutorial.Tutorial-Setup-Ausführung.main" />
-    <option name="mainclass" value="templatepuiapp.AppStarter" />
+    <option name="mainclass" value="com.pi4j.mvc.AppStarter" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+  <configuration default="false" name="Setup-Ausführung" type="Run as an Embedded Java application" factoryName="Run as an Embedded Java application">
+    <option name="classesDirectory" />
+    <option name="hostname" value="crowpi.local" />
+    <option name="keyPath" value="" />
+    <option name="password" value="crowpi" />
+    <option name="port" value="5005" />
+    <option name="programArguments" value="" />
+    <option name="runAsRoot" value="true" />
+    <option name="sshPort" value="22" />
+    <option name="username" value="pi" />
+    <option name="usingKey" value="false" />
+    <option name="vmParameters" value="" />
+    <option name="moduleName" value="pi4j-programming-tutorial.Tutorial-Setup-Integration.main" />
+    <option name="mainclass" value="AppStarter" />
     <method v="2">
       <option name="Make" enabled="true" />
     </method>

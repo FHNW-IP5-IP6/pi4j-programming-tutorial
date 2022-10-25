@@ -14,3 +14,23 @@ gibt es im gleichen Netzwerk mehrere Devices mit dem Hostnamen "Crowpi.local", d
 
 Dies hier ist ein Edu-Task. Das bedeutet, dass hier der Code getestet wird. Jedoch wird hier noch nicht gefordert, dass 
 eigener Code erzeugt wird, sondern es wird geprüft, ob das Device richtig bereitgestellt ist, und das Programm laufen könnte.
+
+## RaspiFX Template
+Wie man das Template benützt, ist im ReadMe des [RaspiFX-Templates](https://github.com/DieterHolz/RaspPiFX-Template-Project)
+beschrieben. Das Template beinhaltet 3 verschiedene Applikationen, die MultiControllerApp, die TemplateApp und die 
+TemplatePUIApp. PUI steht hier für Physical User Interface, bspw. beinhaltet dies Sensoren und Aktuatoren auf dem Raspberry PI.
+In diesem Tutorial wird das Template der PUI-App verwendet. Die Struktur ist hier in diesem Task bereits aufgebaut. 
+Die App implementiert das MVC-Pattern, dies wird in einer späteren Lektion eingeführt.
+
+## Aufgabe
+Versuche, diese App auf dem Raspberry PI zum Laufen zu bringen. Dazu hier als Hilfestellung das Schema und ein Foto, wie 
+die Komponenten mit dem Raspberry PI verdrahtet werden müssen.
+![Layout](./Layout.png)
+![Breadboard](./Breadboard.png)
+Die Aufgabe ist erfüllt, wenn per Knopfdruck die LED ein- und ausgeschaltet werden kann.
+
+<div class="hint">
+Dieser Task muss über die Remote-Ausführung gestartet werden. Per Check wird nur geprüft, ob der Code kompiliert. Dies 
+ist immer der Fall, wenn nichts am Code geändert wurde. Wenn die Ausführung erfolgreich war, kann per Check der nächste 
+Task begonnen werden.
+</div>
