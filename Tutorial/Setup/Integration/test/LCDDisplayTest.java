@@ -1,5 +1,9 @@
 
 import com.pi4j.catalog.components.LCDDisplay;
+import com.pi4j.mvc.templatepuiapp.controller.SomeController;
+import com.pi4j.mvc.templatepuiapp.model.SomeModel;
+import com.pi4j.mvc.templatepuiapp.view.SomePUI;
+import com.pi4j.mvc.util.Pi4JContext;
 import com.pi4j.plugin.mock.provider.i2c.MockI2C;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

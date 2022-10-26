@@ -59,3 +59,5 @@ files:
     placeholder_text: /* TODO copy class from pi4j component catalog*/
 - name: test/LCDDisplayTest.java
   visible: false
+- name: test/com/pi4j/mvc/templatepuiapp/view/SomePUITest.java
+  visible: false
