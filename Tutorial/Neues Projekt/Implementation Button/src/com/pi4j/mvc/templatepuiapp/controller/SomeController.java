@@ -11,20 +11,15 @@ public class SomeController extends ControllerBase<SomeModel> {
         super(model);
     }
 
-    public void ledOn(){
-        setValue(model.ledGlows, true);
-    }
-
-    public void ledOff(){
-        setValue(model.ledGlows, false);
+    public void pressButton(){
         increase(model.counter);
 
         //using 'runLater' assures that new value is set on model
         runLater(m -> {
-                     if (m.counter.getValue() > terminationCount) {
-                         terminate();
-                     }
-                 });
+            if (m.counter.getValue() > terminationCount) {
+                terminate();
+            }
+        });
     }
 
     protected void terminate() {

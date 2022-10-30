@@ -1,7 +1,6 @@
 package com.pi4j.mvc.templatepuiapp.view;
 
 import com.pi4j.catalog.components.SimpleButton;
-import com.pi4j.catalog.components.SimpleLED;
 import com.pi4j.catalog.components.helpers.PIN;
 import com.pi4j.context.Context;
 import com.pi4j.mvc.templatepuiapp.controller.SomeController;
@@ -11,7 +10,8 @@ import com.pi4j.mvc.util.mvcbase.PuiBase;
 public class SomePUI extends PuiBase<SomeModel, SomeController> {
     //declare all hardware components attached to RaspPi
     //these are protected to give unit tests access to them
-    protected SimpleLED led;
+
+    // TODO: create object button from simpleButton
     protected SimpleButton button;
 
     public SomePUI(SomeController controller, Context pi4J) {
@@ -20,28 +20,22 @@ public class SomePUI extends PuiBase<SomeModel, SomeController> {
 
     @Override
     public void initializeParts() {
-        led    = new SimpleLED(pi4J, PIN.PWM19);
+        // TODO: init button with PIN.D26
         button = new SimpleButton(pi4J, PIN.D26, false);
     }
 
     @Override
     public void setupUiToActionBindings(SomeController controller) {
+        // TODO: call pressButton form controller if button is pressed
         //always trigger a Controller action
-        button.onDown(controller::ledOn);
-
-        //don't call 'led.off()' here. You will miss the Controller logic (increase the terminationCounter and terminate)
-        button.onUp(controller::ledOff);
+        button.onDown(controller::pressButton);
     }
 
-    @Override
     public void setupModelToUiBindings(SomeModel model) {
-        onChangeOf(model.ledGlows)
+        onChangeOf(model.counter)
                 .execute((oldValue, newValue) -> {
-                    if (newValue) {
-                        led.on();
-                    } else {
-                        led.off();
-                    }
+                    System.out.println("Button was pressed" + newValue);
                 });
     }
+
 }
