@@ -13,7 +13,7 @@ files:
     placeholder_text: /* init button with PIN.D26 */
   - offset: 1067
     length: 39
-    placeholder_text: /* call pressButton form contorller if button is pressed */
+    placeholder_text: /* call pressButton form controller if button is pressed */
 - name: src/com/pi4j/catalog/components/Component.java
   visible: true
 - name: src/com/pi4j/catalog/components/helpers/PIN.java
@@ -39,4 +39,6 @@ files:
 - name: src/com/pi4j/mvc/util/Pi4JContext.java
   visible: true
 - name: MVC-Pattern.png
+  visible: true
+- name: Button-Class.png
   visible: true
