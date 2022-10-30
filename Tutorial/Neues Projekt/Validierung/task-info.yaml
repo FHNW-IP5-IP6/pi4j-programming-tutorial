@@ -1,0 +1,104 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: PUI steht für Physical User Interface und gehört im MVC Pattern zum Teil der View.
+  is_correct: true
+- text: Die Komponenten aus dem Hardwarekatalog haben viele Methoden und gehören im MVC Pattern zum Teil des Controllers.
+  is_correct: false
+- text: Klassen aus dem Hardwarekatalog können in den Ordner src/com/pi4j/catalog/components kopiert werden und danach in der Applikation verwendet werden.
+  is_correct: true
+- text: Der Hardwarekatalog ist eine reine Ansammlung von Java-Klassen.
+  is_correct: false
+files:
+- name: src/com/pi4j/mvc/templatepuiapp/view/SomePUI.java
+  visible: true
+  placeholders:
+  - offset: 660
+    length: 24
+    placeholder_text: /* create object led from SimpleLED */
+    dependency:
+      section: Tutorial
+      lesson: Neues Projekt
+      task: Implementation LED
+      file: src/com/pi4j/mvc/templatepuiapp/view/SomePUI.java
+      placeholder: 1
+      is_visible: false
+  - offset: 968
+    length: 37
+    placeholder_text: /* init led with PIN.PWM19 */
+    dependency:
+      section: Tutorial
+      lesson: Neues Projekt
+      task: Implementation LED
+      file: src/com/pi4j/mvc/templatepuiapp/view/SomePUI.java
+      placeholder: 2
+      is_visible: false
+  - offset: 1266
+    length: 33
+    placeholder_text: /* call ledOn from controller if button is pressed */
+    dependency:
+      section: Tutorial
+      lesson: Neues Projekt
+      task: Implementation LED
+      file: src/com/pi4j/mvc/templatepuiapp/view/SomePUI.java
+      placeholder: 3
+      is_visible: false
+  - offset: 1309
+    length: 32
+    placeholder_text: /* call ledOff from controller if button is released */
+    dependency:
+      section: Tutorial
+      lesson: Neues Projekt
+      task: Implementation LED
+      file: src/com/pi4j/mvc/templatepuiapp/view/SomePUI.java
+      placeholder: 4
+      is_visible: false
+  - offset: 1939
+    length: 9
+    placeholder_text: /* switch on led if ledGlwos is TRUE, us a methode from simpleLED
+      */
+    dependency:
+      section: Tutorial
+      lesson: Neues Projekt
+      task: Implementation LED
+      file: src/com/pi4j/mvc/templatepuiapp/view/SomePUI.java
+      placeholder: 5
+      is_visible: false
+  - offset: 2002
+    length: 10
+    placeholder_text: /* switch off led if ledGlwos is FALSE, us a methode from simpleLED
+      */
+    dependency:
+      section: Tutorial
+      lesson: Neues Projekt
+      task: Implementation LED
+      file: src/com/pi4j/mvc/templatepuiapp/view/SomePUI.java
+      placeholder: 6
+      is_visible: false
+- name: src/com/pi4j/catalog/components/Component.java
+  visible: true
+- name: src/com/pi4j/catalog/components/helpers/PIN.java
+  visible: true
+- name: src/com/pi4j/catalog/components/SimpleButton.java
+  visible: true
+- name: src/com/pi4j/mvc/templatepuiapp/AppStarter.java
+  visible: true
+- name: src/com/pi4j/mvc/templatepuiapp/controller/SomeController.java
+  visible: true
+- name: src/com/pi4j/mvc/templatepuiapp/model/SomeModel.java
+  visible: true
+- name: src/com/pi4j/mvc/util/mvcbase/ConcurrentTaskQueue.java
+  visible: true
+- name: src/com/pi4j/mvc/util/mvcbase/ControllerBase.java
+  visible: true
+- name: src/com/pi4j/mvc/util/mvcbase/ObservableValue.java
+  visible: true
+- name: src/com/pi4j/mvc/util/mvcbase/Projector.java
+  visible: true
+- name: src/com/pi4j/mvc/util/mvcbase/PuiBase.java
+  visible: true
+- name: src/com/pi4j/mvc/util/Pi4JContext.java
+  visible: true
+- name: src/com/pi4j/catalog/components/SimpleLED.java
+  visible: true
+local_check: true

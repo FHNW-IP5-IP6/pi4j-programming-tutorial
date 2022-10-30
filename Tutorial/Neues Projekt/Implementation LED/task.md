@@ -9,6 +9,7 @@ von *ledGlows* auf TRUE. *LedOff* ändert den Zustand von *ledGlows* auf FALSE. 
 Desweiteren wurde die Methode *pressButoon* entfernt.
      
 # Aufgabe
+## Programmierung
 Als nächstes soll die Klasse *SimpleLed* verwendet werden um eine LED anzusteuern. Dazu
 soll die Klasse *SomePUI* um die folgenden Punkte geändert werden:
 1. Erstellen des Objektes *led* aus *SimpleLED*
@@ -26,17 +27,17 @@ soll die Klasse *SomePUI* um die folgenden Punkte geändert werden:
 > ![LED-Class](./LED-Class.png)
 ---
 
-# Check Programmierung
+## Check Programmierung
 Überprüfe die Programmierung mit dem *Check* Button unten links. Ist der Test erfolgreich 
 kannst du mit der Vorbereitung der Hardware beginnen. Ist der Test nicht erfolgreich 
 versuche den Fehler zu beheben. Nutze dazu allfällige Hints oder schau in der Lösung nach.
 
-# Aufbau
+## Aufbau
 Als nächstes muss die LED mit dem Rapsberry Pi richtig verbunden werden. Nutze dazu 
 die Dokumentation [*SimpleLED*](https://pi4j.com/examples/components/simpleled/)
 des Hardwarekataloges auf der Pi4J Webseite.
 
-# Remote Ausführung
+## Remote Ausführung
 Die Applikation ist nun bereit, um auf dem Pi ausgeführt zu werden. Dazu ist eine 
 Running-Config hinterlegt. Diese kann wie hier im Bild aufgezeigt ausgewählt werden:
 
