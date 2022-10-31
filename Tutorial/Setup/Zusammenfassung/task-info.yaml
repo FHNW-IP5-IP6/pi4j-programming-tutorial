@@ -1,0 +1,4 @@
+type: theory
+files:
+- name: src/com/pi4j/mvc/templatepuiapp/AppStarter.java
+  visible: true

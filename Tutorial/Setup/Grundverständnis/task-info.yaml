@@ -1,15 +1,13 @@
 type: choice
 is_multiple_choice: true
 options:
-- text: Es gibt einen Komponenten-Katalog.
+- text: Die Seite PI4J beinhaltet ein Kapitel, wie und welches Betriebssystem auf dem Raspberry PI installiert werden sollte.
   is_correct: true
 - text: Der geschrieben Code kann nur auf dem lokalen Client ausgeführt werden.
   is_correct: false
-- text: Das Crowpi-Image ist nur ein Template, keine Vorgabe.
-  is_correct: false
-- text: Nach dieser Lektion weiss ich wie ein neues Projekt erstellt wird.
+- text: Die Seite PI4J beinhaltet ein Template für Projekte.
   is_correct: true
-- text: Der Katalog beinhaltet nur Code.
+- text: Damit Code per remote ausgeführt werden kann, braucht es eine Internetverbindung.
   is_correct: false
 files:
 - name: src/AppStarter.java

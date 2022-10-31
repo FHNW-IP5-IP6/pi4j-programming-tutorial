@@ -1,0 +1,17 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: Ich habe die Plugins "EduTools" und "Embedded Linux JVM Debugger for Raspberry PI" installiert.
+  is_correct: true
+- text: Ich weiss, was das [RaspiFX Template App](https://github.com/Pi4J/pi4j-template-javafx) ist.
+  is_correct: true
+- text: Ich habe auf dem Raspberry PI das Crowpi-Image richtig aufgesetzt.
+  is_correct: true
+- text: Ich weiss, welche Ressourcen zu PI4J wo zu finden sind.
+  is_correct: true
+- text: Ich kann einfache Tasks per Run-Config auf dem Raspberry PI laufen lassen.
+  is_correct: true
+files:
+- name: src/com/pi4j/mvc/templatepuiapp/AppStarter.java
+  visible: true
+local_check: true
