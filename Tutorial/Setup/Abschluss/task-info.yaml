@@ -1,7 +1,7 @@
 type: choice
 is_multiple_choice: true
 options:
-- text: Ich habe die Plugins "EduTools" und "Embedded Linux JVM Debugger for Raspberry PI" installiert.
+- text: Ich habe das Plugin "Embedded Linux JVM Debugger for Raspberry PI" installiert und kann es nutzen.
   is_correct: true
 - text: Ich weiss, was das [RaspiFX Template App](https://github.com/Pi4J/pi4j-template-javafx) ist.
   is_correct: true
@@ -14,4 +14,3 @@ options:
 files:
 - name: src/com/pi4j/mvc/templatepuiapp/AppStarter.java
   visible: true
-local_check: true

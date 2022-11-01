@@ -9,9 +9,9 @@ Die folgenden Inhalte sollten angeschaut werden, bevor mit diesem Tutorial weite
   - Was sind die GPIO Pins?
   - Was ist VSC?
   - Wie entwickle ich in einer Remote-Umgebung?
-  - Minimale Beispielsprogramme
+  - Minimale Beispielprogramme
   - Was ist das CrowPI?
-  - Userinterfacing mit JavaFX.
+  - User-interfacing mit JavaFX.
 - Example Implementations
   - Implementationen von Sensoren und Aktuatoren.
 - featured Projects

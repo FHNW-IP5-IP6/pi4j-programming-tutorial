@@ -6,16 +6,13 @@ in Betrieb nimmt, wie man Komponenten anschliessen und diese dann auch programmi
 aussehen.
 
 ## Plugins
-Für dieses Tutorial muss speziell das Plugin "EduTools" und das Plugin "Embedded Linux JVM Debugger for Raspberry PI" 
-installiert werden. Das eine sorgt dafür, dass das Tutorial richtig verwendet werden kann, das andere sorgt dafür, dass 
-jeweils Tasks direkt auf dem Raspberry PI ausgeführt werden können.
+Für dieses Tutorial muss speziell das Plugin "Embedded Linux JVM Debugger for Raspberry PI" installiert werden. Das 
+Plugin sorgt dafür, dass jeweils Tasks direkt auf dem Raspberry PI ausgeführt werden können.
 
 ## Remote Ausführung
 Per "Running Config" und dem installierten Plugin können Tasks direkt auf dem Raspberry PI ausgeführt werden.
 
 ## RaspiFX Template
-Das Template beinhaltet drei verschiedene Template projekte, wovon eines für das IP12 Projekt verwendet werden sollte.
+Das Template beinhaltet drei verschiedene Template projekte, wovon eines für das IP12 Projekt verwendet werden sollte. 
+Welches davon kommt ganz darauf an, was im Projekt spezifiziert wurde.
 Die Seite PI4J zeigt, wie ein Projekt ausgewählt und weiterentwickelt werden kann.
-
-## Ausführung
-Es wurde getestet, ob das Template Projekt per Remote-Ausführung auf dem Raspberry PI verwendet werden kann.
