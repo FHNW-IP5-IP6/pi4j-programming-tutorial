@@ -29,8 +29,8 @@
     <option name="username" value="pi" />
     <option name="usingKey" value="false" />
     <option name="vmParameters" value="" />
-    <option name="moduleName" value="pi4j-programming-tutorial.Tutorial-Setup-Integration.main" />
-    <option name="mainclass" value="AppStarter" />
+    <option name="moduleName" value="pi4j-programming-tutorial.Tutorial-Setup-Ausführung.main" />
+    <option name="mainclass" value="com.pi4j.mvc.templatepuiapp.AppStarter" />
     <method v="2">
       <option name="Make" enabled="true" />
     </method>
