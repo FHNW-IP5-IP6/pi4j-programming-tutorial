@@ -42,5 +42,3 @@ files:
   visible: true
 - name: test/com/pi4j/mvc/templatepuiapp/view/SomePUITest.java
   visible: true
-- name: test/test.java
-  visible: false
