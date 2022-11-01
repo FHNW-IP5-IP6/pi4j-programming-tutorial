@@ -28,5 +28,7 @@ Der Kurs ist nun mit der Hautpseite geöffnet.
 Dieses Kapitel muss nur beachtet werden, wenn nicht der Output (das Archiv) genommen wird, sondern direkt das Repository.
 
 Um den Kurs in Lernform zu starten, muss per Rechtsklick auf oberster Ebene im Kurs das Menu "Course Creator" erweitert werden, und dann im Untermenu der Punkt "Create Course Preview" ausgewählt werden.
+
 ![EduTools Kursstart](/EduTools-Kursstart.png)
+
 Durch diese Aktion öffnet sich ein Zweiter IntelliJ Editor, welcher das Tutorial in der Lernform beinhaltet. Hier bitte warten, bis Gradle das Projekt fertiggestellt hat.
