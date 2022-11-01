@@ -42,3 +42,5 @@ files:
   visible: true
 - name: test/com/pi4j/mvc/templatepuiapp/view/SomePUITest.java
   visible: true
+- name: src/NeuesProjekt-ImplementationButton.run.xml
+  visible: false
