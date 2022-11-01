@@ -1,9 +1,9 @@
 type: choice
 is_multiple_choice: true
 options:
-- text: PUI steht für Physical User Interface und gehört im MVC Pattern zum Teil der View.
+- text: PUI steht f&uuml;r Physical User Interface und geh&ouml;rt im MVC Pattern zum Teil der View.
   is_correct: true
-- text: Die Komponenten aus dem Hardwarekatalog haben viele Methoden und gehören im MVC Pattern zum Teil des Controllers.
+- text: Die Komponenten aus dem Hardwarekatalog haben viele Methoden und geh&ouml;ren im MVC Pattern zum Teil des Controllers.
   is_correct: false
 - text: Klassen aus dem Hardwarekatalog können in den Ordner src/com/pi4j/catalog/components kopiert werden und danach in der Applikation verwendet werden.
   is_correct: true

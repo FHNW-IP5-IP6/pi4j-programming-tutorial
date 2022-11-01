@@ -1,1 +1,1 @@
-# Es sind noch keine Fragen zum Grundverständnis vorhanden.
+## Es sind noch keine Fragen zum Grundverständnis vorhanden.

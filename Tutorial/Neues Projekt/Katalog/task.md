@@ -1,4 +1,4 @@
-# Hardwarekatalog
+## Hardwarekatalog
 
 Der Hardwarekatalog stellt zu unterschiedlichen elektronischen Bauteilen wie zum 
 Beispiel ein LCD-Display, ein LED-Streifen oder ein Servo-Motor diverse Hilfestellungen

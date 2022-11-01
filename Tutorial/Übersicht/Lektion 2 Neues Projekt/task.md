@@ -1,4 +1,4 @@
-# Kapitel 2: Neues Projekt
+# Lektion 2: Neues Projekt
 
 Diese Kapitel soll eine kurze Einführung in den Hardwarekatalog geben und wie 
 dieser in einem Projekt angewendet werden kann. Der Schwerpunkt dieses Kapitels 
