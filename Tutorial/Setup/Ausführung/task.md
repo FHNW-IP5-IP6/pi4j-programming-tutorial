@@ -5,6 +5,7 @@ genützt werden.
 ## Remote Ausführung
 In diesem Task wurde eine Running-Config hinterlegt. Diese kann wie hier im Bild aufgezeigt ausgewählt werden:
 ![RunningConfig](./RunningConfig.png)
+
 Mit der richtigen ausgewählten Running-Config, wie auf dem Bild gezeigt, kann das Programm gestartet werden. 
 Die Applikation wird auf das Raspberry Pi geladen und automatisch ausgeführt. 
 Folgende bekannte Probleme können auftraten:
