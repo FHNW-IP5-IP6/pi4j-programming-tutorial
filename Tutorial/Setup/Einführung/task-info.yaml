@@ -1,0 +1,6 @@
+type: theory
+files:
+- name: RPI-Plugin.png
+  visible: false
+- name: src/AppStarter.java
+  visible: true

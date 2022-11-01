@@ -1,0 +1,17 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: Es gibt einen Komponenten-Katalog.
+  is_correct: true
+- text: Der geschrieben Code kann nur auf dem lokalen Client ausgeführt werden.
+  is_correct: false
+- text: Das Crowpi-Image ist nur ein Template, keine Vorgabe.
+  is_correct: false
+- text: Nach dieser Lektion weiss ich wie ein neues Projekt erstellt wird.
+  is_correct: true
+- text: Der Katalog beinhaltet nur Code.
+  is_correct: false
+files:
+- name: src/AppStarter.java
+  visible: true
+local_check: true
