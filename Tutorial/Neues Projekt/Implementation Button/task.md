@@ -1,6 +1,6 @@
-In den folgenden zwei Tasks wird die Applikation aus der vorangehenden Aufgabe nochmals 
-schrittwiese erstellt. Zuerst wird der Button implementiert und danach die LED. 
-Die Grundstruktur baut auf dem [Model View Controller](https://www.geeksforgeeks.org/mvc-design-pattern/) 
+In der folgenden Aufgabe wird in das RaspiFX-Template verwendet um zuerst ein Button und danach eine LED über
+das Raspberry Pi auszuwerten bez. anzusteuern. Die Grundstruktur des Templates baut auf dem 
+[Model View Controller](https://www.geeksforgeeks.org/mvc-design-pattern/) 
 (MVC) Pattern auf. Dieses Pattern wird zu einem späteren Zeitpunkt nochmals detailliert erklärt. An dieser Stelle soll 
 nur kurz auf die grundlegenden Eigenschaften des Patterns eingegangen werden. Das MVC
 Pattern unterteilt das Programm in die drei Teile Model, View und Controller.
@@ -30,9 +30,9 @@ In einem ersten Schritt soll nun der Button ausgelesen werden. Dazu soll in der 
 3. Wird der Button gedrückt, soll die Methode *pressButton* vom Controller einmal ausgeführt werden
 
 <div class="hint">
-Die Methode *pressButoon* ändert den Wert der Variable *counter* im Modell um eins. 
-Diese Variable wird in der View überwacht. Ändert sich der Wert wird eine Meldung 
-auf dem CLI ausgegeben.
+Die Methode *pressButton* ändert den Wert der Variable *counter* im Modell um eins. 
+Diese Variable wird in der View überwacht. Ändert sich der Wert, wird eine Meldung 
+auf der Konsole ausgegeben.
 </div>
 
 ---
@@ -48,15 +48,15 @@ auf dem CLI ausgegeben.
 
 ## Check Programmierung
 Überprüfe die Programmierung mit dem *Check* Button unten links. Ist der Test 
-erfolgreich kannst du mit der Vorbereitung der Hardware beginnen. Ist der Test nicht 
-erfolgreich versuche den Fehler zu beheben. Nutze dazu allfällige Hints oder schau in 
+erfolgreich, kannst du mit der Vorbereitung der Hardware beginnen. Ist der Test nicht 
+erfolgreich, versuche den Fehler zu beheben. Nutze dazu allfällige Hints oder schau in 
 der Lösung nach.
 
 ## Aufbau
-Als nächstes muss der Button mit dem Rapsberry Pi richtig verbunden werden. Nutze dazu die
+Als Nächstes muss der Button mit dem Rapsberry Pi richtig verbunden werden. Nutze dazu die
 Dokumentation [*SimpleButton*](https://pi4j.com/examples/components/simplebutton/) 
 des Hardwarekataloges auf der Pi4J Webseite.
 
 ## Remote Ausführung
 Die Applikation ist nun bereit, um auf dem Pi ausgeführt zu werden. Dazu ist eine 
-Running-Config hinterlegt. Diese kann wie hier im Bild aufgezeigt ausgewählt werden:
+Running-Config *NeuesProjekt-ImplementationButton* hinterlegt.

@@ -19,10 +19,10 @@ Zudem gibt es zu jeder Klasse ein [Beispiel](https://github.com/Pi4J/pi4j-exampl
 Der zweite Teil des Katalogs bildet die Dokumentation auf der 
 [Pi4J](https://pi4j.com/) Webseite. Das Kapitel [Component Examples](https://pi4j.com/examples/components/) ist eine Auflistung sämtlicher, im 
 Katalog umgesetzter Bauteile. Zu jedem Bauteil gibt es ein detaillierter Eintrag über
-die wichtigsten Funktionen der Java Klasse, ein elektrisches Layout und diverse Fotos und der 
+die wichtigsten Funktionen der Java Klasse, ein elektrisches Layout und der 
 Java-Code der Beispielapplikation.
 
-Neben der Beschreibung der einzelnen Bauteilen verlinkt die Webseite zusätzlich
+Neben der Beschreibung der einzelnen Bauteile verlinkt die Webseite zusätzlich
 auf zwei grössere Applikationen, [Photobooth](https://github.com/DieterHolz/PhotoBooth) und 
 [Theremin](https://github.com/DieterHolz/RaspPiTheremin), welche beide 
 mit Bauteilen aus dem Hardwarekatalog realisiert wurden.

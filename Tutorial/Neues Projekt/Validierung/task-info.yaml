@@ -55,7 +55,7 @@ files:
       is_visible: false
   - offset: 1939
     length: 9
-    placeholder_text: /* switch on led if ledGlwos is TRUE, us a methode from simpleLED
+    placeholder_text: /* switch on led if ledGlows is TRUE, us a methode from simpleLED
       */
     dependency:
       section: Tutorial
@@ -66,7 +66,7 @@ files:
       is_visible: false
   - offset: 2002
     length: 10
-    placeholder_text: /* switch off led if ledGlwos is FALSE, us a methode from simpleLED
+    placeholder_text: /* switch off led if ledGlows is FALSE, us a methode from simpleLED
       */
     dependency:
       section: Tutorial
