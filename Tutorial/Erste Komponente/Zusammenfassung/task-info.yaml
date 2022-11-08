@@ -1,6 +1,14 @@
-type: edu
+type: theory
 files:
 - name: src/Main.java
   visible: true
-- name: test/Tests.java
+- name: src/Component.java
   visible: false
+- name: src/PIN.java
+  visible: false
+- name: src/SimpleButton.java
+  visible: true
+- name: src/ErsteKomponente-ImplementationButton.run.xml
+  visible: false
+- name: src/SimpleLED.java
+  visible: true
