@@ -50,6 +50,8 @@ public class Main {
         System.out.println("Press the button to see it in action!");
         sleep(15_000);
 
+        led.off();
+
         // Unregister all event handlers to exit this application in a clean way
         button.deRegisterAll();
 

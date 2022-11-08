@@ -11,9 +11,12 @@ files:
     length: 39
     placeholder_text: /* Register Event handlers to print a message when pressed and
       depressed*/
-  - offset: 2228
+  - offset: 2248
     length: 23
     placeholder_text: /* Deregister all Handlers */
+  - offset: 2147
+    length: 10
+    placeholder_text: /* Turn off led */
 - name: test/Tests.java
   visible: false
 - name: src/Component.java
@@ -23,4 +26,6 @@ files:
 - name: src/SimpleButton.java
   visible: true
 - name: src/ErsteKomponente-ImplementationButton.run.xml
-  visible: false
+  visible: true
+- name: src/SimpleLED.java
+  visible: true

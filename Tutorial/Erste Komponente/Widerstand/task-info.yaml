@@ -12,4 +12,6 @@ options:
 files:
 - name: src/Main.java
   visible: true
+- name: Widerstand.jpeg
+  visible: false
 local_check: true

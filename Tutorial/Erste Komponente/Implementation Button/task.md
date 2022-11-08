@@ -13,7 +13,9 @@ aus dem Hardwarekatalog. Auf das Ereignis Button gedrückt soll sich der Zustand
 - Deklariere das Objekt *button* vom Typ Simple Button
 - Initialisiere das Objekt *button*. Verwende dazu den Pin 26 auf dem Raspberry Pi
 - Wenn der Button gedrückt wird, soll sich der Zustand der LED ändern. Verwende dazu die Methode *toggleState* von SimpleLED
-- Am Schluss sollen der Handler wieder deregistriert werden.
+- Nachdem die Zeit von 15s abgelaufen ist (nach sleep(15000)) soll die LED ausgeschalten werden damit zum Schluss ein
+definierter Zustand erreicht wird
+- Als letzte Ergänzung sollen der Handler wieder deregistriert werden.
 
 ---
 > **_Hinweis:_**

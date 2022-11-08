@@ -1,5 +1,5 @@
 type: choice
-is_multiple_choice: true
+is_multiple_choice: false
 options:
 - text: Rot
   is_correct: true

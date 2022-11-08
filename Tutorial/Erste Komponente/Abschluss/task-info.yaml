@@ -1,0 +1,15 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: Ich kenne den groben Inhalt des Hardwarekataloges und weis wie ich diesen in meinem Projekt einsetzen kann.
+    is_correct: true
+  - text: Ich weiss wo ich im Hardwarekatalog Hilfe zur elektrischen Montage der Bauteile bekomme.
+    is_correct: true
+  - text: Ich kenne die Funktionen von SimpleLED und SimpelButton und kann diese in einer einfache Applikation verwenden.
+    is_correct: true
+  - text: Ich kann eine einfache Applikation auf dem Raspberry Pi starten.
+    is_correct: true
+files:
+- name: src/Main.java
+  visible: true
+local_check: true

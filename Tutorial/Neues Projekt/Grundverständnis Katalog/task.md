@@ -1,1 +1,0 @@
-## Es sind noch keine Fragen zum Grundverständnis vorhanden.
