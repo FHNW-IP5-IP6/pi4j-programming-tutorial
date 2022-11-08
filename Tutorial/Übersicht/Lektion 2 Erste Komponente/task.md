@@ -11,7 +11,7 @@ Kapitel weitergemacht werden.
 
 - Ich kenne den Umgang mit dem Hardwarekatalog.
 - Ich kann die Java-Klassen aus dem Katalog in eine bestehende Applikation integrieren.
-- Ich verstehe was ein Event Handler ist und wie dieser einesetzt wird.
+- Ich verstehe was ein Event Handler ist und wie dieser eingesetzt wird.
 - Ich kann die Applikation auf einem Raspberry Pi aufrufen und ausführen lassen.
 
 ## Aufbau

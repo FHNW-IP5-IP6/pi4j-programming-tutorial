@@ -1,11 +1,10 @@
 type: choice
 is_multiple_choice: false
 options:
-- text: Überprüft ob der Button aktuell gedrückt ist.
+- text: Überprüft, ob der Button aktuell gedrückt ist.
   is_correct: false
-- text: Überprüft ob der Button aktuell nicht gedrückt ist.
+- text: Überprüft, ob der Button aktuell nicht gedrückt ist.
   is_correct: true
-- text: Setztn den Wert, dass der Button gedrückt ist, auf TRUE.
 files:
 - name: src/Main.java
   visible: true
