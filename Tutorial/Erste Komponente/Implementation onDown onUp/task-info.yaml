@@ -1,0 +1,25 @@
+type: edu
+files:
+- name: src/Main.java
+  visible: true
+  placeholders:
+  - offset: 1707
+    length: 75
+    placeholder_text: /* Initialize button. Use Pin 26 as Input*/
+  - offset: 1827
+    length: 132
+    placeholder_text: /* Register Event handlers to print a message when pressed and
+      depressed*/
+  - offset: 2211
+    length: 25
+    placeholder_text: /* Deregister all Handlers */
+- name: test/Tests.java
+  visible: false
+- name: src/Component.java
+  visible: false
+- name: src/PIN.java
+  visible: false
+- name: src/SimpleButton.java
+  visible: true
+- name: src/ErsteKomponente-ImpOnDownOnUp.run.xml
+  visible: false
