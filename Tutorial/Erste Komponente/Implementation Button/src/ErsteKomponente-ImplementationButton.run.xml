@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="NeuesProjekt-ImplementationButton" type="Run as an Embedded Java application" factoryName="Run as an Embedded Java application">
+  <configuration default="false" name="ErsteKomponente-ImplementationButton" type="Run as an Embedded Java application" factoryName="Run as an Embedded Java application">
     <option name="classesDirectory" />
     <option name="hostname" value="crowpi.local" />
     <option name="keyPath" value="" />

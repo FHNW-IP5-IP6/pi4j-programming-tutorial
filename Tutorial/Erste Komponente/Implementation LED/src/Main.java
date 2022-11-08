@@ -11,8 +11,7 @@ import com.pi4j.plugin.raspberrypi.platform.RaspberryPiPlatform;
 import static java.lang.Thread.sleep;
 
 public class Main {
-
-    public static void main (String[] args) throws InterruptedException {
+    public static void main(String[] args) throws InterruptedException {
 
         final var piGpio = PiGpio.newNativeInstance();
         var pi4j = Pi4J.newContextBuilder()
@@ -37,19 +36,21 @@ public class Main {
         // Run the application
         System.out.println("Application is running");
 
-        // Initialize the button component
-        final SimpleButton button = new SimpleButton(pi4j, PIN.D26, Boolean.FALSE);
+        // Create a new SimpleLED component
+        SimpleLED led = new SimpleLED(pi4j, PIN.PWM19);
 
-        // Register event handlers
-        button.onDown(() -> System.out.println("Pressing the button!"));
-        button.onUp(() -> System.out.println("Stopped pressing!"));
+        // Turn on the LED to have a defined state
+        led.on();
+        sleep(1000);
 
-        // Wait for 15 seconds while handling events before exiting
-        System.out.println("Press the button to see it in action!");
-        sleep(15_000);
+        // Make a flashing light by toggling the LED every second
+        for (int i = 0; i < 10; i++) {
+            System.out.println(led.toggleState());
+            sleep(1000);
+        }
 
-        // Unregister all event handlers to exit this application in a clean way
-        //button.deRegisterAll();
+        // That's all so turn off the relay and quit
+        led.off();
 
         // End of application
         System.out.println("Application is done");
@@ -58,6 +59,5 @@ public class Main {
 
         // Clean up
         pi4j.shutdown();
-
     }
 }

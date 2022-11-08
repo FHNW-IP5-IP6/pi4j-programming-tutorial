@@ -3,15 +3,16 @@ files:
 - name: src/Main.java
   visible: true
   placeholders:
-  - offset: 1707
+  - offset: 1817
     length: 75
-    placeholder_text: /* Initialize button. Use Pin 26 as Input*/
-  - offset: 1827
-    length: 132
+    placeholder_text: /* declare and initialize an object button of SimpleButton.
+      Use pin 26 as input*/
+  - offset: 1937
+    length: 39
     placeholder_text: /* Register Event handlers to print a message when pressed and
       depressed*/
-  - offset: 2211
-    length: 25
+  - offset: 2228
+    length: 23
     placeholder_text: /* Deregister all Handlers */
 - name: test/Tests.java
   visible: false
@@ -21,5 +22,5 @@ files:
   visible: false
 - name: src/SimpleButton.java
   visible: true
-- name: src/ErsteKomponente-ImpOnDownOnUp.run.xml
+- name: src/ErsteKomponente-ImplementationButton.run.xml
   visible: false

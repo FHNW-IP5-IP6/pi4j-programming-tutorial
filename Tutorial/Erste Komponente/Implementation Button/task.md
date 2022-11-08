@@ -1,17 +1,19 @@
-In dieser Aufgabe müssen auf die Ereignisse Button gedrückt und Button losgelassen zwei Events programmiert werden.
+In dieser Aufgabe geht es darum das Signal eines Buttons (gedrückt) auszuwerten. Dazu verwenden die wir Klasse [SimpleButton](https://pi4j.com/examples/components/simplebutton/)
+aus dem Hardwarekatalog. Auf das Ereignis Button gedrückt soll sich der Zustand der LED ändern.
 
-Wird der Button gedrückt, soll die Meldung *Pressing the button!* auf der Konsole ausgegeben werden.
-Wird der Button wieder losgelassen, soll die Meldung *"Stopped pressing!"* ausgegeben werden.
-
-
+---
+> **_Hinweis:_**
+>
+> Die Klasse *SimpleButton* wurde bereits aus dem Hardwarekatalog kopiert und
+> in den Ordner src eingefügt.
+---
 
 # Aufgabe
 ## Programmierung
 - Deklariere das Objekt *button* vom Typ Simple Button
 - Initialisiere das Objekt *button*. Verwende dazu den Pin 26 auf dem Raspberry Pi
-- Wenn der Button gedrückt wird, soll *Pressing the button!* auf der Konsole ausgegeben werden
-- Wenn der Button wieder losgelassen wird, soll *Stopped pressing!* auf der Konsole ausgegeben werden
-- Am Schluss sollen alle Handlers wieder deregistriert werden
+- Wenn der Button gedrückt wird, soll sich der Zustand der LED ändern. Verwende dazu die Methode *toggleState* von SimpleLED
+- Am Schluss sollen der Handler wieder deregistriert werden.
 
 ---
 > **_Hinweis:_**
