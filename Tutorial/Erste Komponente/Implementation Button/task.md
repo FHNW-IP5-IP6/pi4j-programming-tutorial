@@ -1,5 +1,5 @@
-In dieser Aufgabe geht es darum das Signal eines Buttons (gedrückt) auszuwerten. Dazu verwenden die wir Klasse [SimpleButton](https://pi4j.com/examples/components/simplebutton/)
-aus dem Hardwarekatalog. Auf das Ereignis Button gedrückt soll sich der Zustand der LED ändern.
+In dieser Aufgabe geht es darum das Signal eines Buttons (gedrückt) auszuwerten. Dazu wird die Klasse [SimpleButton](https://pi4j.com/examples/components/simplebutton/)
+aus dem Hardwarekatalog verwendet. Auf das Ereignis *Button gedrückt* soll sich der Zustand der LED ändern.
 
 ---
 > **_Hinweis:_**
@@ -15,7 +15,7 @@ aus dem Hardwarekatalog. Auf das Ereignis Button gedrückt soll sich der Zustand
 - Wenn der Button gedrückt wird, soll sich der Zustand der LED ändern. Verwende dazu die Methode *toggleState* von SimpleLED
 - Nachdem die Zeit von 15s abgelaufen ist (nach sleep(15000)) soll die LED ausgeschalten werden damit zum Schluss ein
 definierter Zustand erreicht wird
-- Als letzte Ergänzung sollen der Handler wieder deregistriert werden.
+- Als letzte Ergänzung soll der Handler wieder deregistriert werden.
 
 ---
 > **_Hinweis:_**

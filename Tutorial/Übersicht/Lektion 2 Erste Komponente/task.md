@@ -1,18 +1,18 @@
 # Lektion 2: Erste Komponente
 
-Diese Kapitel soll eine kurze Einführung in den Hardwarekatalog geben und wie
-dieser in einem Projekt angewendet werden kann. Der Schwerpunkt dieses Kapitels
+Diese Lektion soll eine kurze Einführung in den Hardwarekatalog geben und wie
+dieser in einem Projekt angewendet werden kann. Der Schwerpunkt dieser Lektion
 bildet die Integration von einzelnen Java-Klassen der Bauteile aus dem Katalog in
 die Applikation. Die soll anhand der Bauteile *Button* und *LED* erklärt werden.
 
 ## Wissens-Check
-Wenn alle Fragen mit Ja beantwortet werden können, kann das Kapitel übersprungen werden, und mit dem nächsten
-Kapitel weitergemacht werden.
+Wenn alle Fragen mit Ja beantwortet werden können, kann das Kapitel übersprungen werden, und mit der nächsten
+Lektion weitergemacht werden.
 
 - Ich kenne den Umgang mit dem Hardwarekatalog.
 - Ich kann die Java-Klassen aus dem Katalog in eine bestehende Applikation integrieren.
 - Ich verstehe was ein Event Handler ist und wie dieser eingesetzt wird.
-- Ich kann die Applikation auf einem Raspberry Pi aufrufen und ausführen lassen.
+- Ich kann eine eigene Applikation schreiben.
 
 ## Aufbau
 Der Aufbau dieses Kapitels des Tutorials ist wie folgt aufgebaut:

@@ -1,5 +1,5 @@
-In dieser Aufgabe geht es darum eine LED anzusteuern. Dazu verwenden die wir Klasse [SimpleLED](https://pi4j.com/examples/components/simpleled/)
-aus dem Hardwarekatalog.
+In dieser Aufgabe geht es darum eine LED anzusteuern. Dazu wird die Klasse [SimpleLED](https://pi4j.com/examples/components/simpleled/)
+aus dem Hardwarekatalog verwendet.
 
 ---
 > **_Hinweis:_**

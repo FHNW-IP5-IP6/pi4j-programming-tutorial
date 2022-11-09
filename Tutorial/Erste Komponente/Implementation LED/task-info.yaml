@@ -25,4 +25,4 @@ files:
 - name: src/SimpleLED.java
   visible: true
 - name: src/ErsteKomponente-ImplementationLED.run.xml
-  visible: true
+  visible: false
