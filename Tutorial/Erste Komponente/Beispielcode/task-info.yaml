@@ -1,0 +1,13 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: Die Applikation wird beendet.
+  is_correct: false
+- text: Auf der Konsole wird der Text <i>Stopped pressing</i> ausgegeben.
+  is_correct: true
+- text: Die LED leuchtet nicht mehr.
+  is_correct: false
+files:
+- name: src/Main.java
+  visible: true
+local_check: true

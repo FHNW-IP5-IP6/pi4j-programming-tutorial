@@ -1,0 +1,35 @@
+# Lektion 2: Erste Komponente
+
+Diese Lektion soll eine kurze Einführung in den Hardwarekatalog geben und wie
+dieser in einem Projekt angewendet werden kann. Der Schwerpunkt dieser Lektion
+bildet die Integration von einzelnen Java-Klassen der Bauteile aus dem Katalog in
+die Applikation. Die soll anhand der Bauteile *Button* und *LED* erklärt werden.
+
+## Wissens-Check
+Wenn alle Fragen mit Ja beantwortet werden können, kann das Kapitel übersprungen werden, und mit der nächsten
+Lektion weitergemacht werden.
+
+- Ich kenne den Umgang mit dem Hardwarekatalog.
+- Ich kann die Java-Klassen aus dem Katalog in eine bestehende Applikation integrieren.
+- Ich verstehe was ein Event Handler ist und wie dieser eingesetzt wird.
+- Ich kann eine eigene Applikation schreiben.
+
+## Aufbau
+Der Aufbau dieses Kapitels des Tutorials ist wie folgt aufgebaut:
+
+- Katalog - *Theorie*
+  - Was ist der Hardwarekatalog
+  - Wie kann der Hardwarekatalog in einem Projekt eingesetzt werden
+- Grundverständnis - *MultipleChoice*
+  - Grundwissen prüfen
+- Implementation LED - *Educational*
+  - Java-Klasse SimpleLED in der Applikation implementieren
+- Einführung Event Handler - *Theorie*
+  - Was ist ein Event Handler
+  - Wie werden Event Handlers im Hardwarekatalog verwendet
+- Implementation Button - *Educational*
+  - Java-Klasse SimpleButton in der Applikation implementieren
+- Zusammenfassung - *Theorie*
+  - Was wurde gelehrt in diesem Kapitel
+- Abschluss - *MultipleChoice*
+  - Das Gelehrte nochmals prüfen
