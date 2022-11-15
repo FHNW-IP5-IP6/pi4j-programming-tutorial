@@ -1,0 +1,34 @@
+type: edu
+files:
+- name: src/Main.java
+  visible: true
+- name: src/SimpleButton.java
+  visible: true
+- name: src/PIN.java
+  visible: false
+- name: src/Component.java
+  visible: false
+- name: src/SimpleLED.java
+  visible: true
+- name: src/LEDButton.java
+  visible: true
+  placeholders:
+  - offset: 278
+    length: 71
+    placeholder_text: /* TODO Referenziere die Ursprungsklassen als Attribute */
+  - offset: 636
+    length: 127
+    placeholder_text: /* TODO Initialisiere die referenzierten Klassen */
+  - offset: 775
+    length: 363
+    placeholder_text: /* TODO Überschreibe die Methoden der referenzierten LED */
+  - offset: 1144
+    length: 808
+    placeholder_text: /* TODO Überschreibe die Methoden des referenzierten Buttons
+      */
+- name: src/KomponenteErstellen-ImplementationWiederverwendung.run.xml
+  visible: false
+- name: test/LEDButtonTest.java
+  visible: false
+- name: test/ComponentTest.java
+  visible: false

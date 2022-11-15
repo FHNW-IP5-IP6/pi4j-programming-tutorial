@@ -23,11 +23,6 @@ ein Button hat noch den Zustand "Weil eingeschaltet."
 > sondern Switch heissen.
 ---
 
-<div class="hint">
-Eine Beispielanwendung ist bei der Komponente <a href="https://pi4j.com/examples/components/simplebutton/">Simple Button</a>
-auf der Pi4J Webseite programmiert.
-</div>
-
 ## Check Programmierung
 Überprüfe die Programmierung mit dem *Check* Button unten links. Ist der Test
 erfolgreich, kannst du mit der Vorbereitung der Hardware beginnen. Ist der Test nicht
