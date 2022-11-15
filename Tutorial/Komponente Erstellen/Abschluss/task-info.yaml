@@ -1,0 +1,14 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: Ich kenne den Umgang mit Klassen und Strukturen in Java
+  is_correct: true
+- text: Ich kenne die verschiedenen PINs und Typen von Ein und Ausgängen des Raspberry PI
+  is_correct: true
+- text: Ich kann bestehende Klassen modifizieren
+  is_correct: true
+- text: Ich kann bestehende Klassen wiederverwenden in einer Neuen
+  is_correct: true
+files:
+- name: src/Main.java
+  visible: true

@@ -10,8 +10,8 @@ Lektion weitergemacht werden.
 
 - Ich kenne den Umgang mit Klassen und Strukturen in Java.
 - Ich kenne die verschiedenen PINs und Typen von Ein und Ausgängen des Raspberry PI.
-- Ich kann bestehnde Klassen modifizieren
-- Ich kann bestehnde Klassen wiederverwenden in einer Neuen
+- Ich kann bestehende Klassen modifizieren
+- Ich kann bestehende Klassen wiederverwenden in einer Neuen
 
 ## Aufbau
 Der Aufbau dieses Kapitels des Tutorials ist wie folgt aufgebaut:
