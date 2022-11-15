@@ -1,0 +1,16 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: Objekte bestehen aus Daten und Verhalten.
+  is_correct: true
+- text: Klassen sind Exemplare, Objekte sind der Bauplan
+  is_correct: false
+- text: Der Default-Konstruktor kann overloaded werden.
+  is_correct: true
+- text: this zeigt immer auf das Objekt, in dem sich die Methode befindet, die gerade ausgeführt wird
+  is_correct: true
+- text: encapsulation speichert die Eigenschaften / den Zustand des Objektes
+  is_correct: false
+files:
+- name: src/Main.java
+  visible: true
