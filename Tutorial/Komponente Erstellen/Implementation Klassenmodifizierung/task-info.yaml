@@ -1,0 +1,22 @@
+type: edu
+files:
+- name: src/Main.java
+  visible: true
+- name: src/Switch.java
+  visible: true
+  placeholders:
+  - offset: 355
+    length: 2594
+    placeholder_text: /* TODO Create the class*/
+- name: src/SimpleButton.java
+  visible: true
+- name: src/Component.java
+  visible: false
+- name: src/PIN.java
+  visible: false
+- name: test/SwitchTest.java
+  visible: false
+- name: test/ComponentTest.java
+  visible: false
+- name: src/KomponenteErstellen-ImplementationKlassenmodifizierung.run.xml
+  visible: false
