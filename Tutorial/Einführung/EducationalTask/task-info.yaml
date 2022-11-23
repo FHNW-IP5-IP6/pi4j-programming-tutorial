@@ -1,4 +1,4 @@
-type: edu
+type: output
 files:
 - name: src/Main.java
   visible: true
@@ -6,7 +6,7 @@ files:
   - offset: 130
     length: 25
     placeholder_text: "/*Print \"Hello world, hello LEITFADEN\" to console */"
-- name: test/Tests.java
-  visible: false
 - name: PeakSolution.png
+  visible: false
+- name: test/output.txt
   visible: false

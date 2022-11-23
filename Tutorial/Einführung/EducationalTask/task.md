@@ -10,6 +10,6 @@ Nachdem ein Check durchgeführt wurde, kann mit Peak Solution (1) die Musterlös
 ![PeakSolution](./PeakSolution.png)
 
 ## Aufgabe
-Gib den Text *Hello world, hello Leitfaden* auf der Konsole aus. Benutze dazu den String *text* und *System.out.Println()*.
+Gib den Text *Hello world, hello Leitfaden* auf der Konsole aus. Benutze dazu den String *text* und *System.out.println()*.
 
 Überprüfe mit *Check* den Code. Wenn dieser richtig funktioniert mit dem Button *Next* zur nächsten Lektion gehen.
