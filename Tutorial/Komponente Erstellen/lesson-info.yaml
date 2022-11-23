@@ -1,9 +1,10 @@
 type: framework
 content:
-- Einführung
-- Grundverständnis
+- Übersicht
+- Selbsteinschätzung
+- Einleitung
 - Implementation Klassenmodifizierung
 - Wiederverwendbarkeit
 - Implementation Klassenwiederverwendung
 - Zusammenfassung
-- Abschluss
+- Validierung

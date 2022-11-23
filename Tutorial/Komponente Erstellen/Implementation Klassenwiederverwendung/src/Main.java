@@ -43,8 +43,8 @@ public class Main {
       sleep(1000);
 
       // Register event handlers to print a message when pressed (onDown) and depressed (onUp)
-      ledbutton.onDown(() -> System.out.println("Pressing the Button"));
-      ledbutton.onUp(()   -> System.out.println("Stopped pressing."));
+      ledbutton.btnonDown(() -> System.out.println("Pressing the Button"));
+      ledbutton.btnonUp(()   -> System.out.println("Stopped pressing."));
 
       // Wait for 15 seconds while handling events before exiting
       System.out.println("Press the button to see it in action!");

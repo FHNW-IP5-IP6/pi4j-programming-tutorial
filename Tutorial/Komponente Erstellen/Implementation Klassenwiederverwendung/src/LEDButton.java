@@ -51,9 +51,9 @@ public class LEDButton extends Component {
         return button.getDigitalInput();
     }
 
-    public void onDown(Runnable method) { button.onDown(method); }
+    public void btnonDown(Runnable method) { button.onDown(method); }
 
-    public void onUp(Runnable method) {
+    public void btnonUp(Runnable method) {
         button.onUp(method);
     }
 

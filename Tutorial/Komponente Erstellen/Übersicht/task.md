@@ -1,7 +1,7 @@
 # Lektion 3: Komponente Erstellen
 
-Diese Lektion soll eine kurze Einführung in Klassen und Strukturen in Java geben, und 
-auch wie Klassen modifiziert für den eigenen Gebrauch werden können, oder wie bestehende 
+Diese Lektion soll eine kurze Einführung in Klassen und Strukturen in Java geben, und
+auch wie Klassen modifiziert für den eigenen Gebrauch werden können, oder wie bestehende
 Klassen in einer neuen Klasse vereint und wiederverwendet werden kann.
 
 ## Wissens-Check

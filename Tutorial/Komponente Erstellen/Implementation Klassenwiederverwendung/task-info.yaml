@@ -5,7 +5,7 @@ files:
 - name: src/SimpleButton.java
   visible: true
 - name: src/PIN.java
-  visible: false
+  visible: true
 - name: src/Component.java
   visible: false
 - name: src/SimpleLED.java
@@ -23,9 +23,8 @@ files:
     length: 363
     placeholder_text: /* TODO Überschreibe die Methoden der referenzierten LED */
   - offset: 1144
-    length: 808
-    placeholder_text: /* TODO Überschreibe die Methoden des referenzierten Buttons
-      */
+    length: 814
+    placeholder_text: /* TODO Überschreibe die Methoden des referenzierten Buttons */
 - name: src/KomponenteErstellen-ImplementationWiederverwendung.run.xml
   visible: false
 - name: test/LEDButtonTest.java

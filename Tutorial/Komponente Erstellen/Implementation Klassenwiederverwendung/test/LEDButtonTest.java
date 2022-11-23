@@ -74,7 +74,7 @@ public class LEDButtonTest extends ComponentTest {
         //given
         int[] counter = {0};
         digitalInput.mockState(DigitalState.LOW);
-        button.onDown(()->counter[0]++);
+        button.btnonDown(()->counter[0]++);
 
         //when
         digitalInput.mockState(DigitalState.HIGH);
@@ -114,7 +114,7 @@ public class LEDButtonTest extends ComponentTest {
         //given
         int[] counter = {0};
         digitalInput.mockState(DigitalState.LOW);
-        button.onUp(()->counter[0]++);
+        button.btnonUp(()->counter[0]++);
 
         //when
         digitalInput.mockState(DigitalState.HIGH);

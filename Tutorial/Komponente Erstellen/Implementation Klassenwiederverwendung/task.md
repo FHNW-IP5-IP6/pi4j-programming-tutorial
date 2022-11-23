@@ -13,24 +13,24 @@ Die neue Komponente soll die zwei vorhandenen Objekte mit ihren Methoden als ein
 ## Programmierung
 - Erstelle die Attribute, welche die Objekte *SimpleButton* und *SimpleLED* referenzieren
 - Instanziiere die Attribute mit den Objekten
-- Schreibe die Methoden der LED erneut (neuer Name mit dem Präfix "LED"), und referenziere die LED-Methoden
-  - setState(boolean)
-  - setStateOn()
-  - setStateOff()
-  - toggleState()
-  - getDigitalOutput()
-- Schreibe die Methoden des Buttons erneut (neuer Name mit dem Präfix "btn"), und referenziere die Button-Methoden
-  - getState
-  - isDown
-  - isUp
-  - getDigitalInput
-  - onDown(Runnable)
-  - onUp(Runnable)
-  - whilePressed(Runnable)
-  - deRegisterAll()
-  - getOnUp()
-  - getOnDown()
-  - getWhilePressed()
+- Schreibe die unten erwähnten Methoden. Verwende dazu die Methoden der instanziierten *SimpleLED*.
+  - LEDsetState(boolean)
+  - LEDsetStateOn()
+  - LEDsetStateOff()
+  - LEDtoggleState()
+  - LEDgetDigitalOutput()
+- Schreibe die unten erwähnten Methoden. Verwende dazu die Methoden des instanziierten *SimpleButton*.
+  - btngetState()
+  - btnisDown()
+  - btnisUp()
+  - btngetDigitalInput()
+  - btnonDown(Runnable)
+  - btnonUp(Runnable)
+  - btnwhilePressed(Runnable)
+  - btndeRegisterAll()
+  - btngetOnUp()
+  - btngetOnDown()
+  - btngetWhilePressed()
 
 ## Check Programmierung
 Überprüfe die Programmierung mit dem *Check* Button unten links. Ist der Test

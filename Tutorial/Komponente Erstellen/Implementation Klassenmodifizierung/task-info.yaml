@@ -13,7 +13,7 @@ files:
 - name: src/Component.java
   visible: false
 - name: src/PIN.java
-  visible: false
+  visible: true
 - name: test/SwitchTest.java
   visible: false
 - name: test/ComponentTest.java
