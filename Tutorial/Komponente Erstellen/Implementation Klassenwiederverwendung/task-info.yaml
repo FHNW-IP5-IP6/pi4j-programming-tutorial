@@ -24,7 +24,8 @@ files:
     placeholder_text: /* TODO Überschreibe die Methoden der referenzierten LED */
   - offset: 1144
     length: 814
-    placeholder_text: /* TODO Überschreibe die Methoden des referenzierten Buttons */
+    placeholder_text: /* TODO Überschreibe die Methoden des referenzierten Buttons
+      */
 - name: src/KomponenteErstellen-ImplementationWiederverwendung.run.xml
   visible: false
 - name: test/LEDButtonTest.java

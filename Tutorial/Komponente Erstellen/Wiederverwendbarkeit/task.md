@@ -1,4 +1,4 @@
-Klassen können auch wiederverwendet oder referenziert werden in anderen Klassen.
+Klassen können, in anderen Klassen, wiederverwendet oder referenziert werden.
 Lies dazu die Theorie in Woche Acht des FHNW Modules OOP1 [hier](https://gitlab.fhnw.ch/2022hs-oop1/docs/-/blob/main/woche-08/Datenkapselung%20und%20verkn%C3%BCpfte%20Objekte.pdf)
 
 ## Objekt Referenzierung

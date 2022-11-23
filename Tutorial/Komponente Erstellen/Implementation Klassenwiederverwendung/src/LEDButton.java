@@ -17,49 +17,49 @@ public class LEDButton extends Component {
         this.led    = new SimpleLED(pi4j, ledaddress);
     }
 
-    public void LEDsetState(boolean on) {
+    public void ledSetState(boolean on) {
         led.setState(on);
     }
 
-    public void LEDsetStateOn() {
+    public void ledSetStateOn() {
         led.on();
     }
 
-    public void LEDsetStateOff() {
+    public void ledSetStateOff() {
         led.off();
     }
 
-    public boolean LEDtoggleState() {
+    public boolean ledToggleState() {
         return led.toggleState();
     }
 
-    public DigitalOutput LEDgetDigitalOutput() {
+    public DigitalOutput ledGetDigitalOutput() {
         return led.getDigitalOutput();
     }
 
-    public DigitalState btngetState() { return button.getState(); }
+    public DigitalState btnGetState() { return button.getState(); }
 
-    public boolean btnisDown() {
+    public boolean btnIsDown() {
         return button.isDown();
     }
 
-    public boolean btnisUp() {
+    public boolean btnIsUp() {
         return button.isUp();
     }
 
-    public DigitalInput btngetDigitalInput() {
+    public DigitalInput btnGetDigitalInput() {
         return button.getDigitalInput();
     }
 
-    public void btnonDown(Runnable method) { button.onDown(method); }
+    public void btnOnDown(Runnable method) { button.onDown(method); }
 
-    public void btnonUp(Runnable method) {
+    public void btnOnUp(Runnable method) {
         button.onUp(method);
     }
 
-    public void btnwhilePressed(Runnable method, long millis) {button.whilePressed(method, millis); }
+    public void btnWhilePressed(Runnable method, long millis) {button.whilePressed(method, millis); }
 
-    public void btndeRegisterAll(){ button.deRegisterAll(); }
+    public void btnDeRegisterAll(){ button.deRegisterAll(); }
 
     public Runnable btnGetOnUp(){return button.getOnUp();}
 

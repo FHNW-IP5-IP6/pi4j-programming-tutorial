@@ -1,5 +1,5 @@
 In dieser Aufgabe geht es darum, aus den vorhandenen Klassen [SimpleButton](https://pi4j.com/examples/components/simplebutton/)
-und [SimpleLED](https://pi4j.com/examples/components/simpleled/) aus dem Hardwarekatalog eine neue Klasse Switch zu erstellen.
+und [SimpleLED](https://pi4j.com/examples/components/simpleled/) (aus dem Hardwarekatalog) eine neue Klasse Switch zu erstellen.
 Die neue Komponente soll die zwei vorhandenen Objekte mit ihren Methoden als eine eigene neue Komponente zusammenfügen.
 
 ---
@@ -14,23 +14,23 @@ Die neue Komponente soll die zwei vorhandenen Objekte mit ihren Methoden als ein
 - Erstelle die Attribute, welche die Objekte *SimpleButton* und *SimpleLED* referenzieren
 - Instanziiere die Attribute mit den Objekten
 - Schreibe die unten erwähnten Methoden. Verwende dazu die Methoden der instanziierten *SimpleLED*.
-  - LEDsetState(boolean)
-  - LEDsetStateOn()
-  - LEDsetStateOff()
-  - LEDtoggleState()
-  - LEDgetDigitalOutput()
+  - ledSetState(boolean)
+  - ledSetStateOn()
+  - ledSetStateOff()
+  - ledToggleState()
+  - ledGetDigitalOutput()
 - Schreibe die unten erwähnten Methoden. Verwende dazu die Methoden des instanziierten *SimpleButton*.
-  - btngetState()
-  - btnisDown()
-  - btnisUp()
-  - btngetDigitalInput()
-  - btnonDown(Runnable)
-  - btnonUp(Runnable)
-  - btnwhilePressed(Runnable)
-  - btndeRegisterAll()
-  - btngetOnUp()
-  - btngetOnDown()
-  - btngetWhilePressed()
+  - btnGetState()
+  - btnIsDown()
+  - btnIsUp()
+  - btnGetDigitalInput()
+  - btnOnDown(Runnable)
+  - btnOnUp(Runnable)
+  - btnWhilePressed(Runnable)
+  - btnDeRegisterAll()
+  - btnGetOnUp()
+  - btnGetOnDown()
+  - btnGetWhilePressed()
 
 ## Check Programmierung
 Überprüfe die Programmierung mit dem *Check* Button unten links. Ist der Test

@@ -34,17 +34,17 @@ public class Main {
       System.out.println("Application is running");
 
       // Initialize the LEDbutton component
-      var ledbutton = new LEDButton(pi4j, PIN.D26, Boolean.FALSE, PIN.PWM19);
+      var ledButton = new LEDButton(pi4j, PIN.D26, Boolean.FALSE, PIN.PWM19);
 
       // Turn on the LED to have a defined state
-      ledbutton.LEDsetStateOn();
+      ledButton.ledSetStateOn();
 
       //see the LED for a Second
       sleep(1000);
 
       // Register event handlers to print a message when pressed (onDown) and depressed (onUp)
-      ledbutton.btnonDown(() -> System.out.println("Pressing the Button"));
-      ledbutton.btnonUp(()   -> System.out.println("Stopped pressing."));
+      ledButton.btnOnDown(() -> System.out.println("Pressing the Button"));
+      ledButton.btnOnUp(()   -> System.out.println("Stopped pressing."));
 
       // Wait for 15 seconds while handling events before exiting
       System.out.println("Press the button to see it in action!");
@@ -52,13 +52,13 @@ public class Main {
       // Make a flashing light by toggling the LED every second
       // in the meantime, the Button can still be pressed, as we only freeze the main thread
       for (int i = 0; i < 15; i++) {
-         System.out.println(ledbutton.LEDtoggleState());
+         System.out.println(ledButton.ledToggleState());
          sleep(1000);
       }
 
       // Unregister all event handlers to exit this application in a clean way
-      ledbutton.btndeRegisterAll();
-      ledbutton.LEDsetStateOff();
+      ledButton.btnDeRegisterAll();
+      ledButton.ledSetStateOff();
 
       // End of application
       System.out.println("Application is done");
