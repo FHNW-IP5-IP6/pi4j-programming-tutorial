@@ -1,4 +1,6 @@
+type: framework
 content:
 - Übersicht
 - Setup
 - Erste Komponente
+- Einführung-PI4J

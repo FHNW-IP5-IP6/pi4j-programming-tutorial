@@ -1,0 +1,16 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: linie 13 - piGpio ist ein Provider
+  is_correct: true
+- text: linie 14 - pi4j muss zwingend mit Providern aufgebaut werden
+  is_correct: false
+- text: linie 27 - LinuxFs ist einer von Zwei Providern
+  is_correct: true
+- text: Der Context enthält den konfigurierten Zustand und den Lebenszyklus einer Pi4J-Instanz
+  is_correct: true
+- text: Nur das löschen des Context gibt dessen Ressourcen frei
+  is_correct: false
+files:
+- name: src/Main.java
+  visible: true

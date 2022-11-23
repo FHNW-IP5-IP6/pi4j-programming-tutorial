@@ -1,0 +1,18 @@
+type: edu
+files:
+- name: src/Main.java
+  visible: true
+  placeholders:
+  - offset: 500
+    length: 382
+    placeholder_text: /* TODO Schreibe den Context*/
+- name: test/MainTest.java
+  visible: false
+- name: src/PIN.java
+  visible: false
+- name: src/Component.java
+  visible: false
+- name: src/SimpleLED.java
+  visible: true
+- name: src/Einführung-PI4J-Standardcontext.run.xml
+  visible: false

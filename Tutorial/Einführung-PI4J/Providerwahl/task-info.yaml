@@ -1,0 +1,17 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: DigitalInput
+  is_correct: false
+- text: DigitalOutput
+  is_correct: false
+- text: PWM
+  is_correct: false
+- text: SPI
+  is_correct: false
+- text: I2C
+  is_correct: true
+files:
+- name: src/Main.java
+  visible: true
+local_check: true

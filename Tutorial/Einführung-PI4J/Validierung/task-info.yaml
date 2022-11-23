@@ -1,0 +1,16 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: Ich weiss was ein PI4J Context ist.
+  is_correct: true
+- text: Ich kenne die Provider.
+  is_correct: true
+- text: Ich verstehe, weshalb der Context heruntergefahren werden sollte.
+  is_correct: true
+- text: Ich weiss wann ich welche Provider nutzen sollte.
+  is_correct: true
+- text: Ich kann den Context selbst initialisieren.
+  is_correct: true
+files:
+- name: src/Main.java
+  visible: true
