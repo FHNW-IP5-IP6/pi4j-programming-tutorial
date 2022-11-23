@@ -1,0 +1,10 @@
+type: edu
+files:
+- name: src/Main.java
+  visible: true
+  placeholders:
+  - offset: 130
+    length: 25
+    placeholder_text: "/*Print \"Hello world, hello LEITFADEN\" to console */"
+- name: test/Tests.java
+  visible: false

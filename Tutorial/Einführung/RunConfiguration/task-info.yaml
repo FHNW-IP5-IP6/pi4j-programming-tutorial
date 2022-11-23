@@ -1,0 +1,15 @@
+type: theory
+files:
+- name: src/Main.java
+  visible: true
+  placeholders:
+  - offset: 130
+    length: 25
+    placeholder_text: "/*Print \"Hello world, hello LEITFADEN\" to console */"
+    dependency:
+      section: Tutorial
+      lesson: Einführung
+      task: Hint
+      file: src/Main.java
+      placeholder: 1
+      is_visible: false

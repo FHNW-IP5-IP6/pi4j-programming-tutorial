@@ -1,6 +1,6 @@
 Die Grundeinstellung des Leitfadens sieht wie folgt aus:
 
-![Benutzeroberfläche](./Benutzeroberfläche.png)
+![Benuteroberflaeche](./Benutzeroberfläche.png)
 
 2. Editor
 3. Aufgabenfenster
