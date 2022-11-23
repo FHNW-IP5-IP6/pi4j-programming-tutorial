@@ -1,9 +1,9 @@
-Die RunConfiguration ist eine Zusammenstellung von verschiedenen Befehlen um eine Ausgewählte Applikation auszuführen.
+Die RunConfiguration ist eine Zusammenstellung von verschiedenen Befehlen, um eine ausgewählte Applikation auszuführen.
 
-Im Fall des Leitfadens wird die RunConfiguration benutzt um die Applikation zu Übersetzen, auf das Raspberry Pi
+Im Fall des Leitfadens wird die RunConfiguration benutzt, um die Applikation zu übersetzen, auf das Raspberry Pi
 bereitzustellen und auszuführen.
 
-Um die Applikation auf dem Raspberry Pi auszuführen muss die entsprechende RunConfiguration im Drop Down Menü (1)
+Um die Applikation auf dem Raspberry Pi auszuführen, muss die entsprechende RunConfiguration im Drop Down Menü (1)
 ausgewählt und danach mit dem grünen Pfeil (2) gestartet werden.
 
 ![RunConfiguration](./RunConfiguration.png)

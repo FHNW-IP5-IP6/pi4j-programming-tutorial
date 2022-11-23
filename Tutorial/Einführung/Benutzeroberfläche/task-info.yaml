@@ -2,5 +2,5 @@ type: theory
 files:
 - name: src/Main.java
   visible: true
-- name: Benutzeroberfläche.png
+- name: Benutzeroberflaeche.png
   visible: false

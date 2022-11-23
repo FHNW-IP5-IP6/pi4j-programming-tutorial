@@ -8,3 +8,5 @@ files:
     placeholder_text: "/*Print \"Hello world, hello LEITFADEN\" to console */"
 - name: test/Tests.java
   visible: false
+- name: PeakSolution.png
+  visible: false

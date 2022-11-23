@@ -1,9 +1,9 @@
-Der **Educational Task** ist ein Task um Programmieraufgaben zu lösen. Jeder Task hat ein Main.java File mit unterschiedlichen
-Aufgaben. Mit Placeholder ist ersichtlich, welche Aufgabe an welcher Stelle im Code ausgearbeitet werden muss.
+Der **Educational Task** ist ein Task, um Programmieraufgaben zu lösen. Jeder Task hat ein Main.java File mit unterschiedlichen
+Aufgaben. Mit Placeholder ist ersichtlich, welche Aufgabe an welcher Stelle im Code gelöst werden muss.
 Im Aufgabenfenster sind alle wichtigen Informationen zu den Aufgaben vorhanden.
 
-Im *Smart Checker* gibt es neben dem bekannte *Next* Button ein Button *Check*. Mit diesem Button kann der erstellte Code
-überprüft werden.
+Im *Smart Checker* gibt es neben dem bekannte *Next* Button ein Button *Check*. Mit diesem Button lässt sich der erstellte 
+Code überprüfen.
 
 Nachdem ein Check durchgeführt wurde, kann mit Peak Solution (1) die Musterlösung betrachtet werden.
 

@@ -1,6 +1,6 @@
 Die Grundeinstellung des Leitfadens sieht wie folgt aus:
 
-![Benuteroberflaeche](./Benutzeroberfläche.png)
+![Benutzeroberflaeche](./Benutzeroberflaeche.png)
 
 2. Editor
 3. Aufgabenfenster
@@ -8,11 +8,11 @@ Die Grundeinstellung des Leitfadens sieht wie folgt aus:
 5. Smart Checker
 
 ## Editor
-Der Leitfaden beinhaltet diverse praktische Programmieraufgaben welche im Editor direkt gelöst werden können.
+Der Leitfaden beinhaltet diverse praktische Programmieraufgaben, welche im Editor direkt gelöst werden können.
 
 ## Aufgabenfenster
-Im Aufgabenfenster wird, je nach Aufgabe, dei Theorie zur Lektion vermittelt, Multiple Choice Fragen zur Lektion gestellt
-oder praktische Aufgaben gestell, welche im Editor gelöst werden müssen.
+Im Aufgabenfenster wird, je nach Aufgabe, die Theorie zur Lektion vermittelt, Multiple-Choice-Fragen zur Lektion gestellt
+oder praktische Aufgaben gestellt, welche im Editor gelöst werden müssen.
 
 ## Navigationspfeile
 Mit den Navigationspfeilen kann zwischen den einzelnen Tasks einer Lektion hin und her gesprungen werden.

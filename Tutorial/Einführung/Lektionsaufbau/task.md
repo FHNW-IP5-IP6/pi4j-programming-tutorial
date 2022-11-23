@@ -6,20 +6,24 @@ Der Leitfaden ist in die unten aufgelisteten Lektionen unterteilt:
 4. Klassenmodifizierung
 5. Einführung in die Pi4J Umgebung
 6. Einführung in die Launcher Applikation
-7. Einführung in das MVC Pattern
+7. Einführung in das MVC-Pattern
 8. Erstellen einer eigenen Applikation
 
 Jede Lektion beinhaltet die folgenden Tasks:
 
+**Übersicht**
+
+Jede Lektion beginnt mit einer Übersicht über die Inhalte, welche in dieser Lektion behandelt werden und wie viel Zeit 
+das Lösen der Lektion in etwa in Anspruch nimmt.
+
 **Selbsteinschätzung**
 
-Jede Lektion beginnt mit einer Sammlung von Kontrollfragen über deren Inhalt. Die Fragen dienen als Selbsteinschätzung 
-zum vermittelten Stoff. Können alle beantwortet werden, sind die Inhalte der Lektion bereits bekennt und die 
-Lektion kann übersprungen werden.
+Die Selbsteinschätzung ist Sammlung von Kontrollfragen über die Inhalte der Lektion. Können alle richtig beantwortet 
+werden, sind die Inhalte der Lektion bereits bekennt und die Lektion kann übersprungen werden.
 
 **Einleitung in die Thematik**
 
-Die Einleitung ist der Theorieteil der Lektion. Hier wird das nötige wissen vermittelt um die nachfolgenden, praktischen 
+Die Einleitung ist der Theorieteil der Lektion. Hier wird das nötige Wissen vermittelt um die nachfolgenden, praktischen 
 Aufgaben zu lösen.
 
 **Praktische Aufgaben**
@@ -29,12 +33,12 @@ Die praktischen Aufgaben stellen den Übungsteil der Lektion dar. Hier wird der 
 **Zusammenfassung**
 
 In der Zusammenfassung werden die wichtigsten Informationen aus der Lektion noch einmal kurz 
-zusammen gefasst.
+zusammengefasst.
 
 **Validierung**
 
 Die Validierung dient als Überprüfung, ob die Themen der Lektion verstanden wurden. Können alle Fragen richtig
-beantwortet werden kann mit der nächsten Lektion begonnen werden. Bestehen bei einzelnen Fragen noch unklarheiten können
+beantwortet werden kann mit der nächsten Lektion begonnen werden. Bestehen bei einzelnen Fragen noch Unklarheiten können
 diese mit den Betreuungspersonen geklärt werden.
 
 Mit dem Button *Next* zum nächsten Task wechseln.

@@ -1,4 +1,4 @@
-Mit den Pfeiltasten (1) kann zum nächsten Task bez. zum vorangehenden Task gewechselt werden auch wenn der aktuelle Task
+Mit den Pfeiltasten (1) kann zum nächsten Task bez. zum vorangehenden Task gewechselt werden, auch wenn der aktuelle Task
 nicht gelöst ist.
 
 ![Navigation](./Navigation.png)
