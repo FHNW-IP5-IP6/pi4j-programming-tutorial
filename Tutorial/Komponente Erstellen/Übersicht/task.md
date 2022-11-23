@@ -14,12 +14,14 @@ Lektion weitergemacht werden.
 - Ich kann bestehende Klassen wiederverwenden in einer Neuen
 
 ## Aufbau
-Der Aufbau dieses Kapitels des Tutorials ist wie folgt aufgebaut:
+Der Aufbau dieser Lektion des Tutorials ist wie folgt aufgebaut:
 
-- Einführung - *Theorie*
-  - Was sind Klassen, welche Strukturen gibt es
-- Grundverständnis - *MultipleChoice*
+- Übersicht - *Theorie*
+  - Eine kurze Übersicht des Moduls. Ist dieser Task.
+- Selbsteinschätzung - *MultipleChoice*
   - Grundwissen prüfen
+- Einleitung - *Theorie*
+  - Was sind Klassen, welche Strukturen gibt es
 - Implementation Klassenmodifizierung - *Educational*
   - Wie kann aus einer bestehenden Klasse eine neue eigene geschrieben werden
 - Wiederverwendbarkeit - *Theorie*
@@ -28,5 +30,5 @@ Der Aufbau dieses Kapitels des Tutorials ist wie folgt aufgebaut:
   - Implementation einer neuen Klasse aufgrund von bestehenden Klassen
 - Zusammenfassung - *Theorie*
   - Was wurde gelehrt in diesem Kapitel
-- Abschluss - *MultipleChoice*
-  - Das Gelehrte nochmals prüfen
+- Validierung - *MultipleChoice*
+  - Diese Lernziele wurden erreicht
