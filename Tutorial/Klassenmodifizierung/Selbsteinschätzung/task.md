@@ -2,6 +2,8 @@
 Kreuze alle richtigen Aussagen an.
 Pro Aussage gibt es einen Hinweis mit der Erklärung.
 
+[Wenn du alles verstanden hast, kannst du diese Lektion überspringen](course://Tutorial/Einführung-PI4J/Übersicht/src/Main.java)
+
 <div class="hint">
 Ja, ein Objekt (Java-Klasse) besteht aus Daten, Verhalten und dem Bauplan, wie ein Objekt instanziiert werden kann.
 </div>

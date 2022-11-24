@@ -15,12 +15,11 @@ ein Button hat noch den Zustand *aktuell eingeschaltet*.
 - Lösche alle Kommentare
 - Lösche alle Attribute, die etwas mit *WhilePressed* zu tun haben
 - Lösche alle Methoden, die *WhilePressed* direkt referenzieren
-- Lösche im Konstruktor im switch das IF-Statement mit dem *WhilePressed*
 
 ---
 > **_Hinweis:_**
 > Die Aufgabe kann nur in der Klasse Switch gelöst werden. Vergiss nicht, die Konstruktoren sollten nicht mehr SimpleButton,
-> sondern Switch heissen.
+> sondern Switch heissen. Auch im Konstruktor hat es noch WhilePressed Referenzen.
 ---
 
 ## Check Programmierung

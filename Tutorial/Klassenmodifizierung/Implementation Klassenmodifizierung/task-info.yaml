@@ -5,8 +5,8 @@ files:
 - name: src/Switch.java
   visible: true
   placeholders:
-  - offset: 355
-    length: 2594
+  - offset: 375
+    length: 3195
     placeholder_text: /* TODO Create the class*/
 - name: src/SimpleButton.java
   visible: true

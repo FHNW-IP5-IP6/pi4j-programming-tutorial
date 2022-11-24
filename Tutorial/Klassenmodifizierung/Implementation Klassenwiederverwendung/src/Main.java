@@ -34,7 +34,7 @@ public class Main {
       System.out.println("Application is running");
 
       // Initialize the LEDbutton component
-      var ledButton = new LEDButton(pi4j, PIN.D26, Boolean.FALSE, PIN.PWM19);
+       LEDButton ledButton = new LEDButton(pi4j, PIN.D26, Boolean.FALSE, PIN.PWM19);
 
       // Turn on the LED to have a defined state
       ledButton.ledSetStateOn();

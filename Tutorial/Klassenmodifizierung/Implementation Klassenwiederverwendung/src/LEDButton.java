@@ -8,13 +8,13 @@ public class LEDButton extends Component {
     protected final SimpleButton button;
     protected final SimpleLED led;
 
-    public LEDButton(Context pi4j, PIN buttonaddress, Boolean inverted, PIN ledaddress) {
-        this(pi4j, buttonaddress, inverted, ledaddress, DEFAULT_DEBOUNCE);
+    public LEDButton(Context pi4j, PIN buttonAddress, Boolean inverted, PIN ledAddress) {
+        this(pi4j, buttonAddress, inverted, ledAddress, DEFAULT_DEBOUNCE);
     }
 
-    public LEDButton(Context pi4j, PIN buttonaddress, boolean inverted, PIN ledaddress, long debounce) {
-        this.button = new SimpleButton(pi4j, buttonaddress, inverted, debounce);
-        this.led    = new SimpleLED(pi4j, ledaddress);
+    public LEDButton(Context pi4j, PIN buttonAddress, boolean inverted, PIN ledAddress, long debounce) {
+        this.button = new SimpleButton(pi4j, buttonAddress, inverted, debounce);
+        this.led    = new SimpleLED(pi4j, ledAddress);
     }
 
     public void ledSetState(boolean on) {
