@@ -2,10 +2,10 @@
 Klassen können in anderen Klassen wiederverwendet oder referenziert werden.
 Lies dazu die Theorie in Woche Acht des FHNW Moduls OOP1 [hier](https://gitlab.fhnw.ch/2022hs-oop1/docs/-/blob/main/woche-08/Datenkapselung%20und%20verkn%C3%BCpfte%20Objekte.pdf)
 
-## Objekt Referenzierung
-Es ist möglich, eine neue Klasse zu schreiben, welche die Methoden und Attribute von anderen Klassen verwendet und in einem
-einzelnen Objekt zusammenfasst. Dazu muss als Attribut der neuen Klasse ein Objekt der referenzierten Klasse mitgegeben, 
-und die Methoden der neuen Klasse müssen die Methoden der referenzierten Klasse entsprechen aufrufen. So kann beispielsweise 
-ein LED-Button, bestehend aus einem Button und einer LED, als eigene Komponente aufgebaut werden.
-Von der Hardware sieht es so aus, dass eine PIN des Raspberry PI den Input des Buttons auswertet, während eine andere PIN 
-den Output auf die LED der gleichen Komponente steuert.
+## Klassen wiederverwenden
+Eine effektive Methode, eine neue Klasse für ein Bauteil zu schreiben ist zu klären, ob es Klassen gibt welche einzelne
+Grundfunktionalitäten des Bauteiles bereits abdeckt. Wird eine Klasse LedButton benötigt, liegt es nahe Methoden aus den 
+Klassen *SimpleLed* und *SimpleButton* zu verwenden. Instanziiert man in der Klasse *LedButton* zwei Objekte *led* von *SimpleLed* 
+und *button* von *SimpleButton* ist bereits der Hauptteil der Programmierung für die Klasse erledigt. Um die LED von *LedButton* 
+mit einer Methode *ledSetStateOn()* einzuschalten muss in dieser Methode nur die Methode von *SimpleLed* *on()* aufgerufen
+werden.

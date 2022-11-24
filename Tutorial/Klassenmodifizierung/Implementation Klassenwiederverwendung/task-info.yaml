@@ -13,16 +13,16 @@ files:
 - name: src/LEDButton.java
   visible: true
   placeholders:
-  - offset: 278
+  - offset: 329
     length: 71
     placeholder_text: /* TODO Referenziere die Ursprungsklassen als Attribute */
-  - offset: 636
+  - offset: 687
     length: 127
     placeholder_text: /* TODO Initialisiere die referenzierten Klassen */
-  - offset: 775
+  - offset: 826
     length: 363
     placeholder_text: /* TODO Überschreibe die Methoden der referenzierten LED */
-  - offset: 1144
+  - offset: 1195
     length: 814
     placeholder_text: /* TODO Überschreibe die Methoden des referenzierten Buttons
       */

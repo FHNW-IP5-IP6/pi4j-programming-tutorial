@@ -2,6 +2,7 @@ import com.pi4j.context.Context;
 import com.pi4j.io.gpio.digital.DigitalInput;
 import com.pi4j.io.gpio.digital.DigitalOutput;
 import com.pi4j.io.gpio.digital.DigitalState;
+import org.junit.jupiter.api.DisplayNameGenerator;
 
 public class LEDButton extends Component {
     protected static final long DEFAULT_DEBOUNCE = 10000;

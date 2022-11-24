@@ -1,19 +1,15 @@
-# Task 7/8
+# Task 7/8: Zusammenfassung
 Dieser Task beinhaltet eine kurze Zusammenfassung, was in dieser Lektion alles gelehrt wurde.
 
 ## Klassen / Strukturen
-Klassen sind Baupläne für Objekte, welche wiederum Instanzen von Klassen sind. Objekte bestehen aus Attributen, Konstruktoren 
-und Methoden. Die Struktur von Objekten sollte immer die gleiche sein, beginnend mit den Attributen, gefolgt von den Konstruktoren 
-und Methoden.
+Klassen sind Baupläne für Objekte. Objekte bestehen aus Attributen, Konstruktoren und Methoden. Die Struktur von Objekten 
+sollte immer die gleiche sein, beginnend mit den Attributen, gefolgt von den Konstruktoren und Methoden.
 
-## Klassen modifizieren
-Klassen, vor allem auch im Umfeld von Hardware-Komponenten, können häufig kopiert und modifiziert werden, wenn beispielsweise 
-ähnliche Methoden gebraucht werden.
-
-## Klassen wiederverwenden
-Vorhandene Klassen können auch gut wiederverwendet werden. Dazu wird bei den Attributen des neuen Objektes das alte 
-Objekt mitgegeben, im Konstruktor wird das Objekt instanziiert, und per neuen Methoden werden die Methoden des 
-referenzierten Objektes angesprochen.
+## Klassen modifizieren / wiederverwenden
+Für neue Klassen können häufig Codeelemente aus bestehenden Klassen kopiert und angepasst werden. Diese Technik führt zu 
+einem Schnellen Ergebnis aber auch zu viel dupliziertem Code was sich wiederum auf Qualität des Codes auswirkt. Eine
+bessere Lösung ist dabei bestehende Klassen in einer neuen Klasse wiederzuverwenden. Somit können neue Klassen auf die 
+speziellen Eigenschaften von Bauteilen zugeschnitten werden ohne die Applikation mit unnötigem Code zu vergrössern.
 
 ## Raspberry PI Pins
 Es gibt viele verschiedene Wege, die PINs zu nummerieren. PI4J verwendet hier vorzugshaft die BCM-Nummerierung. 

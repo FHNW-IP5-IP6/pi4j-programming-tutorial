@@ -1,8 +1,5 @@
-# Task 2/8
-
-## Aufgabe
-Kreuze alle richtigen Aussagen an.
-Pro Aussage gibt es einen Hinweis mit der Erklärung.
+# Task 2/8: Selbsteinschätzung
+Kreuze alle richtigen Aussagen an. Pro Aussage gibt es einen Hinweis mit der Erklärung.
 
 [Wenn du alles verstanden hast, kannst du diese Lektion überspringen](course://Tutorial/Einführung-PI4J/Übersicht/src/Main.java)
 

@@ -8,6 +8,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 public class Switch extends Component {
+    //public class Switch extends Component implements intA{
     //Default Variables
     protected static final long DEFAULT_DEBOUNCE = 10_000;
     protected final DigitalInput digitalInput;

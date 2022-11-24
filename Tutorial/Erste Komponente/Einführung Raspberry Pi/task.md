@@ -1,4 +1,4 @@
-# Task 3/8
+# Task 3/8: Einführung Raspberry Pi
 
 Diese Lektion soll eine Einführung in Klassen und Strukturen in Java geben. Wie diese für projektspezifische Anpassungen 
 modifiziert werden können und wie eine neue Klasse aus bereits bestehenden Klassen erstellt werden kann.
