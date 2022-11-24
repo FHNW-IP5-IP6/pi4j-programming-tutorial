@@ -1,22 +1,11 @@
 type: choice
 is_multiple_choice: false
 options:
-- text: Correct
+- text: Richtig
   is_correct: true
-- text: Incorrect
+- text: Falsch
   is_correct: false
 files:
 - name: src/Main.java
   visible: true
-  placeholders:
-  - offset: 130
-    length: 25
-    placeholder_text: "/*Print \"Hello world, hello LEITFADEN\" to console */"
-    dependency:
-      section: Tutorial
-      lesson: Einführung
-      task: EducationalTask
-      file: src/Main.java
-      placeholder: 1
-      is_visible: false
 local_check: true

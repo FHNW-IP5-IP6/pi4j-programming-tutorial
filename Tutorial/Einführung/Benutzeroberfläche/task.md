@@ -1,11 +1,12 @@
+# Task 2/9: Benutzeroberfläche
 Die Grundeinstellung des Leitfadens sieht wie folgt aus:
 
 ![Benutzeroberflaeche](./Benutzeroberflaeche.png)
 
-2. Editor
-3. Aufgabenfenster
-4. Navigationspfeile
-5. Smart Checker
+1. Editor
+2. Aufgabenfenster
+3. Navigationspfeile
+4. Smart Checker
 
 ## Editor
 Der Leitfaden beinhaltet diverse praktische Programmieraufgaben, welche im Editor direkt gelöst werden können.

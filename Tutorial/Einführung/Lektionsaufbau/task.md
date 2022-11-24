@@ -1,3 +1,4 @@
+# Task 4/9: Lektionsaufbau
 Der Leitfaden ist in die unten aufgelisteten Lektionen unterteilt:
 
 1. Einführung
@@ -19,11 +20,11 @@ das Lösen der Lektion in etwa in Anspruch nimmt.
 **Selbsteinschätzung**
 
 Die Selbsteinschätzung ist Sammlung von Kontrollfragen über die Inhalte der Lektion. Können alle richtig beantwortet 
-werden, sind die Inhalte der Lektion bereits bekennt und die Lektion kann übersprungen werden.
+werden, sind die Inhalte der Lektion bereits bekannt und die Lektion kann übersprungen werden.
 
 **Einleitung in die Thematik**
 
-Die Einleitung ist der Theorieteil der Lektion. Hier wird das nötige Wissen vermittelt um die nachfolgenden, praktischen 
+Die Einleitung ist der Theorieteil der Lektion. Hier wird das nötige Wissen vermittelt um die nachfolgenden praktischen 
 Aufgaben zu lösen.
 
 **Praktische Aufgaben**
@@ -38,7 +39,7 @@ zusammengefasst.
 **Validierung**
 
 Die Validierung dient als Überprüfung, ob die Themen der Lektion verstanden wurden. Können alle Fragen richtig
-beantwortet werden kann mit der nächsten Lektion begonnen werden. Bestehen bei einzelnen Fragen noch Unklarheiten können
-diese mit den Betreuungspersonen geklärt werden.
+beantwortet werden, kann mit der nächsten Lektion begonnen werden. Bestehen bei einzelnen Fragen noch Unklarheiten, können
+diese mit den Betreuungspersonen geklärt werden, oder der entsprechende Task kann erneut durchgearbeitet werden.
 
 Mit dem Button *Next* zum nächsten Task wechseln.
