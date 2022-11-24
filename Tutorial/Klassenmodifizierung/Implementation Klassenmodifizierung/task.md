@@ -1,3 +1,5 @@
+# Task 4/8
+
 In dieser Aufgabe geht es darum, aus einer vorhandenen Klasse [SimpleButton](https://pi4j.com/examples/components/simplebutton/)
 (aus dem Hardwarekatalog) eine neue Klasse Switch zu erstellen. Ein Switch hat die Zuständen Ein- und Ausgeschalten, 
 ein Button hat noch den Zustand *aktuell eingeschaltet*.

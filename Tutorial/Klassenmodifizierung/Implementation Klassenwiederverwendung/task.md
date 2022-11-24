@@ -1,3 +1,4 @@
+# Task 6/8
 In dieser Aufgabe geht es darum, aus den vorhandenen Klassen [SimpleButton](https://pi4j.com/examples/components/simplebutton/)
 und [SimpleLED](https://pi4j.com/examples/components/simpleled/) (aus dem Hardwarekatalog) eine neue Klasse Switch zu erstellen.
 Die neue Komponente soll die zwei vorhandenen Objekte mit ihren Methoden als eine eigene neue Komponente zusammenfügen.

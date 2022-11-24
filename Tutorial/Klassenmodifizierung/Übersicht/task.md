@@ -1,3 +1,4 @@
+# Task 1/8
 Diese Lektion soll eine kurze Einführung in Klassen und Strukturen in Java geben, und
 auch wie Klassen modifiziert für den eigenen Gebrauch werden können, oder wie bestehende
 Klassen in einer neuen Klasse vereint und wiederverwendet werden kann.
@@ -7,9 +8,9 @@ Wenn alle Fragen mit Ja beantwortet werden können, kann das Kapitel übersprung
 Lektion weitergemacht werden.
 
 - Ich kenne den Umgang mit Klassen und Strukturen in Java.
-- Ich kenne die verschiedenen PINs und Typen von Ein und Ausgängen des Raspberry PI.
+- Ich kenne die verschiedenen PINs und Typen von Ein- und Ausgängen des Raspberry PI.
 - Ich kann bestehende Klassen modifizieren.
-- Ich kann bestehende Klassen wiederverwenden in einer Neuen Klasse.
+- Ich kann bestehende Klassen wiederverwenden in einer neuen Klasse.
 
 ## Zeitschätzung
 Diese Lektion wird rund 80 Minuten in Anspruch nehmen.
