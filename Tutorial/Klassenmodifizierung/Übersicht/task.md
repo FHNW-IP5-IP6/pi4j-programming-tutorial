@@ -4,7 +4,6 @@ modifiziert werden können und wie eine neue Klasse aus bereits bestehenden Klas
 
 ## Lernziele
 - Ich kenne den Umgang mit Klassen und Strukturen in Java.
-- Ich kenne die verschiedenen PINs und Typen von Ein- und Ausgängen des Raspberry PI.
 - Ich kann bestehende Klassen modifizieren.
 - Ich kann bestehende Klassen in einer neuen Klasse wiederverwenden.
 
