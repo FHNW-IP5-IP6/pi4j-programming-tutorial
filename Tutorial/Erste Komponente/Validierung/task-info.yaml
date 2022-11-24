@@ -5,7 +5,7 @@ options:
   is_correct: true
 - text: Ich weiss, wo ich im Hardwarekatalog Hilfe zur elektrischen Montage der Bauteile bekomme.
   is_correct: true
-- text: Ich kenne die Funktionen von SimpleLED und SimpelButton und kann diese in einer einfache Applikation verwenden.
+- text: Ich kenne die Funktionen von SimpleLED und SimpleButton und kann diese in einer einfache Applikation verwenden.
   is_correct: true
 - text: Ich kann eine einfache Applikation auf dem Raspberry Pi starten.
   is_correct: true

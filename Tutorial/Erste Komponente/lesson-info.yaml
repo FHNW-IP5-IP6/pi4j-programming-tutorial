@@ -1,12 +1,12 @@
-type: framework
 content:
-- Was ist der Hardwarekatalog
-- FarbeDesButtons
+- Übersicht
+- Selbsteinschätzung
+- Einleitung
 - Beispielcode
 - Widerstand
 - Methode isUp
-- Implementation LED
 - Einführung Eventhandler
 - Implementation Button
+- Implementation LED
 - Zusammenfassung
-- Abschluss
+- Validierung

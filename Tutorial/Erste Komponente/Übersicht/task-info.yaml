@@ -1,6 +1,4 @@
 type: theory
 files:
-- name: RPI-Plugin.png
-  visible: false
 - name: src/Main.java
   visible: true

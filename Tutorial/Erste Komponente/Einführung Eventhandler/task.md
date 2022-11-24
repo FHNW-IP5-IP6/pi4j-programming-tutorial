@@ -1,3 +1,4 @@
+# Task 7/11: Einführung Eventhandler
 Mit einem Event Handler kann ein Softwareentwickler genau steuern, was im Programm geschehen soll, wenn ein bestimmtes
 Ereignis eintritt. Die auslösenden Events können dabei unterschiedlichen Ursprungs sein, oft werden sie aber durch 
 die Interaktion des Anwenders ausgelöst.
@@ -19,7 +20,7 @@ button.onDown(() -> user.userFunction());
 > **_Hinweis:_**
 >
 > mit **()->** wird ein neuer Thread gestartet in welchem die Methode user.userFunction() läuft. Die genaue 
-> Funktion muss an dieser Stelle noch nicht verstanden werden. Es gilt einfach der Syntax:
+> Funktion muss an dieser Stelle noch nicht verstanden werden. Es gilt einfach die Syntax:
 > 
 > onDown( () -> *hier kann eine Funktion aufgerufen werden* );
 ---

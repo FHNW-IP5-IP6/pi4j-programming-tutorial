@@ -1,0 +1,15 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: Der Hardwarekatalog besteht nur aus Klassen, welche für die eigenen Software-Applikationen genutzt werden können.
+  is_correct: false
+- text: Der Hardwarekatalog besitzt auch Verdrahtungs-Schemas.
+  is_correct: true
+- text: Event Handler setzen voraus, dass bei der Komponente noch Anpassungen vorgenommen werden müssen.
+  is_correct: false
+- text: Braucht es einen Widerstand für die LED aus dem Startkit.
+  is_correct: false
+files:
+- name: src/Main.java
+  visible: true
+local_check: true
