@@ -1,16 +1,18 @@
+# Task 5/10: Provider
+
 ## PI4J Provider
 Lies dir die [Theorie](https://pi4j.com/documentation/providers/) durch.
 
 ## Verfügbare Provider
 - PiGpio
   - Pro
-    - Most performant at this moment, natively
-    - Can be used remotely
+    - Nativ die am besten performende
+    - Kann per Remote ausführung genutzt werden
   - Contra
-    - Needs to run as sudo
+    - braucht sudo
 - LinuxFS
   - Pro
-    - Generic for any SoC supporting LinuxFS
-    - Doesn’t need sudo
+    - Generisch für alle SoC, welche LinuxFS unterstützen
+    - braucht kein sudo
   - Contra
-    - Latency (? - still to be tested)
+    - Latenz

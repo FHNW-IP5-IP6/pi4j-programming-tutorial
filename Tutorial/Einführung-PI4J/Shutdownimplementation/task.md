@@ -1,3 +1,4 @@
+# Task 8/10: Shutdownimplementation
 In dieser Aufgabe geht es darum, den Context einer kleinen Applikation mit minimalen Spezifikationen selbst zu schreiben.
 Das Gerüst ist eine Applikation, welche die Interaktion mit einem simplen Button ermöglicht. Zum Schluss sollten noch 
 alle Funktionen deregistriert werden, und der Context heruntergefahren.

@@ -1,7 +1,9 @@
+# Task 2/10: Selbsteinschätzung
+
 ## Aufgabe
 Kreuze alle richtigen Aussagen an.
 Pro Aussage gibt es einen Hinweis mit der Erklärung.
-Die Fragen beziehen sich auf den Sourcecode des Main.java.
+Die Fragen beziehen sich auf den Sourcecode des angezeigten Main.java.
 
 [Wenn du alles verstanden hast, kannst du diese Lektion überspringen.](course://Tutorial/Setup/Übersicht/src/Main.java) <!-- todo: richtige Lektion -->
 
