@@ -2,31 +2,30 @@ import com.pi4j.context.Context;
 import com.pi4j.io.gpio.digital.DigitalInput;
 import com.pi4j.io.gpio.digital.DigitalOutput;
 import com.pi4j.io.gpio.digital.DigitalState;
-import org.junit.jupiter.api.DisplayNameGenerator;
 
-public class LEDButton extends Component {
+public class LedButton extends Component {
     protected static final long DEFAULT_DEBOUNCE = 10000;
     protected final SimpleButton button;
-    protected final SimpleLED led;
+    protected final SimpleLed led;
 
-    public LEDButton(Context pi4j, PIN buttonAddress, Boolean inverted, PIN ledAddress) {
+    public LedButton(Context pi4j, PIN buttonAddress, Boolean inverted, PIN ledAddress) {
         this(pi4j, buttonAddress, inverted, ledAddress, DEFAULT_DEBOUNCE);
     }
 
-    public LEDButton(Context pi4j, PIN buttonAddress, boolean inverted, PIN ledAddress, long debounce) {
+    public LedButton(Context pi4j, PIN buttonAddress, boolean inverted, PIN ledAddress, long debounce) {
         this.button = new SimpleButton(pi4j, buttonAddress, inverted, debounce);
-        this.led    = new SimpleLED(pi4j, ledAddress);
+        this.led    = new SimpleLed(pi4j, ledAddress);
     }
 
     public void ledSetState(boolean on) {
         led.setState(on);
     }
 
-    public void ledSetStateOn() {
+    public void ledOn() {
         led.on();
     }
 
-    public void ledSetStateOff() {
+    public void ledOff() {
         led.off();
     }
 

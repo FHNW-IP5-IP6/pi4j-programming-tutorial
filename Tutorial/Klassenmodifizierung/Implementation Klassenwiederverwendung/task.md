@@ -1,12 +1,12 @@
 # Task 6/8: Implementation Klassenwiederverwendung
 In dieser Aufgabe geht es darum, aus den vorhandenen Klassen [SimpleButton](https://pi4j.com/examples/components/simplebutton/)
-und [SimpleLED](https://pi4j.com/examples/components/simpleled/) (aus dem Hardwarekatalog) eine neue Klasse Switch zu erstellen.
+und [SimpleLed](https://pi4j.com/examples/components/simpleled/) (aus dem Hardwarekatalog) eine neue Klasse Switch zu erstellen.
 Die neue Komponente soll die zwei vorhandenen Objekte mit ihren Methoden als eine eigene neue Komponente zusammenfügen.
 
 ---
 > **_Hinweis:_**
 >
-> Die Klassen *SimpleButton* und *SimpleLED* wurden bereits aus dem Hardwarekatalog kopiert und
+> Die Klassen *SimpleButton* und *SimpleLed* wurden bereits aus dem Hardwarekatalog kopiert und
 > in den Ordner src eingefügt. Eigener Code muss nur noch in der Klasse LedButton geschrieben werden.
 ---
 
@@ -16,8 +16,8 @@ Die neue Komponente soll die zwei vorhandenen Objekte mit ihren Methoden als ein
 - Initialisiere die beiden Objekte im Konstruktor von LedButton
 - Schreibe die unten erwähnten Methoden. Verwende dazu die Methoden von *led*.
   - ledSetState(boolean)
-  - ledSetStateOn()
-  - ledSetStateOff()
+  - ledOn()
+  - ledOff()
   - ledToggleState()
   - ledGetDigitalOutput()
 - Schreibe die unten erwähnten Methoden. Verwende dazu die Methoden des instanziierten *SimpleButton*.
@@ -45,4 +45,4 @@ des Hardwarekataloges auf der Pi4J Webseite.
 
 ### Remote Ausführung
 Die Applikation ist nun bereit, um auf dem Pi ausgeführt zu werden. Dazu ist eine
-Running-Config *KomponenteErstellen-ImplementationKlassenwiederverwendung* hinterlegt.
+Running-Config *Klassenmodifizierung-ImplementationKlassenwiederverwendung* hinterlegt.

@@ -6,10 +6,10 @@ Wenn alle, unten aufgelisteten Multiple-Choice-Fragen, beim ersten Mal richtig b
 mit dem Link übersprungen werden. Bei Unklarheiten sind die korrekten Lösungen als *Hint* hinterlegt.
 
 <div class="hint">
-Ja, ein Objekt (Java-Klasse) besteht aus Daten, Verhalten und dem Bauplan, wie ein Objekt instanziiert werden kann.
+Ja, ein Objekt (Java-Klasse) besteht aus Daten, Verhalten und dem Konstruktor.
 </div>
 <div class="hint">
-Nein, die Klasse ist der Bauplan, wohingegen ein Objekt eine Instanz der Klasse ist.
+Nein, die Klasse ist der Bauplan, wohingegen ein Objekt eine Instanz vom Typ einer bestimmten Klasse ist.
 </div>
 <div class="hint">
 Ja, dies wird häufig verwendet, um Standard-Parameter trotzdem überschreiben zu können.
@@ -18,8 +18,8 @@ Ja, dies wird häufig verwendet, um Standard-Parameter trotzdem überschreiben z
 Ja
 </div>
 <div class="hint">
-Nein, mit encapsulation können Daten / Verhalten innerhalb einer Klasse vor externen Zugriffen geschützt werden.
+Nein, mit Encapsulation kann der Zustand eines Objektes vor externen Zugriffen geschützt werden.
 </div>
 
-[Wenn alles verstanden wurde, kann diese Lektion übersprungen werden](course://Tutorial/Einführung-PI4J/Übersicht/src/Main.java)
+[Wenn alles verstanden wurde, kann diese Lektion übersprungen werden](course://Tutorial/PI4J Umgebung/Übersicht/src/Main.java)
 ansonsten kann die Lektion mit dem Button *Next* gestartet werden.

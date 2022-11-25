@@ -23,7 +23,7 @@ Der Aufbau dieses Kapitels des Tutorials ist wie folgt aufgebaut:
 - Grundverständnis - *MultipleChoice*
   - Grundwissen prüfen
 - Implementation LED - *Educational*
-  - Java-Klasse SimpleLED in der Applikation implementieren
+  - Java-Klasse SimpleLed in der Applikation implementieren
 - Einführung Event Handler - *Theorie*
   - Was ist ein Event Handler
   - Wie werden Event Handlers im Hardwarekatalog verwendet
