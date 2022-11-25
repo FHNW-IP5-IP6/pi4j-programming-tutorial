@@ -5,12 +5,14 @@ import controller.Controller;
 import model.Model;
 import util.mvcbase.PuiBase;
 import view.components.SimpleButton;
+import view.components.SimpleLed;
 import view.components.helpers.PIN;
 
 public class View extends PuiBase<Model, Controller> {
     //declare all hardware components attached to RaspPi
     //these are protected to give unit tests access to them
     protected SimpleButton button;
+    protected SimpleLed    led;
 
     public View(Controller controller, Context pi4J) {
         super(controller, pi4J);
@@ -20,6 +22,7 @@ public class View extends PuiBase<Model, Controller> {
     public void initializeParts() {
         //Which components are we using?
         button = new SimpleButton(pi4J, PIN.D26, false);
+        led    = new SimpleLed(pi4J, PIN.PWM19);
     }
 
     @Override
@@ -33,6 +36,7 @@ public class View extends PuiBase<Model, Controller> {
     public void setupUiToActionBindings(Controller controller) {
         //what happens, when we interact with the hardware?
         button.onDown(controller::pressButton);
+        button.onUp(controller::ledOff);
     }
 
     @Override
@@ -44,5 +48,7 @@ public class View extends PuiBase<Model, Controller> {
                         System.out.println("You pressed the button "+newValue+" times.");
                     }
                 });
+
+        onChangeOf(model.ledGlows).execute(((oldValue, newValue) -> led.setState(newValue)));
     }
 }

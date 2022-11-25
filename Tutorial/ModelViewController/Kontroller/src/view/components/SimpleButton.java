@@ -1,11 +1,11 @@
-package view.pui.components;
+package view.components;
 
 import com.pi4j.context.Context;
 import com.pi4j.io.gpio.digital.DigitalInput;
 import com.pi4j.io.gpio.digital.DigitalInputConfig;
 import com.pi4j.io.gpio.digital.DigitalState;
 import com.pi4j.io.gpio.digital.PullResistance;
-import view.pui.components.helpers.PIN;
+import view.components.helpers.PIN;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

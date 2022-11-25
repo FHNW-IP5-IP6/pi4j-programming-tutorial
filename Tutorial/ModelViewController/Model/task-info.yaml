@@ -1,0 +1,65 @@
+type: edu
+files:
+- name: src/AppStarter.java
+  visible: true
+- name: src/util/mvcbase/PuiBase.java
+  visible: false
+- name: src/util/mvcbase/Projector.java
+  visible: false
+- name: src/util/mvcbase/ControllerBase.java
+  visible: false
+- name: src/util/mvcbase/ObservableValue.java
+  visible: false
+- name: src/util/mvcbase/ConcurrentTaskQueue.java
+  visible: false
+- name: src/view/View.java
+  visible: true
+  placeholders:
+  - offset: 445
+    length: 30
+    placeholder_text: /* TODO Deklariere den LedButton */
+  - offset: 671
+    length: 59
+    placeholder_text: /* TODO Initialisiere den LedButton */
+  - offset: 846
+    length: 29
+    placeholder_text: /* TODO Implementiere den Shutdown */
+  - offset: 1056
+    length: 92
+    placeholder_text: /* TODO Verbinde die Komponenteninteraktionen mit dem Kontroller
+      */
+  - offset: 1322
+    length: 88
+    placeholder_text: /* TODO Gib den String der Message des Models aus, sobald sich
+      dieser ändert*/
+  - offset: 1420
+    length: 94
+    placeholder_text: /* TODO Setze den Zustand der LED um, sobald sich das Model
+      ändert */
+- name: src/view/components/helpers/PIN.java
+  visible: false
+- name: src/view/components/Component.java
+  visible: false
+- name: src/view/components/LedButton.java
+  visible: true
+- name: src/view/components/SimpleLed.java
+  visible: true
+- name: src/view/components/SimpleButton.java
+  visible: true
+- name: src/model/Model.java
+  visible: true
+  placeholders:
+  - offset: 241
+    length: 105
+    placeholder_text: /* TODO Erstelle ein Observable vom Typ String mit dem Namen
+      "message" */
+- name: src/controller/Controller.java
+  visible: true
+  placeholders:
+  - offset: 414
+    length: 83
+    placeholder_text: /* TODO aktualisiere das Model mit der neuen Message */
+- name: src/ModelViewController-Model.run.xml
+  visible: false
+- name: test/view/ViewTest.java
+  visible: false

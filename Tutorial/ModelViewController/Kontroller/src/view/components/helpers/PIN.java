@@ -1,4 +1,4 @@
-package view.pui.components.helpers;
+package view.components.helpers;
 
 /**
  * Helper Class, used as Raspberry-Pi pin-numbering. Is helpful to see, which pin can act as what I/O provider

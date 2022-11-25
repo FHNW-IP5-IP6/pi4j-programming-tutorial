@@ -1,0 +1,55 @@
+type: edu
+files:
+- name: src/AppStarter.java
+  visible: true
+- name: src/view/View.java
+  visible: true
+  placeholders:
+  - offset: 446
+    length: 27
+    placeholder_text: /* TODO Deklariere die SimpleLed. */
+  - offset: 726
+    length: 40
+    placeholder_text: /* TODO Initialisiere die SimpleLed */
+  - offset: 1134
+    length: 32
+    placeholder_text: /* TODO Registriere auf das Event onUp des Buttons die Funktion
+      ledOff des Konstruktors */
+  - offset: 1602
+    length: 85
+    placeholder_text: /* TODO Setze einen Listener auf das Model, dass die LED steuert
+      */
+- name: src/view/components/helpers/PIN.java
+  visible: false
+- name: src/view/components/Component.java
+  visible: false
+- name: src/view/components/SimpleLed.java
+  visible: true
+- name: src/view/components/SimpleButton.java
+  visible: true
+- name: src/model/Model.java
+  visible: false
+- name: src/controller/Controller.java
+  visible: true
+  placeholders:
+  - offset: 497
+    length: 31
+    placeholder_text: /* TODO aktualisiere das Model, dass die LED leuchten soll */
+  - offset: 824
+    length: 32
+    placeholder_text: /* TODO Aktualisiere das Model, dass die LED nicht mehr leuchten
+      soll */
+- name: src/util/mvcbase/ConcurrentTaskQueue.java
+  visible: false
+- name: src/util/mvcbase/ControllerBase.java
+  visible: false
+- name: src/util/mvcbase/ObservableValue.java
+  visible: false
+- name: src/util/mvcbase/Projector.java
+  visible: false
+- name: src/util/mvcbase/PuiBase.java
+  visible: false
+- name: src/ModelViewController-Kontroller.run.xml
+  visible: false
+- name: test/view/ViewTest.java
+  visible: false

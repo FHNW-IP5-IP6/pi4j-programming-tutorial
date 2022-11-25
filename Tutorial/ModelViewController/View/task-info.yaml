@@ -1,15 +1,11 @@
 type: edu
 files:
-- name: test/Tests.java
-  visible: false
-- name: src/view/View.java
+- name: src/AppStarter.java
   visible: true
 - name: src/model/Model.java
   visible: false
 - name: src/controller/Controller.java
   visible: false
-- name: src/AppStarter.java
-  visible: true
 - name: src/util/mvcbase/PuiBase.java
   visible: false
 - name: src/util/mvcbase/Projector.java
@@ -20,9 +16,33 @@ files:
   visible: false
 - name: src/util/mvcbase/ConcurrentTaskQueue.java
   visible: false
-- name: src/view/pui/components/helpers/PIN.java
+- name: src/view/components/helpers/PIN.java
   visible: false
-- name: src/view/pui/components/Component.java
+- name: src/view/components/Component.java
   visible: false
-- name: src/view/pui/components/SimpleButton.java
+- name: src/view/components/SimpleButton.java
   visible: true
+- name: src/view/View.java
+  visible: true
+  placeholders:
+  - offset: 377
+    length: 30
+    placeholder_text: /* TODO Deklariere den SimpleButton */
+  - offset: 603
+    length: 48
+    placeholder_text: /* TODO Initialisiere den SimpleButton */
+  - offset: 767
+    length: 23
+    placeholder_text: /* TODO Implementiere den Shutdown */
+  - offset: 971
+    length: 39
+    placeholder_text: /* TODO Verbinde die Komponenteninteraktionen mit dem Kontroller
+      */
+  - offset: 1184
+    length: 252
+    placeholder_text: /* TODO Gib den String "You pressed the button x times." auf
+      der Konsole aus bei Model-Änderungen. */
+- name: test/view/ViewTest.java
+  visible: false
+- name: src/ModelViewController-View.run.xml
+  visible: false

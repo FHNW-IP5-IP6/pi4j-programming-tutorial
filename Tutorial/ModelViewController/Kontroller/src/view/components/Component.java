@@ -1,4 +1,4 @@
-package view.pui.components;
+package view.components;
 
 import java.util.logging.Logger;
 
