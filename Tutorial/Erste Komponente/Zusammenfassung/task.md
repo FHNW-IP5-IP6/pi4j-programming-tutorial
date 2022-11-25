@@ -13,3 +13,11 @@ Zudem stellt der Katalog den Code für eine einfache Beispielapplikation zu Verf
 Die Ereignisbehandlung in Java ist die Prozedur, die ein Ereignis steuert und die entsprechende Aktion ausführt, wenn 
 es auftritt. Der Code oder Satz von Anweisungen, die zur Implementierung verwendet werden, wird als Event-Handler bezeichnet. 
 Es besteht aus zwei Hauptkomponenten: der Ereignisquelle und dem Ereignis-Listener.
+
+## Raspberry PI Pins
+Es gibt viele verschiedene Wege, die PINs zu nummerieren. PI4J verwendet hier vorzugshaft die BCM-Nummerierung.
+Aufgrund dieser kann dann entsprechend im Code angegeben werden, an welchem GPIO die Komponente hängt.
+
+## Raspberry PI Ein- und Ausgänge
+Es gibt verschiedene Funktionen für die GPIO. Bspw. digitale Inputs / Outputs, I2C, SPI oder PWM. Jede davon kann auf
+verschiedene Komponenten angewendet werden.

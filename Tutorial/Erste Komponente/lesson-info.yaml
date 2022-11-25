@@ -1,11 +1,9 @@
 content:
 - Übersicht
 - Selbsteinschätzung
-- Einleitung
-- Beispielcode
-- Widerstand
-- Methode isUp
-- Einführung Eventhandler
+- Hardwarekatalog
+- Pins Raspberry Pi
+- Eventhandler
 - Implementation Button
 - Implementation LED
 - Zusammenfassung

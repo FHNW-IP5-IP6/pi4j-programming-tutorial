@@ -1,5 +1,5 @@
 # Task 1/11: Übersicht
-Diese Lektion soll in den Hardware-Katalog und Event Handler einführen.
+Diese Lektion gibt eine Einführung in den Hardwarekatalog und wie dieser in einer Applikation eingesetzt werden kann.
 
 ## Lernziele
 - Ich kenne den groben Inhalt des Hardwarekataloges und weiss, wie ich diesen in meinem Projekt einsetzen kann.
@@ -11,14 +11,14 @@ Diese Lektion soll in den Hardware-Katalog und Event Handler einführen.
 Diese Lektion wird circa 90 Minuten in Anspruch nehmen.
 
 ## Aufbau
+Der Aufbau dieser Lektion sieht wie folgt aus:
+
 - Übersicht - *Theorie*
 - Selbsteinschätzung - *MultipleChoice*
-- Einleitung - *Theorie*
-- Beispielcode - *MultipleChoice*
-- Widerstand - *MultipleChoice*
-- Methode isUp - *MultipleChoice*
-- Einführung Eventhandler - *Theorie*
-- Implementation Button - *Edu*
-- Implementation LED - *Edu*
+- Hardwarekatalog - *Theorie*
+- Pins Raspberry Pi - *Theorie*
+- Eventhandler - *Theorie*
+- Implementation Button - *Educational*
+- Implementation LED - *Educational*
 - Zusammenfassung - *Theorie*
 - Validierung - *MultipleChoice*
