@@ -1,0 +1,14 @@
+type: theory
+files:
+- name: src/Main.java
+  visible: false
+- name: src/Component.java
+  visible: false
+- name: src/PIN.java
+  visible: false
+- name: src/SimpleButton.java
+  visible: false
+- name: src/SimpleLED.java
+  visible: false
+- name: src/LedButton.java
+  visible: true

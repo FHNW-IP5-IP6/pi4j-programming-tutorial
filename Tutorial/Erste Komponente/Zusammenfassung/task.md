@@ -1,4 +1,4 @@
-Dieser Tasks beinhaltet eine kurze Zusammenfassung, was in dieser Lektion alles gelehrt wurde.
+Dieser Task beinhaltet eine kurze Zusammenfassung, was in dieser Lektion alles gelehrt wurde.
 
 ## Hardwarekatalog
 Für die Unterstützung in den Projekten IP12 steht den Studierenden der Hardwarekatalog zur Verfügung. Er stellt eine
