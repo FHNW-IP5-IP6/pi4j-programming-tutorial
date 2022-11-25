@@ -1,0 +1,12 @@
+type: output
+files:
+- name: src/Main.java
+  visible: true
+  placeholders:
+  - offset: 130
+    length: 25
+    placeholder_text: "/*Print \"Hello world, hello LEITFADEN\" to console */"
+- name: PeakSolution.png
+  visible: false
+- name: test/output.txt
+  visible: false
