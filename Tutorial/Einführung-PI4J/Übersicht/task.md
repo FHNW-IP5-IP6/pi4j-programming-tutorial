@@ -1,5 +1,5 @@
 # Task 1/10: Übersicht
-Diese Lektion soll in die PI4J Umgebung einführen, was ein Context ist, wie man diesen richtig initialisiert, 
+Diese Lektion führt in die PI4J Umgebung ein, was ein Context ist, wie man diesen richtig initialisiert, 
 was Provider sind und wie diese verwendet werden, und weshalb ein Context immer richtig heruntergefahren werden sollte.
 
 ## Lernziele
