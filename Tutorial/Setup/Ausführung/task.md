@@ -1,32 +1,14 @@
 # Task 2/2: Ausführung
-In diesem Task wird die Remote-Ausführung vorgestellt und getestet.
+Dieser Task dient dazu die Verbindung zum Raspberry Pi zu testen. 
 
 ## Remote Ausführung
-In diesem Task wurde eine Running-Config hinterlegt. Diese kann wie hier im Bild aufgezeigt ausgewählt werden:
-![RunningConfig](./RunningConfig.png) <!-- todo change picture to white -->
+Wenn die Verbindung zum Raspberry Pi aufgebaut ist, kann mit dem Button *Check* der Code auf dem Pi ausgeführt werden.
 
-Mit der richtigen ausgewählten Running-Config, wie auf dem Bild gezeigt, kann das Programm gestartet werden. 
-Die Applikation wird auf das Raspberry Pi geladen und automatisch ausgeführt. 
-Folgende bekannte Probleme können auftraten:
-- Benutzername und Passwort des Raspberry Pi stimmen nicht mit der Running-Config überein -> Pw auf Pi oder in Running-Config anpassen.
-- Im gleichen Netzwerk gibt es mehr als ein Pi mit dem Namen Crowpi.local -> IP-Addresse anstelle von Namen in der Running-Config verwenden.
+Auf der Konsole sollten die zwei unten aufgelisteten Meldungen erscheinen:
 
-# Aufgabe
+- Application is running 
+- Application is done
 
-## Programmierung
-Versuche, diese App auf dem Raspberry PI zum Laufen zu bringen.
-Die Aufgabe ist erfüllt, wenn in der Konsole zuerst "Application is running" und nachher "Application is done" steht.
-
-## Check Programmierung
-Überprüfe die Programmierung mit dem *Check* Button unten links. Ist der Test 
-erfolgreich, kannst du mit der Vorbereitung der Hardware beginnen. Ist der Test nicht 
-erfolgreich, versuche den Fehler zu beheben. Nutze dazu allfällige Hints oder schau in 
-der Lösung nach.
-
-## Aufbau
-Dieser Task erfordert keine Verdrahtung des Raspberry PI mit irgendwelchen Komponenten. Dieser Task ist nur zur Überprüfung, 
-ob die Remote-Ausführung funktioniert auf dem definierten Setup.
-
-## Remote Ausführung
-Die Applikation ist nun bereit, um auf dem Pi ausgeführt zu werden. Dazu ist eine
-Running-Config *Setup-Ausführung* hinterlegt. Diese kannst du nun auswählen und ausführen.
+War der Test Erfolgreich kan mit dem Button *Next* zur nächsten Lektion gewechselt werden. Bei nicht erfolgreicher 
+Ausführung sollten noch einmal die Einstellungen auf dem Pi überprüft werden. Dazu kann die Webseite 
+[CrowPi goes Java](https://fhnw-ip5-ip6.github.io/CrowPiGoesJavaTutorial/de/setup/raspberry/) zu Hilfe genommen werden.

@@ -11,7 +11,7 @@
     <option name="username" value="pi" />
     <option name="usingKey" value="false" />
     <option name="vmParameters" value="" />
-    <option name="moduleName" value="pi4j-programming-tutorial.Tutorial-Setup-Ausführung.main" />
+    <option name="moduleName" value="pi4j-programming-tutorial" />
     <option name="mainclass" value="Main" />
     <method v="2">
       <option name="Make" enabled="true" />
