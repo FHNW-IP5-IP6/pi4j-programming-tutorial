@@ -1,6 +1,6 @@
 # Task 1/8: Übersicht
-Diese Lektion soll eine Einführung in Klassen und Strukturen in Java geben. Wie diese für projektspezifische Anpassungen
-modifiziert werden können und wie eine neue Klasse aus bereits bestehenden Klassen erstellt werden kann.
+Diese Lektion gibt eine Einführung in Klassen und Strukturen in Java. Der Schwerpunkt liegt dabei auf der applikationsspezifischen
+modifizierung einer besehenden Klasse und wie eine neue Klasse aus bereits bestehenden Klassen erstellt werden kann.
 
 ## Lernziele
 - Ich kenne den Umgang mit Klassen und Strukturen in Java.

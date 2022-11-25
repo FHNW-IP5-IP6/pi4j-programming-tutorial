@@ -1,7 +1,9 @@
 # Task 2/8: Selbsteinschätzung
-Kreuze alle richtigen Aussagen an. Pro Aussage gibt es einen Hinweis mit der Erklärung.
+Die Selbsteinschätzung dient dazu zu klären, ob bereits ausreichend Wissen zu den Themen der Lektion vorhanden ist, 
+damit diese übersprungen werden kann.
 
-[Wenn du alles verstanden hast, kannst du diese Lektion überspringen](course://Tutorial/Einführung-PI4J/Übersicht/src/Main.java)
+Wenn alle, unten aufgelisteten Multiple-Choice-Fragen, beim ersten Mal richtig beantwortet werden, kann diese Lektion
+mit dem Link übersprungen werden. Bei Unklarheiten sind die korrekten Lösungen als *Hint* hinterlegt.
 
 <div class="hint">
 Ja, ein Objekt (Java-Klasse) besteht aus Daten, Verhalten und dem Bauplan, wie ein Objekt instanziiert werden kann.
@@ -18,3 +20,6 @@ Ja
 <div class="hint">
 Nein, mit encapsulation können Daten / Verhalten innerhalb einer Klasse vor externen Zugriffen geschützt werden.
 </div>
+
+[Wenn alles verstanden wurde, kann diese Lektion übersprungen werden](course://Tutorial/Einführung-PI4J/Übersicht/src/Main.java)
+ansonsten kann die Lektion mit dem Button *Next* gestartet werden.

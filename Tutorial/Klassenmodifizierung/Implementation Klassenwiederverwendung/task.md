@@ -13,7 +13,7 @@ Die neue Komponente soll die zwei vorhandenen Objekte mit ihren Methoden als ein
 ## Aufgabe
 ### Programmierung
 - Deklariere zwei Objekte led und button mit SimpleLed und SimpleButton
-- Initialisiere dei beiden Objekte im Konstruktor von LedButton
+- Initialisiere die beiden Objekte im Konstruktor von LedButton
 - Schreibe die unten erwähnten Methoden. Verwende dazu die Methoden von *led*.
   - ledSetState(boolean)
   - ledSetStateOn()

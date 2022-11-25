@@ -9,11 +9,3 @@ Zu jeder Komponente gibt es eine passende Javaklasse, welche ein einfaches Inter
 Zudem stellt der Katalog den Code für eine einfache Beispielapplikation zu Verfügung.
 
 <!-- TODO Zweites Kapitel fehlt, Event Handler -->
-
-## Raspberry PI Pins
-Es gibt viele verschiedene Wege, die PINs zu nummerieren. PI4J verwendet hier vorzugshaft die BCM-Nummerierung.
-Aufgrund dieser kann dann entsprechend im Code angegeben werden, an welchem GPIO die Komponente hängt.
-
-## Raspberry PI Ein- und Ausgänge
-Es gibt verschiedene Funktionen für die GPIO. Bspw. digitale Inputs / Outputs, I2C, SPI oder PWM. Jede davon kann auf
-verschiedene Komponenten angewendet werden.

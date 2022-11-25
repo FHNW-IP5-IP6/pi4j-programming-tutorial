@@ -11,6 +11,8 @@ und *aktuell eingeschaltet*. Der Switch soll nur noch die beiden Zustände *Eing
 ---
 
 ## Aufgabe
+Erstelle die Klasse Switch und teste diese auf dem Raspberry Pi.
+
 ### Programmierung
 - Kopiere den Inhalt der Klasse *SimpleButton* in die Klasse Switch
 - Lösche alle Kommentare
