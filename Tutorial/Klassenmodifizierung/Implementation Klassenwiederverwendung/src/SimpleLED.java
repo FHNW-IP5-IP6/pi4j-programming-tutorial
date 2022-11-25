@@ -1,6 +1,3 @@
-package com.pi4j.catalog.components;
-
-import com.pi4j.catalog.components.helpers.PIN;
 import com.pi4j.context.Context;
 import com.pi4j.io.gpio.digital.DigitalOutput;
 import com.pi4j.io.gpio.digital.DigitalOutputConfig;
