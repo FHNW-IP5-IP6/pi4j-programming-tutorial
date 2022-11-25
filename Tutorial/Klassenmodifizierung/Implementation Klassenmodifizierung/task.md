@@ -36,4 +36,4 @@ Für den Testaufbau können als Hardwarekomponente Schalter oder Taster verwende
 
 ### Remote Ausführung
 Die Applikation ist nun bereit, um auf dem Pi ausgeführt zu werden. Dazu ist eine
-Running-Config *KomponenteErstellen-ImplementationKlassenmodifizierung* hinterlegt.
+Running-Config *Klassenmodifizierung-ImplementationKlassenmodifizierung* hinterlegt.

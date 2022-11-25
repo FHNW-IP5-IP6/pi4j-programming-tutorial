@@ -9,9 +9,9 @@ import java.util.concurrent.atomic.AtomicInteger;
 import static java.lang.Thread.sleep;
 import static org.junit.jupiter.api.Assertions.*;
 
-public class LEDButtonTest extends ComponentTest {
+public class LedButtonTest extends ComponentTest {
 
-    private LEDButton button;
+    private LedButton button;
     private MockDigitalInput digitalInput;
     private MockDigitalOutput digitalOutput;
     private final PIN BTNPinNumber = PIN.D26;
@@ -19,7 +19,7 @@ public class LEDButtonTest extends ComponentTest {
 
     @BeforeEach
     public void setUp() {
-        button = new LEDButton(pi4j, BTNPinNumber, false, LEDPinNumber);
+        button = new LedButton(pi4j, BTNPinNumber, false, LEDPinNumber);
         digitalInput = toMock(button.btnGetDigitalInput());
         digitalOutput = toMock(button.ledGetDigitalOutput());
     }
@@ -220,7 +220,7 @@ public class LEDButtonTest extends ComponentTest {
     @Test
     public void testSetStateOn(){
         //when
-        button.ledSetStateOn();
+        button.ledOn();
         //then
         assertEquals(DigitalState.HIGH, digitalOutput.state());
     }
@@ -228,9 +228,9 @@ public class LEDButtonTest extends ComponentTest {
     @Test
     public void testSetStateOff(){
         //given
-        button.ledSetStateOn();
+        button.ledOn();
         //when
-        button.ledSetStateOff();
+        button.ledOff();
         //then
         assertEquals(DigitalState.LOW, digitalOutput.state());
     }

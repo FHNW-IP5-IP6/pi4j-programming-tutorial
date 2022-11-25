@@ -34,10 +34,10 @@ public class Main {
       System.out.println("Application is running");
 
       // Initialize the LEDbutton component
-       LEDButton ledButton = new LEDButton(pi4j, PIN.D26, Boolean.FALSE, PIN.PWM19);
+       LedButton ledButton = new LedButton(pi4j, PIN.D26, Boolean.FALSE, PIN.PWM19);
 
       // Turn on the LED to have a defined state
-      ledButton.ledSetStateOn();
+      ledButton.ledOn();
 
       //see the LED for a Second
       sleep(1000);
@@ -58,7 +58,7 @@ public class Main {
 
       // Unregister all event handlers to exit this application in a clean way
       ledButton.btnDeRegisterAll();
-      ledButton.ledSetStateOff();
+      ledButton.ledOff();
 
       // End of application
       System.out.println("Application is done");

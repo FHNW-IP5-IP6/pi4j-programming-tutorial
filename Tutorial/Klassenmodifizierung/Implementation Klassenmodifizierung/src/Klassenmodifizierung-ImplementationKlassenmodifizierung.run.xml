@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="KomponenteErstellen-ImplementationWiederverwendung" type="Run as an Embedded Java application" factoryName="Run as an Embedded Java application">
+  <configuration default="false" name="Klassenmodifizierung-ImplementationKlassenmodifizierung" type="Run as an Embedded Java application" factoryName="Run as an Embedded Java application">
     <option name="classesDirectory" />
     <option name="hostname" value="crowpi.local" />
     <option name="keyPath" value="" />
@@ -11,7 +11,7 @@
     <option name="username" value="pi" />
     <option name="usingKey" value="false" />
     <option name="vmParameters" value="" />
-    <option name="moduleName" value="pi4j-programming-tutorial.Tutorial-Komponente_Erstellen-Implementation_Klassenwiederverwendung.main" />
+    <option name="moduleName" value="" />
     <option name="mainclass" value="Main" />
     <method v="2">
       <option name="Make" enabled="true" />
