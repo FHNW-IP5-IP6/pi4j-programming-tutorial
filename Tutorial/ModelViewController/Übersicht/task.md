@@ -1,17 +1,16 @@
 # Task 1/7
-Diese Lektion soll eine kurze Einführung in den Launcher 
+Diese Lektion soll eine kurze Einführung in das ModelViewController design-pattern geben.
 
 ## Lernziele
 Wenn alle Fragen mit Ja beantwortet werden können, kann das Kapitel übersprungen werden, und mit der nächsten
 Lektion weitergemacht werden.
 
-- Ich kenne den Umgang mit Klassen und Strukturen in Java.
-- Ich kenne die verschiedenen PINs und Typen von Ein- und Ausgängen des Raspberry PI.
-- Ich kann bestehende Klassen modifizieren.
-- Ich kann bestehende Klassen wiederverwenden in einer neuen Klasse.
+- Ich kenne das Design pattern MVC.
+- Ich kenne die verschiedenen Layer und weiss, welche Funktionen diese übernehmen.
+- Ich kann eine bestehende Applikation von MVC mit eigenen Komponenten erweitern.
 
 ## Zeitschätzung
-Diese Lektion wird rund 50 Minuten in Anspruch nehmen.
+Diese Lektion wird rund 70 Minuten in Anspruch nehmen.
 
 ## Aufbau
 Der Aufbau dieser Lektion sieht wie folgt aus:
@@ -19,7 +18,8 @@ Der Aufbau dieser Lektion sieht wie folgt aus:
 - Übersicht - *Theorie*
 - Selbsteinschätzung - *MultipleChoice*
 - Einleitung - *Theorie*
-- Launchererweiterung - *Edu*
-- Runconfig - **
-- Zusammenfassung - *Theorie*
+- View - *Edu*
+- Kontroller - *Edu*
+- Model - *Edu*
+- Zusammenfassung *Theorie*
 - Validierung - *MultipleChoice*
