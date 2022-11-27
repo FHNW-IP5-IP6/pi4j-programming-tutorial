@@ -1,10 +1,10 @@
-# Task 1/11: Übersicht
+# Task 1/9: Übersicht
 Diese Lektion gibt eine Einführung in den Hardwarekatalog und wie dieser in einer Applikation eingesetzt werden kann.
 
 ## Lernziele
 - Ich kenne den groben Inhalt des Hardwarekataloges und weiss, wie ich diesen in meinem Projekt einsetzen kann.
 - Ich weiss, wo ich im Hardwarekatalog Hilfe zur elektrischen Montage der Bauteile bekomme.
-- Ich kenne die Funktionen von SimpleLED und SimpleButton und kann diese in einer einfache Applikation verwenden.
+- Ich kenne die Funktionen von SimpleLed und SimpleButton und kann diese in einer einfache Applikation verwenden.
 - Ich kann eine einfache Applikation auf dem Raspberry Pi starten.
 
 ## Zeitschätzung

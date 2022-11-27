@@ -1,4 +1,4 @@
-# Task 10/11: Zusammenfassung
+# Task 8/9: Zusammenfassung
 Dieser Tasks beinhaltet eine kurze Zusammenfassung, was in dieser Lektion alles gelehrt wurde.
 
 ## Hardwarekatalog

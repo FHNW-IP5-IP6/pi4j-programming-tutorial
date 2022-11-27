@@ -1,4 +1,4 @@
-# Task 8/11: Implementation Button
+# Task 6/9: Implementation Button
 In dieser Aufgabe geht es darum das Signal eines Buttons (gedrückt) auszuwerten. Dazu wird die Klasse [SimpleButton](https://pi4j.com/examples/components/simplebutton/)
 aus dem Hardwarekatalog verwendet. Auf das Ereignis *Button gedrückt* soll sich der Zustand der LED ändern.
 
