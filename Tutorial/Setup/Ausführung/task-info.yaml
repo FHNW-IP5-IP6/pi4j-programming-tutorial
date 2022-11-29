@@ -1,12 +1,10 @@
 type: edu
 files:
-- name: runConfigurations/Setup-Ausführung.run.xml
-  visible: false
+- name: Setup-Ausführung.run.xml
+  visible: true
 - name: Breadboard.png
   visible: false
 - name: Layout.png
-  visible: false
-- name: RunningConfig.png
   visible: false
 - name: test/Tests.java
   visible: false

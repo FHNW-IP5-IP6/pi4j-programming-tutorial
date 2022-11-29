@@ -1,14 +1,39 @@
-# Task 2/2: Ausführung
-Dieser Task dient dazu die Verbindung zum Raspberry Pi zu testen. 
+In diesem Task wird das [RaspiFX-Template](https://github.com/DieterHolz/RaspPiFX-Template-Project) vorgestellt,
+welches für FX-Anwendungen mit PI4J verwendet werden kann. Das Template sollte bei jedem IP12-Projekt als Plattform
+genützt werden.
 
 ## Remote Ausführung
-Wenn die Verbindung zum Raspberry Pi aufgebaut ist, kann mit dem Button *Check* der Code auf dem Pi ausgeführt werden.
+In diesem Task wurde eine Running-Config hinterlegt. Diese kann wie hier im Bild aufgezeigt ausgewählt werden:
 
-Auf der Konsole sollten die zwei unten aufgelisteten Meldungen erscheinen:
+<img src="SetupAusfuehrungRunConfig.png" alt="Run Configuration" width="400"/>
 
-- Application is running 
-- Application is done
+Mit der richtigen ausgewählten Running-Config, wie auf dem Bild gezeigt, kann das Programm gestartet werden.
+Die Applikation wird auf das Raspberry Pi geladen und automatisch ausgeführt.
+Folgende bekannte Probleme können auftraten:
+- Benutzername und Passwort des Raspberry Pi stimmen nicht mit der Running-Config überein -> Pw auf Pi oder in Running-Config anpassen.
+- Im gleichen Netzwerk gibt es mehr als ein Pi mit dem Namen Crowpi.local -> IP-Addresse anstelle von Namen in der Running-Config verwenden.
 
-War der Test Erfolgreich kan mit dem Button *Next* zur nächsten Lektion gewechselt werden. Bei nicht erfolgreicher 
-Ausführung sollten noch einmal die Einstellungen auf dem Pi überprüft werden. Dazu kann die Webseite 
-[CrowPi goes Java](https://fhnw-ip5-ip6.github.io/CrowPiGoesJavaTutorial/de/setup/raspberry/) zu Hilfe genommen werden.
+## RaspiFX Template
+Wie man das Template benützt, ist im ReadMe des [RaspiFX-Templates](https://github.com/DieterHolz/RaspPiFX-Template-Project)
+beschrieben. Das Template beinhaltet 3 verschiedene Applikationen, die MultiControllerApp, die TemplateApp und die
+TemplatePUIApp. Für das Tutorial verwenden wir das Template Physical User Interface (PUI).
+
+# Aufgabe
+
+## Programmierung
+Versuche, diese App auf dem Raspberry PI zum Laufen zu bringen.
+Die Aufgabe ist erfüllt, wenn per Knopfdruck die LED ein- und ausgeschaltet werden kann.
+
+## Check Programmierung
+Überprüfe die Programmierung mit dem *Check* Button unten links. Ist der Test
+erfolgreich, kannst du mit der Vorbereitung der Hardware beginnen. Ist der Test nicht
+erfolgreich, versuche den Fehler zu beheben. Nutze dazu allfällige Hints oder schau in
+der Lösung nach.
+
+## Aufbau
+![Layout](./Layout.png)
+![Breadboard](./Breadboard.png)
+
+## Remote Ausführung
+Die Applikation ist nun bereit, um auf dem Pi ausgeführt zu werden. Dazu ist eine
+Running-Config *Setup-Ausführung* hinterlegt.
