@@ -1,3 +1,4 @@
+# Task 7/9: Implementation LED
 In dieser Aufgabe geht es darum eine LED anzusteuern. Dazu wird die Klasse [SimpleLed](https://pi4j.com/examples/components/simpleled/)
 aus dem Hardwarekatalog verwendet.
 
@@ -28,7 +29,7 @@ aus dem Hardwarekatalog verwendet.
 ---
 
 <div class="hint">
-Eine Beispielanwendung ist bei der Komponente <a href="https://pi4j.com/examples/components/simpleled/">Simple LED</a>
+Eine Beispielanwendung ist bei der Komponente <a href="https://pi4j.com/examples/components/simpleled/">SimpleLed</a>
 auf der Pi4J Webseite programmiert.
 </div>
 

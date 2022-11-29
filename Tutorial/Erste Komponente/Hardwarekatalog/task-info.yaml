@@ -1,4 +1,4 @@
 type: theory
 files:
-- name: src/Main.java
+- name: src/Task.java
   visible: true
