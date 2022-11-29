@@ -1,0 +1,20 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Einführung-PI4J-Standardcontext" type="Run as an Embedded Java application" factoryName="Run as an Embedded Java application">
+    <option name="classesDirectory" />
+    <option name="hostname" value="crowpi.local" />
+    <option name="keyPath" value="" />
+    <option name="password" value="Crowpi" />
+    <option name="port" value="5005" />
+    <option name="programArguments" value="" />
+    <option name="runAsRoot" value="true" />
+    <option name="sshPort" value="22" />
+    <option name="username" value="pi" />
+    <option name="usingKey" value="false" />
+    <option name="vmParameters" value="" />
+    <option name="moduleName" value="pi4j-programming-tutorial.Tutorial-Einführung-PI4J-Shutdownimplementation.main" />
+    <option name="mainclass" value="Main" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

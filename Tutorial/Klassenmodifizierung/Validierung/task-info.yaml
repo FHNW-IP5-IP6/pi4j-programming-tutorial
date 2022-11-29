@@ -1,0 +1,15 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: Ich kenne den Umgang mit Klassen und Strukturen in Java.
+  is_correct: true
+- text: Ich kann bestehende Klassen modifizieren.
+  is_correct: true
+- text: Ich kann bestehende Klassen in einer neuen Klasse wiederverwenden.
+  is_correct: true
+files:
+- name: src/Main.java
+  visible: true
+- name: ProjektbaumValidierung.png
+  visible: false
+local_check: true
