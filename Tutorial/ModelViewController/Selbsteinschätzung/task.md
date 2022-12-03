@@ -13,7 +13,7 @@ Model observieren.
 Nein, die View beinhaltet die Komponenten.
 </div>
 <div class="hint">
-Nein, der Kontroller verändert das Model, und die View wird benachrichtigt vom Model.
+Nein, der Kontroller verändert das Model. Die View wird benachrichtigt vom Model.
 </div>
 <div class="hint">
 Ja, das ist der normale Ablauf.

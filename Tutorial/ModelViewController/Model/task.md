@@ -1,6 +1,6 @@
 # Task 6/8: Model
-In dieser Aufgabe geht es darum, das Model in einer ModelViewController-App zu schreiben.
-Neu soll statt einer LED und einem Button direkt ein LEDButton verwendet werden.
+In dieser Aufgabe geht es darum, das Model in der ModelViewController-App zu schreiben.
+Neu soll statt einer LED und einem Button direkt ein LedButton verwendet werden.
 
 ---
 > **_Hinweis:_**
@@ -10,17 +10,20 @@ Neu soll statt einer LED und einem Button direkt ein LEDButton verwendet werden.
 ---
 
 ## Aufgabe
-Erstelle eine neue Variable "message" vom Typ String im Model.
+Erstelle eine neue Variable *message* vom Typ String im Model.
 Erweitere den Kontroller so, dass die Message im Model gespeichert wird.
-Korrigiere die View. Die Message soll weiterhin ausgegeben werden, doch neu direkt über die Variable.
+Die View muss entsprechend angepasst werden. Die Message soll weiterhin ausgegeben werden, doch neu direkt über die Variable.
 
 ### Programmierung
-- Erstelle ein Observable vom Typ String mit dem Namen "message".
-- Deklariere den LedButton.
-- Initialisiere den LedButton.
-- Implementiere den Shutdown.
-- Verbinde die Komponenteninteraktionen mit dem Kontroller.
-- Auf das Drücken des Buttons: Aktualisiere das Model mit der neuen Message.
+- Im Model:
+  - Erstelle ein Observable vom Typ String mit dem Namen "message".
+- In der View:
+  - Deklariere den LedButton.
+  - Initialisiere den LedButton.
+  - Implementiere den Shutdown.
+  - Verbinde die Komponenteninteraktionen mit dem Kontroller.
+- Kontroller
+  - Auf das Drücken des Buttons: Aktualisiere das Model mit der neuen Message.
 - Gib den String der Message des Models aus, sobald sich dieser ändert.
 - Setze den Zustand der LED um, sobald sich das Model ändert.
 

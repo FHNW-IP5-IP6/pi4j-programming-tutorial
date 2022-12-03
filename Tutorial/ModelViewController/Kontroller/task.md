@@ -1,6 +1,6 @@
 # Task 5/8: Kontroller
-In dieser Aufgabe geht es darum, den Kontroller in einer ModelViewController-App zu schreiben.
-Auch soll die View noch zusätzlich mit einer SimpleLED erweitert werden.
+In dieser Aufgabe geht es darum, den Kontroller in der ModelViewController-App zu schreiben und die 
+View mit einer LED zu erweitern.
 
 ---
 > **_Hinweis:_**
@@ -15,7 +15,7 @@ Vervollständige die View. Erweitere den Kontroller so, dass die LED ein und aus
 ### Programmierung
 - Deklariere die SimpleLed.
 - Initialisiere die SimpleLed.
-- Registriere auf das Event *onUp* des Buttons die Funktion *ledOff* des Konstruktors.
+- Registriere auf das Event *onUp* des Buttons die Funktion *ledOff* des Kontrollers.
 - Auf das Drücken des Buttons: Aktualisiere das Model, dass die LED leuchten soll.
 - Auf das Beenden des Drückens des Buttons: Aktualisiere das Model, dass die LED nicht mehr leuchten soll.
 - Setze einen Listener auf das Model, dass die LED steuert.

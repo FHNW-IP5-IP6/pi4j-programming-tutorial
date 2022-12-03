@@ -14,7 +14,7 @@ files:
   - offset: 1134
     length: 32
     placeholder_text: /* TODO Registriere auf das Event onUp des Buttons die Funktion
-      ledOff des Konstruktors */
+      ledOff des Kontrollers */
   - offset: 1602
     length: 85
     placeholder_text: /* TODO Setze einen Listener auf das Model, dass die LED steuert

@@ -5,7 +5,7 @@ options:
   is_correct: true
 - text: Ich kenne die verschiedenen Layer und weiss, welche Funktionen diese übernehmen.
   is_correct: false
-- text: Ich kann eine bestehende Applikation von MVC mit eigenen Komponenten erweitern
+- text: Ich kann eine bestehende MVC Applikation mit eigenen Komponenten erweitern
   is_correct: true
 files:
 - name: src/Main.java

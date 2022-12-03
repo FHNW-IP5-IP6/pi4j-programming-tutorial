@@ -4,7 +4,7 @@ files:
   visible: false
 - name: Layout.png
   visible: false
-- name: RunningConfig.png
-  visible: false
 - name: test/Tests.java
   visible: false
+- name: RunningConfig.png
+  visible: true
