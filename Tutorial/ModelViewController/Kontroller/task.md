@@ -10,22 +10,25 @@ View mit einer LED zu erweitern.
 ---
 
 ## Aufgabe
-Vervollständige die View. Erweitere den Kontroller so, dass die LED ein und ausgeschaltet wird.
+Die View und der Kontroller sollen implementiert werden.
 
 ### Programmierung
-- Deklariere die SimpleLed.
-- Initialisiere die SimpleLed.
-- Registriere auf das Event *onUp* des Buttons die Funktion *ledOff* des Kontrollers.
-- Auf das Drücken des Buttons: Aktualisiere das Model, dass die LED leuchten soll.
-- Auf das Beenden des Drückens des Buttons: Aktualisiere das Model, dass die LED nicht mehr leuchten soll.
-- Setze einen Listener auf das Model, dass die LED steuert.
+*View*
+- Deklaration von SimpleLed.
+- Initialisation von SimpleLed.
+- Registration des Event *onUp* des Buttons auf die Funktion *ledOff* des Kontrollers.
+- Ein Listener auf die variable *LedGlows* des Models soll die LED steuern.
+
+*Kontroller*
+- Auf das Drücken des Buttons: die LED soll leuchten nach update des Models.
+- Auf das Beenden des Drückens des Buttons: die LED soll nicht mehr leuchten nach update des Models.
 
 ---
 > **_Hinweise:_**
 > Die Aufgabe erfordert Änderungen in der View und dem Kontroller.
 > 
-> Es existiert im Model neu die Variable "LedGlows". Sobald diese auf "True" gesetzt ist, soll auch die LED leuchten.
-> Wenn der Button nicht mehr gedrückt wird, soll die LED auch nicht mehr leuchten.
+> Es existiert im Model neu die Variable *LedGlows*. Sobald diese auf *True* gesetzt ist, soll auch die LED leuchten.
+> Wenn der Button nicht mehr gedrückt wird, soll die LED nicht mehr leuchten.
 ---
 
 ### Check Programmierung
@@ -35,7 +38,8 @@ allfällige Hints oder ein Blick in die Lösung helfen.
 
 ### Aufbau
 Als Nächstes müssen die LED und der Button mit dem Raspberry Pi richtig verbunden werden. Das elektrische Layout von
-[*LedButton*](https://pi4j.com/examples/components/ledbutton/) zeigt eine mögliche Lösung.
+[*SimpleButton*](https://pi4j.com/examples/components/simplebutton/) und [*SimpleLed*](https://pi4j.com/examples/components/simpleled/) 
+zeigen eine mögliche Lösung.
 
 ### Remote Ausführung
 Die Applikation ist nun bereit, um auf dem Pi ausgeführt zu werden. Dazu ist eine

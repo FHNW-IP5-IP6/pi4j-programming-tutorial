@@ -10,22 +10,21 @@ Neu soll statt einer LED und einem Button direkt ein LedButton verwendet werden.
 ---
 
 ## Aufgabe
-Erstelle eine neue Variable *message* vom Typ String im Model.
-Erweitere den Kontroller so, dass die Message im Model gespeichert wird.
-Die View muss entsprechend angepasst werden. Die Message soll weiterhin ausgegeben werden, doch neu direkt über die Variable.
+Alle Komponenten des MVC-Pattern sollen implementiert werden. Dies beinhaltet Änderungen an der View, dem Model und dem 
+Kontroller.
 
 ### Programmierung
 - Im Model:
-  - Erstelle ein Observable vom Typ String mit dem Namen "message".
+  - Ein Observable vom Typ String mit dem Namen *message* soll erstellt werden.
 - In der View:
-  - Deklariere den LedButton.
-  - Initialisiere den LedButton.
-  - Implementiere den Shutdown.
-  - Verbinde die Komponenteninteraktionen mit dem Kontroller.
+  - Deklaration von LedButton.
+  - Initialisation von LedButton.
+  - Implementation des Shutdown.
+  - Verbindung der Komponenten-Interaktion mit dem Kontroller.
+  - Per Aktualisierung des Models soll der neue String ausgegeben werden.
+  - Per Aktualisierung des Models soll die LED gesteuert werden.
 - Kontroller
-  - Auf das Drücken des Buttons: Aktualisiere das Model mit der neuen Message.
-- Gib den String der Message des Models aus, sobald sich dieser ändert.
-- Setze den Zustand der LED um, sobald sich das Model ändert.
+  - Auf das Drücken des Buttons: Ein neuer String soll in das Model gespeichert werden.
 
 ---
 > **_Hinweise:_**

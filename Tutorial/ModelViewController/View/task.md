@@ -9,22 +9,22 @@ In dieser Aufgabe geht es darum, die View in einer ModelViewController-App zu sc
 ---
 
 ## Aufgabe
-Vervollständige die View. Das Model und der Kontroller sind absichtlich ausgeblendet.
+Die View soll vervollständigt werden. Das Model und der Kontroller sind absichtlich ausgeblendet.
 
 ### Programmierung
-- Deklariere den SimpleButton.
-- Initialisiere den SimpleButton.
-- Implementiere den Shutdown.
-- Verbinde die Komponenteninteraktion mit dem Kontroller.
-- Gib den String "You pressed the button x times." auf der Konsole aus bei Model-Änderungen.
+- Deklaration von SimpleButton
+- Initialisation von SimpleButton.
+- Implementation den Shutdown.
+- Verbindung der Komponenten-Interaktion mit dem Kontroller.
+- Ausgabe des Strings "You pressed the button x times." auf der Konsole bei Model-Änderungen.
 
 ---
 > **_Hinweise:_**
 > Die Aufgabe kann nur in der Klasse View gelöst werden.
 > 
-> Der Kontroller besitzt die Funktion "pressButton()". Die Funktion vergrössert die Variable "counter" im Model.
+> Der Kontroller besitzt die Funktion *pressButton()*. Die Funktion vergrössert die Variable *counter* im Model.
 > 
-> Es gibt die Funktion onChangeOf(), welche einen Listener in der View registriert auf die spezifizierte Variable des Models.
+> Es gibt die Funktion *onChangeOf()*, welche einen Listener in der View registriert auf die spezifizierte Variable des Models.
 ---
 
 ### Check Programmierung
