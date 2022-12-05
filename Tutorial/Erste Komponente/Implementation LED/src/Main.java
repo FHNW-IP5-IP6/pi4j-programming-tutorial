@@ -37,7 +37,7 @@ public class Main {
         System.out.println("Application is running");
 
         // Create a new SimpleLED component
-        SimpleLED led = new SimpleLED(pi4j, PIN.PWM19);
+        SimpleLed led = new SimpleLed(pi4j, PIN.PWM19);
 
         // Turn on the LED to have a defined state
         led.on();

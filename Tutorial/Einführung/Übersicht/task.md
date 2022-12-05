@@ -14,7 +14,7 @@ Lektion weitergemacht werden.
 - Was ist ein *Hint*
 - Was ist eine *Run Configuration*
 
-[Sprung zur nächsten Lektion: Setup](course://Tutorial/Setup/Einführung/src/AppStarter.java)
+[Sprung zur nächsten Lektion: Setup](course://Tutorial/Setup/Einführung/src/Main.java)
 
 ## Zeitschätzung
 Diese Lektion wird rund 50 Minuten in Anspruch nehmen.

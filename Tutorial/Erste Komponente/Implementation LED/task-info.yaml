@@ -22,6 +22,8 @@ files:
   visible: false
 - name: src/PIN.java
   visible: false
+- name: src/SimpleLed.java
+  visible: true
 - name: src/ErsteKomponente-ImplementationLED.run.xml
   visible: false
 - name: src/SimpleLED.java

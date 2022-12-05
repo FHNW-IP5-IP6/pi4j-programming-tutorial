@@ -6,5 +6,9 @@ files:
   visible: false
 - name: test/Tests.java
   visible: false
-- name: RunningConfig.png
+- name: SetupAusfuehrungRunConfig.png
+  visible: false
+- name: Setup-Ausführung.run.xml
+  visible: false
+- name: src/Main.java
   visible: true
