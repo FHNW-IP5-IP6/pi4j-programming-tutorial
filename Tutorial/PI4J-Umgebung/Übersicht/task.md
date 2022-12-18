@@ -1,6 +1,6 @@
 # Task 1/10: Übersicht
 Diese Lektion führt in die PI4J Umgebung ein, was ein Context ist, wie man diesen richtig initialisiert, 
-was Provider sind und wie diese verwendet werden, und weshalb ein Context immer richtig heruntergefahren werden sollte.
+was Provider sind und wie diese verwendet werden und weshalb ein Context immer richtig heruntergefahren werden sollte.
 
 ## Lernziele
 - Ich weiss was ein PI4J Context ist.

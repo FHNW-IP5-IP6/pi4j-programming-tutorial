@@ -1,11 +1,10 @@
 # Task 2/10: Selbsteinschätzung
 
-## Aufgabe
-Kreuze alle richtigen Aussagen an.
-Pro Aussage gibt es einen Hinweis mit der Erklärung.
-Die Fragen beziehen sich auf den Sourcecode des angezeigten Main.java.
+Die Selbsteinschätzung dient dazu zu klären, ob bereits ausreichend Wissen zu den Themen der Lektion vorhanden ist,
+damit diese übersprungen werden kann.
 
-[Wenn du alles verstanden hast, kannst du diese Lektion überspringen.](course://Tutorial/Setup/Übersicht/src/Main.java) <!-- todo: richtige Lektion -->
+Wenn alle, unten aufgelisteten Multiple-Choice-Fragen, beim ersten Mal richtig beantwortet werden, kann diese Lektion
+mit dem Link übersprungen werden. Bei Unklarheiten sind die korrekten Lösungen als *Hint* hinterlegt.
 
 <div class="hint">
 Ja, piGpio initialisiert den Provider.
@@ -22,3 +21,7 @@ Ja.
 <div class="hint">
 Nein, das Löschen und das Ausschalten geben die Ressourcen frei.
 </div>
+
+
+[Wenn alles verstanden wurde, kann diese Lektion übersprungen werden](course://Tutorial/Einführung-PI4J/ModelViewController/src/Main.java)
+ansonsten kann die Lektion mit dem Button *Next* gestartet werden.

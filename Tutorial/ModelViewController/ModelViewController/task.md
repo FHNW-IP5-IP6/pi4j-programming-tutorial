@@ -4,7 +4,7 @@
 Hier die [Theorie](https://pi4j.com/getting-started/javafx-mvc-template/#the-mvc-concept) zum MVC-Pattern.
 
 ## Aufgaben der MVC-Komponenten
-Das MVC Pattern unterteilt das Programm in die drei Teile Model, View und Controller.
+Das MVC Pattern unterteilt das Programm in die drei Teile: Model, View und Controller.
 
 Im Model werden die Daten der Applikation gespeichert.
 

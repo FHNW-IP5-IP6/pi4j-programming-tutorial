@@ -34,11 +34,11 @@ files:
   - offset: 767
     length: 23
     placeholder_text: /* TODO Implementiere den Shutdown */
-  - offset: 971
+  - offset: 1422
     length: 39
     placeholder_text: /* TODO Verbinde die Komponenteninteraktionen mit dem Kontroller
       */
-  - offset: 1184
+  - offset: 1635
     length: 252
     placeholder_text: /* TODO Gib den String "You pressed the button x times." auf
       der Konsole aus bei Model-Änderungen. */
