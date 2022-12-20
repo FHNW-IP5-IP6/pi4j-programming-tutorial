@@ -1,0 +1,17 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: Dieses Schema wird funktionieren.
+  is_correct: false
+- text: Die Grüne LED kann nie gesteuert werden.
+  is_correct: true
+- text: Die Buttons und LED's sind eigentlich zusammen eine Komponente, und nicht so aufgeteilt.
+  is_correct: true
+- text: Die LED's brauchen alle einen gleich grossen Widerstand.
+  is_correct: false
+files:
+- name: src/Main.java
+  visible: true
+- name: SimonSays_Schema.png
+  visible: false
+local_check: true
