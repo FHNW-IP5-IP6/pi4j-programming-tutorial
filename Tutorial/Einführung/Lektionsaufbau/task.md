@@ -6,7 +6,6 @@ Der Leitfaden ist in die unten aufgelisteten Lektionen unterteilt:
 3. Erste Komponente
 4. Klassenmodifizierung
 5. Einführung in die Pi4J Umgebung
-6. Einführung in die Launcher Applikation
 7. Einführung in das MVC-Pattern
 8. Erstellen einer eigenen Applikation
 
