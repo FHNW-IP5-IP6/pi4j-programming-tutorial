@@ -34,3 +34,7 @@ files:
   visible: false
 - name: test/com/pi4j/catalog/components/LedButtonTest.java
   visible: false
+- name: src/EigenesProjekt-Komponenten.run.xml
+  visible: true
+- name: src/module-info.java
+  visible: false

@@ -18,6 +18,9 @@ public class PUI extends PuiBase<Model, Controller> {
 
     @Override
     public void initializeParts() {
+
+        this.ledButtons = new LedButton[4];
+
         ledButtons[0] = new LedButton(pi4J, PIN.D26, false, PIN.D21);
         ledButtons[1] = new LedButton(pi4J, PIN.PWM19, false, PIN.D20);
         ledButtons[2] = new LedButton(pi4J, PIN.PWM13, false, PIN.D16);
@@ -44,8 +47,8 @@ public class PUI extends PuiBase<Model, Controller> {
     public void setupModelToUiBindings(Model model) {
         onChangeOf(model.glowingLED).execute(((oldValue, newValue) -> {
             if(newValue >= 4){
-                for (var ledbutton : ledButtons) {
-                    ledbutton.ledOff();
+                for (var ledButton : ledButtons) {
+                    ledButton.ledOff();
                 }
             }else{
                 ledButtons[newValue].ledOn();

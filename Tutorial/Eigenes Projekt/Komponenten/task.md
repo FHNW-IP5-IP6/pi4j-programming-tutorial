@@ -10,20 +10,11 @@ Tasks sind abhängig vom hier geschriebenen Code.
 ---
 
 ## Aufgabe
-desc
+In diesem Task soll die View initialisiert werden. Dazu muss selbst 
 
 ### Programmierung
-- Im Model:
-  - Ein Observable vom Typ String mit dem Namen *message* soll erstellt werden.
-- In der View:
-  - Deklaration von LedButton.
-  - Initialisation von LedButton.
-  - Implementation des Shutdown.
-  - Verbindung der Komponenten-Interaktion mit dem Kontroller.
-  - Per Aktualisierung des Models soll der neue String ausgegeben werden.
-  - Per Aktualisierung des Models soll die LED gesteuert werden.
-- Kontroller
-  - Auf das Drücken des Buttons: Ein neuer String soll in das Model gespeichert werden.
+- Deklaration von Komponenten
+- Initialisation von Komponenten
 
 ---
 > **_Hinweise:_**

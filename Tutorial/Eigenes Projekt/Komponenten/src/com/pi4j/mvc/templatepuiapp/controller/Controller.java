@@ -16,8 +16,10 @@ public class Controller extends ControllerBase<Model> {
     public void shuffle() {
         //Shuffling the List with the indices of the buttons
         setValue(model.message, "Simon is shuffling. please wait with pressing the buttons until all LED's are on.");
+        setValue(model.glowingLED, 4);
         var givenList = get(model.currentSeries);
         Collections.shuffle(givenList);
+        sleep(2000);
 
         //over the model.glowingLED, we display the button with the index i
         for (int i = 0; i < givenList.size(); i++) {
@@ -34,26 +36,32 @@ public class Controller extends ControllerBase<Model> {
 
     public void checkSeries(Integer index) {
         if(get(model.currentIndex) == 3 && get(model.currentSeries).get(get(model.currentIndex)) == index){
-            setValue(model.message, "You win. You got the sequence right. Please wait 5 seconds for the next.");
-            sleep(5000);
-            shuffle();
+            setValue(model.glowingLED, index);
+            setValue(model.message, "You win. You got the sequence right.");
+            newGame();
         } else if (get(model.currentSeries).get(get(model.currentIndex)) == index) {
             setValue(model.glowingLED, index);
-            setValue(model.message, "This is the right one. Keep going.");
+            setValue(model.message, "This is the right one. Keep going. you have " +(get(model.currentIndex)+1) + " of 4");
             // for the next run, check the next index
             increase(model.currentIndex);
         } else if (get(model.currentSeries).get(get(model.currentIndex)) != index) {
             setValue(model.glowingLED, 4);
-            setValue(model.message, "You picked the wrong one. You had "+index+" of 4 right.");
-            shuffle();
+            setValue(model.message, "You picked the wrong one. You had "+get(model.currentIndex)+" of 4 right.");
+            newGame();
         }else {
             setValue(model.message, "An Error occured.");
-            shuffle();
+            newGame();
         }
     }
 
     protected void terminate() {
         System.exit(0);
+    }
+
+    private void newGame(){
+        setValue(model.message, "Please wait 5 seconds for the next game.");
+        sleep(5000);
+        shuffle();
     }
 
     private void sleep(int millis){
