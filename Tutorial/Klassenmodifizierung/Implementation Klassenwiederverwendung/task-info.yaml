@@ -15,19 +15,26 @@ files:
   placeholders:
   - offset: 329
     length: 71
-    placeholder_text: /* TODO Deklariere zwei Objekte led und button mit SimpleLed und SimpleButton */
+    placeholder_text: /* TODO Deklariere zwei Objekte led und button mit SimpleLed
+      und SimpleButton */
   - offset: 687
     length: 127
     placeholder_text: /* TODO Initialisiere die beiden Objekte */
   - offset: 826
     length: 363
-    placeholder_text: /* TODO Schreibe die Methoden zum Led Teil von LedButton, benutze dazu die Methoden vom Objekt led */
+    placeholder_text: /* TODO Schreibe die Methoden zum Led Teil von LedButton, benutze
+      dazu die Methoden vom Objekt led */
   - offset: 1195
     length: 814
-    placeholder_text: /* TODO Schreibe die Methoden zum Button Teil von LedButton, benutze dazu die Methoden vom Objekt button */
-- name: src/KomponenteErstellen-ImplementationWiederverwendung.run.xml
-  visible: false
+    placeholder_text: /* TODO Schreibe die Methoden zum Button Teil von LedButton,
+      benutze dazu die Methoden vom Objekt button */
 - name: test/LEDButtonTest.java
   visible: false
 - name: test/ComponentTest.java
   visible: false
+- name: src/Klassenmodifizierung-ImplementationWiederverwendung.run.xml
+  visible: false
+- name: src/LedButton.java
+  visible: true
+- name: src/SimpleLed.java
+  visible: true

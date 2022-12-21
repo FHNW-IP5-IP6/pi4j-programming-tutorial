@@ -2,6 +2,16 @@ type: edu
 files:
 - name: src/Main.java
   visible: true
+  placeholders:
+  - offset: 1553
+    length: 50
+    placeholder_text: /* TODO initialize a new switch*/
+  - offset: 1667
+    length: 120
+    placeholder_text: /* TODO register an event on the functions of the switch */
+  - offset: 1910
+    length: 24
+    placeholder_text: /* TODO deregister all functions from the switch */
 - name: src/Switch.java
   visible: true
   placeholders:
@@ -18,5 +28,5 @@ files:
   visible: false
 - name: test/ComponentTest.java
   visible: false
-- name: src/KomponenteErstellen-ImplementationKlassenmodifizierung.run.xml
+- name: src/Klassenmodifizierung-ImplementationKlassenmodifizierung.run.xml
   visible: false
