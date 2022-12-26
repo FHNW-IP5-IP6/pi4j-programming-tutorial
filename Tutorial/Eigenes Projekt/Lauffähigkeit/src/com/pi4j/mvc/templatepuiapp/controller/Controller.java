@@ -6,9 +6,6 @@ import com.pi4j.mvc.util.mvcbase.ControllerBase;
 import java.util.Collections;
 
 public class Controller extends ControllerBase<Model> {
-
-    protected final int terminationCount = 10;
-
     public Controller(Model model) {
         super(model);
     }

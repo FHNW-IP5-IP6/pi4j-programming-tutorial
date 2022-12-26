@@ -1,4 +1,4 @@
-# Task 5/10: Komponenten
+# Task 8/10: Lauffähigkeit
 In dieser Aufgabe geht es darum, die Komponenten in die TemplatePUIApp zu integrieren. Die Musterlösung zielt auf die 
 beschriebene Musterlösung mit den 4 LedButtons. Es kann jedoch eine eigene Implementation verfolgt werden. Die nächsten 
 Tasks sind abhängig vom hier geschriebenen Code.

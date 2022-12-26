@@ -16,6 +16,11 @@ files:
   visible: true
 - name: src/com/pi4j/mvc/templatepuiapp/model/Model.java
   visible: true
+  placeholders:
+  - offset: 818
+    length: 367
+    placeholder_text: /* TODO define the variables you want to use. The Solution includes
+      the variables for one possible solution */
 - name: src/com/pi4j/mvc/templatepuiapp/controller/Controller.java
   visible: true
 - name: src/com/pi4j/mvc/templatepuiapp/AppStarter.java
@@ -24,17 +29,9 @@ files:
   visible: true
 - name: src/com/pi4j/catalog/components/Component.java
   visible: true
+- name: src/com/pi4j/catalog/components/LedButton.java
+  visible: true
 - name: src/com/pi4j/catalog/components/SimpleLed.java
   visible: true
 - name: src/com/pi4j/catalog/components/SimpleButton.java
   visible: true
-- name: src/com/pi4j/catalog/components/LedButton.java
-  visible: true
-- name: test/com/pi4j/catalog/components/ComponentTest.java
-  visible: false
-- name: test/com/pi4j/catalog/components/LedButtonTest.java
-  visible: false
-- name: src/EigenesProjekt-Komponenten.run.xml
-  visible: true
-- name: src/module-info.java
-  visible: false

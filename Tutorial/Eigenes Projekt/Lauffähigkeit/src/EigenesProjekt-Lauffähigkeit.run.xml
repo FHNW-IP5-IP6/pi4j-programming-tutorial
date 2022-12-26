@@ -1,7 +1,7 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="EigenesProjekt-Komponenten" type="Run as an Embedded Java application" factoryName="Run as an Embedded Java application">
+  <configuration default="false" name="EigenesProjekt-Lauffähigkeit" type="Run as an Embedded Java application" factoryName="Run as an Embedded Java application">
     <option name="classesDirectory" />
-    <option name="hostname" value="192.168.137.65" />
+    <option name="hostname" value="crowpi.local" />
     <option name="keyPath" value="" />
     <option name="password" value="crowpi" />
     <option name="port" value="5005" />
@@ -11,7 +11,7 @@
     <option name="username" value="pi" />
     <option name="usingKey" value="false" />
     <option name="vmParameters" value="" />
-    <option name="moduleName" value="pi4j-programming-tutorial.Tutorial-Eigenes_Projekt-Komponenten.main" />
+    <option name="moduleName" value="pi4j-programming-tutorial.Tutorial-Eigenes_Projekt-Lauffähigkeit.main" />
     <option name="mainclass" value="com.pi4j.mvc.templatepuiapp.AppStarter" />
     <method v="2">
       <option name="Make" enabled="true" />
