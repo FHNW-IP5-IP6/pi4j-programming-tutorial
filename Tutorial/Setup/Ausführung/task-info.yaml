@@ -4,8 +4,6 @@ files:
   visible: false
 - name: Layout.png
   visible: false
-- name: test/Tests.java
-  visible: false
 - name: SetupAusfuehrungRunConfig.png
   visible: false
 - name: Setup-Ausführung.run.xml
