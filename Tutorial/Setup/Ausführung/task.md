@@ -17,7 +17,12 @@ Folgende bekannte Probleme können auftreten:
 # Aufgabe
 
 ## Programmierung
-Versuche, diese App auf dem Raspberry PI zum Laufen zu bringen.
+Im Code auf der linken Seite wird zuerst der Pi4J Context erstellt. Danach wird auf der Konsole die beiden Strings:
+"Application is running" und "Application is done" ausgegeben bevor das Programm wieder endet.
+
+---
+> **_Hinweis:_** Der Code wird zu einem späteren Zeitpunkt genau erklärt und muss hier nicht verstanden werden.
+---
 
 ## Check Programmierung
 Überprüfe die Programmierung mit dem *Check* Button unten links.
@@ -25,3 +30,6 @@ Versuche, diese App auf dem Raspberry PI zum Laufen zu bringen.
 ## Remote Ausführung
 Die Applikation ist nun bereit, um auf dem Pi ausgeführt zu werden. Dazu ist eine
 Running-Config *Setup-Ausführung* hinterlegt.
+
+Konnte die Applikation erfolgreich auf dem Raspberry Pi ausgeführt werden kann mit dem Button *Next* zum nächsten Task
+gewechselt werden.
