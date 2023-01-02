@@ -1,4 +1,4 @@
-# Task 1/7
+# Task 1/8: Übersicht
 Diese Lektion gibt eine Einführung in das ModelViewController (MVC) Design-Pattern.
 
 ## Lernziele
