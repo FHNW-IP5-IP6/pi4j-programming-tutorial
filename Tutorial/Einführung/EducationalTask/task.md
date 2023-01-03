@@ -8,9 +8,15 @@ Code überprüfen.
 
 Nachdem ein Check durchgeführt wurde, kann mit Peak Solution (1) die Musterlösung betrachtet werden.
 
-![PeakSolution](./PeakSolution.png)
+<img src="PeakSolution.png" alt="PeakSolution" width="350"/>
+
 
 ## Aufgabe
-Gib den Text *Hello world, hello Leitfaden* auf der Konsole aus. Benutze dazu den String *text* und *System.out.println()*.
+Gib den Text *Hello world, hello Leitfaden* auf der Konsole aus.
+<div class="hint">
+  Benutze dazu den String *text* und *System.out.println()*.
+</div>
+
+
 
 Überprüfe mit *Check* den Code. Wenn dieser richtig funktioniert, kann mit *Next* zur nächsten Lektion navigiert werden.

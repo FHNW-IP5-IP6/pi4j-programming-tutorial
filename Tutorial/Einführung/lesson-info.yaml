@@ -6,6 +6,7 @@ content:
 - Lektionsaufbau
 - Theory Task
 - MultipleChoiceTask
+- BugMultipleChoiceTask
 - EducationalTask
 - Hint
 - RunConfiguration

@@ -7,3 +7,7 @@ Um mit **Next** zum nächsten Task zu wechseln, muss zuerst der Check erfolgreic
 Beantworte die folgende Frage richtig, um zum nächsten Task wechseln zu können:
 
 Was ist der Sinn des Lebens?
+
+<div class="hint">
+  Suche mit Google nach "Sinn des Lebens"
+</div>

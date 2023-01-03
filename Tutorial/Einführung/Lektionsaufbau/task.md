@@ -18,7 +18,7 @@ das Lösen der Lektion in etwa in Anspruch nimmt.
 
 **Selbsteinschätzung**
 
-Die Selbsteinschätzung ist Sammlung von Kontrollfragen über die Inhalte der Lektion. Können alle richtig beantwortet 
+Die Selbsteinschätzung ist eine Sammlung von Kontrollfragen über die Inhalte der Lektion. Können alle richtig beantwortet 
 werden, sind die Inhalte der Lektion bereits bekannt und die Lektion kann übersprungen werden.
 
 **Einleitung in die Thematik**
