@@ -20,26 +20,26 @@ files:
   - offset: 577
     length: 113
     placeholder_text: /* TODO declare the used hardware */
-  - offset: 1006
+  - offset: 1033
     length: 426
     placeholder_text: /* TODO initialize the used hardware */
-  - offset: 1570
+  - offset: 1597
     length: 110
     placeholder_text: /* TODO deregister the used hardware */
-  - offset: 1882
+  - offset: 1924
     length: 255
     placeholder_text: /* TODO bind the functions of the hardware to the functions
       of the controller */
-  - offset: 2310
+  - offset: 2362
     length: 395
-    placeholder_text: /* TODO listen to the changes of the model, and represent it
-      on the hardware */
+    placeholder_text: "/* TODO listen to the changes of the model, and represent it\
+      \ on the hardware */"
 - name: src/com/pi4j/mvc/templatepuiapp/model/Model.java
   visible: true
   placeholders:
   - offset: 172
     length: 646
-    placeholder_text: /* TODO the previously genereated model */
+    placeholder_text: /* TODO the model is edited in the previous Task Model */
     dependency:
       section: Tutorial
       lesson: Eigenes Projekt
@@ -50,9 +50,10 @@ files:
 - name: src/com/pi4j/mvc/templatepuiapp/controller/Controller.java
   visible: true
   placeholders:
-  - offset: 707
-    length: 2747
-    placeholder_text: /* TODO previously generated functions of the controller */
+  - offset: 402
+    length: 3052
+    placeholder_text: /* TODO the controller functions are edited in the previous
+      Task Controller */
     dependency:
       section: Tutorial
       lesson: Eigenes Projekt

@@ -21,8 +21,7 @@ files:
   placeholders:
   - offset: 172
     length: 646
-    placeholder_text: /* TODO the previously generated Model will show up here. If
-      the previous Task was not worked on, then nothing will show up here  */
+    placeholder_text: /* TODO the model is edited in the task Model */
     dependency:
       section: Tutorial
       lesson: Eigenes Projekt
@@ -35,7 +34,8 @@ files:
   placeholders:
   - offset: 1203
     length: 3052
-    placeholder_text: /* TODO create the functions of the controller, which will update
-      the model */
+    placeholder_text: |-
+      /* TODO create the functions of the controller, which will update
+            the model */
 - name: src/com/pi4j/mvc/templatepuiapp/AppStarter.java
   visible: true

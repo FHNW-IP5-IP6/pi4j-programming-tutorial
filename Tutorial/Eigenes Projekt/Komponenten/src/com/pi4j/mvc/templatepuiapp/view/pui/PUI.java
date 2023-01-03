@@ -21,8 +21,8 @@ public class PUI extends PuiBase<Model, Controller> {
     /**
      * Create a new PUI
      *
-     * @param controller
-     * @param pi4J
+     * @param controller the controller
+     * @param pi4J the context
      */
     public PUI(Controller controller, Context pi4J) {
         super(controller, pi4J);
@@ -57,7 +57,7 @@ public class PUI extends PuiBase<Model, Controller> {
     /**
      * binding the functions of the PUI to the controller.
      *
-     * @param controller
+     * @param controller the controller
      */
     @Override
     public void setupUiToActionBindings(Controller controller) {
@@ -70,7 +70,7 @@ public class PUI extends PuiBase<Model, Controller> {
     /**
      * listening to the changes of the model.
      *
-     * @param model
+     * @param model the model
      */
     @Override
     public void setupModelToUiBindings(Model model) {

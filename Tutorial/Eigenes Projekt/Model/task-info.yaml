@@ -19,9 +19,12 @@ files:
   placeholders:
   - offset: 818
     length: 646
-    placeholder_text: /* TODO define the variables you want to use. The Solution includes
-      the variables for one possible solution */
+    placeholder_text: |-
+      /* TODO define the variables you want to use. The Solution includes
+            the variables for one possible solution */
 - name: src/com/pi4j/mvc/templatepuiapp/controller/Controller.java
   visible: true
 - name: src/com/pi4j/mvc/templatepuiapp/AppStarter.java
   visible: true
+- name: test/Tests.java
+  visible: false
