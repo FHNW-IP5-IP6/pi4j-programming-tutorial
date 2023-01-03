@@ -15,7 +15,7 @@ public class Controller extends ControllerBase<Model> {
         //whenever the button is pressed, the model is updated
         increase(model.counter);
 
-        //what happens when we press the button?
+        //what happens when we press the button? we set a new value to the model
         setValue(model.ledGlows, true);
 
         //using 'runLater' assures that new value is set on model
@@ -27,7 +27,7 @@ public class Controller extends ControllerBase<Model> {
     }
 
     public void ledOff(){
-        //what happens, when we lift the button?
+        //what happens, when we lift the button? we set a new value to the model
         setValue(model.ledGlows, false);
     }
 

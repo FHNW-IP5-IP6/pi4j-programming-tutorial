@@ -20,7 +20,7 @@ public class View extends PuiBase<Model, Controller> {
 
     @Override
     public void initializeParts() {
-        //Which components are we using?
+        //Which components are we using? use the PINs D26 and PWM19
         ledButton = new LedButton(pi4J, PIN.D26, false, PIN.PWM19);
     }
 
@@ -28,6 +28,7 @@ public class View extends PuiBase<Model, Controller> {
     public void shutdown() {
         //what is there to do when we shut down the app?
         ledButton.btnDeRegisterAll();
+        ledButton.ledOff();
         super.shutdown();
     }
 

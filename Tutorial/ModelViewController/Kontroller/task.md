@@ -29,6 +29,8 @@ Die View und der Kontroller sollen implementiert werden.
 > 
 > Es existiert im Model neu die Variable *LedGlows*. Sobald diese auf *True* gesetzt ist, soll auch die LED leuchten.
 > Wenn der Button nicht mehr gedrückt wird, soll die LED nicht mehr leuchten.
+> 
+> Die Variablen des Models können mit *GetValue* und *SetValue* abgefragt oder verändert werden.
 ---
 
 ### Check Programmierung

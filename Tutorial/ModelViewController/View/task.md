@@ -9,7 +9,7 @@ In dieser Aufgabe geht es darum, die View in einer ModelViewController-App zu sc
 ---
 
 ## Aufgabe
-Die View soll vervollständigt werden. Das Model und der Kontroller sind absichtlich ausgeblendet.
+Die View soll vervollständigt werden. Das Model und der Kontroller sind in diesem Task noch absichtlich ausgeblendet.
 
 ### Programmierung
 - Deklaration von SimpleButton

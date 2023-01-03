@@ -18,7 +18,7 @@ public class View extends PuiBase<Model, Controller> {
 
     @Override
     public void initializeParts() {
-        //Which components are we using?
+        //Which components are we using? Use the PIN D26
         button = new SimpleButton(pi4J, PIN.D26, false);
     }
 
