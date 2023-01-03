@@ -5,7 +5,7 @@ Beispiel einem LCD-Display, einem LED-Streifen oder einem Servo-Motor diverse Hi
 zur Verfügung. Er ist ein Teil von [The Pi4J Project](https://github.com/Pi4J) und lässt sich grob in zwei Teile
 unterteilen.
 
-Der erste Teil ist das Repository [Java I/O Library for Raspberry Pi](https://github.com/Pi4J/pi4j-example-components)
+Der erste Teil ist das Repository [Java I/O Library for Raspberry Pi](https://github.com/Pi4J/pi4j-example-components),
 welches zu jedem Bauteil eine passende [Java Klasse](https://github.com/Pi4J/pi4j-example-components/tree/main/src/main/java/com/pi4j/catalog/components) zur Verfügung stellt.
 Zudem gibt es zu jeder Klasse ein [Beispiel](https://github.com/Pi4J/pi4j-example-components/tree/main/src/main/java/com/pi4j/catalog/applications) welches die Implementation der
 Klasse erklärt.

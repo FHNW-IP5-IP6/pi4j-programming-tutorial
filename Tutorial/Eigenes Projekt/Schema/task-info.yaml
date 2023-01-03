@@ -14,4 +14,3 @@ files:
   visible: true
 - name: SimonSays_Schema.png
   visible: false
-local_check: true
