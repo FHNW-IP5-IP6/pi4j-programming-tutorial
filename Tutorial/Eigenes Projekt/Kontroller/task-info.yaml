@@ -1,5 +1,26 @@
 type: edu
 files:
+- name: src/com/pi4j/mvc/templatepuiapp/controller/Controller.java
+  visible: true
+  placeholders:
+    - offset: 1203
+      length: 3052
+      placeholder_text: |-
+        /* TODO create the functions of the controller, which will update
+              the model */
+- name: src/com/pi4j/mvc/templatepuiapp/model/Model.java
+  visible: true
+  placeholders:
+  - offset: 172
+    length: 646
+    placeholder_text: /* TODO the model is edited in the task Model */
+    dependency:
+      section: Tutorial
+      lesson: Eigenes Projekt
+      task: Model
+      file: src/com/pi4j/mvc/templatepuiapp/model/Model.java
+      placeholder: 1
+      is_visible: false
 - name: test/Tests.java
   visible: false
 - name: src/com/pi4j/mvc/util/mvcbase/PuiBase.java
@@ -16,26 +37,5 @@ files:
   visible: true
 - name: src/com/pi4j/mvc/templatepuiapp/view/pui/PUI.java
   visible: true
-- name: src/com/pi4j/mvc/templatepuiapp/model/Model.java
-  visible: true
-  placeholders:
-  - offset: 172
-    length: 646
-    placeholder_text: /* TODO the model is edited in the task Model */
-    dependency:
-      section: Tutorial
-      lesson: Eigenes Projekt
-      task: Model
-      file: src/com/pi4j/mvc/templatepuiapp/model/Model.java
-      placeholder: 1
-      is_visible: false
-- name: src/com/pi4j/mvc/templatepuiapp/controller/Controller.java
-  visible: true
-  placeholders:
-  - offset: 1203
-    length: 3052
-    placeholder_text: |-
-      /* TODO create the functions of the controller, which will update
-            the model */
 - name: src/com/pi4j/mvc/templatepuiapp/AppStarter.java
   visible: true

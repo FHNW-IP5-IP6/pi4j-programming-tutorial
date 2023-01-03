@@ -1,5 +1,13 @@
 type: edu
 files:
+- name: src/com/pi4j/mvc/templatepuiapp/model/Model.java
+  visible: true
+  placeholders:
+  - offset: 818
+    length: 646
+    placeholder_text: |-
+      /* TODO define the variables you want to use. The Solution includes
+            the variables for one possible solution */
 - name: src/com/pi4j/mvc/util/mvcbase/PuiBase.java
   visible: false
 - name: src/com/pi4j/mvc/util/mvcbase/Projector.java
@@ -14,14 +22,6 @@ files:
   visible: true
 - name: src/com/pi4j/mvc/templatepuiapp/view/pui/PUI.java
   visible: true
-- name: src/com/pi4j/mvc/templatepuiapp/model/Model.java
-  visible: true
-  placeholders:
-  - offset: 818
-    length: 646
-    placeholder_text: |-
-      /* TODO define the variables you want to use. The Solution includes
-            the variables for one possible solution */
 - name: src/com/pi4j/mvc/templatepuiapp/controller/Controller.java
   visible: true
 - name: src/com/pi4j/mvc/templatepuiapp/AppStarter.java

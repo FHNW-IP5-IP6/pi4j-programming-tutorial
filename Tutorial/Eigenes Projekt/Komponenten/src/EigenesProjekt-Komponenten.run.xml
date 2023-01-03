@@ -1,7 +1,7 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="EigenesProjekt-Komponenten" type="Run as an Embedded Java application" factoryName="Run as an Embedded Java application">
     <option name="classesDirectory" />
-    <option name="hostname" value="192.168.137.65" />
+    <option name="hostname" value="crowpi.local" />
     <option name="keyPath" value="" />
     <option name="password" value="crowpi" />
     <option name="port" value="5005" />
