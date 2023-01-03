@@ -17,7 +17,8 @@ files:
       "ledOff" of the controller */
   - offset: 1602
     length: 85
-    placeholder_text: /* TODO create a listener on the "ledGlows" of the model, and toggle the led */
+    placeholder_text: "/* TODO create a listener on the \"ledGlows\" of the model,\
+      \ and toggle the led */"
 - name: src/view/components/helpers/PIN.java
   visible: false
 - name: src/view/components/Component.java
