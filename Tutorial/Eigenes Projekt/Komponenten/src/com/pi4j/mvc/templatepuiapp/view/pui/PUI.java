@@ -50,6 +50,7 @@ public class PUI extends PuiBase<Model, Controller> {
     public void shutdown() {
         for (var ledButton:ledButtons) {
             ledButton.btnDeRegisterAll();
+            ledButton.ledOff();
         }
         super.shutdown();
     }

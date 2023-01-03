@@ -15,6 +15,7 @@ public class Controller extends ControllerBase<Model> {
         super(model);
     }
 
+    /**/
     /**
      * shuffles the list with the order of SimonSays, and stores it in the model. When the order is defined, it lets the
      * model.glowingLED light up in the correct order, and when all are lighted up, resets them, so the game can be started.

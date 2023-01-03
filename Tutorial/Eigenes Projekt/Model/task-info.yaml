@@ -26,5 +26,9 @@ files:
   visible: true
 - name: src/com/pi4j/mvc/templatepuiapp/AppStarter.java
   visible: true
-- name: test/Tests.java
+- name: test/com/pi4j/mvc/templatepuiapp/view/pui/PUITest.java
+  visible: false
+- name: test/com/pi4j/mvc/templatepuiapp/model/ModelTest.java
+  visible: false
+- name: test/com/pi4j/mvc/templatepuiapp/controller/ControllerTest.java
   visible: false

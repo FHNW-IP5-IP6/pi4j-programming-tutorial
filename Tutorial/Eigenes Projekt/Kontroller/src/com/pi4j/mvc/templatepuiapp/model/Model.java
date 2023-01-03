@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Model {
+    /**/
     /**
      * Variable to reset or light up the LEDs
      */
