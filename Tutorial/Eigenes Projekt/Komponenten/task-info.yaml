@@ -2,51 +2,10 @@ type: edu
 files:
 - name: src/com/pi4j/mvc/templatepuiapp/view/pui/PUI.java
   visible: true
-  placeholders:
-  - offset: 577
-    length: 113
-    placeholder_text: /* TODO declare the used hardware */
-  - offset: 1033
-    length: 426
-    placeholder_text: /* TODO initialize the used hardware */
-  - offset: 1597
-    length: 110
-    placeholder_text: /* TODO deregister the used hardware */
-  - offset: 1924
-    length: 255
-    placeholder_text: /* TODO bind the functions of the hardware to the functions
-      of the controller */
-  - offset: 2362
-    length: 395
-    placeholder_text: "/* TODO listen to the changes of the model, and represent it\
-      \ on the hardware */"
 - name: src/com/pi4j/mvc/templatepuiapp/model/Model.java
   visible: true
-  placeholders:
-  - offset: 172
-    length: 646
-    placeholder_text: /* TODO the model is edited in the previous Task Model */
-    dependency:
-      section: Tutorial
-      lesson: Eigenes Projekt
-      task: Model
-      file: src/com/pi4j/mvc/templatepuiapp/model/Model.java
-      placeholder: 1
-      is_visible: false
 - name: src/com/pi4j/mvc/templatepuiapp/controller/Controller.java
   visible: true
-  placeholders:
-  - offset: 402
-    length: 3052
-    placeholder_text: /* TODO the controller functions are edited in the previous
-      Task Controller */
-    dependency:
-      section: Tutorial
-      lesson: Eigenes Projekt
-      task: Kontroller
-      file: src/com/pi4j/mvc/templatepuiapp/controller/Controller.java
-      placeholder: 1
-      is_visible: false
 - name: test/Tests.java
   visible: false
 - name: src/com/pi4j/mvc/util/mvcbase/PuiBase.java
@@ -76,8 +35,6 @@ files:
 - name: src/module-info.java
   visible: false
 - name: src/EigenesProjekt-Komponenten.run.xml
-  visible: false
-- name: src/SimonSays.fzz
   visible: false
 - name: src/SimonSays_Schema.png
   visible: false
