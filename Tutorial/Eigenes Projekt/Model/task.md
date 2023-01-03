@@ -1,4 +1,4 @@
-# Task 5/10: Model
+# Task 5/9: Model
 In dieser Aufgabe geht es darum, das Model in der eigenen Applikation zu schreiben. Das Model beinhaltet die Variablen, 
 die verändert werden und dargestellt werden müssen. Deshalb ist es notwendig, dass zuerst die Funktionalität gut durchdacht 
 wird, und aufgrund dessen ein Ansatz für eine mögliche Solution herausgearbeitet wird.

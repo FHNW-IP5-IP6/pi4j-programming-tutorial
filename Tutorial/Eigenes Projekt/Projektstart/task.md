@@ -1,4 +1,4 @@
-# Task 3/10: Projektstart
+# Task 3/9: Projektstart
 
 ## Simon Says
 Simon Says ist ein Memory-Spiel. Es gibt 2 Spieler, Simon und der Anwender. Simon gibt eine Sequenz vor, beispielsweise 

@@ -1,0 +1,15 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: Ich kenne das TemplatePUIApp und die Struktur, wie Ich eine App aufbaue.
+  is_correct: true
+- text: Ich weiss, wie Ich Komponenten hinzufüge.
+  is_correct: true
+- text: Ich weiss, dass die Applikation auf dem MVC-Pattern basiert.
+  is_correct: true
+- text: Ich kann selbstständig ein Layout aufbauen für die Hardware.
+  is_correct: true
+files:
+- name: src/Main.java
+  visible: true
+local_check: true
