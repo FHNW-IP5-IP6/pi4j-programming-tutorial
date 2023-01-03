@@ -1,4 +1,4 @@
-# Task 2/9: Benutzeroberfläche
+# Task 2/10: Benutzeroberfläche
 Die Grundeinstellung des Leitfadens sieht wie folgt aus:
 
 ![Benutzeroberflaeche](./Benutzeroberflaeche.png)

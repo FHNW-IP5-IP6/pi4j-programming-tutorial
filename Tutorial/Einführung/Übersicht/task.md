@@ -1,4 +1,4 @@
-# Task 1/9: Übersicht
+# Task 1/10: Übersicht
 In dieser Lektion sollen die Funktion und die Bedienung des *Leitfadens* erklärt werden. Dazu sind folgende Themen beschrieben:
 
 ## Lernziele

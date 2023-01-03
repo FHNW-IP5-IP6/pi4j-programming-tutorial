@@ -1,4 +1,4 @@
-# Task 7/9: EducationalTask
+# Task 8/10: EducationalTask
 Der **Educational Task** ist ein Task, um Programmieraufgaben zu lösen. Jeder Task hat ein Main.java File mit unterschiedlichen
 Aufgaben. Mit Platzhaltern ist ersichtlich, welche Aufgabe an welcher Stelle im Code gelöst werden muss.
 Im Aufgabenfenster sind alle wichtigen Informationen zu den Aufgaben vorhanden.

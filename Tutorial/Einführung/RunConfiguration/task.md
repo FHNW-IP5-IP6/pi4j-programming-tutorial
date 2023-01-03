@@ -1,4 +1,4 @@
-# Task 9/9: RunConfiguration
+# Task 10/10: RunConfiguration
 Die RunConfiguration ist eine Zusammenstellung von verschiedenen Befehlen, um eine ausgewählte Applikation auszuführen.
 
 Im Fall des Leitfadens wird die RunConfiguration benutzt, um die Applikation zu übersetzen, auf dem Raspberry Pi
