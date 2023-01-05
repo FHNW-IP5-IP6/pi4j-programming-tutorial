@@ -8,7 +8,7 @@ In diesem Task wurde eine Running-Config hinterlegt. Diese kann wie hier im Bild
 
 <img src="SetupAusfuehrungRunConfig.png" alt="Run Configuration" width="400"/>
 
-Mit der richtigen ausgewählten Running-Config, wie auf dem Bild gezeigt, kann das Programm gestartet werden.
+Mit der richtigen ausgewählten Running-Config, kann das Programm gestartet werden.
 Die Applikation wird auf das Raspberry Pi geladen und automatisch ausgeführt.
 Folgende bekannte Probleme können auftreten:
 - Benutzername und Passwort des Raspberry Pi stimmen nicht mit der Running-Config überein -> PW auf Pi oder in Running-Config anpassen.

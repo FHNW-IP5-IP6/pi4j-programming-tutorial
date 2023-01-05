@@ -1,10 +1,12 @@
 content:
+- Begrüssung
 - Übersicht
 - Benutzeroberfläche
 - Navigation
 - Lektionsaufbau
 - Theory Task
 - MultipleChoiceTask
+- BugMultipleChoiceTask
 - EducationalTask
 - Hint
 - RunConfiguration
