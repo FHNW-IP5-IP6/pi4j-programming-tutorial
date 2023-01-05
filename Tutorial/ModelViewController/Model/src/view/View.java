@@ -10,7 +10,7 @@ import view.components.SimpleLed;
 import view.components.helpers.PIN;
 
 public class View extends PuiBase<Model, Controller> {
-    //declare all hardware components attached to RaspPi
+    //declare all hardware components attached to Pi
     //these are protected to give unit tests access to them
     protected LedButton ledButton;
 
@@ -34,14 +34,14 @@ public class View extends PuiBase<Model, Controller> {
 
     @Override
     public void setupUiToActionBindings(Controller controller) {
-        //what happens, when we interact with the hardware?
+        //which methods of the controller must be called on a hardware event
         ledButton.btnOnDown(controller::pressButton);
         ledButton.btnOnUp(controller::ledOff);
     }
 
     @Override
     public void setupModelToUiBindings(Model model) {
-        //what happens, when the model registered that we interacted with the components?
+        //which event should be triggered when the model changes
         onChangeOf(model.message).execute((oldValue, newValue) -> System.out.println(newValue));
 
         onChangeOf(model.ledGlows).execute(((oldValue, newValue) -> ledButton.ledSetState(newValue)));

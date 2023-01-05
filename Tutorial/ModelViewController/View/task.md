@@ -1,15 +1,13 @@
 # Task 4/8: View
 In dieser Aufgabe geht es darum, die View in einer ModelViewController-App zu schreiben.
-
----
 > **_Hinweis:_**
->
+> 
 > Die Klasse *SimpleButton* wurde bereits aus dem Hardwarekatalog kopiert und
 > in den Ordner view.components eingefügt.
----
 
 ## Aufgabe
-Die View soll vervollständigt werden. Das Model und der Kontroller sind in diesem Task noch absichtlich ausgeblendet.
+Um die Aufgabe zu erfüllen, muss die Klass *View.java* angepasst werden. Die Klassen *Model.java* und *Controller.java* sind 
+im Code vorhanden aber für eine bessere Übersicht wurden diese im Projektbau ausgeblendet.
 
 ### Programmierung
 - Deklaration von SimpleButton
@@ -18,14 +16,9 @@ Die View soll vervollständigt werden. Das Model und der Kontroller sind in dies
 - Verbindung der Komponenten-Interaktion mit dem Kontroller.
 - Ausgabe des Strings "You pressed the button x times." auf der Konsole bei Model-Änderungen.
 
----
-> **_Hinweise:_**
-> Die Aufgabe kann nur in der Klasse View gelöst werden.
-> 
-> Der Kontroller besitzt die Funktion *pressButton()*. Die Funktion vergrössert die Variable *counter* im Model.
-> 
-> Es gibt die Funktion *onChangeOf()*, welche einen Listener in der View registriert auf die spezifizierte Variable des Models.
----
+<div class="hint">
+  Die Methode <i>onDown</i> des Button-Objektes kann benutzt werden die Funktion PressButton vom Kontroller aufzurufen.
+</div>
 
 ### Check Programmierung
 Die Programmierung lässt sich mit dem Button *Check* überprüfen. Nach erfolgreich abgeschlossenem Test kann mit der
