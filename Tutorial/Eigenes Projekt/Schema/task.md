@@ -1,4 +1,4 @@
-# Task 4/9: Schema
+# Task 4/7: Schema
 Hier wird ein Beispielsschema für die vorhin genannte Applikation aufgezeigt. Leider haben sich hier Fehler eingeschlichen.
 Markiere alle Aussagen, die stimmen in Bezug auf die vorhin genannte Applikation.
 

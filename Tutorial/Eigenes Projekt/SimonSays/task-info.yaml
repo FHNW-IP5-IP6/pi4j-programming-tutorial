@@ -1,62 +1,80 @@
 type: edu
 files:
-- name: src/Task.java
+- name: src/com/pi4j/catalog/components/helpers/PIN.java
   visible: true
-- name: test/Tests.java
-  visible: false
-- name: src/pi4j/catalog/components/helpers/PIN.java
+- name: src/com/pi4j/catalog/components/Component.java
   visible: true
-- name: src/pi4j/catalog/components/Component.java
+- name: src/com/pi4j/catalog/components/LedButton.java
   visible: true
-- name: src/pi4j/catalog/components/LedButton.java
+- name: src/com/pi4j/catalog/components/SimpleLed.java
   visible: true
-- name: src/pi4j/catalog/components/SimpleLed.java
+- name: src/com/pi4j/catalog/components/SimpleButton.java
   visible: true
-- name: src/pi4j/catalog/components/SimpleButton.java
+- name: src/com/pi4j/mvc/util/mvcbase/PuiBase.java
   visible: true
-- name: src/pi4j/mvc/util/mvcbase/PuiBase.java
+- name: src/com/pi4j/mvc/util/mvcbase/Projector.java
   visible: true
-- name: src/pi4j/mvc/util/mvcbase/Projector.java
+- name: src/com/pi4j/mvc/util/mvcbase/ControllerBase.java
   visible: true
-- name: src/pi4j/mvc/util/mvcbase/ControllerBase.java
+- name: src/com/pi4j/mvc/util/mvcbase/ObservableValue.java
   visible: true
-- name: src/pi4j/mvc/util/mvcbase/ObservableValue.java
+- name: src/com/pi4j/mvc/util/mvcbase/ConcurrentTaskQueue.java
   visible: true
-- name: src/pi4j/mvc/util/mvcbase/ConcurrentTaskQueue.java
+- name: src/com/pi4j/mvc/util/Pi4JContext.java
   visible: true
-- name: src/pi4j/mvc/util/Pi4JContext.java
-  visible: true
-- name: src/pi4j/mvc/templatepuiapp/view/pui/PUI.java
+- name: src/com/pi4j/mvc/templatepuiapp/view/pui/PUI.java
   visible: true
   placeholders:
-  - offset: 633
-    length: 33
+  - offset: 577
+    length: 113
     placeholder_text: /* TODO declare the used hardware */
-  - offset: 1001
-    length: 434
+  - offset: 1033
+    length: 426
     placeholder_text: /* TODO initialize the used hardware */
-  - offset: 1566
-    length: 124
-    placeholder_text: /* TODO deregister all functions */
-  - offset: 1925
-    length: 520
-    placeholder_text: /* TODO bind the functions of the used hardware to the controller
-      functions */
-  - offset: 2629
-    length: 634
-    placeholder_text: /* TODO listen to the model and react on changes of its values
+  - offset: 1598
+    length: 116
+    placeholder_text: /* TODO deregister the hardware at shutdown */
+  - offset: 1957
+    length: 512
+    placeholder_text: /* TODO bind the controller functions to the functions of the
+      used hardware */
+  - offset: 2652
+    length: 305
+    placeholder_text: /* TODO listen to changes of the model and run actions */
+- name: src/com/pi4j/mvc/templatepuiapp/model/Model.java
+  visible: true
+  placeholders:
+  - offset: 170
+    length: 371
+    placeholder_text: /* TODO write the variables that are observed here */
+- name: src/com/pi4j/mvc/templatepuiapp/AppStarter.java
+  visible: true
+- name: src/com/pi4j/mvc/util/mvcbase/ObservableArray.java
+  visible: true
+- name: test/com/pi4j/mvc/templatepuiapp/view/pui/PUITest.java
+  visible: false
+- name: test/com/pi4j/mvc/templatepuiapp/model/ModelTest.java
+  visible: false
+- name: test/com/pi4j/mvc/templatepuiapp/controller/ControllerTest.java
+  visible: false
+- name: src/com/pi4j/mvc/templatepuiapp/controller/Controller.java
+  visible: true
+  placeholders:
+  - offset: 284
+    length: 440
+    placeholder_text: "/* TODO write the variables here, that don't need a change\
+      \ by listener */"
+  - offset: 1164
+    length: 10
+    placeholder_text: /* TODO write the code that gets triggered right at the startup
+      of the app here */
+  - offset: 1186
+    length: 2241
+    placeholder_text: /* TODO write the methods of the controller for SimonSays here
       */
-- name: src/pi4j/mvc/templatepuiapp/model/Model.java
-  visible: true
-  placeholders:
-  - offset: 161
-    length: 1318
-    placeholder_text: "/* TODO: create all variable for Simon Says */"
-- name: src/pi4j/mvc/templatepuiapp/controller/Controller.java
-  visible: true
-  placeholders:
-  - offset: 380
-    length: 4045
-    placeholder_text: "/* TODO: implement all methodes for Simon Says */"
-- name: src/pi4j/mvc/templatepuiapp/AppStarter.java
-  visible: true
+- name: SimonSays-Hardware.png
+  visible: false
+- name: SimonSays_Schema.png
+  visible: false
+- name: EigenesProjekt-SimonSays.run.xml
+  visible: false

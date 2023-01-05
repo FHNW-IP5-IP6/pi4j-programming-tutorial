@@ -1,4 +1,4 @@
-# Task 1/9 Übersicht
+# Task 1/7 Übersicht
 In dieser Lektion soll ein eigenes Projekt auf der Basis der TemplatePUIApp erstellt werden.
 
 ## Lernziele

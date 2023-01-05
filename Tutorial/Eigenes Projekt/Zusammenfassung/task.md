@@ -1,4 +1,4 @@
-# Task 8/9: Zusammenfassung
+# Task 6/7: Zusammenfassung
 Dieser Task beinhaltet eine kurze Zusammenfassung, was in dieser Lektion alles gelehrt wurde.
 
 ## JAVAFxApp

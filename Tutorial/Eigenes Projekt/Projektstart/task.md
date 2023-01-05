@@ -1,4 +1,4 @@
-# Task 3/9: Projektstart
+# Task 3/7: Projektstart
 
 ## Simon Says
 Simon Says soll als ein Memory-Spiel realisiert werden. Simon wird durch ein Computer dargestellt und schaltet 4 LEDs in
