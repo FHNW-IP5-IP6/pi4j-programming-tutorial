@@ -50,6 +50,12 @@ public class View extends PuiBase<Model, Controller> {
                     }
                 });
 
+        // here, lambdas are used. More information on this: https://www.w3schools.com/java/java_lambda.asp
+        // We detect changes on a value of the model with *OnChangeOf*, and with execute we want to call
+        // a function. Now this function we want to call, is not yet declared. So we do this on the same line.
+        // So we can call something like "() -> functionWeWantToUse()".
+        // While the first parentheses includes the parameters, the second one will use the variabel and call
+        // our new function.
         onChangeOf(model.ledGlows).execute(((oldValue, newValue) -> led.setState(newValue)));
     }
 }
