@@ -2,16 +2,13 @@
 In dieser Aufgabe geht es darum, das Model in der ModelViewController-App zu schreiben.
 Neu soll statt einer LED und einem Button direkt ein LedButton verwendet werden.
 
----
 > **_Hinweis:_**
 >
 > Die Klassen *LedButton*, *SimpleButton* und *SimpleLed* wurden bereits aus dem Hardwarekatalog kopiert und
 > in den Ordner view.components eingefügt.
----
 
 ## Aufgabe
-Alle Komponenten des MVC-Pattern sollen implementiert werden. Dies beinhaltet Änderungen an der View, dem Model und dem 
-Kontroller.
+Um die Aufgabe zu erfüllen, müssen die Klassen *Model.java*, *Controller.java* und *View.java* angepasst werden.
 
 ### Programmierung
 - Im Model:
@@ -25,11 +22,6 @@ Kontroller.
   - Per Aktualisierung des Models soll die LED gesteuert werden.
 - Kontroller
   - Auf das Drücken des Buttons: Ein neuer String soll in das Model gespeichert werden.
-
----
-> **_Hinweise:_**
-> Die Aufgabe erfordert Änderungen im Model, der View und dem Kontroller.
----
 
 ### Check Programmierung
 Die Programmierung lässt sich mit dem Button *Check* überprüfen. Nach erfolgreich abgeschlossenem Test kann mit der

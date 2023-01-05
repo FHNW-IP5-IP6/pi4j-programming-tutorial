@@ -15,25 +15,27 @@ files:
 - name: src/view/View.java
   visible: true
   placeholders:
-  - offset: 445
+  - offset: 441
     length: 30
     placeholder_text: /* TODO declare the LedButton */
-  - offset: 671
+  - offset: 694
     length: 59
     placeholder_text: /* TODO initialize the LedButton */
-  - offset: 846
-    length: 29
+  - offset: 869
+    length: 57
     placeholder_text: /* TODO implement the Shutdown */
-  - offset: 1056
+  - offset: 1124
     length: 92
-    placeholder_text: /* TODO connect the interactions from the button with the function of the controller
-      */
-  - offset: 1322
+    placeholder_text: /* TODO connect the interactions from the button with the function
+      of the controller */
+  - offset: 1365
     length: 88
-    placeholder_text: /* TODO give out the message stored in the model to the console, when the message changes */
-  - offset: 1420
+    placeholder_text: "/* TODO give out the message stored in the model to the console,\
+      \ when the message changes */"
+  - offset: 1463
     length: 94
-    placeholder_text: /* TODO create a listener on the "ledGlows" of the model, and toggle the led */
+    placeholder_text: "/* TODO create a listener on the \"ledGlows\" of the model,\
+      \ and toggle the led */"
 - name: src/view/components/helpers/PIN.java
   visible: false
 - name: src/view/components/Component.java
@@ -47,13 +49,14 @@ files:
 - name: src/model/Model.java
   visible: true
   placeholders:
-  - offset: 241
+  - offset: 458
     length: 105
-    placeholder_text: /* TODO create an Observable of type String with the name "message" */
+    placeholder_text: /* TODO create an Observable of type String with the name "message"
+      */
 - name: src/controller/Controller.java
   visible: true
   placeholders:
-  - offset: 414
+  - offset: 458
     length: 83
     placeholder_text: /* TODO refresh the model with the new message */
 - name: src/ModelViewController-Model.run.xml

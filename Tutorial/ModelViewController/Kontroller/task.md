@@ -1,35 +1,37 @@
 # Task 5/8: Kontroller
 In dieser Aufgabe geht es darum, den Kontroller in der ModelViewController-App zu schreiben und die 
 View mit einer LED zu erweitern.
-
----
 > **_Hinweis:_**
 >
 > Die Klassen *SimpleButton* und *SimpleLed* wurden bereits aus dem Hardwarekatalog kopiert und
 > in den Ordner view.components eingefügt.
----
 
 ## Aufgabe
-Die View und der Kontroller sollen implementiert werden.
+Um die Aufgabe zu erfüllen, müssen die Klassen *Controller.java* und *View.java* angepasst werden.
+> **_Hinweise:_**
+> Es existiert im Model neu die Variable *LedGlows*. Diese soll den Zustand der LED wiedergeben. TRUE bedeutet, die LED
+> leuchtet und FALSE bedeutet, die LED ist dunkel.
 
 ### Programmierung
+*Kontroller*
+- Auf das Ereignis Button gedrückt: aktualisiere im Model den Status von *ledGlows*.
+- Auf das Ereignis Button nicht mehr gedrückt: aktualisiere im Model den Status von *ledGlows*.
+
+<div class="hint">
+  Die Variablen des Models können mit <i>GetValue</i> und <i>SetValue</i> abgefragt oder geändert werden.
+</div>
+
 *View*
 - Deklaration von SimpleLed.
 - Initialisation von SimpleLed.
-- Registration des Event *onUp* des Buttons auf die Funktion *ledOff* des Kontrollers.
-- Ein Listener auf die variable *LedGlows* des Models soll die LED steuern.
+- Registration der Funktion *ledOff* vom Kontroller beim Event *onUp* des Buttons.
+- Mit *LedGlows* des Models die LED steuern.
 
-*Kontroller*
-- Auf das Drücken des Buttons: die LED soll leuchten nach update des Models.
-- Auf das Beenden des Drückens des Buttons: die LED soll nicht mehr leuchten nach update des Models.
+<div class="hint">
+  Für die Registration von <i>ledOff</i> und die Ansteuerung der LED kann fast der gleiche Syntax wie für <i>pressButton</i>
+oder die Ausgabe des Counters verwendet werden.
+</div>
 
----
-> **_Hinweise:_**
-> Die Aufgabe erfordert Änderungen in der View und dem Kontroller.
-> 
-> Es existiert im Model neu die Variable *LedGlows*. Sobald diese auf *True* gesetzt ist, soll auch die LED leuchten.
-> Wenn der Button nicht mehr gedrückt wird, soll die LED nicht mehr leuchten.
----
 
 ### Check Programmierung
 Die Programmierung lässt sich mit dem Button *Check* überprüfen. Nach erfolgreich abgeschlossenem Test kann mit der

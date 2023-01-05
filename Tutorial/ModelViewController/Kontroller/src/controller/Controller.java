@@ -12,10 +12,11 @@ public class Controller extends ControllerBase<Model> {
     }
 
     public void pressButton(){
-        //whenever the button is pressed, the model is updated
+        //whenever the function pressbutton is called, the model will be updated
+        //increment counter from model by one
         increase(model.counter);
 
-        //what happens when we press the button?
+        //set value ledGlows to true
         setValue(model.ledGlows, true);
 
         //using 'runLater' assures that new value is set on model
@@ -27,7 +28,8 @@ public class Controller extends ControllerBase<Model> {
     }
 
     public void ledOff(){
-        //what happens, when we lift the button?
+        //whenever the function ledOff is called, the model will be updated
+        // set value ledGlows to false
         setValue(model.ledGlows, false);
     }
 

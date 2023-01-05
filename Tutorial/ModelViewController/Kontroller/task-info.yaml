@@ -5,17 +5,21 @@ files:
 - name: src/view/View.java
   visible: true
   placeholders:
-  - offset: 446
+  - offset: 442
     length: 27
     placeholder_text: /* TODO declare the SimpleLed. */
-  - offset: 726
+  - offset: 762
     length: 40
     placeholder_text: /* TODO initialize the SimpleLed */
-  - offset: 1134
+  - offset: 918
+    length: 42
+    placeholder_text: /* TODO deregister the functions and shutdown the components.
+      Don't forget to turn off the LED */
+  - offset: 1206
     length: 32
     placeholder_text: /* TODO register on the event "onUp" from the button the function
       "ledOff" of the controller */
-  - offset: 2137
+  - offset: 1649
     length: 85
     placeholder_text: "/* TODO create a listener on the \"ledGlows\" of the model,\
       \ and toggle the led */"
@@ -32,10 +36,10 @@ files:
 - name: src/controller/Controller.java
   visible: true
   placeholders:
-  - offset: 497
+  - offset: 549
     length: 31
     placeholder_text: /* TODO refresh the model to turn on the led */
-  - offset: 824
+  - offset: 942
     length: 32
     placeholder_text: /* TODO refresh the model to turn off the led */
 - name: src/util/mvcbase/ConcurrentTaskQueue.java

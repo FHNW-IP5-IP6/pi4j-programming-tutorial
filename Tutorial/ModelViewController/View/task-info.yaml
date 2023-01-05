@@ -25,20 +25,20 @@ files:
 - name: src/view/View.java
   visible: true
   placeholders:
-  - offset: 377
+  - offset: 373
     length: 30
     placeholder_text: /* TODO declare the SimpleButton */
-  - offset: 603
+  - offset: 662
     length: 48
     placeholder_text: /* TODO initialize the SimpleButton */
-  - offset: 767
+  - offset: 826
     length: 23
     placeholder_text: /* TODO deregister the SimpleButton functions */
-  - offset: 1301
+  - offset: 1359
     length: 39
     placeholder_text: /* TODO connect the interaction from the button with the function
       of the controller */
-  - offset: 1659
+  - offset: 2212
     length: 65
     placeholder_text: /* TODO write to the console "You pressed the button x times."
       where x represents the new Value of the counter */
