@@ -15,17 +15,22 @@ public class Controller extends ControllerBase<Model> {
     /**
      * how many led are glowing during the first round
      */
-    private Integer startNumberOfLed = 4;
+    private final Integer startNumberOfLed = 4;
 
     /**
      * current sequence for the level
      */
-    private ArrayList<Integer> sequence = new ArrayList<>(List.of(0,1,2,3,0,0,0,0,0,0));
+    private ArrayList<Integer> sequence = new ArrayList<>(List.of(0,0,0,0,0,0,0,0,0,0,0,0,0));
 
     /**
      * number of led which already have been pressed right
      */
     private Integer numberOfPressedLed = 0;
+
+    /**
+     * information if a game is already running
+     */
+    private Boolean gameIsRunning = false;
 
     /**
      * Creates a new Controller
@@ -44,7 +49,7 @@ public class Controller extends ControllerBase<Model> {
      */
     @Override
     public void startUp(){
-        newGame();
+        ;
     }
 
     public void newGame(){
@@ -58,30 +63,39 @@ public class Controller extends ControllerBase<Model> {
     }
 
     public void buttonPressed(int btnNumber){
-        //switch on led
-        setValue(model.ledsGlowing, btnNumber, true);
-        //check if right button is pressed
-        if(btnNumber == sequence.get(numberOfPressedLed)){
-            numberOfPressedLed++;
-            setValue(model.message, "Your " + numberOfPressedLed +" button was button number "+ btnNumber + ". This was right.");
-        }else{
-            setValue(model.message, "You pressed the wrong button. press any button to restart the game");
-            level = 0;
-            return;
-        }
-
-        //check if level is completed
-        if(numberOfPressedLed >= startNumberOfLed+level-1){
-            setValue(model.message, "You have completed level" + level);
-            level++;
-            //check if game is completed
-            if(level+startNumberOfLed > sequence.size()){
-                setValue(model.message, "You have finished the game, press any button to restart the game");
-                level=0;
+        if (!gameIsRunning){
+            gameIsRunning = true;
+            newGame();
+        }else {
+            //switch on led
+            setValue(model.ledsGlowing, btnNumber, true);
+            //check if right button is pressed
+            if (btnNumber == sequence.get(numberOfPressedLed)) {
+                numberOfPressedLed++;
+                setValue(model.message, "Your " + numberOfPressedLed + " button was button number " + btnNumber + ". This was right.");
+            } else {
+                setValue(model.message, "You pressed the wrong button. press any button to restart the game");
+                gameIsRunning = false;
+                level = 0;
                 return;
             }
-            numberOfPressedLed = 0;
-            showNewSequence();
+
+            //check if level is completed
+            if (numberOfPressedLed >= startNumberOfLed + level) {
+                setValue(model.message, "You have completed level" + level);
+                level++;
+                //check if game is completed
+                if (level + startNumberOfLed > sequence.size()) {
+                    setValue(model.message, "You have finished the game, press any button to restart the game");
+                    gameIsRunning = false;
+                    level = 0;
+                    return;
+                }
+                numberOfPressedLed = 0;
+
+                new Thread(() -> showNewSequence()).start();
+
+            }
         }
     }
 

@@ -61,15 +61,11 @@ files:
   visible: true
   placeholders:
   - offset: 284
-    length: 440
+    length: 560
     placeholder_text: "/* TODO write the variables here, that don't need a change\
       \ by listener */"
-  - offset: 1164
-    length: 10
-    placeholder_text: /* TODO write the code that gets triggered right at the startup
-      of the app here */
-  - offset: 1186
-    length: 2241
+  - offset: 1297
+    length: 2573
     placeholder_text: /* TODO write the methods of the controller for SimonSays here
       */
 - name: SimonSays-Hardware.png
@@ -78,3 +74,5 @@ files:
   visible: false
 - name: EigenesProjekt-SimonSays.run.xml
   visible: false
+- name: fritzing.zip
+  visible: true
