@@ -1,3 +1,4 @@
+# Task 2/2: Ausführung
 In diesem Task wird das [RaspiFX-Template](https://github.com/DieterHolz/RaspPiFX-Template-Project) vorgestellt,
 welches für FX-Anwendungen mit PI4J verwendet werden kann. Das Template sollte bei jedem IP12-Projekt als Plattform
 genützt werden.
@@ -7,7 +8,7 @@ In diesem Task wurde eine Running-Config hinterlegt. Diese kann wie hier im Bild
 
 <img src="SetupAusfuehrungRunConfig.png" alt="Run Configuration" width="400"/>
 
-Mit der richtigen ausgewählten Running-Config, wie auf dem Bild gezeigt, kann das Programm gestartet werden.
+Mit der richtigen ausgewählten Running-Config, kann das Programm gestartet werden.
 Die Applikation wird auf das Raspberry Pi geladen und automatisch ausgeführt.
 Folgende bekannte Probleme können auftreten:
 - Benutzername und Passwort des Raspberry Pi stimmen nicht mit der Running-Config überein -> PW auf Pi oder in Running-Config anpassen.
@@ -16,7 +17,12 @@ Folgende bekannte Probleme können auftreten:
 # Aufgabe
 
 ## Programmierung
-Versuche, diese App auf dem Raspberry PI zum Laufen zu bringen.
+Im Code auf der linken Seite wird zuerst der Pi4J Context erstellt. Danach wird auf der Konsole die beiden Strings:
+"Application is running" und "Application is done" ausgegeben bevor das Programm wieder endet.
+
+---
+> **_Hinweis:_** Der Code wird zu einem späteren Zeitpunkt genau erklärt und muss hier nicht verstanden werden.
+---
 
 ## Check Programmierung
 Überprüfe die Programmierung mit dem *Check* Button unten links.
@@ -24,3 +30,6 @@ Versuche, diese App auf dem Raspberry PI zum Laufen zu bringen.
 ## Remote Ausführung
 Die Applikation ist nun bereit, um auf dem Pi ausgeführt zu werden. Dazu ist eine
 Running-Config *Setup-Ausführung* hinterlegt.
+
+Konnte die Applikation erfolgreich auf dem Raspberry Pi ausgeführt werden kann mit dem Button *Next* zum nächsten Task
+gewechselt werden.

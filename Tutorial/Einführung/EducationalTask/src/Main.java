@@ -3,6 +3,7 @@ public class Main {
 
       final String text = "Hello world, hello LEITFADEN";
 
+      //This is a placeholder. It marks where changes need to be made in the code.
       System.out.println(text);
 
    }

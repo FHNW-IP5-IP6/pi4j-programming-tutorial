@@ -1,4 +1,4 @@
-## Task 3/9: Hardwarekatalog
+# Task 3/9: Hardwarekatalog
 
 Der Hardwarekatalog stellt zu unterschiedlichen elektronischen Bauteilen wie zum
 Beispiel einem LCD-Display, einem LED-Streifen oder einem Servo-Motor diverse Hilfestellungen

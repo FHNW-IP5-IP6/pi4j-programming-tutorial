@@ -12,12 +12,13 @@ public class Controller extends ControllerBase<Model> {
     }
 
     public void pressButton(){
-        //whenever the button is pressed, the model is updated
+        //whenever the function pressbutton is called, the model will be updated
+        //set new message
         setValue(model.message, "You pressed the Button "+(get(model.counter)+1)+" Times");
-
+        //increment counter from model by one
         increase(model.counter);
 
-        //what happens when we press the button?
+        //set value ledGlows to true
         setValue(model.ledGlows, true);
 
         //using 'runLater' assures that new value is set on model

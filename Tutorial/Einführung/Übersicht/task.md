@@ -1,4 +1,4 @@
-# Task 1/9: Übersicht
+# Task 1/10: Übersicht
 In dieser Lektion sollen die Funktion und die Bedienung des *Leitfadens* erklärt werden. Dazu sind folgende Themen beschrieben:
 
 ## Lernziele
@@ -17,6 +17,6 @@ Lektion weitergemacht werden.
 [Sprung zur nächsten Lektion: Setup](course://Tutorial/Setup/Einführung/src/Main.java)
 
 ## Zeitschätzung
-Diese Lektion wird rund 50 Minuten in Anspruch nehmen.
+Diese Lektion wird rund 20 Minuten in Anspruch nehmen.
 
 Mit dem Button *Next* wird die Lektion *Einführung* gestartet.

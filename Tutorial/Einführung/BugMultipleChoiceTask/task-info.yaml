@@ -1,0 +1,12 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: Diese Antwort ist richtig
+  is_correct: true
+- text: Diese Antwort ist auch richtig
+  is_correct: true
+- text: Diese Antwort ist falsch
+  is_correct: false
+files:
+- name: src/Main.java
+  visible: true
