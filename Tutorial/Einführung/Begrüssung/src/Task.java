@@ -1,3 +1,5 @@
 public class Task {
-  //put your task here
+    public static void main(String[] args) {
+        // Nothing to see here
+    }
 }

@@ -1,6 +1,6 @@
-type: edu
+type: theory
 files:
 - name: src/Task.java
   visible: true
-- name: test/Tests.java
+- name: pi4j-header.png
   visible: false
