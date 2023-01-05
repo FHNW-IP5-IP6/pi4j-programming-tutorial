@@ -1,11 +1,10 @@
 # Task 1/9 Übersicht
-Diese Lektion gibt eine Einführung in die TemplatePUIApp und wie ein eigenes Projekt erstellt werden kann.
+In dieser Lektion soll ein eigenes Projekt auf der Basis der TemplatePUIApp erstellt werden.
 
 ## Lernziele
-- Ich kenne das TemplatePUIApp und die Struktur, wie Ich eine App aufbaue.
+- Ich kenne das TemplatePUIApp und die Struktur, wie eine App aufgebaut ist.
 - Ich weiss, wie Ich Komponenten hinzufüge.
-- Ich weiss, dass die Applikation auf dem MVC-Pattern basiert.
-- Ich kann selbstständig ein Layout aufbauen für die Hardware.
+- Ich kann selbstständig ein Layout für die Hardware aufbauen.
 
 ## Zeitschätzung
 Diese Lektion wird rund 80 Minuten in Anspruch nehmen.
@@ -14,12 +13,11 @@ Diese Lektion wird rund 80 Minuten in Anspruch nehmen.
 Der Aufbau dieser Lektion sieht wie folgt aus:
 
 - Übersicht - *Theorie*
-- Selbsteinschätzung - *MultipleChoice*
+- Einleitung - *Theorie*
 - Projektstart - *Theorie*
 - Schema - *MultipleChoice*
 - Komponenten - *Edu*
 - Model - *Edu*
 - Kontroller - *Edu*
-- Lauffähigkeit - *Output*
 - Zusammenfassung *Theorie*
 - Validierung - *MultipleChoice*
