@@ -5,6 +5,6 @@ files:
 - name: RunConfiguration.png
   visible: false
 - name: EnterEditRunConfiguration.png
-  visible: true
+  visible: false
 - name: EditRunConfiguration.png
-  visible: true
+  visible: false
