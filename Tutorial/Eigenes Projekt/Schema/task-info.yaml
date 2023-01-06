@@ -5,7 +5,7 @@ options:
   is_correct: false
 - text: Die Grüne LED kann nie gesteuert werden.
   is_correct: true
-- text: Die Buttons und LED's sind eigentlich zusammen eine Komponente, und nicht so aufgeteilt.
+- text: Die Anordnung der Komponenten ist nicht vorteilhaft, besser wäre es, wenn die Buttons direkt neben ihren LED platziert wären.
   is_correct: true
 - text: Die LED's brauchen alle einen gleich grossen Widerstand.
   is_correct: false
