@@ -13,7 +13,7 @@ was Provider sind und wie diese verwendet werden und weshalb ein Context immer r
 Diese Lektion wird circa 90 Minuten in Anspruch nehmen.
 
 ## Aufbau
-Der Aufbau dieser Lektion:
+Der Aufbau dieser Lektion sieht wie folgt aus:
 
 - Übersicht - *Theorie*
 - Selbsteinschätzung - *MultipleChoice*

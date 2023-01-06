@@ -2,13 +2,3 @@ type: theory
 files:
 - name: src/Main.java
   visible: true
-- name: src/SimpleButton.java
-  visible: true
-- name: src/SimpleLED.java
-  visible: true
-- name: src/PIN.java
-  visible: true
-- name: src/ErsteKomponente-ImplementationButton.run.xml
-  visible: true
-- name: src/Component.java
-  visible: true
