@@ -5,18 +5,18 @@ files:
   placeholders:
   - offset: 1817
     length: 75
-    placeholder_text: /* declare and initialize an object button of SimpleButton.
+    placeholder_text: /* TODO declare and initialize an object button of SimpleButton.
       Use pin 26 as input*/
   - offset: 1937
     length: 39
-    placeholder_text: /* Register Event handlers to print a message when pressed and
+    placeholder_text: /* TODO Register Event handlers to print a message when pressed and
       depressed*/
-  - offset: 2248
-    length: 23
-    placeholder_text: /* Deregister all Handlers */
   - offset: 2147
     length: 10
-    placeholder_text: /* Turn off led */
+    placeholder_text: /* TODO Turn off led */
+  - offset: 2248
+    length: 23
+    placeholder_text: /* TODO Deregister all Handlers */
 - name: test/Tests.java
   visible: false
 - name: src/Component.java
@@ -26,6 +26,6 @@ files:
 - name: src/SimpleButton.java
   visible: true
 - name: src/ErsteKomponente-ImplementationButton.run.xml
-  visible: true
+  visible: false
 - name: src/SimpleLED.java
   visible: true

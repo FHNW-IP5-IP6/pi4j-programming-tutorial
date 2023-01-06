@@ -1,7 +1,6 @@
 # Task 2/2: Ausführung
-In diesem Task wird das [RaspiFX-Template](https://github.com/DieterHolz/RaspPiFX-Template-Project) vorgestellt,
-welches für FX-Anwendungen mit PI4J verwendet werden kann. Das Template sollte bei jedem IP12-Projekt als Plattform
-genützt werden.
+In diesem Task wird eine kleine Applikation mit PI4J aufgezeigt, welche auf dem Raspberry PI ausgeführt werden soll.
+Was die Applikation genau macht, wird in einer späteren Lektion genauer erklärt.
 
 ## Remote Ausführung
 In diesem Task wurde eine Running-Config hinterlegt. Diese kann wie hier im Bild aufgezeigt ausgewählt werden:
@@ -18,7 +17,7 @@ Folgende bekannte Probleme können auftreten:
 
 ## Programmierung
 Im Code auf der linken Seite wird zuerst der Pi4J Context erstellt. Danach wird auf der Konsole die beiden Strings:
-"Application is running" und "Application is done" ausgegeben bevor das Programm wieder endet.
+"Application is running" und "Application is done" ausgegeben, bevor das Programm wieder endet.
 
 ---
 > **_Hinweis:_** Der Code wird zu einem späteren Zeitpunkt genau erklärt und muss hier nicht verstanden werden.

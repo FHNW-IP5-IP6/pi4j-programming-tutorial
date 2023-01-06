@@ -5,17 +5,17 @@ files:
   placeholders:
   - offset: 1706
     length: 47
-    placeholder_text: /*declare and initialize an object led of SimpleLED. Use Pin
+    placeholder_text: /* TODO declare and initialize an object led of SimpleLED. Use Pin
       PWM 19  */
   - offset: 1814
     length: 9
-    placeholder_text: /* turn on LED */
+    placeholder_text: /* TODO turn on LED */
   - offset: 1912
     length: 116
-    placeholder_text: /* Create flashing light */
+    placeholder_text: /* TODO Create flashing light */
   - offset: 2091
     length: 10
-    placeholder_text: /* Turn off led */
+    placeholder_text: /* TODO Turn off led */
 - name: test/Tests.java
   visible: false
 - name: src/Component.java

@@ -17,12 +17,44 @@ Erstelle die Klasse Switch und teste diese auf dem Raspberry Pi.
 - Kopiere den Inhalt der Klasse *SimpleButton* in die Klasse Switch
 - Lösche alle Kommentare
 - Lösche alle Attribute und Methoden, die etwas mit *WhilePressed* zu tun haben
+- Deklariere, Initialisiere und registriere Funktionen für den Switch
+- Deregistriere alle Funktionen des Switches
 
 ---
 > **_Hinweis:_**
-> Die Aufgabe kann nur in der Klasse Switch gelöst werden. Vergiss nicht, die Konstruktoren sollten nicht mehr SimpleButton,
+> Die Aufgabe soll in den Klassen Main und Switch gelöst werden. Vergiss nicht, die Konstruktoren sollten nicht mehr SimpleButton,
 > sondern Switch heissen. Auch im Konstruktor hat es noch WhilePressed Referenzen.
 ---
+
+<div class="hint">
+Der Name switch ist bereits von Java Funktionen belegt. Somit muss ein anderer Name für den Switch beim deklarieren 
+gewählt werden.
+</div>
+
+<div class="hint">
+Die Main.java könnte wie folgt aussehen:
+<pre style="background-color: #eee;border: 1px solid #999;display: block;padding: 2px;">
+// Run the application
+System.out.println("Application is running");
+
+// Create a new Switch component
+Switch obj = new Switch(pi4j, PIN.D26, false);
+
+// Register functions to the States of the switch
+obj.onDown(() -> System.out.println("XXX"));
+obj.onUp(() -> System.out.println("YYY"));
+
+// Running the App for 15 Seconds
+sleep(15000);
+
+// DeRegistering functions before shutting down
+obj.deRegisterAll();
+
+// End of application
+System.out.println("Application is done");
+</pre>
+</div>
+
 
 ### Check Programmierung
 Die Programmierung lässt sich mit dem Button *Check* überprüfen. Nach erfolgreich abgeschlossenem Test kann mit der 

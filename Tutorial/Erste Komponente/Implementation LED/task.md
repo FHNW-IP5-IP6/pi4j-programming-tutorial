@@ -1,5 +1,5 @@
 # Task 7/9: Implementation LED
-In dieser Aufgabe geht es darum eine LED anzusteuern. Dazu wird die Klasse [SimpleLed](https://pi4j.com/examples/components/simpleled/)
+In dieser Aufgabe geht es darum, eine LED anzusteuern. Dazu wird die Klasse [SimpleLed](https://pi4j.com/examples/components/simpleled/)
 aus dem Hardwarekatalog verwendet.
 
 ---
@@ -46,4 +46,4 @@ des Hardwarekataloges auf der Pi4J Webseite.
 
 ## Remote Ausführung
 Die Applikation ist nun bereit, um auf dem Pi ausgeführt zu werden. Dazu ist eine
-Running-Config *NeuesProjekt-ImplementationLED* hinterlegt.
+Running-Config *ErsteKomponente-ImplementationLED* hinterlegt.

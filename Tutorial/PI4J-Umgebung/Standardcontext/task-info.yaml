@@ -5,7 +5,7 @@ files:
   placeholders:
   - offset: 500
     length: 382
-    placeholder_text: /* TODO Schreibe den Context*/
+    placeholder_text: /* TODO create the Context*/
 - name: test/MainTest.java
   visible: false
 - name: src/PIN.java

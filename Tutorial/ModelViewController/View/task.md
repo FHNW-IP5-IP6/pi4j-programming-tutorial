@@ -11,13 +11,13 @@ im Code vorhanden aber für eine bessere Übersicht wurden diese im Projektbau a
 
 ### Programmierung
 - Deklaration von SimpleButton
-- Initialisation von SimpleButton.
+- Initialisation von SimpleButton auf dem PIN 26.
 - Implementation den Shutdown.
 - Verbindung der Komponenten-Interaktion mit dem Kontroller.
 - Ausgabe des Strings "You pressed the button x times." auf der Konsole bei Model-Änderungen.
 
 <div class="hint">
-  Die Methode <i>onDown</i> des Button-Objektes kann benutzt werden die Funktion PressButton vom Kontroller aufzurufen.
+  Die Methode <i>onDown</i> des Button-Objektes kann benutzt werden um die Funktion PressButton vom Kontroller aufzurufen.
 </div>
 
 ### Check Programmierung

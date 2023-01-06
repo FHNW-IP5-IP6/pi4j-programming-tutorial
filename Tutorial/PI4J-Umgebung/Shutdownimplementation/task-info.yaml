@@ -7,13 +7,13 @@ files:
   placeholders:
   - offset: 1547
     length: 23
-    placeholder_text: /* TODO deregistriere die funktionen auf dem button */
+    placeholder_text: /* TODO deregister the functions of the button */
   - offset: 1682
     length: 16
-    placeholder_text: /* TODO fahre den Kontext herunter */
+    placeholder_text: /* TODO shutdown the context */
   - offset: 499
     length: 381
-    placeholder_text: /* TODO erstelle den Kontext */
+    placeholder_text: /* TODO create the context */
 - name: src/PIN.java
   visible: false
 - name: src/Component.java
