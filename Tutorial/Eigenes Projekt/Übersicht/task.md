@@ -7,7 +7,7 @@ In dieser Lektion soll ein eigenes Projekt auf der Basis der TemplatePUIApp erst
 - Ich kann selbstständig ein Layout für die Hardware aufbauen.
 
 ## Zeitschätzung
-Diese Lektion wird rund 80 Minuten in Anspruch nehmen.
+Diese Lektion wird circa 80 Minuten in Anspruch nehmen.
 
 ## Aufbau
 Der Aufbau dieser Lektion sieht wie folgt aus:
@@ -16,8 +16,6 @@ Der Aufbau dieser Lektion sieht wie folgt aus:
 - Einleitung - *Theorie*
 - Projektstart - *Theorie*
 - Schema - *MultipleChoice*
-- Komponenten - *Edu*
-- Model - *Edu*
-- Kontroller - *Edu*
+- SimonSays - *Edu*
 - Zusammenfassung *Theorie*
 - Validierung - *MultipleChoice*

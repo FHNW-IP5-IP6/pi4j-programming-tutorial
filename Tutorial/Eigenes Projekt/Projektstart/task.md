@@ -15,7 +15,7 @@ dabei sind:
 - Applikation programmieren
 - Applikation testen
 
-Die Musterlösung besteht aus 4 *LedButtons* welche in einer, vom Computer zufälligen Reihenfolge aufleuchten. Diese Reihenfolge
+Die Musterlösung besteht aus 4 *LedButtons* welche in einer vom Computer zufälligen Reihenfolge aufleuchten. Diese Reihenfolge
 muss danach durch die Spieler exakt wiedergegeben werden. Zu Beginn einer neuen Sequenz soll jeweils auf der Console eine 
 Meldung abgesetzt werden, und dann die Sequenz von Simon starten.
 

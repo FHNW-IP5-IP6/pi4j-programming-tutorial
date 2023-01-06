@@ -7,7 +7,7 @@ Kontroller setzt auf Signale von PUI oder GUI änderungen im Model um, und die V
 Darstellung der Daten aus dem Model, sowie für die Bereitstellung von Interaktions-Möglichkeiten der Applikation.
 
 ## GUI und PUI
-GUI steht für Graphical User Interface, währen PUI für Physical User Interface steht.
+GUI steht für Graphical User Interface, während PUI für Physical User Interface steht.
 Das GUI besteht aus Grafischen Inhalten auf dem Bildschirm, das PUI können auch Komponenten direkt am Raspberry PI angehängt sein.
 
 ![MVC-Konzept](src/mvc-concept.png)

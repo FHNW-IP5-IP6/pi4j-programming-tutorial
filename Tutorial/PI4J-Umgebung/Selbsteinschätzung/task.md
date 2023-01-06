@@ -3,7 +3,7 @@
 Die Selbsteinschätzung dient dazu zu klären, ob bereits ausreichend Wissen zu den Themen der Lektion vorhanden ist,
 damit diese übersprungen werden kann.
 
-Wenn alle, unten aufgelisteten Multiple-Choice-Fragen, beim ersten Mal richtig beantwortet werden, kann diese Lektion
+Wenn alle unten aufgelisteten Multiple-Choice-Fragen beim ersten Mal richtig beantwortet werden, kann diese Lektion
 mit dem Link übersprungen werden. Bei Unklarheiten sind die korrekten Lösungen als *Hint* hinterlegt.
 
 <div class="hint">
@@ -23,5 +23,5 @@ Nein, das Löschen und das Ausschalten geben die Ressourcen frei.
 </div>
 
 
-[Wenn alles verstanden wurde, kann diese Lektion übersprungen werden](course://Tutorial/Einführung-PI4J/ModelViewController/src/Main.java)
+[Wenn alles verstanden wurde, kann diese Lektion übersprungen werden](course://Tutorial/ModelViewController/Übersicht/src/Main.java),
 ansonsten kann die Lektion mit dem Button *Next* gestartet werden.

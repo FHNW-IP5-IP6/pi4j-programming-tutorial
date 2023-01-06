@@ -7,7 +7,7 @@ Diese Lektion gibt eine Einführung in das ModelViewController (MVC) Design-Patt
 - Ich kann eine bestehende MVC Applikation mit eigenen Komponenten erweitern.
 
 ## Zeitschätzung
-Diese Lektion wird rund 70 Minuten in Anspruch nehmen.
+Diese Lektion wird circa 70 Minuten in Anspruch nehmen.
 
 ## Aufbau
 Der Aufbau dieser Lektion sieht wie folgt aus:

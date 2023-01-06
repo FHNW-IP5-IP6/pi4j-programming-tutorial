@@ -10,3 +10,5 @@ files:
   visible: false
 - name: src/Main.java
   visible: true
+- name: test/Tests.java
+  visible: false

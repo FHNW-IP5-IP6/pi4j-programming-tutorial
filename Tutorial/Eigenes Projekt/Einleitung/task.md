@@ -8,7 +8,7 @@ Das JavaFx-Template besteht aus 3 verschiedenen Apps, sowie dem Verzeichnis für
 
 ### MultiControllerApp
 Die *MultiControllerApp* bietet die Möglichkeit mehrere Controller in der gleichen Applikation zu steuern. Sie stellt eine 
-PUI und eine GUI Klasse zu Verfügung. Es können also gleichzeitig Hardwarebauteile und grafische Objekte umgesetzt werden.
+PUI und eine GUI Klasse zur Verfügung. Es können also gleichzeitig Hardwarebauteile und grafische Objekte umgesetzt werden.
 Die *MultiControllerApp* ist eine App, um aufzuzeigen, wie mit mehreren Controllern gearbeitet werden könnte. 
 
 ### TemplateApp
@@ -17,6 +17,6 @@ bereitstellt. Dieses Template sollte genutzt werden, wenn die Funktionalität de
 Benutzer bereitgestellt wird, welches zum Beispiel durch die PUI-Komponenten gesteuert wird.
 
 ### TemplatePUIApp
-Die *TemplatePUIApp* ist, die vom Umfang her, kleinste App. Sie besteht aus einem einzelnen Controller und implementiert 
-nur ein PUI. Die Applikation benötigt keien JavaFX Komponenten, sondern nur Hardware Bauteile. Die Visualisierung wird dabei 
+Die *TemplatePUIApp* ist die vom Umfang her kleinste App. Sie besteht aus einem einzelnen Controller und implementiert 
+nur ein PUI. Die Applikation benötigt keine JavaFX Komponenten, sondern nur Hardware Bauteile. Die Visualisierung wird dabei 
 ausschliesslich durch Hardwarekomponenten realisiert. 

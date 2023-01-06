@@ -8,7 +8,7 @@ modifizierung einer besehenden Klasse und wie eine neue Klasse aus bereits beste
 - Ich kann bestehende Klassen in einer neuen Klasse wiederverwenden.
 
 ## Zeitschätzung
-Diese Lektion wird rund 80 Minuten in Anspruch nehmen.
+Diese Lektion wird circa 80 Minuten in Anspruch nehmen.
 
 ## Aufbau
 Der Aufbau dieser Lektion sieht wie folgt aus:

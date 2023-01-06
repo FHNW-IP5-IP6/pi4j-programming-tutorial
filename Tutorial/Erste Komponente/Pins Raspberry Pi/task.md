@@ -26,7 +26,7 @@ wie BCM17.
 Bestimmte GPIO-Pins haben auch alternative Funktionen, die es ihnen ermöglichen, mit verschiedenen Arten von Geräten zu
 kommunizieren, die die I2C-, SPI- oder UART-Protokolle verwenden. Zum Beispiel sind GPIO3 und GPIO4 auch SDA- und SCL-I2C-Pins,
 die verwendet werden, um Geräte mit dem I2C-Protokoll zu verbinden.
-Lies dir die [Theorie](https://pi4j.com/documentation/io-examples/) durch.
+Hier die [Theorie](https://pi4j.com/documentation/io-examples/) dazu.
 
 ### Digital Output
 Ein digitaler Output übersetzt ein Falsch / Wahr (oder 0 / 1) in einen Ausgangswert von 0V oder 3,3V. Das
