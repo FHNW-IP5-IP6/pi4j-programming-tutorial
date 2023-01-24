@@ -11,10 +11,10 @@ files:
     placeholder_text: /* TODO initialize the objects button and led */
   - offset: 775
     length: 347
-    placeholder_text: /* TODO create the led functions on the ledbutton */
+    placeholder_text: /* TODO create the led functions on the ledButton */
   - offset: 1128
     length: 814
-    placeholder_text: /* TODO create the button functions on the ledbutton */
+    placeholder_text: /* TODO create the button functions on the ledButton */
 - name: src/Main.java
   visible: true
 - name: src/SimpleButton.java
@@ -23,13 +23,11 @@ files:
   visible: false
 - name: src/Component.java
   visible: false
-- name: src/SimpleLED.java
-  visible: true
-- name: test/LEDButtonTest.java
-  visible: false
 - name: test/ComponentTest.java
   visible: false
 - name: src/Klassenmodifizierung-ImplementationWiederverwendung.run.xml
   visible: false
 - name: src/SimpleLed.java
   visible: true
+- name: test/LedButtonTest.java
+  visible: false

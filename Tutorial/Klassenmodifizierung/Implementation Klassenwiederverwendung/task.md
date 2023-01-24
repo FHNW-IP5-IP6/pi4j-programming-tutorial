@@ -12,6 +12,10 @@ Die neue Komponente soll die zwei vorhandenen Objekte mit ihren Methoden als ein
 
 ## Aufgabe
 ### Programmierung
+## Main.java
+Die Funktionen ledButton sind auskommentiert, damit die Übersetzung funktioniert. Kommentiere alle Funktionen
+(6 Zeilen) wieder ein.
+## LedButton.java
 - Deklariere zwei Objekte led und button mit SimpleLed und SimpleButton
 - Initialisiere die beiden Objekte im Konstruktor von LedButton
 - Schreibe die unten erwähnten Methoden. Verwende dazu die Methoden von *led*.
