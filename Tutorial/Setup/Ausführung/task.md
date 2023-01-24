@@ -5,7 +5,7 @@ Was die Applikation genau macht, wird in einer späteren Lektion genauer erklär
 ## Remote Ausführung
 In diesem Task wurde eine Running-Config hinterlegt. Diese kann wie hier im Bild aufgezeigt ausgewählt werden:
 
-<img src="SetupAusfuehrungRunConfig.png" alt="Run Configuration" width="400"/>
+<img src="./SetupAusfuehrungRunConfig.png" alt="Run Configuration" width="400"/>
 
 Mit der richtigen ausgewählten Running-Config, kann das Programm gestartet werden.
 Die Applikation wird auf das Raspberry Pi geladen und automatisch ausgeführt.

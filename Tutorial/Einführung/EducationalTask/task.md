@@ -8,7 +8,7 @@ Code überprüfen.
 
 Nachdem ein Check durchgeführt wurde, kann mit Peak Solution (1) die Musterlösung betrachtet werden.
 
-<img src="PeakSolution.png" alt="PeakSolution" width="350"/>
+<img src="./PeakSolution.png" alt="PeakSolution" width="350"/>
 
 
 ## Aufgabe

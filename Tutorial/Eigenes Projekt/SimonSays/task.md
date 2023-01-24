@@ -122,8 +122,8 @@ allfällige Hints oder ein Blick in die Lösung helfen.
 ### Aufbau
 Als Nächstes muss die gewählte Hardware mit dem Raspberry Pi richtig verbunden werden. Die Musterlösung mit 4 *LEDButtons*
 könnte wie folgt aussehen:
-![SimonSays_Schema](SimonSays_Schema.png)
-![SimonSays_Hardware](SimonSays-Hardware.png)
+![SimonSays_Schema](./SimonSays_Schema.png)
+![SimonSays_Hardware](./SimonSays-Hardware.png)
 
 ### Remote Ausführung
 Die Applikation ist nun bereit, um auf dem Pi ausgeführt zu werden. Dazu ist eine

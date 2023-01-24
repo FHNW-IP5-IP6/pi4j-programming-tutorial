@@ -23,4 +23,4 @@ und Applikation. Eine LED oder ein Button sind keine grafischen, sondern physika
 Begriff Physical User Interface (PUI) verwendet. Als Schnittstelle zum Benutzer sind im MVC Pattern beide Begriffe in 
 der View angesiedelt.
 
-![MVC-Konzept](src/mvc-concept.png)
+![MVC-Konzept](./mvc-concept.png)
