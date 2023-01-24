@@ -10,7 +10,7 @@ Das Plugin kann auch direkt in der IDE installiert werden. Dazu kann im Menu obe
 ![EduTools Plugin](/Edutools-Plugin.png)
 
 Das Zweite Plugin, welches installiert werden muss, ist das folgende [Embedded Linux JVM Debugger for Raspberry PI](https://plugins.jetbrains.com/plugin/18849-embedded-linux-jvm-debugger-for-raspberry-pi):
-![Embedded Linux JVM Debugger for Raspberry PI](/Rasppi-JVM.png)
+![Embedded Linux JVM Debugger for Raspberry PI](/Raspi-JVM.png)
 
 ## Kurs starten von Kursdatei
 Auf dem Welcome Screen von IntelliJ kann, bei *My Courses* über die drei Punkte, die Kursdatei geöffnet werden.
