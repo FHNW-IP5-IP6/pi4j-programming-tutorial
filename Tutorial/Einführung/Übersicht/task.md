@@ -17,6 +17,6 @@ Lektion weitergemacht werden.
 [Sprung zur nächsten Lektion: Setup](course://Tutorial/Setup/Einführung/src/Main.java)
 
 ## Zeitschätzung
-Diese Lektion wird rund 20 Minuten in Anspruch nehmen.
+Diese Lektion wird etwa 20 Minuten in Anspruch nehmen.
 
 Mit dem Button *Next* wird die Lektion *Einführung* gestartet.

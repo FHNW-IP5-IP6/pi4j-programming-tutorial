@@ -8,7 +8,7 @@ Diese Lektion gibt eine Einführung in den Hardwarekatalog und wie dieser in ein
 - Ich kann eine einfache Applikation auf dem Raspberry Pi starten.
 
 ## Zeitschätzung
-Diese Lektion wird circa 90 Minuten in Anspruch nehmen.
+Diese Lektion wird etwa 90 Minuten in Anspruch nehmen.
 
 ## Aufbau
 Der Aufbau dieser Lektion sieht wie folgt aus:

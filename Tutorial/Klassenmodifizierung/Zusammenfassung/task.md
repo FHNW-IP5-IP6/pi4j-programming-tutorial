@@ -1,5 +1,5 @@
 # Task 7/8: Zusammenfassung
-Dieser Task beinhaltet eine kurze Zusammenfassung, was in dieser Lektion alles gelehrt wurde.
+Dieser Task beinhaltet eine kurze Zusammenfassung, was in dieser Lektion alles abgedeckt wurde.
 
 ## Klassen / Strukturen
 Klassen sind Baupläne für Objekte. Objekte bestehen aus Attributen, Konstruktoren und Methoden. Die Struktur von Objekten 

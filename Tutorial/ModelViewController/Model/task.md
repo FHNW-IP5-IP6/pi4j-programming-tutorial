@@ -21,7 +21,7 @@ Um die Aufgabe zu erfüllen, müssen die Klassen *Model.java*, *Controller.java*
   - Per Aktualisierung des Models soll der neue String ausgegeben werden.
   - Per Aktualisierung des Models soll die LED gesteuert werden.
 - Kontroller
-  - Auf das Drücken des Buttons: Ein neuer String soll in das Model gespeichert werden.
+  - Drücken des Buttons: Ein neuer String soll in das Model gespeichert werden.
 
 ### Check Programmierung
 Die Programmierung lässt sich mit dem Button *Check* überprüfen. Nach erfolgreich abgeschlossenem Test kann mit der
@@ -33,5 +33,5 @@ Als Nächstes muss der LEDButton mit dem Raspberry Pi richtig verbunden werden. 
 [*LedButton*](https://pi4j.com/examples/components/ledbutton/) zeigt eine mögliche Lösung.
 
 ### Remote Ausführung
-Die Applikation ist nun bereit, um auf dem Pi ausgeführt zu werden. Dazu ist eine
+Die Applikation ist nun bereit, um auf dem Raspberry Pi ausgeführt zu werden. Dazu ist eine
 Running-Config *ModelViewController-Model* hinterlegt.

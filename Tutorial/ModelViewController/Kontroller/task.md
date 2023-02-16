@@ -28,7 +28,7 @@ Um die Aufgabe zu erfüllen, müssen die Klassen *Controller.java* und *View.jav
 - Mit *LedGlows* des Models die LED steuern.
 
 <div class="hint">
-  Für die Registration von <i>ledOff</i> und die Ansteuerung der LED kann fast der gleiche Syntax wie für <i>pressButton</i>
+  Für die Registration von <i>ledOff</i> und die Ansteuerung der LED kann fast die gleiche Syntax wie für <i>pressButton</i>
 oder die Ausgabe des Counters verwendet werden.
 </div>
 
@@ -44,5 +44,5 @@ Als Nächstes müssen die LED und der Button mit dem Raspberry Pi richtig verbun
 zeigen eine mögliche Lösung.
 
 ### Remote Ausführung
-Die Applikation ist nun bereit, um auf dem Pi ausgeführt zu werden. Dazu ist eine
+Die Applikation ist nun bereit, um auf dem Raspberry Pi ausgeführt zu werden. Dazu ist eine
 Running-Config *ModelViewController-Kontroller* hinterlegt.

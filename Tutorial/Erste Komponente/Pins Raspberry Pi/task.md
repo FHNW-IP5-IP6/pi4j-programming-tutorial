@@ -1,4 +1,4 @@
-# Task 4/9: Einführung Raspberry Pi
+# Task 4/9: Pins Raspberry Pi
 Dieser Task gibt eine kurze Einführung in die GPIO Pins des Raspberry Pi.
 
 ## Raspberry PI PIN's
@@ -10,7 +10,7 @@ einzelnen GPIO-Pin über einen Widerstand mit Strom versorgen können. Aber für
 Beispiel einen Gleichstrommotor, müssen wir externe Komponenten verwenden, um sicherzustellen, dass wir den GPIO nicht
 beschädigen.
 
-Die Pin-Nummerierung von Broadcom (BCM) (auch bekannt als GPIO-Pin-Nummerierung) scheint für den durchschnittlichen
+Die Pin-Nummerierung von Broadcom (BCM) (auch bekannt als GPIO-Pin-Nummerierung) scheint für den nicht versierten
 Benutzer chaotisch zu sein. Das BCM-Pin-Mapping bezieht sich auf die GPIO-Pins, die direkt mit dem System on a Chip (SoC)
 des Raspberry Pi verbunden wurden. Im Wesentlichen haben wir direkte Verbindungen zum Gehirn unseres Pi, um Sensoren und
 Komponenten für die Verwendung in unseren Projekten zu verbinden.
@@ -24,7 +24,7 @@ wie BCM17.
 
 ## Raspberry PI Ein- und Ausgänge
 Bestimmte GPIO-Pins haben auch alternative Funktionen, die es ihnen ermöglichen, mit verschiedenen Arten von Geräten zu
-kommunizieren, die die I2C-, SPI- oder UART-Protokolle verwenden. Zum Beispiel sind GPIO3 und GPIO4 auch SDA- und SCL-I2C-Pins,
+kommunizieren welche die I2C-, SPI- oder UART-Protokolle verwenden. Zum Beispiel sind GPIO3 und GPIO4 auch SDA- und SCL-I2C-Pins,
 die verwendet werden, um Geräte mit dem I2C-Protokoll zu verbinden.
 Hier die [Theorie](https://pi4j.com/documentation/io-examples/) dazu.
 
@@ -36,6 +36,6 @@ Beispiel ist eine LED. Es muss immer geprüft werden, welches die richtige Einga
 ### Digital Input
 Ähnlich wie ein Digital Output-PIN übersetzt ein digitaler Eingang einen Eingangswert von 0V oder 3,3V in den Wert
 Falsch / Wahr. Das bedeutet, dass jede Art von Gerät, das zwischen 3,3V und 0V umschalten kann, einen Eingangswert für
-den Raspberry Pi erzeugen kann. Hier ist das einfachste Beispiel eine Umschalttaste. Wenn andere Komponenten
-verwendet werden, muss immer geprüft werden, welche Spannung das Gerät liefert. Oder wenn ein Power-Pin vom Raspberry Pi
-selbst verwendet wird, ist es ratsam einen 3,3V-Pin und keinen 5V-Pin zu verwenden.
+den Raspberry Pi erzeugen kann. Hier ist das einfachste Beispiel ein Schalter oder Taster. Wenn andere Komponenten
+verwendet werden, muss immer geprüft werden, welche Spannung das Gerät liefert. Wenn ein Power-Pin vom Raspberry Pi
+selbst verwendet wird, ist es ratsam, einen 3,3V-Pin und anstatt einem 5V-Pin zu verwenden.

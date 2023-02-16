@@ -2,5 +2,5 @@ type: theory
 files:
 - name: src/Main.java
   visible: true
-- name: pi4j-header.png
+- name: pi4jHeader.png
   visible: false

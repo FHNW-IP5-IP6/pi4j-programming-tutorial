@@ -17,7 +17,7 @@ Klasse erklärt.
 
 
 Der zweite Teil des Katalogs bildet die Dokumentation auf der
-[Pi4J](https://pi4j.com/) Webseite. Das Kapitel [Component Examples](https://pi4j.com/examples/components/) ist eine Auflistung sämtlicher, im
+[Pi4J](https://pi4j.com/) Webseite. Das Kapitel [Component Examples](https://pi4j.com/examples/components/) ist eine Auflistung sämtlicher im
 Katalog umgesetzter Bauteile. Zu jedem Bauteil gibt es einen detaillierten Eintrag über
 die wichtigsten Funktionen der Java Klasse, ein elektrisches Layout und den
 Java-Code der Beispielapplikation.
