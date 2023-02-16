@@ -14,7 +14,7 @@ foreach($lesson in $orLesson){
         $taskpath = "$lessonpath\$taskname"
 
         $marktext = Get-Content "$taskpath\task.md" -Encoding UTF8 -Raw
-        $oneliner = $marktext.Replace("`n","\n").Replace("'","")
+        $oneliner = $marktext.Replace("`n","\n").Replace("'","").Replace("`r","")
         $anchor = $lessonname + "-" + $taskname
 
         $markdowns.add("document.getElementById('$anchor').innerHTML = marked.parse('$oneliner')")
