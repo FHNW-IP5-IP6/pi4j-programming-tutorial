@@ -1,5 +1,5 @@
 # Task 7/8: Zusammenfassung
-Dieser Task beinhaltet eine kurze Zusammenfassung, was in dieser Lektion alles gelehrt wurde.
+Dieser Task beinhaltet eine kurze Zusammenfassung, was in dieser Lektion alles abgedeckt wurde.
 
 ## MVC
 Das MVC Pattern besteht aus dem Model, der View und dem Controller. Das Model speichert die Daten der Applikation, der 

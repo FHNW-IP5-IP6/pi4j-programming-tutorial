@@ -1,5 +1,5 @@
 # Task 2/8: Selbsteinschätzung
-Die Selbsteinschätzung dient dazu zu klären, ob bereits ausreichend Wissen zu den Themen der Lektion vorhanden ist, 
+Die Selbsteinschätzung dient dazu, zu klären, ob bereits ausreichend Wissen zu den Themen der Lektion vorhanden ist, 
 damit diese übersprungen werden kann.
 
 Wenn alle unten aufgelisteten Multiple-Choice-Fragen beim ersten Mal richtig beantwortet werden, kann diese Lektion
@@ -12,7 +12,7 @@ Ja, ein Objekt (Java-Klasse) besteht aus Daten, Verhalten und dem Konstruktor.
 Nein, die Klasse ist der Bauplan, wohingegen ein Objekt eine Instanz vom Typ einer bestimmten Klasse ist.
 </div>
 <div class="hint">
-Ja, dies wird häufig verwendet, um Standard-Parameter trotzdem überschreiben zu können.
+Ja, dies wird häufig verwendet, um Standardparameter trotzdem überschreiben zu können.
 </div>
 <div class="hint">
 Ja

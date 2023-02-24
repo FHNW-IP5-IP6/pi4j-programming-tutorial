@@ -3,11 +3,11 @@ In dieser Lektion soll ein eigenes Projekt auf der Basis der TemplatePUIApp erst
 
 ## Lernziele
 - Ich kenne das TemplatePUIApp und die Struktur, wie eine App aufgebaut ist.
-- Ich weiss, wie Ich Komponenten hinzufüge.
+- Ich weiss, wie Komponenten hinzugefügt werden.
 - Ich kann selbstständig ein Layout für die Hardware aufbauen.
 
 ## Zeitschätzung
-Diese Lektion wird circa 80 Minuten in Anspruch nehmen.
+Diese Lektion wird etwa 80 Minuten in Anspruch nehmen.
 
 ## Aufbau
 Der Aufbau dieser Lektion sieht wie folgt aus:

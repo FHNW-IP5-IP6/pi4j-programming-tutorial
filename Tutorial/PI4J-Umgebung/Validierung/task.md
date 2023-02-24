@@ -2,4 +2,4 @@
 
 ## Aufgabe
 
-Kreuze an, was für dich stimmt.
+Kreuze an, was du verstanden hast.

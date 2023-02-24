@@ -1,5 +1,5 @@
 # Task 9/10: Zusammenfassung
-Dieser Task beinhaltet eine kurze Zusammenfassung, was in dieser Lektion alles gelehrt wurde.
+Dieser Task beinhaltet eine kurze Zusammenfassung, was in dieser Lektion alles abgedeckt wurde.
 
 ## PI4J Context
 Der Kontext ist ein unveränderliches Laufzeitobjekt, das den konfigurierten Zustand enthält und den Lebenszyklus einer 
@@ -14,4 +14,4 @@ gleichzeitig digitale Eingänge bereitstellen.
 
 ## Shutdown
 Es ist wichtig, den Kontext jeweils wieder richtig herunterzufahren. So können Probleme mit Überladungen und nachträglichen 
-funktionsaufrufen vorgebeugt werden.
+Funktionsaufrufen vermieden werden.

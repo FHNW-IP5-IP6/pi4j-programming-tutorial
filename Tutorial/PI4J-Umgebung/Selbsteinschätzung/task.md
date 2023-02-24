@@ -1,6 +1,6 @@
 # Task 2/10: Selbsteinschätzung
 
-Die Selbsteinschätzung dient dazu zu klären, ob bereits ausreichend Wissen zu den Themen der Lektion vorhanden ist,
+Die Selbsteinschätzung dient dazu, zu klären, ob bereits ausreichend Wissen zu den Themen der Lektion vorhanden ist,
 damit diese übersprungen werden kann.
 
 Wenn alle unten aufgelisteten Multiple-Choice-Fragen beim ersten Mal richtig beantwortet werden, kann diese Lektion

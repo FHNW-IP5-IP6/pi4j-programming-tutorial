@@ -6,7 +6,7 @@ auf die PI4J-Library bekannt sind, und ob das Tutorial richtig verwendet werden 
 - Ich kann per Remote-Ausführung meinen Code auf dem Raspberry PI testen.
 
 ## Zeitschätzung
-Diese Lektion wird circa 20 Minuten in Anspruch nehmen.
+Diese Lektion wird etwa 20 Minuten in Anspruch nehmen.
 
 ## Aufbau
 Der Aufbau dieser Lektion sieht wie folgt aus:

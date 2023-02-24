@@ -3,7 +3,7 @@
 Die Selbsteinschätzung dient dazu zu klären, ob bereits ausreichend Wissen zu den Themen der Lektion vorhanden ist,
 damit diese übersprungen werden kann.
 
-Wenn alle, unten aufgelisteten Multiple-Choice-Fragen, beim ersten Mal richtig beantwortet werden, kann diese Lektion
+Wenn alle unten aufgelisteten Multiple-Choice-Fragen beim ersten Mal richtig beantwortet werden, kann diese Lektion
 mit dem Link übersprungen werden. Bei Unklarheiten sind die korrekten Lösungen als *Hint* hinterlegt.
 
 <div class="hint">

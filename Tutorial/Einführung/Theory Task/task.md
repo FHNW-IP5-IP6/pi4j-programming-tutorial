@@ -12,5 +12,3 @@ Der Bereich *Smart Checker* hat zwei Buttons, *Run* und *Next*.
 *Run* Button kann nicht zur nächsten Lektion gewechselt werden. Dazu gibt es den Button *Next*.
 
 **Next** dient dazu, zum nächsten Task zu wechseln.
-
-Es kann mit dem Button *Next* zum nächsten Task gewechselt werden.

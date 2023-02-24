@@ -1,5 +1,5 @@
 # Task 6/9: Implementation Button
-In dieser Aufgabe geht es darum, das Signal eines Buttons (gedrückt) auszuwerten. Dazu wird die Klasse [SimpleButton](https://pi4j.com/examples/components/simplebutton/)
+In dieser Aufgabe geht es darum, das Signal eines Tasters (gedrückt) auszuwerten. Dazu wird die Klasse [SimpleButton](https://pi4j.com/examples/components/simplebutton/)
 aus dem Hardwarekatalog verwendet. Auf das Ereignis *Button gedrückt* soll sich der Zustand der LED ändern.
 
 ---
@@ -14,7 +14,7 @@ aus dem Hardwarekatalog verwendet. Auf das Ereignis *Button gedrückt* soll sich
 - Deklariere das Objekt *button* vom Typ Simple Button
 - Initialisiere das Objekt *button*. Verwende dazu den Pin 26 auf dem Raspberry Pi
 - Wenn der Button gedrückt wird, soll sich der Zustand der LED ändern. Verwende dazu die Methode *toggleState* von SimpleLed
-- Nachdem die Zeit von 15s abgelaufen ist (nach sleep(15000)) soll die LED ausgeschalten werden damit zum Schluss ein
+- Nachdem die Zeit von 15s abgelaufen ist (nach sleep(15000)) soll die LED ausgeschalten werden, damit zum Schluss ein
 definierter Zustand erreicht wird
 - Als letzte Ergänzung soll der Handler wieder deregistriert werden.
 
@@ -22,7 +22,7 @@ definierter Zustand erreicht wird
 > **_Hinweis:_**
 > 
 > Die Aufgabe kann zwischen den Zeilen **Start coding space** und **End coding space** gelöst werden.
-> Was oberhalb und unterhalb dieser Zeilen steht wird benötigt, dass die Applikation funktioniert.
+> Was oberhalb und unterhalb dieser Zeilen steht wird benötigt, damit die Applikation funktioniert.
 > Die genaue Bedeutung wird zu einem späteren Zeitpunkt erklärt.
 ---
 
@@ -38,7 +38,7 @@ erfolgreich, versuche den Fehler zu beheben. Nutze dazu allfällige Hints oder s
 der Lösung nach.
 
 ## Aufbau
-Als Nächstes muss der Button mit dem Raspberry Pi richtig verbunden werden. Nutze dazu die
+Als Nächstes muss der Taster mit dem Raspberry Pi richtig verbunden werden. Nutze dazu die
 Dokumentation [*SimpleButton*](https://pi4j.com/examples/components/simplebutton/)
 des Hardwarekataloges auf der Pi4J Webseite.
 

@@ -4,4 +4,4 @@ kopiert und notwendige Änderungen vorgenommen werden.
 
 Der Foliensatz [Klassen und Strukturen](./src/Klassen.pdf) bietet eine gute Einführung in die Theorie von Klassen und Strukturen.
 
-(Falls der Link nicht funktioniert, doppelklicke doch das Klassen.pdf von dieser Lektion Links im Projektbaum)
+(Falls der Link nicht funktioniert, doppelklicke das Klassen.pdf von dieser Lektion links im Projektbaum)

@@ -7,7 +7,7 @@ nochmals kurz erwähnt:
 - Bei einem Fehler wird das Spiel beendet, mit einem Taster kann danach ein neues Spiel gestartet werden
 
 ## Model
-In einem ersten Schritt geht es darum, im Model die benötigten Variablen zu definieren.
+Im ersten Schritt geht es darum, im Model die benötigten Variablen zu definieren.
 
 Als Hilfestellung sind alle Variablen aufgelistet, welche in der Musterlösung verwendet werden.
 <div class="hint">
@@ -18,7 +18,7 @@ Als Hilfestellung sind alle Variablen aufgelistet, welche in der Musterlösung v
 ## Kontroller
 Als Nächstes müssen im Kontroller sämtliche Methoden erstellt werden, welche benötigt werden, um das Modell zu aktualisieren.
 
-Ein möglicher Lösungsansatz ist es das Spiel in zwei Teile, Sequenz zeigen und Sequenz abfragen, zu unterteilen. 
+Ein möglicher Lösungsansatz ist es, das Spiel in zwei Teile, Sequenz zeigen und Sequenz abfragen, zu unterteilen. 
 
 Um dies zu erreichen, werden auch Variablen benötigt, welche nicht von der View dargestellt werden. Diese können direkt 
 im Kontroller erfasst werden.
@@ -43,7 +43,7 @@ for (int i = 0; i < get(model.sequence).size(); i++){
     get(model.sequence).set(i, random.nextInt(4));
 }</pre>
 </div>
-Danach sollen die LED entsprechend ein und ausgeschalten werden.
+Danach sollen die LED entsprechend ein- und ausgeschaltet werden.
 
 <div class="hint">
     <pre style="background-color: #eee;border: 1px solid #999;display: block;padding: 2px;">
@@ -57,7 +57,7 @@ for (int i = 0; i < (startNumberOfLed+level-1); i++){
 </div>
 
 ### Sequenz abfragen
-Bei jedem Button der gedrückt wird, muss natürlich kontrolliert werden, ob die Sequenz noch stimmt. Doch es müssen noch weitere
+Bei jedem Button der gedrückt wird, muss kontrolliert werden, ob die Sequenz noch stimmt. Zusätzlich müssen noch weitere
 Fragen geklärt werden:
 - ist das nächste Level erreicht
 - ist das Spiel beendet
@@ -98,10 +98,9 @@ if(numberOfPressedLed >= startNumberOfLed+level-1){
 </div>
 
 ## View
-In der View geht es nun noch darum die LED Buttons richtig zu implementieren. Dies wurde bereits in den vorangehenden 
-Aufgaben ausreichend besprochen.
+In der View geht es nun darum, die LED Buttons richtig zu implementieren.
 
-Hier ist nochmals eine Hilfsstellung für die ModelToUIBindigns
+Hier ist eine Hilfsstellung für die ModelToUIBindigns
 <div class="hint">
 <pre style="background-color: #eee;border: 1px solid #999;display: block;padding: 2px;">
 onChangeOf(model.ledsGlowing).execute(((oldValue, newValue) -> {
@@ -126,5 +125,5 @@ könnte wie folgt aussehen:
 ![SimonSays_Hardware](./SimonSays-Hardware.png)
 
 ### Remote Ausführung
-Die Applikation ist nun bereit, um auf dem Pi ausgeführt zu werden. Dazu ist eine
+Die Applikation ist nun bereit, um auf dem Raspberry Pi ausgeführt zu werden. Dazu ist eine
 Running-Config *EigenesProjekt-Komponenten* hinterlegt.

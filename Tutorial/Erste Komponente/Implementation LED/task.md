@@ -24,7 +24,7 @@ aus dem Hardwarekatalog verwendet.
 > **_Hinweis:_**
 >
 > Die Aufgabe kann zwischen den Zeilen **Start coding space** und **End coding space** gelöst werden.
-> Was oberhalb und unterhalb dieser Zeilen steht wird benötigt, dass die Applikation funktioniert.
+> Was oberhalb und unterhalb dieser Zeilen steht wird benötigt, damit die Applikation funktioniert.
 > Die genaue Bedeutung wird zu einem späteren Zeitpunkt erklärt.
 ---
 

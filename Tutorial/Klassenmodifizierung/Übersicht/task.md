@@ -1,6 +1,6 @@
 # Task 1/8: Übersicht
 Diese Lektion gibt eine Einführung in Klassen und Strukturen in Java. Der Schwerpunkt liegt dabei auf der applikationsspezifischen
-modifizierung einer besehenden Klasse und wie eine neue Klasse aus bereits bestehenden Klassen erstellt werden kann.
+Modifizierung einer bestehenden Klasse, und wie eine neue Klasse aus bereits bestehenden Klassen erstellt werden kann.
 
 ## Lernziele
 - Ich kenne den Umgang mit Klassen und Strukturen in Java.
@@ -8,7 +8,7 @@ modifizierung einer besehenden Klasse und wie eine neue Klasse aus bereits beste
 - Ich kann bestehende Klassen in einer neuen Klasse wiederverwenden.
 
 ## Zeitschätzung
-Diese Lektion wird circa 80 Minuten in Anspruch nehmen.
+Diese Lektion wird etwa 80 Minuten in Anspruch nehmen.
 
 ## Aufbau
 Der Aufbau dieser Lektion sieht wie folgt aus:

@@ -18,12 +18,12 @@ das Lösen der Lektion in etwa in Anspruch nimmt.
 
 **Selbsteinschätzung**
 
-Die Selbsteinschätzung ist eine Sammlung von Kontrollfragen über die Inhalte der Lektion. Können alle richtig beantwortet 
-werden, sind die Inhalte der Lektion bereits bekannt und die Lektion kann übersprungen werden.
+Die Selbsteinschätzung ist eine Sammlung von Kontrollfragen über die Inhalte der Lektion. Können alle Aufgaben richtig 
+beantwortet werden, sind die Inhalte der Lektion bereits bekannt und die Lektion kann übersprungen werden.
 
 **Einleitung in die Thematik**
 
-Die Einleitung ist der Theorieteil der Lektion. Hier wird das nötige Wissen vermittelt um die nachfolgenden praktischen 
+Die Einleitung ist der Theorieteil der Lektion. Hier wird das nötige Wissen vermittelt um die folgenden praktischen 
 Aufgaben zu lösen.
 
 **Praktische Aufgaben**

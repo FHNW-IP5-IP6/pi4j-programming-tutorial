@@ -1,5 +1,5 @@
-# Task 8/10: Shutdownimplementation
-In dieser Aufgabe geht es darum, den Context und den Shutdown einer kleinen Applikation mit nur den benötigten 
+# Task 8/10: Shutdown Implementation
+In dieser Aufgabe geht es darum, den Context und den Shutdown einer kleinen Applikation mit den minimal benötigten 
 Providern selbst zu schreiben. Das Gerüst ist eine Applikation, welche die Interaktion mit einem simplen Button ermöglicht.
 
 ---
@@ -11,7 +11,7 @@ Providern selbst zu schreiben. Das Gerüst ist eine Applikation, welche die Inte
 # Aufgabe
 ## Programmierung
 - Erstelle den Context.
-- deregistriere die Funktionen auf dem Button.
+- Deregistriere die Funktionen auf dem Button.
 - Fahre den Kontext herunter.
 
 ---
@@ -29,5 +29,5 @@ Als Nächstes muss die LED mit dem Raspberry Pi richtig verbunden werden. Das el
 [*SimpleButton*](https://pi4j.com/examples/components/simplebutton/) zeigt eine mögliche Lösung.
 
 ## Remote Ausführung
-Die Applikation ist nun bereit, um auf dem Pi ausgeführt zu werden. Dazu ist eine
+Die Applikation ist nun bereit, um auf dem Raspberry Pi ausgeführt zu werden. Dazu ist eine
 Running-Config *Einführung-PI4J-Shutdownimplementation* hinterlegt.
