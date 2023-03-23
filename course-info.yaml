@@ -9,7 +9,7 @@ summary: |-
   - Der Kurs beinhaltet Hands-On Beispiele von Java Code Implementationen und Übungen, um neue Skills zu verbessern.
   - Der Kurs basiert auf dem PI4J-Komponenten-Katalog und den Erfahrungen von ehemaligen IP12-Projekten.
 vendor:
-  name: Admin
+  name: Mike Schoder & Reto Stutz
 programming_language: Java
 content:
 - Tutorial
