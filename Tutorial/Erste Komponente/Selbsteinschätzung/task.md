@@ -13,10 +13,10 @@ Nein, der Hardware-Katalog besteht aus der Software-Klasse, einer Anwendung der 
 Ja, der Hardware-Katalog besteht auch aus einem Schema.
 </div>
 <div class="hint">
-Nein, aufgrund der Event Handler in der Komponente sollte diese nicht mehr angepasst werden müssen.
+Ja, das PI liefert 3,3V Spannung, die rote LED als Beispiel braucht maximal 1,8V.
 </div>
 <div class="hint">
-Ja, das PI liefert 3,3V Spannung, die rote LED als Beispiel braucht maximal 1,8V.
+Nein, aufgrund der Event Handler in der Komponente sollte diese nicht mehr angepasst werden müssen.
 </div>
 
 [Wenn alles verstanden wurde, kann diese Lektion übersprungen werden](course://Tutorial/Klassenmodifizierung/Übersicht/src/Main.java),
