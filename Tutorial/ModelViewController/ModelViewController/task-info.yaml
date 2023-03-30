@@ -4,3 +4,5 @@ files:
   visible: true
 - name: src/mvc-concept.png
   visible: false
+- name: mvc-concept.png
+  visible: true

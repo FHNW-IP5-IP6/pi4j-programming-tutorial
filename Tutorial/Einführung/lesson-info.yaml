@@ -4,9 +4,8 @@ content:
 - Benutzeroberfläche
 - Navigation
 - Lektionsaufbau
+- Hint
 - Theory Task
 - MultipleChoiceTask
 - BugMultipleChoiceTask
 - EducationalTask
-- Hint
-- RunConfiguration

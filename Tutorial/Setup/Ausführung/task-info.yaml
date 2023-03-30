@@ -12,3 +12,9 @@ files:
   visible: true
 - name: test/Tests.java
   visible: false
+- name: EditRunConfiguration.png
+  visible: false
+- name: EnterEditRunConfiguration.png
+  visible: false
+- name: RunConfiguration.png
+  visible: false
