@@ -25,7 +25,7 @@ Es öffnet sich ein neues Fenster. Zuerst links im Fenster die entsprechende Run
 die gewünschten Parameter editieren. Zum Beispiel kann anstelle des Hostname eine IP-Adresse vergeben werden.
 <img src="EditRunConfiguration.png" alt="EditRunConfiguration" width="400">
 
-Mit der richtigen ausgewählten Running-Config, kann das Programm gestartet werden.
+Mit der richtigen ausgewählten Running-Config kann das Programm gestartet werden.
 Die Applikation wird auf das Raspberry Pi geladen und automatisch ausgeführt.
 Folgende bekannte Probleme können auftreten:
 - Benutzername und Passwort des Raspberry Pi stimmen nicht mit der Running-Config überein -> PW auf Pi oder in Running-Config anpassen.

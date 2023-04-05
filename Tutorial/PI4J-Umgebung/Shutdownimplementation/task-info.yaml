@@ -21,4 +21,4 @@ files:
 - name: src/SimpleButton.java
   visible: true
 - name: src/PI4J-Umgebung-Shutdownimplementation.run.xml
-  visible: true
+  visible: false

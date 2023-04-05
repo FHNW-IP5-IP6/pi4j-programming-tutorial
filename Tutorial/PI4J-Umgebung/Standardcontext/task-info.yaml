@@ -15,4 +15,4 @@ files:
 - name: src/SimpleLed.java
   visible: true
 - name: src/PI4J-Umgebung-Standardcontext.run.xml
-  visible: true
+  visible: false

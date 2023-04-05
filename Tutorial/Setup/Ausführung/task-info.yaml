@@ -1,9 +1,5 @@
 type: edu
 files:
-- name: Breadboard.png
-  visible: false
-- name: Layout.png
-  visible: false
 - name: SetupAusfuehrungRunConfig.png
   visible: false
 - name: Setup-Ausführung.run.xml
