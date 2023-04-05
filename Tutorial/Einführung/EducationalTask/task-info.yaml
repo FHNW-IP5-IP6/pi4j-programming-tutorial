@@ -5,8 +5,6 @@ files:
   placeholders:
   - offset: 213
     length: 25
-    placeholder_text: /* TODO Print "Hello world, hello LEITFADEN" to console */
-- name: PeakSolution.png
-  visible: false
+    placeholder_text: "/* TODO Print \"Hello world, hello LEITFADEN\" to console */"
 - name: test/output.txt
   visible: false

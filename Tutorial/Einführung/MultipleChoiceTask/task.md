@@ -1,4 +1,4 @@
-# Task 6/10: MultipleChoiceTask
+# Task 7/9: MultipleChoiceTask
 Im **Multiple-Choice Task** werden Fragen zur aktuellen Lektion gestellt. Die möglichen Antworten sind im Bereich
 des Smart Checkers aufgelistet. Wie im *Theory Task* gibt es auch hier einen Button *Next*, um zum nächsten Task zu wechseln.
 Zudem gibt es den Button **Check**, mit welchem die Antworten der Multiple-Choice-Frage gleich überprüft werden können.

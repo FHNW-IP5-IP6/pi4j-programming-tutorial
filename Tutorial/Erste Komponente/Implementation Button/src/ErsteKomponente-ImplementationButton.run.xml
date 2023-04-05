@@ -11,7 +11,7 @@
     <option name="username" value="pi" />
     <option name="usingKey" value="false" />
     <option name="vmParameters" value="" />
-    <option name="moduleName" value="" />
+    <option name="moduleName" value="pi4j-programming-tutorial.Tutorial-Erste_Komponente-Implementation_Button.main" />
     <option name="mainclass" value="Main" />
     <method v="2">
       <option name="Make" enabled="true" />

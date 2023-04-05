@@ -1,6 +1,6 @@
 # Task 1/2: Einführung
-Diese Lektion dient der Überprüfung, ob alle Prerequisiten erfüllt sind, ob die Hilfestellungen in Bezug
-auf die PI4J-Library bekannt sind, und ob das Tutorial richtig verwendet werden kann.
+Diese Lektion dient der Überprüfung, ob Intellij und das Raspberry Pi richtig eingestellt sind und ob die Kommunikation 
+zwischen deinem PC und dem Raspberry Pi funktioniert.
 
 ## Lernziele
 - Ich kann per Remote-Ausführung meinen Code auf dem Raspberry PI testen.

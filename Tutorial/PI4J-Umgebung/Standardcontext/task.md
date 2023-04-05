@@ -28,4 +28,4 @@ Als Nächstes muss die LED mit dem Raspberry Pi richtig verbunden werden. Das el
 
 ## Remote Ausführung
 Die Applikation ist nun bereit, um auf dem Pi ausgeführt zu werden. Dazu ist eine
-Running-Config *Einführung-PI4J-Standardcontext* hinterlegt.
+Running-Config *PI4J-Umgebung-Standardcontext* hinterlegt.
