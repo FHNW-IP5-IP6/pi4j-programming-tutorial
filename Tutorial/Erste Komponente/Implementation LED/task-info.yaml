@@ -16,8 +16,6 @@ files:
   - offset: 2071
     length: 10
     placeholder_text: /* TODO Turn off led */
-- name: test/Tests.java
-  visible: false
 - name: src/SimpleLed.java
   visible: true
 - name: src/ErsteKomponente-ImplementationLED.run.xml

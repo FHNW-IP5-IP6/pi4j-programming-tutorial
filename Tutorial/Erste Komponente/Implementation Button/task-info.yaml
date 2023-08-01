@@ -17,8 +17,6 @@ files:
   - offset: 2275
     length: 15
     placeholder_text: /* TODO Deregister all Handlers */
-- name: test/Tests.java
-  visible: false
 - name: src/SimpleButton.java
   visible: true
 - name: src/ErsteKomponente-ImplementationButton.run.xml

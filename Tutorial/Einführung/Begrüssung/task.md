@@ -2,8 +2,8 @@
 
 ![Pi4J Logo](./pi4jHeader.png)
 
-Der vorliegende Leitfaden soll in die Thematiken von PI4J, dem Hardware-Katalog, dem MVC-Pattern sowie dem 
-Template-Projekt für PI4J einführen. 
+Der vorliegende Leitfaden soll in die Thematiken von Pi4J, dem Hardware-Katalog, dem MVC-Pattern sowie dem 
+Template-Projekt für Pi4J einführen. 
 
 Der Leitfaden besteht aus den folgenden Lektionen:
 - Einführung: Allgemeine Beschreibung über den Umgang und die Verwendung des Leitfadens.

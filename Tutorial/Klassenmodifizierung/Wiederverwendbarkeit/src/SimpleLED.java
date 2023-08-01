@@ -63,7 +63,7 @@ public class SimpleLED extends Component {
     /**
      * Configure Digital Output
      *
-     * @param pi4j    PI4J Context
+     * @param pi4j    Pi4J Context
      * @param address GPIO Address of the relay
      * @return Return Digital Output configuration
      */

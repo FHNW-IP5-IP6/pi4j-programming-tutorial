@@ -70,7 +70,7 @@ public class Switch extends Component {
         return this.digitalInput;
     }
 
-    // creating the config to register in the PI4J Context.
+    // creating the config to register in the Pi4J Context.
     // We use the BCM-Numbering to tell on which GPIO the Component is connected
     private DigitalInputConfig buildDigitalInputConfig(Context pi4j, PIN address, boolean inverted, long debounce) {
         return DigitalInput.newConfigBuilder(pi4j).id("BCM" + address)

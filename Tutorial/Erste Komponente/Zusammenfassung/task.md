@@ -15,7 +15,7 @@ es auftritt. Der Code oder Satz von Anweisungen, die zur Implementierung verwend
 Es besteht aus zwei Hauptkomponenten: der Ereignisquelle und dem Ereignis-Listener.
 
 ## Raspberry PI Pins
-Es gibt viele verschiedene Wege, die PINs zu nummerieren. PI4J verwendet hier bevorzugt die BCM-Nummerierung.
+Es gibt viele verschiedene Wege, die PINs zu nummerieren. Pi4J verwendet hier bevorzugt die BCM-Nummerierung.
 Aufgrund dieser Nummerierung kann dann entsprechend im Code angegeben werden, an welchem GPIO die Komponente hängt.
 
 ## Raspberry PI Ein- und Ausgänge
