@@ -1,7 +1,8 @@
 type: choice
 is_multiple_choice: true
 options:
-- text: Es kann gleichzeitig ein GraphicalUserInterface (GUI) und ein PhysicalUserInterface (PUI) mit dem gleichen Model und Kontroller angesteuert werden.
+- text: Es kann gleichzeitig ein GraphicalUserInterface (GUI) und ein PhysicalUserInterface
+    (PUI) mit dem gleichen Model und Kontroller angesteuert werden.
   is_correct: true
 - text: Das Model beinhaltet die Komponenten.
   is_correct: false
@@ -12,3 +13,4 @@ options:
 files:
 - name: src/Main.java
   visible: true
+local_check: true

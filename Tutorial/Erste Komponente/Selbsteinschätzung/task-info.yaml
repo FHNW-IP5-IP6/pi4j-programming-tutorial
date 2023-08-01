@@ -1,14 +1,17 @@
 type: choice
 is_multiple_choice: true
 options:
-- text: Der Hardwarekatalog besteht nur aus Klassen, welche für die eigenen Software-Applikationen genutzt werden können.
+- text: "Der Hardwarekatalog besteht nur aus Klassen, welche für die eigenen Software-Applikationen\
+    \ genutzt werden können."
   is_correct: false
 - text: Der Hardwarekatalog besitzt auch Verdrahtungsschemas.
   is_correct: true
 - text: Um eine LED aus dem Starterkit anzusteuern braucht es einen Widerstand.
   is_correct: true
-- text: Um eine projektspezifische Funktion aufzurufen, wenn der Button gedrückt wird, muss die Klasse Button angepasst werden.
+- text: "Um eine projektspezifische Funktion aufzurufen, wenn der Button gedrückt\
+    \ wird, muss die Klasse Button angepasst werden."
   is_correct: false
 files:
 - name: src/Main.java
   visible: true
+local_check: true
