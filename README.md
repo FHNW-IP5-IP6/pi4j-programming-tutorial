@@ -15,25 +15,25 @@ Für eine Beschreibung siehe [Pi4J Operating System](https://pi4j.com/pi4j-os/).
 Wenn IntelliJ geöffnet ist, kann über die Webseite [JetBrains Academy](https://plugins.jetbrains.com/plugin/10081-jetbrains-academy) direkt das Plugin auf die IDE installiert werden.
 
 Das Plugin kann auch direkt in der IDE installiert werden. Dazu kann per `File → Settings → Plugins` das Plugin installiert werden, so wie hier aufgezeigt:
-![JetBrains Academy Plugin](Edutools-Plugin.png)
+![JetBrains Academy Plugin](images/Edutools-Plugin.png)
 
 Das zweite Plugin, welches installiert werden muss, ist [Embedded Linux JVM Debugger for Raspberry PI](https://plugins.jetbrains.com/plugin/18849-embedded-linux-jvm-debugger-for-raspberry-pi):
-![Embedded Linux JVM Debugger for Raspberry PI](Raspi-JVM.png)
+![Embedded Linux JVM Debugger for Raspberry PI](images/Raspi-JVM.png)
 
 
 ## Tutorial starten mit Kursdatei
 
 Auf dem Welcome Screen von IntelliJ kann, bei *My Courses* über die drei Punkte, die Kursdatei geöffnet werden.
 
-![Welcome to IntelliJ IDEA](WelcomeToIntellijIDEA.png)
+![Welcome to IntelliJ IDEA](images/WelcomeToIntellijIDEA.png)
 
 Bevor der Kurs mit dem *Start* Button gestartet werden kann, muss zuerst bei den Settings überprüft werden, dass mindestens JDK Version 17 ausgewählt ist.
 
-![Start Course](StartCourse.png)
+![Start Course](images/StartCourse.png)
 
 Die Kursdatei als *Trust Project* öffnen
 
-![Trust Project](TrustProject.png)
+![Trust Project](images/TrustProject.png)
 
 Der Kurs ist nun mit der Hautpseite geöffnet.
 
@@ -43,6 +43,6 @@ Es ist auch möglich lediglich das Tutorial als 'Preview' zu starten, der vom ak
 
 Um den Kurs-Preview zu starten, muss per Rechtsklick auf oberster Ebene im Kurs das Menu "Course Creator → Create Course Preview" ausgewählt werden.
 
-![EduTools Kursstart](EduTools-Kursstart.png)
+![EduTools Kursstart](images/EduTools-Kursstart.png)
 
 Durch diese Aktion öffnet sich ein zweiter IntelliJ Editor, der das Tutorial in der Lernform beinhaltet. Hier bitte warten, bis Gradle das Projekt fertiggestellt hat.
