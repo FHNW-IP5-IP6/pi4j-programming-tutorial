@@ -27,19 +27,19 @@ subprojects {
 
     dependencies {
         //PI4J Dependencies
-        implementation 'com.pi4j:pi4j-core:2.2.0'
-        implementation 'com.pi4j:pi4j-plugin-raspberrypi:2.2.0'
-        implementation 'com.pi4j:pi4j-plugin-pigpio:2.2.0'
-        implementation 'com.pi4j:pi4j-plugin-mock:2.2.0'
-        implementation 'com.pi4j:pi4j-plugin-linuxfs:2.2.0'
-        implementation 'org.junit.jupiter:junit-jupiter-engine:5.7.1'
-        implementation 'org.junit.jupiter:junit-jupiter-params:5.7.1'
+        implementation 'com.pi4j:pi4j-core:2.3.0'
+        implementation 'com.pi4j:pi4j-plugin-raspberrypi:2.3.0'
+        implementation 'com.pi4j:pi4j-plugin-pigpio:2.3.0'
+        implementation 'com.pi4j:pi4j-plugin-mock:2.3.0'
+        implementation 'com.pi4j:pi4j-plugin-linuxfs:2.3.0'
+        implementation 'org.junit.jupiter:junit-jupiter-engine:5.10.0'
+        implementation 'org.junit.jupiter:junit-jupiter-params:5.10.0'
 
         //javafx Dependencies
-        //implementation 'org.openjfx:javafx-base:17.0.1'
-        //implementation 'org.openjfx:javafx-graphics:17.0.1'
-        //implementation 'org.openjfx:javafx-controls:17.0.1'
-        //implementation 'org.openjfx:javafx:17.0.1'
+        //implementation 'org.openjfx:javafx-base:20.0.2'
+        //implementation 'org.openjfx:javafx-graphics:20.0.2'
+        //implementation 'org.openjfx:javafx-controls:20.0.2'
+        //implementation 'org.openjfx:javafx:20.0.2'
     }
 
     sourceSets {

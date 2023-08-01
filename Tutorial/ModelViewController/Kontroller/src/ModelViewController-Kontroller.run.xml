@@ -1,9 +1,9 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="ModelViewController-Kontroller" type="Run as an Embedded Java application" factoryName="Run as an Embedded Java application">
     <option name="classesDirectory" />
-    <option name="hostname" value="crowpi.local" />
+    <option name="hostname" value="pi4j.local" />
     <option name="keyPath" value="" />
-    <option name="password" value="crowpi" />
+    <option name="password" value="pi4j" />
     <option name="port" value="5005" />
     <option name="programArguments" value="" />
     <option name="runAsRoot" value="true" />

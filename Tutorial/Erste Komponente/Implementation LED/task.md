@@ -11,13 +11,13 @@ aus dem Hardwarekatalog verwendet.
 
 # Aufgabe
 ## Programmierung
-- Deklariere das Objekt *led* vom Typ SimpleLed
-- Initialisiere das Objekt *led*. Verwende dazu den Pin 19 (PWM Pin) auf dem Raspberry Pi
+- Deklariere das Objekt `led` vom Typ `SimpleLed`
+- Initialisiere das Objekt `led`. Verwende dazu den Pin 19 (PWM Pin) auf dem Raspberry Pi
 - Schalte die LED ein
 - Blinklicht
   - Schalte die LED fünfmal ein und aus
-  - Nutze dazu die Methode *toggleState* von SimpleLed in einem *for-loop*
-  - Nutze die Methode *sleep()* um jedes Mal 1s zu warten, bis die LED den Zustand wechselt
+  - Nutze dazu die Methode `toggle()` von `SimpleLed` in einem `for-loop`
+  - Nutze die Methode `sleep()` um jedes Mal 1s zu warten, bis die LED den Zustand wechselt
 - Schalte die LED aus
 
 ---
