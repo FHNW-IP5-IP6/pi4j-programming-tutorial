@@ -1,4 +1,4 @@
-# Task 4/8: Implementaion Klassenmodifizierung
+# Task 4/8: Implementation Klassenmodifizierung
 In dieser Aufgabe geht es darum, aus der vorhandenen Klasse [SimpleButton](https://pi4j.com/examples/components/simplebutton/)
 (aus dem Hardwarekatalog) eine neue Klasse *Switch* zu erstellen. Ein Button hat die Zustände *Eingeschaltet*, *Ausgeschaltet*
 und *aktuell eingeschaltet*. Der Switch soll nur noch die beiden Zustände *Eingeschaltet* und *Ausgeschaltet* haben.

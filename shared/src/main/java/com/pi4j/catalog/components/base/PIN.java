@@ -1,3 +1,5 @@
+package com.pi4j.catalog.components.base;
+
 /**
  * Helper Class, used as Raspberry-Pi pin-numbering. Is helpful to see, which pin can act as what I/O provider
  */

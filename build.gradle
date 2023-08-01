@@ -26,6 +26,7 @@ subprojects {
     }
 
     dependencies {
+
         //PI4J Dependencies
         implementation 'com.pi4j:pi4j-core:2.3.0'
         implementation 'com.pi4j:pi4j-plugin-raspberrypi:2.3.0'

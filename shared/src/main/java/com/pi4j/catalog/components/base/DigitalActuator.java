@@ -1,3 +1,5 @@
+package com.pi4j.catalog.components.base;
+
 import java.util.Arrays;
 
 import com.pi4j.context.Context;

@@ -3,28 +3,24 @@ files:
 - name: src/Main.java
   visible: true
   placeholders:
-  - offset: 1648
+  - offset: 1693
     length: 47
     placeholder_text: /* TODO declare and initialize an object led of SimpleLED. Use
       Pin PWM 19  */
-  - offset: 1756
+  - offset: 1801
     length: 9
     placeholder_text: /* TODO turn on LED */
-  - offset: 1862
+  - offset: 1907
     length: 111
     placeholder_text: /* TODO Create flashing light */
-  - offset: 2026
+  - offset: 2071
     length: 10
     placeholder_text: /* TODO Turn off led */
 - name: test/Tests.java
-  visible: false
-- name: src/Component.java
-  visible: false
-- name: src/PIN.java
   visible: false
 - name: src/SimpleLed.java
   visible: true
 - name: src/ErsteKomponente-ImplementationLED.run.xml
   visible: false
-- name: src/DigitalActuator.java
+- name: build.gradle
   visible: false

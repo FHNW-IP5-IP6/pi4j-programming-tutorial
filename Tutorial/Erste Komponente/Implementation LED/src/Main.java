@@ -1,4 +1,5 @@
 import com.pi4j.Pi4J;
+import com.pi4j.catalog.components.base.PIN;
 import com.pi4j.library.pigpio.PiGpio;
 import com.pi4j.plugin.linuxfs.provider.i2c.LinuxFsI2CProvider;
 import com.pi4j.plugin.pigpio.provider.gpio.digital.PiGpioDigitalInputProvider;

@@ -1,3 +1,5 @@
+package com.pi4j.catalog.components.base;
+
 import java.time.Duration;
 import java.util.logging.ConsoleHandler;
 import java.util.logging.Level;
