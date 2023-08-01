@@ -3,7 +3,6 @@ import com.pi4j.library.pigpio.PiGpio;
 import com.pi4j.plugin.linuxfs.provider.i2c.LinuxFsI2CProvider;
 import com.pi4j.plugin.pigpio.provider.gpio.digital.PiGpioDigitalInputProvider;
 import com.pi4j.plugin.pigpio.provider.gpio.digital.PiGpioDigitalOutputProvider;
-import com.pi4j.plugin.pigpio.provider.i2c.PiGpioI2CProvider;
 import com.pi4j.plugin.pigpio.provider.pwm.PiGpioPwmProvider;
 import com.pi4j.plugin.pigpio.provider.serial.PiGpioSerialProvider;
 import com.pi4j.plugin.pigpio.provider.spi.PiGpioSpiProvider;
