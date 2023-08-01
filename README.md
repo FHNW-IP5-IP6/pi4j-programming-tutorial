@@ -2,19 +2,26 @@
 
 Learn how to implement awesome Raspberry Pi projects based on Pi4J, the library that provides a friendly object-oriented API for Java Programmers to access the full I/O capabilities of the Raspberry Pi platform.
 
-Dieses Repository ist ein deutscher Leitfaden und Tutorial, um in die Programmierung und speziell die API's der Java-Library PI4J einzuführen. Damit dieses Tutorial gestartet werden kann, muss in IntelliJ [JetBrains Academy](https://plugins.jetbrains.com/plugin/10081-jetbrains-academy) installiert werden.
+Dieses Repository ist ein Leitfaden und Tutorial in deutscher Sprache, um in die Programmierung und speziell die APIs der Java-Library Pi4J einzuführen. Damit dieses Tutorial gestartet werden kann, muss in IntelliJ [JetBrains Academy](https://plugins.jetbrains.com/plugin/10081-jetbrains-academy) installiert werden.
 
-## Installation
+## Installation des Raspberry Pis
+
+Verwenden Sie das [Pi4J-Basic-OS](https://pi4j-download.com/latest.php?flavor=basic) Image, um die SD-Card des Raspberry Pis zu bespielen. Dieses Image enthält alle für die Entwicklung mit Pi4J notwendigen Installationen und Konfigurationen.
+
+Für eine Beschreibung siehe [Pi4J Operating System](https://pi4j.com/pi4j-os/).
+
+## Installation auf dem Developer Computer
 
 Wenn IntelliJ geöffnet ist, kann über die Webseite [JetBrains Academy](https://plugins.jetbrains.com/plugin/10081-jetbrains-academy) direkt das Plugin auf die IDE installiert werden.
 
-Das Plugin kann auch direkt in der IDE installiert werden. Dazu kann im Menu oben Links per File -> Settings -> Plugins das Plugin installiert werden, so wie hier aufgezeigt:
+Das Plugin kann auch direkt in der IDE installiert werden. Dazu kann per `File → Settings → Plugins` das Plugin installiert werden, so wie hier aufgezeigt:
 ![JetBrains Academy Plugin](Edutools-Plugin.png)
 
-Das zweite Plugin, welches installiert werden muss, ist das folgende [Embedded Linux JVM Debugger for Raspberry PI](https://plugins.jetbrains.com/plugin/18849-embedded-linux-jvm-debugger-for-raspberry-pi):
+Das zweite Plugin, welches installiert werden muss, ist [Embedded Linux JVM Debugger for Raspberry PI](https://plugins.jetbrains.com/plugin/18849-embedded-linux-jvm-debugger-for-raspberry-pi):
 ![Embedded Linux JVM Debugger for Raspberry PI](Raspi-JVM.png)
 
-## Kurs starten von Kursdatei
+
+## Tutorial starten mit Kursdatei
 
 Auf dem Welcome Screen von IntelliJ kann, bei *My Courses* über die drei Punkte, die Kursdatei geöffnet werden.
 
@@ -32,9 +39,9 @@ Der Kurs ist nun mit der Hautpseite geöffnet.
 
 ## Kurs aus diesem Projekt heraus starten
 
-Dieses Kapitel muss nur beachtet werden, wenn nicht der fertige Kurs gestartet werden soll, sondern lediglich ein 'Preview' der vom aktuellen Stand dieses Projekts generiert wird.
+Es ist auch möglich lediglich das Tutorial als 'Preview' zu starten, der vom aktuellen Stand dieses Projekts generiert wird.
 
-Um den Kurs in Lernform zu starten, muss per Rechtsklick auf oberster Ebene im Kurs das Menu "Course Creator → Create Course Preview" ausgewählt werden.
+Um den Kurs-Preview zu starten, muss per Rechtsklick auf oberster Ebene im Kurs das Menu "Course Creator → Create Course Preview" ausgewählt werden.
 
 ![EduTools Kursstart](EduTools-Kursstart.png)
 
