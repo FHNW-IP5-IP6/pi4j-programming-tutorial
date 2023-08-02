@@ -1,13 +1,17 @@
 type: marketplace
 title: pi4j-programming-tutorial
 language: German
-summary: |-
-  Dies ist ein Einführungskurs für die Programmierung mit <a href="https://pi4j.com/">Pi4J</a>.
-  - Der Kurs ist gedacht für Studenten der FHNW, welche mit dem IP12-Projekt anfangen und noch nicht viel Knowhow in der Programmierung haben.
-  - Der Kurs ist am besten geeignet, wenn er zusammen mit dem OOP1-Modul durchgeführt wird.
-  - Der Kurs deckt ab, wie Pi4J verwendet werden kann, wie ein Projekt-Aufbau aussieht, wie die Komponenten angesteuert werden können und was das MVC-Pattern ist.
-  - Der Kurs beinhaltet Hands-On Beispiele von Java Code Implementationen und Übungen, um neue Skills zu verbessern.
-  - Der Kurs basiert auf dem  <a href="https://github.com/Pi4J/pi4j-example-components">Pi4J Komponenten Katalog</a>  und den Erfahrungen von ehemaligen IP12-Projekten.
+summary: |
+  Dies ist ein Einführungskurs für die Programmierung von RaspberryPi-Projekten in Java mit <a href="https://pi4j.com/">Pi4J</a>.
+  
+  Der Kurs
+  <ul>
+  <li>richtet sich an Studierende der FHNW, die mit dem IP12-Projekt beginnen und noch nicht viel Erfahrung beim Programmieren haben</li>
+  <li>sollte zusammen mit dem OOP1-Modul durchgeführt werden</li>
+  <li>deckt ab, wie Pi4J verwendet werden kann, wie ein Projekt-Aufbau aussieht, wie Hardware-Komponenten angesteuert werden können und was das MVC-Pattern ist</li>
+  <li>beinhaltet Hands-On Beispiele von Java Code und Übungen</li>
+  <li>basiert auf dem <a href="https://github.com/Pi4J/pi4j-example-components">Pi4J Komponenten Katalog</a></li>
+  </ul>
 vendor:
   name: Mike Schoder & Reto Stutz
 programming_language: Java
