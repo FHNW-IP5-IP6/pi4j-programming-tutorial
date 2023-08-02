@@ -8,48 +8,52 @@ import com.pi4j.plugin.pigpio.provider.serial.PiGpioSerialProvider;
 import com.pi4j.plugin.pigpio.provider.spi.PiGpioSpiProvider;
 import com.pi4j.plugin.raspberrypi.platform.RaspberryPiPlatform;
 
+import com.pi4j.catalog.components.base.PIN;
+
 import static java.lang.Thread.sleep;
 
 public class Main {
-   public static void main(String[] args) throws InterruptedException {
-      final var piGpio = PiGpio.newNativeInstance();
-      var pi4j = Pi4J.newContextBuilder()
-              .noAutoDetect()
-              .add(new RaspberryPiPlatform() {
-                 @Override
-                 protected String[] getProviders() {
-                    return new String[]{};
-                 }
-              })
-              .add(PiGpioDigitalInputProvider.newInstance(piGpio),
-                      PiGpioDigitalOutputProvider.newInstance(piGpio),
-                      PiGpioPwmProvider.newInstance(piGpio),
-                      PiGpioSerialProvider.newInstance(piGpio),
-                      PiGpioSpiProvider.newInstance(piGpio),
-                      LinuxFsI2CProvider.newInstance()
-              )
-              .build();
+    public static void main(String[] args) throws InterruptedException {
+        final var piGpio = PiGpio.newNativeInstance();
+        final var pi4j = Pi4J.newContextBuilder()
+                .noAutoDetect()
+                .add(new RaspberryPiPlatform() {
+                    @Override
+                    protected String[] getProviders() {
+                        return new String[]{};
+                    }
+                })
+                .add(PiGpioDigitalInputProvider.newInstance(piGpio),
+                        PiGpioDigitalOutputProvider.newInstance(piGpio),
+                        PiGpioPwmProvider.newInstance(piGpio),
+                        PiGpioSerialProvider.newInstance(piGpio),
+                        PiGpioSpiProvider.newInstance(piGpio),
+                        LinuxFsI2CProvider.newInstance())
+                .build();
 
-      // Run the application
-      System.out.println("Application is running");
+        System.out.println("Application is running");
 
-      // Create a new Switch component
-      Switch aSwitch = new Switch(pi4j, PIN.D26, false);
+        //***********************************Start coding space************************************
 
-      // Register functions to the States of the switch
-      aSwitch.onUp(() -> System.out.println("Switch is Off"));
-      aSwitch.onDown(() -> System.out.println("Switch is On"));
+        // Create a new Switch component
+        Switch aSwitch = new Switch(pi4j, PIN.D26);
 
-      // Running the App for 15 Seconds
-      sleep(15000);
+        // Register functions to the States of the switch
+        aSwitch.onSwitchOff(() -> System.out.println("Switch turned Off"));
+        aSwitch.onSwitchOn(() -> System.out.println("Switch turned On"));
 
-      // DeRegistering functions before shutting down
-      aSwitch.deRegisterAll();
+        System.out.println("Toggle the switch to see it in action!");
+        sleep(15000);
 
-      // End of application
-      System.out.println("Application is done");
+        // Reset the component before shutting down
+        aSwitch.reset();
 
-      // Clean up
-      pi4j.shutdown();
-   }
+        //***********************************End coding space**************************************
+
+        // End of application
+        System.out.println("Application is done");
+
+        // Clean up
+        pi4j.shutdown();
+    }
 }
