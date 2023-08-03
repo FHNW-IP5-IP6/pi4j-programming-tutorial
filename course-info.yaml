@@ -1,5 +1,5 @@
 type: marketplace
-title: pi4j-programming-tutorial
+title: Pi4J Programming Tutorial
 language: German
 summary: |
   Dies ist ein Einführungskurs für die Programmierung von RaspberryPi-Projekten in Java mit <a href="https://pi4j.com/">Pi4J</a>.

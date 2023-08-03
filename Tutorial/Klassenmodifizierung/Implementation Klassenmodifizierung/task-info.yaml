@@ -26,13 +26,6 @@ files:
 - name: build.gradle
   visible: true
 - name: test/SwitchTest.java
-  visible: false
-  placeholders:
-  - offset: 966
-    length: 227
-    placeholder_text: /* TODO  add a test for the 'off'-state*/
-  - offset: 1949
-    length: 652
-    placeholder_text: /* TODO add a test for the 'onOff'-Event*/
+  visible: true
 - name: Switch.png
   visible: true

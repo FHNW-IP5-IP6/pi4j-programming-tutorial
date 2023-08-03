@@ -1,3 +1,4 @@
+import com.pi4j.catalog.ComponentTest;
 import com.pi4j.io.gpio.digital.DigitalState;
 import com.pi4j.plugin.mock.provider.gpio.digital.MockDigitalInput;
 import com.pi4j.plugin.mock.provider.gpio.digital.MockDigitalOutput;
@@ -5,6 +6,8 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.util.concurrent.atomic.AtomicInteger;
+
+import com.pi4j.catalog.components.base.PIN;
 
 import static java.lang.Thread.sleep;
 import static org.junit.jupiter.api.Assertions.*;
@@ -14,12 +17,12 @@ public class LedButtonTest extends ComponentTest {
     private LedButton button;
     private MockDigitalInput digitalInput;
     private MockDigitalOutput digitalOutput;
-    private final PIN BTNPinNumber = PIN.D26;
-    private final PIN LEDPinNumber = PIN.D25;
+    private final PIN btnPinNumber = PIN.D26;
+    private final PIN ledPinNumber = PIN.D25;
 
     @BeforeEach
     public void setUp() {
-        button = new LedButton(pi4j, BTNPinNumber, false, LEDPinNumber);
+        button = new LedButton(pi4j, btnPinNumber, false, ledPinNumber);
         digitalInput = toMock(button.btnGetDigitalInput());
         digitalOutput = toMock(button.ledGetDigitalOutput());
     }
@@ -45,11 +48,11 @@ public class LedButtonTest extends ComponentTest {
         //when
         digitalInput.mockState(DigitalState.HIGH);
         //then
-        assertTrue(button.btnIsDown());
+        assertTrue(button.isDown());
         //when
         digitalInput.mockState(DigitalState.LOW);
         //then
-        assertFalse(button.btnIsDown());
+        assertFalse(button.isDown());
     }
 
     @Test
@@ -57,16 +60,16 @@ public class LedButtonTest extends ComponentTest {
         //when
         digitalInput.mockState(DigitalState.HIGH);
         //then
-        assertFalse(button.btnIsUp());
+        assertFalse(button.isUp());
         //when
         digitalInput.mockState(DigitalState.LOW);
         //then
-        assertTrue(button.btnIsUp());
+        assertTrue(button.isUp());
     }
 
     @Test
     public void testGetDigitalInput(){
-        assertEquals(BTNPinNumber.getPin(),button.btnGetDigitalInput().address());
+        assertEquals(btnPinNumber.getPin(),button.btnGetDigitalInput().address());
     }
 
     @Test
@@ -74,7 +77,7 @@ public class LedButtonTest extends ComponentTest {
         //given
         int[] counter = {0};
         digitalInput.mockState(DigitalState.LOW);
-        button.btnOnDown(()->counter[0]++);
+        button.onDown(()->counter[0]++);
 
         //when
         digitalInput.mockState(DigitalState.HIGH);
@@ -101,7 +104,7 @@ public class LedButtonTest extends ComponentTest {
         assertEquals(2, counter[0]);
 
         //when
-        button.btnDeRegisterAll();
+        button.reset();
 
         //then
         assertNull(button.btnGetOnUp());
@@ -114,7 +117,7 @@ public class LedButtonTest extends ComponentTest {
         //given
         int[] counter = {0};
         digitalInput.mockState(DigitalState.LOW);
-        button.btnOnUp(()->counter[0]++);
+        button.onUp(()->counter[0]++);
 
         //when
         digitalInput.mockState(DigitalState.HIGH);
@@ -141,7 +144,7 @@ public class LedButtonTest extends ComponentTest {
         assertEquals(2, counter[0]);
 
         //when
-        button.btnDeRegisterAll();
+        button.reset();
 
         //then
         assertNull(button.btnGetOnUp());
@@ -157,7 +160,7 @@ public class LedButtonTest extends ComponentTest {
 
         AtomicInteger counter = new AtomicInteger(0);
 
-        button.btnWhilePressed(counter::getAndIncrement, samplingTime);
+        button.whilePressed(counter::getAndIncrement, samplingTime);
 
         //when
         digitalInput.mockState(DigitalState.HIGH);
@@ -178,7 +181,7 @@ public class LedButtonTest extends ComponentTest {
         assertEquals(2, counter.get());
 
         //when
-        button.btnDeRegisterAll();
+        button.reset();
         sleep(100);
 
         //then
@@ -197,7 +200,7 @@ public class LedButtonTest extends ComponentTest {
         //when
         digitalOutput = toMock(button.ledGetDigitalOutput());
         //then
-        assertEquals(LEDPinNumber.getPin(), digitalOutput.getAddress());
+        assertEquals(ledPinNumber.getPin(), digitalOutput.getAddress());
 
     }
 
