@@ -5,54 +5,50 @@ files:
 - name: src/view/View.java
   visible: true
   placeholders:
-  - offset: 442
-    length: 27
+  - offset: 405
+    length: 22
     placeholder_text: /* TODO declare the SimpleLed. */
-  - offset: 762
-    length: 40
+  - offset: 736
+    length: 37
     placeholder_text: /* TODO initialize the SimpleLed */
-  - offset: 918
-    length: 42
+  - offset: 891
+    length: 36
     placeholder_text: /* TODO deregister the functions and shutdown the components.
       Don't forget to turn off the LED */
-  - offset: 1206
-    length: 32
+  - offset: 1170
+    length: 36
     placeholder_text: /* TODO register on the event "onUp" from the button the function
       "ledOff" of the controller */
-  - offset: 2184
-    length: 85
+  - offset: 1955
+    length: 251
     placeholder_text: "/* TODO create a listener on the \"ledGlows\" of the model,\
       \ and toggle the led */"
-- name: src/view/components/helpers/PIN.java
-  visible: false
-- name: src/view/components/Component.java
+- name: src/model/Model.java
+  visible: true
+- name: src/controller/Controller.java
+  visible: true
+  placeholders:
+  - offset: 443
+    length: 29
+    placeholder_text: /* TODO refresh the model to turn on the led */
+  - offset: 762
+    length: 30
+    placeholder_text: /* TODO refresh the model to turn off the led */
+- name: src/ModelViewController-Kontroller.run.xml
   visible: false
 - name: src/view/components/SimpleLed.java
   visible: true
 - name: src/view/components/SimpleButton.java
   visible: true
-- name: src/model/Model.java
-  visible: false
-- name: src/controller/Controller.java
+- name: build.gradle
+  visible: true
+- name: test/controller/ControllerTest.java
   visible: true
   placeholders:
-  - offset: 549
-    length: 31
-    placeholder_text: /* TODO refresh the model to turn on the led */
-  - offset: 942
-    length: 32
-    placeholder_text: /* TODO refresh the model to turn off the led */
-- name: src/util/mvcbase/ConcurrentTaskQueue.java
-  visible: false
-- name: src/util/mvcbase/ControllerBase.java
-  visible: false
-- name: src/util/mvcbase/ObservableValue.java
-  visible: false
-- name: src/util/mvcbase/Projector.java
-  visible: false
-- name: src/util/mvcbase/PuiBase.java
-  visible: false
-- name: src/ModelViewController-Kontroller.run.xml
-  visible: false
-- name: test/view/ViewTest.java
-  visible: false
+  - offset: 995
+    length: 70
+    placeholder_text: /* TODO call the method you want to test and wait for its completion
+      */
+  - offset: 1082
+    length: 96
+    placeholder_text: /* TODO what can be asserted now?  */

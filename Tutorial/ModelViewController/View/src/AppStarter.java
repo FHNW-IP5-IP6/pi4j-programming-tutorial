@@ -27,8 +27,9 @@ public class AppStarter {
                         PiGpioDigitalOutputProvider.newInstance(piGpio))
                 .build();
 
-        Controller controller = new Controller(new Model());
-        new View(controller, pi4j);
+        Model model = new Model();
+        Controller controller = new Controller(model);
+        View pui = new View(controller, pi4j);
 
         System.out.println("App started");
 
@@ -39,7 +40,7 @@ public class AppStarter {
         // is returned to the system.
         Runtime.getRuntime().addShutdownHook(new Thread(() -> {
             controller.shutdown();
-            pi4j.shutdown();
+            pui.shutdown();
             System.out.println("App stopped");
         }));
 

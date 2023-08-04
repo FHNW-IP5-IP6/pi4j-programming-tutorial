@@ -1,6 +1,4 @@
-package util.mvcbase;
-
-import com.pi4j.context.Context;
+package com.pi4j.mvc.util.mvcbase;
 
 import java.util.Objects;
 import java.util.concurrent.ExecutorService;
@@ -9,20 +7,22 @@ import java.util.concurrent.TimeUnit;
 import java.util.function.Consumer;
 import java.util.function.Supplier;
 
+import com.pi4j.context.Context;
+
 /**
  * Base class for all PUIs.
- *
+ * <p>
  * In our scenario we also have a GUI.
- *
+ * <p>
  * We have to avoid that one of the UIs is blocked because the other UI has to perform a long-running task.
- *
+ * <p>
  * Therefore, we need an additional "worker-thread" in both UIs.
- *
+ * <p>
  * For JavaFX-based GUIs that's already available (the JavaFX Application Thread).
- *
+ * <p>
  * For PUIs we need to do that ourselves. It's implemented as a provider/consumer-pattern (see {@link ConcurrentTaskQueue}.
  */
-public abstract class PuiBase<M, C extends ControllerBase<M>> implements Projector<M, C> {
+public abstract class PuiBase<M, C extends ControllerBase<M>> implements Projector<M, C>{
 
     // all PUI actions should be done asynchronously (to avoid UI freezing)
     private final ConcurrentTaskQueue<Void> queue = new ConcurrentTaskQueue<>();
@@ -52,9 +52,9 @@ public abstract class PuiBase<M, C extends ControllerBase<M>> implements Project
 
     /**
      * Intermediate solution for TestCase support.
-     *
+     * <p>
      * Best solution would be that 'action' of 'runLater' is executed on calling thread.
-     *
+     * <p>
      * Waits until all current actions in actionQueue are completed.
      *
      */
@@ -86,8 +86,18 @@ public abstract class PuiBase<M, C extends ControllerBase<M>> implements Project
     }
 
     /**
-     * Second step to specify an observer.
+     * First step to register an observer.
      *
+     * @param observableArray the value that should trigger some PUI-updates
+     * @return an Updater to specify what needs to be done whenever observableValue changes
+     */
+    protected <V> ArrayUpdater<V> onChangeOf(ObservableArray<V> observableArray) {
+        return new ArrayUpdater<>(observableArray);
+    }
+
+    /**
+     * Second step to specify an observer.
+     * <p>
      * Use 'triggerPUIAction' to specify what needs to be done whenever the observed value changes
      */
     public class Updater<V> {
@@ -99,6 +109,33 @@ public abstract class PuiBase<M, C extends ControllerBase<M>> implements Project
 
         public void execute(ObservableValue.ValueChangeListener<V> action) {
             observableValue.onChange((oldValue, newValue) -> queue.submit(() -> {
+                action.update(oldValue, newValue);
+                return null;
+            }));
+        }
+
+        public void execute(Consumer<V> action){
+            observableValue.onChange((oldValue, newValue) -> {
+                queue.submit(() -> {
+                    action.accept(newValue);
+                    return null;
+                });
+            });
+        }
+    }
+
+    /**
+     * Second step to specify an observer.
+     * <p>
+     * Use 'triggerPUIAction' to specify what needs to be done whenever the observed array changes
+     */
+    public class ArrayUpdater<V> {
+        private final ObservableArray<V> observableArray;
+
+        ArrayUpdater(ObservableArray<V> observableArray) { this.observableArray = observableArray; }
+
+        public void execute(ObservableArray.ValueChangeListener<V> action) {
+            observableArray.onChange((oldValue, newValue) -> queue.submit(() -> {
                 action.update(oldValue, newValue);
                 return null;
             }));

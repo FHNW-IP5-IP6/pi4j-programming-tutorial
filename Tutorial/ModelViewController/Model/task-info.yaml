@@ -2,64 +2,48 @@ type: edu
 files:
 - name: src/AppStarter.java
   visible: true
-- name: src/util/mvcbase/PuiBase.java
-  visible: false
-- name: src/util/mvcbase/Projector.java
-  visible: false
-- name: src/util/mvcbase/ControllerBase.java
-  visible: false
-- name: src/util/mvcbase/ObservableValue.java
-  visible: false
-- name: src/util/mvcbase/ConcurrentTaskQueue.java
-  visible: false
 - name: src/view/View.java
   visible: true
   placeholders:
-  - offset: 441
+  - offset: 394
     length: 30
     placeholder_text: /* TODO declare the LedButton */
-  - offset: 694
+  - offset: 647
     length: 59
     placeholder_text: /* TODO initialize the LedButton */
-  - offset: 869
-    length: 57
+  - offset: 822
+    length: 18
     placeholder_text: /* TODO implement the Shutdown */
-  - offset: 1124
-    length: 92
+  - offset: 1038
+    length: 87
     placeholder_text: /* TODO connect the interactions from the button with the function
       of the controller */
-  - offset: 1365
-    length: 88
+  - offset: 1408
+    length: 105
     placeholder_text: "/* TODO give out the message stored in the model to the console,\
       \ when the message changes */"
-  - offset: 1463
-    length: 94
-    placeholder_text: "/* TODO create a listener on the \"ledGlows\" of the model,\
-      \ and toggle the led */"
-- name: src/view/components/helpers/PIN.java
-  visible: false
-- name: src/view/components/Component.java
-  visible: false
-- name: src/view/components/LedButton.java
-  visible: true
-- name: src/view/components/SimpleLed.java
-  visible: true
-- name: src/view/components/SimpleButton.java
-  visible: true
 - name: src/model/Model.java
   visible: true
   placeholders:
-  - offset: 458
+  - offset: 346
     length: 105
     placeholder_text: /* TODO create an Observable of type String with the name "message"
       */
 - name: src/controller/Controller.java
   visible: true
   placeholders:
-  - offset: 458
-    length: 83
+  - offset: 403
+    length: 89
     placeholder_text: /* TODO refresh the model with the new message */
 - name: src/ModelViewController-Model.run.xml
   visible: false
-- name: test/view/ViewTest.java
-  visible: false
+- name: build.gradle
+  visible: true
+- name: src/view/components/SimpleLed.java
+  visible: true
+- name: src/view/components/SimpleButton.java
+  visible: true
+- name: src/view/components/LedButton.java
+  visible: true
+- name: test/controller/ControllerTest.java
+  visible: true

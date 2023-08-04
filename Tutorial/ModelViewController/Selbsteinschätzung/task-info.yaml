@@ -2,13 +2,13 @@ type: choice
 is_multiple_choice: true
 options:
 - text: Es kann gleichzeitig ein GraphicalUserInterface (GUI) und ein PhysicalUserInterface
-    (PUI) mit dem gleichen Model und Kontroller angesteuert werden.
+    (PUI) mit dem gleichen Model und Controller angesteuert werden.
   is_correct: true
-- text: Das Model beinhaltet die Komponenten.
+- text: Das Model beinhaltet die UI-Komponenten.
   is_correct: false
-- text: Die View wird direkt vom Kontroller verändert.
+- text: Die View wird direkt vom Controller verändert.
   is_correct: false
-- text: Der Kontroller bekommt die Inputs der View und aktualisiert das Model.
+- text: Der Controller bekommt die Inputs der View und aktualisiert das Model.
   is_correct: true
 files:
 - name: src/Main.java

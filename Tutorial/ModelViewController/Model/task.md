@@ -1,37 +1,33 @@
 # Task 6/8: Model
-In dieser Aufgabe geht es darum, das Model in der ModelViewController-App zu schreiben.
+In dieser Aufgabe geht es darum, das Model in der ModelViewController-App zu erweitern.
 Neu soll statt einer LED und einem Button direkt ein LedButton verwendet werden.
 
 > **_Hinweis:_**
 >
-> Die Klassen *LedButton*, *SimpleButton* und *SimpleLed* wurden bereits aus dem Hardwarekatalog kopiert und
+> Die Klassen `LedButton`, `SimpleButton` und `SimpleLed` wurden bereits aus dem Hardwarekatalog kopiert und
 > in den Ordner view.components eingefügt.
 
 ## Aufgabe
-Um die Aufgabe zu erfüllen, müssen die Klassen *Model.java*, *Controller.java* und *View.java* angepasst werden.
+Um die Aufgabe zu erfüllen, müssen die Klassen `Model`, `Controller`, `ControllerTest` und `View` angepasst werden.
 
 ### Programmierung
-- Im Model:
-  - Ein Observable vom Typ String mit dem Namen *message* soll erstellt werden.
-- In der View:
-  - Deklaration von LedButton.
-  - Initialisation von LedButton.
+- `Model`
+  - Erweiterung um ein ObservableValue vom Typ String mit dem Namen `message`.
+- `View`
+  - Deklaration eines `LedButton`.
+  - Initialisation des `LedButton`.
   - Implementation des Shutdown.
-  - Verbindung der Komponenten-Interaktion mit dem Kontroller.
-  - Per Aktualisierung des Models soll der neue String ausgegeben werden.
-  - Per Aktualisierung des Models soll die LED gesteuert werden.
-- Kontroller
-  - Drücken des Buttons: Ein neuer String soll in das Model gespeichert werden.
+  - Verbindung der Komponenten-Interaktion mit dem Controller.
+  - Per Aktualisierung des Models soll die neue Message ausgegeben werden und die LED gesteuert werden.
+- Controller
+  - bei `activate`: Die aktuelle Message soll im Model gespeichert werden.
 
 ### Check Programmierung
-Die Programmierung lässt sich mit dem Button *Check* überprüfen. Nach erfolgreich abgeschlossenem Test kann mit der
-Erstellung der Hardware begonnen werden. Ist der Test nicht erfolgreich, muss zuerst der Fehler behoben werden. Dabei können
-allfällige Hints oder ein Blick in die Lösung helfen.
+Die Programmierung lässt sich mit dem Button *Check* überprüfen. Nach erfolgreich abgeschlossenem Test kann mit der Erstellung der Hardware begonnen werden. Ist der Test nicht erfolgreich, muss zuerst der Fehler behoben werden. Dabei können allfällige Hints oder ein Blick in die Lösung helfen.
 
 ### Aufbau
 Als Nächstes muss der LEDButton mit dem Raspberry Pi richtig verbunden werden. Das elektrische Layout von
-[*LedButton*](https://pi4j.com/examples/components/ledbutton/) zeigt eine mögliche Lösung.
+[LedButton](https://pi4j.com/examples/components/ledbutton/) zeigt eine mögliche Lösung.
 
 ### Remote Ausführung
-Die Applikation ist nun bereit, um auf dem Raspberry Pi ausgeführt zu werden. Dazu ist eine
-Running-Config *ModelViewController-Model* hinterlegt.
+Die Applikation ist nun bereit, um auf dem Raspberry Pi ausgeführt zu werden. Dazu ist eine Running-Config *ModelViewController-Model* hinterlegt.

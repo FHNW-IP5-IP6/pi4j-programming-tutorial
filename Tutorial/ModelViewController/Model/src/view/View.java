@@ -3,11 +3,11 @@ package view;
 import com.pi4j.context.Context;
 import controller.Controller;
 import model.Model;
-import util.mvcbase.PuiBase;
 import view.components.LedButton;
-import view.components.SimpleButton;
-import view.components.SimpleLed;
-import view.components.helpers.PIN;
+
+import com.pi4j.catalog.components.base.PIN;
+
+import com.pi4j.mvc.util.mvcbase.PuiBase;
 
 public class View extends PuiBase<Model, Controller> {
     //declare all hardware components attached to Pi
@@ -27,23 +27,31 @@ public class View extends PuiBase<Model, Controller> {
     @Override
     public void shutdown() {
         //what is there to do when we shut down the app?
-        ledButton.btnDeRegisterAll();
-        ledButton.ledOff();
+        ledButton.reset();
         super.shutdown();
     }
 
     @Override
     public void setupUiToActionBindings(Controller controller) {
         //which methods of the controller must be called on a hardware event
-        ledButton.btnOnDown(controller::pressButton);
-        ledButton.btnOnUp(controller::ledOff);
+        ledButton.onDown(controller::activate);
+        ledButton.onUp(controller::deactivate);
     }
 
     @Override
     public void setupModelToUiBindings(Model model) {
-        //which event should be triggered when the model changes
-        onChangeOf(model.message).execute((oldValue, newValue) -> System.out.println(newValue));
+        //How to update the PUI whenever the message changes? Typically, the new message would be displayed in an LCD.
+        // To keep this example simple we just print the message to the console
+        onChangeOf(model.message)
+                .execute((oldValue, newValue) -> System.out.println(newValue));
 
-        onChangeOf(model.ledGlows).execute(((oldValue, newValue) -> ledButton.ledSetState(newValue)));
+        onChangeOf(model.active)
+                .execute((oldValue, newValue) -> {
+                    if (newValue) {
+                        ledButton.ledOn();
+                    } else {
+                        ledButton.ledOff();
+                    }
+                });
     }
 }

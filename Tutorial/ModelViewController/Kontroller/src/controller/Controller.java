@@ -1,39 +1,37 @@
 package controller;
 
 import model.Model;
-import util.mvcbase.ControllerBase;
+
+import com.pi4j.mvc.util.mvcbase.ControllerBase;
 
 public class Controller extends ControllerBase<Model> {
     //the app is shut down, when we pressed the button 10 times
-    protected final int terminationCount = 10;
+    private static final int TERMINATION_COUNT = 10;
 
     public Controller(Model model) {
         super(model);
     }
 
-    public void pressButton(){
-        //whenever the function pressbutton is called, the model will be updated
-        //increment counter from model by one
-        increase(model.counter);
+    public void activate(){
+        increaseValue(model.counter);
 
-        //set value ledGlows to true
-        setValue(model.ledGlows, true);
+        //set the model to 'active'
+        setValue(model.active, true);
 
         //using 'runLater' assures that new value is set on model
         runLater(m -> {
-            if (m.counter.getValue() > terminationCount) {
+            if (m.counter.getValue() > TERMINATION_COUNT) {
                 terminate();
             }
         });
     }
 
-    public void ledOff(){
-        //whenever the function ledOff is called, the model will be updated
-        // set value ledGlows to false
-        setValue(model.ledGlows, false);
+    public void deactivate(){
+        //set the model to 'inactive'
+        setValue(model.active, false);
     }
 
-    protected void terminate() {
+    private void terminate() {
         System.exit(0);
     }
 }

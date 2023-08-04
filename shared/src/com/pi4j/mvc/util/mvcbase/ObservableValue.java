@@ -1,4 +1,4 @@
-package util.mvcbase;
+package com.pi4j.mvc.util.mvcbase;
 
 import java.util.HashSet;
 import java.util.Objects;

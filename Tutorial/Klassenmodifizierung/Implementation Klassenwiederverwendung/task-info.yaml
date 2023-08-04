@@ -44,8 +44,6 @@ files:
       reset()*/
 - name: src/Klassenmodifizierung-ImplementationWiederverwendung.run.xml
   visible: false
-- name: test/LedButtonTest.java
-  visible: false
 - name: src/SimpleLed.java
   visible: true
 - name: build.gradle
