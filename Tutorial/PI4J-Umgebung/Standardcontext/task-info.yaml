@@ -3,16 +3,14 @@ files:
 - name: src/Main.java
   visible: true
   placeholders:
-  - offset: 500
+  - offset: 546
     length: 382
     placeholder_text: /* TODO create the Context*/
 - name: test/MainTest.java
   visible: false
-- name: src/PIN.java
-  visible: false
-- name: src/Component.java
+- name: src/PI4J-Umgebung-Standardcontext.run.xml
   visible: false
 - name: src/SimpleLed.java
   visible: true
-- name: src/PI4J-Umgebung-Standardcontext.run.xml
-  visible: false
+- name: build.gradle
+  visible: true
