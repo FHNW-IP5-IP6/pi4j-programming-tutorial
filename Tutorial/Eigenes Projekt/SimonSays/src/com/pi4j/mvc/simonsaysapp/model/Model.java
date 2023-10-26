@@ -1,4 +1,4 @@
-package com.pi4j.mvc.templatepuiapp.model;
+package com.pi4j.mvc.simonsaysapp.model;
 
 import com.pi4j.mvc.util.mvcbase.ObservableArray;
 import com.pi4j.mvc.util.mvcbase.ObservableValue;
@@ -11,5 +11,5 @@ public class Model {
     /**
      * message is shown as output to player
      */
-    public final ObservableValue<String> message = new ObservableValue<>("Welcome to Simon Says, pleas press any button to start the game.");
+    public final ObservableValue<String> message = new ObservableValue<>("Welcome to Simon Says, please press any button to start the game.");
 }

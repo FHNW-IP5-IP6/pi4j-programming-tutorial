@@ -1,7 +1,8 @@
-package com.pi4j.mvc.templatepuiapp.controller;
+package com.pi4j.mvc.simonsaysapp.controller;
 
 import com.pi4j.mvc.util.mvcbase.ControllerBase;
-import com.pi4j.mvc.templatepuiapp.model.Model;
+
+import com.pi4j.mvc.simonsaysapp.model.Model;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -43,13 +44,13 @@ public class Controller extends ControllerBase<Model> {
 
     /**
      * Method to call right at the startup of the App
-     *
+     * <p>
      * What happens, when the app is started? does anything have to be triggered?
      * Comes right after setting up the bindings of the Projector
      */
     @Override
     public void startUp(){
-        ;
+
     }
 
     public void newGame(){
@@ -105,7 +106,7 @@ public class Controller extends ControllerBase<Model> {
     }
 
     private void showNewSequence(){
-        //creat random sequence
+        //create random sequence
         for (int i = 0; i < sequence.size(); i++){
             Random random = new Random();
             sequence.set(i, random.nextInt(4));

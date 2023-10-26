@@ -1,10 +1,12 @@
-package com.pi4j.mvc.templatepuiapp.view.pui;
+package com.pi4j.mvc.simonsaysapp.view.pui;
 
 import com.pi4j.catalog.components.LedButton;
 import com.pi4j.context.Context;
-import com.pi4j.catalog.components.helpers.PIN;
-import com.pi4j.mvc.templatepuiapp.controller.Controller;
-import com.pi4j.mvc.templatepuiapp.model.Model;
+
+import com.pi4j.catalog.components.base.PIN;
+
+import com.pi4j.mvc.simonsaysapp.controller.Controller;
+import com.pi4j.mvc.simonsaysapp.model.Model;
 import com.pi4j.mvc.util.mvcbase.PuiBase;
 
 public class PUI extends PuiBase<Model, Controller> {
@@ -37,10 +39,10 @@ public class PUI extends PuiBase<Model, Controller> {
         this.ledButtons = new LedButton[4];
 
         // initialize each button for it own. So the PINs are declarable
-        ledButtons[0] = new LedButton(pi4J, PIN.D26, false, PIN.D21);
+        ledButtons[0] = new LedButton(pi4J, PIN.D26,   false, PIN.D21);
         ledButtons[1] = new LedButton(pi4J, PIN.PWM19, false, PIN.D20);
         ledButtons[2] = new LedButton(pi4J, PIN.PWM13, false, PIN.D16);
-        ledButtons[3] = new LedButton(pi4J, PIN.D6, false, PIN.PWM12);
+        ledButtons[3] = new LedButton(pi4J, PIN.D6,    false, PIN.PWM12);
 
     }
 
@@ -50,7 +52,7 @@ public class PUI extends PuiBase<Model, Controller> {
     @Override
     public void shutdown() {
         for (var ledButton:ledButtons) {
-            ledButton.btnDeRegisterAll();
+            ledButton.reset();
             ledButton.ledOff();
         }
         super.shutdown();
@@ -63,15 +65,15 @@ public class PUI extends PuiBase<Model, Controller> {
      */
     @Override
     public void setupUiToActionBindings(Controller controller) {
-        ledButtons[0].btnOnDown(() -> controller.buttonPressed(0));
-        ledButtons[1].btnOnDown(() -> controller.buttonPressed(1));
-        ledButtons[2].btnOnDown(() -> controller.buttonPressed(2));
-        ledButtons[3].btnOnDown(() -> controller.buttonPressed(3));
+        ledButtons[0].onDown(() -> controller.buttonPressed(0));
+        ledButtons[1].onDown(() -> controller.buttonPressed(1));
+        ledButtons[2].onDown(() -> controller.buttonPressed(2));
+        ledButtons[3].onDown(() -> controller.buttonPressed(3));
 
-        ledButtons[0].btnOnUp(() -> controller.switchOff(0));
-        ledButtons[1].btnOnUp(() -> controller.switchOff(1));
-        ledButtons[2].btnOnUp(() -> controller.switchOff(2));
-        ledButtons[3].btnOnUp(() -> controller.switchOff(3));
+        ledButtons[0].onUp(() -> controller.switchOff(0));
+        ledButtons[1].onUp(() -> controller.switchOff(1));
+        ledButtons[2].onUp(() -> controller.switchOff(2));
+        ledButtons[3].onUp(() -> controller.switchOff(3));
     }
 
     /**
@@ -83,7 +85,12 @@ public class PUI extends PuiBase<Model, Controller> {
     public void setupModelToUiBindings(Model model) {
         onChangeOf(model.ledsGlowing).execute(((oldValue, newValue) -> {
             for (int i = 0; i < ledButtons.length; i++) {
-                ledButtons[i].ledSetState(newValue[i]);
+                if(newValue[i]){
+                    ledButtons[i].ledOn();
+                }
+                else {
+                    ledButtons[i].ledOff();
+                }
             }
         }));
 

@@ -51,9 +51,10 @@ public class Main {
         System.out.println("Press the button to see it in action!");
         sleep(15_000);
 
-        led.off();
+        // Reset all components to exit this application in a clean way
 
-        // Unregister all event handlers to exit this application in a clean way
+        led.reset();
+
         button.reset();
 
         // End of application
@@ -63,6 +64,5 @@ public class Main {
 
         // Clean up
         pi4j.shutdown();
-
     }
 }

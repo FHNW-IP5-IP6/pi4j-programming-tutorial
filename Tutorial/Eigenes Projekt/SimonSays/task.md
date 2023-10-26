@@ -1,13 +1,12 @@
 # Task 5/7: SimonSays
-In dieser Aufgabe geht es darum, ein eigenes Simon Says zu erstellen. Die wichtigsten Funktionen der Applikation sind hier 
-nochmals kurz erwähnt:
+In dieser Aufgabe geht es darum, ein eigenes Simon Says zu erstellen. Die wichtigsten Funktionen der Applikation sind hier nochmals kurz erwähnt:
 - Start der Applikation durch einen Button
 - Simon gibt eine Farbfolge vor und der Spieler muss diese wiedergeben können
 - Wird eine Farbfolge erfolgreich wiedergegeben, ist die nächste Farbfolge um eine Farbe länger
-- Bei einem Fehler wird das Spiel beendet, mit einem Taster kann danach ein neues Spiel gestartet werden
+- Bei einem Fehler wird das Spiel beendet, mit einem Taster kann danach das Spiel neu gestartet werden
 
 ## Model
-Im ersten Schritt geht es darum, im Model die benötigten Variablen zu definieren.
+Im ersten Schritt geht es darum, im Model die benötigten Attribute zu definieren.
 
 Als Hilfestellung sind alle Variablen aufgelistet, welche in der Musterlösung verwendet werden.
 <div class="hint">

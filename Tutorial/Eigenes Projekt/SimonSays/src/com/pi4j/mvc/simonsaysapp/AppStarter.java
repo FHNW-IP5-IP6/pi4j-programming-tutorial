@@ -1,12 +1,14 @@
-package com.pi4j.mvc.templatepuiapp;
+package com.pi4j.mvc.simonsaysapp;
 
 import com.pi4j.context.Context;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import com.pi4j.mvc.templatepuiapp.controller.Controller;
-import com.pi4j.mvc.templatepuiapp.model.Model;
-import com.pi4j.mvc.templatepuiapp.view.pui.PUI;
+
 import com.pi4j.mvc.util.Pi4JContext;
+
+import com.pi4j.mvc.simonsaysapp.controller.Controller;
+import com.pi4j.mvc.simonsaysapp.model.Model;
+import com.pi4j.mvc.simonsaysapp.view.pui.PUI;
 
 public class AppStarter {
 

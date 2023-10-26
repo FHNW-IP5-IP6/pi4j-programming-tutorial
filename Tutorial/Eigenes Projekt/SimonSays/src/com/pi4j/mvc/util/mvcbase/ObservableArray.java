@@ -6,11 +6,18 @@ import java.util.Objects;
 import java.util.Set;
 
 public final class ObservableArray<V> {
-    // all these listeners will get notified whenever the value changes
-    private final Set<ObservableArray.ValueChangeListener<V>> listeners = new HashSet<>();
+    /** all these listeners will get notified whenever the value changes */
+    private final Set<ValueChangeListener<V>> listeners = new HashSet<>();
 
+    /**
+     * The actual values of the array
+     */
     private volatile V[] values;
 
+    /**
+     * Default Constructor
+     * @param initialValues the initial array
+     */
     public ObservableArray(V[] initialValues) {
         values = initialValues;
     }
@@ -20,43 +27,43 @@ public final class ObservableArray<V> {
      *
      * @param listener specifies what needs to be done whenever the value is changed
      */
-    public void onChange(ObservableArray.ValueChangeListener<V> listener) {
+    public void onChange(ValueChangeListener<V> listener) {
         listeners.add(listener);
         listener.update(values, values);  // listener is notified immediately
     }
 
     /**
      * That's the core functionality of an 'ObservableValue'.
-     *
+     * <p>
      * Every time the value changes, all the listeners will be notified.
-     *
+     * <p>
      * This is method is 'package private', only 'ControllerBase' is allowed to set a new value.
-     *
+     * <p>
      * For the UIs setValue is not accessible
      *
      * @param newValues the new value
      */
     void setValues(V[] newValues) {
-        if (Objects.equals(values, newValues)) {  // no notification if value hasn't changed
+        if (Arrays.equals(values, newValues)) {  // no notification if value hasn't changed
             return;
         }
-        V[] oldValue = values;
+        V[] oldValues = values.clone();
         values = newValues;
 
         listeners.forEach(listener -> {
-            if (values.equals(newValues)) { // pre-ordered listeners might have changed this and thus the callback no longer applies
-                listener.update(oldValue, newValues);
+            if (Arrays.equals(values, newValues)) { // pre-ordered listeners might have changed this and thus the callback no longer applies
+                listener.update(oldValues, newValues);
             }
         });
     }
 
     /**
      * That's the core functionality of an 'ObservableValue'.
-     *
+     * <p>
      * Every time the value changes, all the listeners will be notified.
-     *
+     * <p>
      * This is method is 'package private', only 'ControllerBase' is allowed to set a new value.
-     *
+     * <p>
      * For the UIs setValue is not accessible
      *
      * @param newValue the new value
@@ -65,12 +72,10 @@ public final class ObservableArray<V> {
         if (Objects.equals(values[position], newValue)) {  // no notification if value hasn't changed
             return;
         }
-        V[] oldValues = values;
+        V[] oldValues = values.clone();
         values[position] = newValue;
 
-        listeners.forEach(listener -> {
-            listener.update(oldValues, values);
-        });
+        listeners.forEach(listener -> listener.update(oldValues, values));
     }
 
     /**
@@ -91,6 +96,10 @@ public final class ObservableArray<V> {
         return values[position];
     }
 
+    /**
+     * Giving the array out as a String
+     * @return String with the values of the array
+     */
     @Override
     public String toString() {
         return Arrays.toString(values);
