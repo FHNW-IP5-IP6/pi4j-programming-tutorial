@@ -15,7 +15,9 @@ public class Main {
     public static void main(String[] args)  {
         final PiGpio piGpio = PiGpio.newNativeInstance();
 
-        final Context pi4j = Pi4J.newContextBuilder()
+        Context pi4j = null;
+
+        pi4j =  Pi4J.newContextBuilder()
                 .noAutoDetect()
                 .add(new RaspberryPiPlatform() {
                     @Override

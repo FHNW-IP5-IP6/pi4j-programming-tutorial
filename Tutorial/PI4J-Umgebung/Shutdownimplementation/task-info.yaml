@@ -1,20 +1,21 @@
 type: edu
 files:
-- name: src/Main.java
-  visible: true
-  placeholders:
-  - offset: 508
-    length: 374
-    placeholder_text: /* TODO implement the minimal Pi4J context*/
-  - offset: 1434
-    length: 15
-    placeholder_text: /* TODO deregister the functions of the button */
-  - offset: 1561
-    length: 16
-    placeholder_text: /* TODO shutdown the context */
-- name: src/PI4J-Umgebung-Shutdownimplementation.run.xml
-  visible: false
-- name: src/SimpleButton.java
-  visible: true
-- name: build.gradle
-  visible: true
+  - name: src/Main.java
+    visible: true
+    placeholders:
+      - offset: 509
+        length: 390
+        placeholder_text: /* TODO  create the minimal Pi4J-context and assign it to pi4j
+          */
+      - offset: 1451
+        length: 15
+        placeholder_text: /* TODO deregister the functions of the button */
+      - offset: 1578
+        length: 16
+        placeholder_text: /* TODO shutdown the context */
+  - name: src/PI4J-Umgebung-Shutdownimplementation.run.xml
+    visible: false
+  - name: src/SimpleButton.java
+    visible: true
+  - name: build.gradle
+    visible: true

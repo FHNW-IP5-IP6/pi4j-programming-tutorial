@@ -3,28 +3,15 @@ files:
   - name: src/com/pi4j/mvc/simonsaysapp/view/pui/PUI.java
     visible: true
     placeholders:
-      - offset: 576
-        length: 113
-        placeholder_text: /* TODO declare the used hardware */
-      - offset: 1032
-        length: 431
-        placeholder_text: /* TODO initialize the used hardware */
-      - offset: 1602
-        length: 105
-        placeholder_text: /* TODO deregister the hardware at shutdown */
-      - offset: 1950
-        length: 488
-        placeholder_text: /* TODO bind the controller functions to the functions of the
-          used hardware */
-      - offset: 2621
-        length: 428
-        placeholder_text: /* TODO listen to changes of the model and run actions */
+      - offset: 1936
+        length: 496
+        placeholder_text: /* TODO  call the appropriate method on controller if one of
+          the buttons is pressed*/
+      - offset: 2607
+        length: 336
+        placeholder_text: /* TODO turn the LEDs on or off if 'model.ledsGlowing' has changed*/
   - name: src/com/pi4j/mvc/simonsaysapp/model/Model.java
     visible: true
-    placeholders:
-      - offset: 170
-        length: 372
-        placeholder_text: /* TODO write the variables that are observed here */
   - name: src/com/pi4j/mvc/simonsaysapp/AppStarter.java
     visible: true
   - name: test/com/pi4j/mvc/templatepuiapp/view/pui/PUITest.java
@@ -36,14 +23,9 @@ files:
   - name: src/com/pi4j/mvc/simonsaysapp/controller/Controller.java
     visible: true
     placeholders:
-      - offset: 240
-        length: 560
-        placeholder_text: "/* TODO write the variables here, that don't need a change\
-      \ by listener */"
-      - offset: 1248
-        length: 2574
-        placeholder_text: /* TODO write the methods of the controller for SimonSays here
-          */
+      - offset: 446
+        length: 3524
+        placeholder_text: /* TODO implement the Controller */
   - name: SimonSays-Hardware.png
     visible: false
   - name: SimonSays_Schema.png

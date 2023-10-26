@@ -15,6 +15,14 @@ public abstract class DigitalSensor extends Component  {
         digitalInput = pi4j.create(config);
     }
 
+    /**
+     * FOR PROGRAMMING TUTORIAL ONLY.
+     * Don't use it in real applications
+     */
+    protected DigitalSensor(){
+        throw new IllegalStateException("Must not be called in real application");
+    }
+
     public int pinNumber(){
         return digitalInput.address().intValue();
     }

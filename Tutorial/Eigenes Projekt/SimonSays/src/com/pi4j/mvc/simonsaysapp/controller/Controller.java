@@ -9,6 +9,16 @@ import java.util.List;
 import java.util.Random;
 
 public class Controller extends ControllerBase<Model> {
+
+    /**
+     * Creates a new Controller
+     *
+     * @param model the new model as input
+     */
+    public Controller(Model model) {
+        super(model);
+    }
+
     /**
      * current level
      */
@@ -33,14 +43,6 @@ public class Controller extends ControllerBase<Model> {
      */
     private Boolean gameIsRunning = false;
 
-    /**
-     * Creates a new Controller
-     *
-     * @param model the new model as input
-     */
-    public Controller(Model model) {
-        super(model);
-    }
 
     /**
      * Method to call right at the startup of the App

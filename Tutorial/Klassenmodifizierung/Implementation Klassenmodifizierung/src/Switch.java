@@ -106,7 +106,6 @@ public class Switch extends DigitalSensor {
         return getState() == DigitalState.LOW;
     }
 
-
     /**
      * Sets or disables the handler for the onDown event.
      * <p>
