@@ -14,7 +14,7 @@ Für eine Beschreibung siehe [Pi4J Operating System](https://pi4j.com/pi4j-os/).
 
 Wenn IntelliJ geöffnet ist, kann über die Webseite [JetBrains Academy](https://plugins.jetbrains.com/plugin/10081-jetbrains-academy) direkt das Plugin auf die IDE installiert werden.
 
-Das Plugin kann auch direkt in der IDE installiert werden. Dazu kann per `File → Settings → Plugins` das Plugin installiert werden, so wie hier aufgezeigt:
+Das Plugin kann auch direkt in der IDE installiert werden. Dazu kann per `File → Settings → Plugins` (`IntelliJ IDEA → Preferences → Plugins` auf MacOS) das Plugin installiert werden, so wie hier aufgezeigt:
 ![JetBrains Academy Plugin](images/Edutools-Plugin.png)
 
 Das zweite Plugin, welches installiert werden muss, ist [Embedded Linux JVM Debugger for Raspberry PI](https://plugins.jetbrains.com/plugin/18849-embedded-linux-jvm-debugger-for-raspberry-pi):
