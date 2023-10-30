@@ -1,37 +1,48 @@
-# pi4j-programming-tutorial
+# Pi4J Programming Tutorial
+
 Learn how to implement awesome Raspberry Pi projects based on Pi4J, the library that provides a friendly object-oriented API for Java Programmers to access the full I/O capabilities of the Raspberry Pi platform.
 
-Dieses Repository ist ein deutscher Leitfaden und Tutorial, um in die Programmierung und speziell die API's der Java-Library PI4J einzuführen. Damit dieses Tutorial gestartet werden kann, muss in IntelliJ ein Plugin installiert werden. Das Plugin [EduTools](https://plugins.jetbrains.com/plugin/10081-edutools) ist hier gemeint. 
+Dieses Repository ist ein Leitfaden und Tutorial in deutscher Sprache, um in die Programmierung und speziell die APIs der Java-Library Pi4J einzuführen. Damit dieses Tutorial gestartet werden kann, muss in IntelliJ [JetBrains Academy](https://plugins.jetbrains.com/plugin/10081-jetbrains-academy) installiert werden.
 
-## Installation
-Wenn IntelliJ geöffnet ist, kann über die Webseite [EduTools](https://plugins.jetbrains.com/plugin/10081-edutools) direkt das Plugin auf die IDE installiert werden.
+## Installation des Raspberry Pis
 
-Das Plugin kann auch direkt in der IDE installiert werden. Dazu kann im Menu oben Links per File -> Settings -> Plugins das Plugin installiert werden, so wie hier aufgezeigt:
-![EduTools Plugin](/Edutools-Plugin.png)
+Verwenden Sie das [Pi4J-Basic-OS](https://pi4j-download.com/latest.php?flavor=basic) Image, um die SD-Card des Raspberry Pis zu bespielen. Dieses Image enthält alle für die Entwicklung mit Pi4J notwendigen Installationen und Konfigurationen.
 
-Das Zweite Plugin, welches installiert werden muss, ist das folgende [Embedded Linux JVM Debugger for Raspberry PI](https://plugins.jetbrains.com/plugin/18849-embedded-linux-jvm-debugger-for-raspberry-pi):
-![Embedded Linux JVM Debugger for Raspberry PI](/Raspi-JVM.png)
+Für eine Beschreibung siehe [Pi4J Operating System](https://pi4j.com/pi4j-os/).
 
-## Kurs starten von Kursdatei
+## Installation auf dem Developer Computer
+
+Wenn IntelliJ geöffnet ist, kann über die Webseite [JetBrains Academy](https://plugins.jetbrains.com/plugin/10081-jetbrains-academy) direkt das Plugin auf die IDE installiert werden.
+
+Das Plugin kann auch direkt in der IDE installiert werden. Dazu kann per `File → Settings → Plugins` (`IntelliJ IDEA → Preferences → Plugins` auf MacOS) das Plugin installiert werden, so wie hier aufgezeigt:
+![JetBrains Academy Plugin](images/Edutools-Plugin.png)
+
+Das zweite Plugin, welches installiert werden muss, ist [Embedded Linux JVM Debugger for Raspberry PI](https://plugins.jetbrains.com/plugin/18849-embedded-linux-jvm-debugger-for-raspberry-pi):
+![Embedded Linux JVM Debugger for Raspberry PI](images/Raspi-JVM.png)
+
+
+## Tutorial starten mit Kursdatei
+
 Auf dem Welcome Screen von IntelliJ kann, bei *My Courses* über die drei Punkte, die Kursdatei geöffnet werden.
 
-![Welcome to IntelliJ IDEA](/WelcomeToIntellijIDEA.png)
+![Welcome to IntelliJ IDEA](images/WelcomeToIntellijIDEA.png)
 
 Bevor der Kurs mit dem *Start* Button gestartet werden kann, muss zuerst bei den Settings überprüft werden, dass mindestens JDK Version 17 ausgewählt ist.
 
-![Start Course](/StartCourse.png)
+![Start Course](images/StartCourse.png)
 
 Die Kursdatei als *Trust Project* öffnen
 
-![Trust Project](/TrustProject.png)
+![Trust Project](images/TrustProject.png)
 
 Der Kurs ist nun mit der Hautpseite geöffnet.
 
-## Kurs starten vom Repository
-Dieses Kapitel muss nur beachtet werden, wenn nicht der Output (das Archiv) genommen wird, sondern direkt das Repository.
+## Kurs aus diesem Projekt heraus starten
 
-Um den Kurs in Lernform zu starten, muss per Rechtsklick auf oberster Ebene im Kurs das Menu "Course Creator" erweitert werden, und dann im Untermenu der Punkt "Create Course Preview" ausgewählt werden.
+Es ist auch möglich lediglich das Tutorial als 'Preview' zu starten, der vom aktuellen Stand dieses Projekts generiert wird.
 
-![EduTools Kursstart](/EduTools-Kursstart.png)
+Um den Kurs-Preview zu starten, muss per Rechtsklick auf oberster Ebene im Kurs das Menu "Course Creator → Create Course Preview" ausgewählt werden.
 
-Durch diese Aktion öffnet sich ein Zweiter IntelliJ Editor, welcher das Tutorial in der Lernform beinhaltet. Hier bitte warten, bis Gradle das Projekt fertiggestellt hat.
+![EduTools Kursstart](images/EduTools-Kursstart.png)
+
+Durch diese Aktion öffnet sich ein zweiter IntelliJ Editor, der das Tutorial in der Lernform beinhaltet. Hier bitte warten, bis Gradle das Projekt fertiggestellt hat.

@@ -14,3 +14,4 @@ options:
 files:
 - name: src/Main.java
   visible: true
+local_check: true

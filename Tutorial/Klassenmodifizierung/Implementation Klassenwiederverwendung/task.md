@@ -1,41 +1,41 @@
 # Task 6/8: Implementation Klassenwiederverwendung
 In dieser Aufgabe geht es darum, aus den vorhandenen Klassen [SimpleButton](https://pi4j.com/examples/components/simplebutton/)
-und [SimpleLed](https://pi4j.com/examples/components/simpleled/) (aus dem Hardwarekatalog) eine neue Klasse LedButton selbst zu erstellen.
-Die neue Komponente soll die zwei vorhandenen Objekte mit ihren Methoden als eine eigene neue Komponente zusammenfügen.
+und [SimpleLed](https://pi4j.com/examples/components/simpleled/) (aus dem Hardwarekatalog) eine neue Klasse `LedButton` selbst zu erstellen.
+Die neue Komponente soll die zwei vorhandenen Objekte mit ihren Methoden zu einer neuen Komponente zusammenfügen.
 
 ---
 > **_Hinweis:_**
 >
-> Die Klassen *SimpleButton* und *SimpleLed* wurden bereits aus dem Hardwarekatalog kopiert und
-> in den Ordner src eingefügt. Eigener Code muss nur noch in der Klasse LedButton geschrieben werden.
+> Die Klassen `SimpleButton` und `SimpleLed` wurden bereits aus dem Hardwarekatalog kopiert und in den Ordner src eingefügt. Eigener Code muss nur noch in der Klasse `LedButton` geschrieben werden.
 ---
 
 ## Aufgabe
 ### Programmierung
-## Main.java
-Die Funktionen ledButton sind auskommentiert, damit die Übersetzung funktioniert. Kommentiere alle Funktionen
-(6 Zeilen) wieder ein.
-## LedButton.java
-- Deklariere zwei Objekte led und button mit SimpleLed und SimpleButton
-- Initialisiere die beiden Objekte im Konstruktor von LedButton
-- Schreibe die unten erwähnten Methoden. Verwende dazu die Methoden von *led*.
-  - ledSetState(boolean)
+## `Main.java`
+Bearbeite die TODOs in `Main.java`. Dadurch soll eine Demo-Applikation des neuen `LedButton`entstehen.
+
+## `LedButton.java`
+- Deklariere zwei Attribute `led` und `button` vom Typ `SimpleLed` und `SimpleButton`
+- Initialisiere die beiden Attribute im Konstruktor von `LedButton`
+- Schreibe die unten erwähnten Methoden. Verwende dazu die Methoden von `SimpleLed`.
   - ledOn()
   - ledOff()
-  - ledToggleState()
-  - ledGetDigitalOutput()
-- Schreibe die unten erwähnten Methoden. Verwende dazu die Methoden des instanziierten *SimpleButton*.
-  - btnGetState()
-  - btnIsDown()
-  - btnIsUp()
-  - btnGetDigitalInput()
-  - btnOnDown(Runnable)
-  - btnOnUp(Runnable)
-  - btnWhilePressed(Runnable)
-  - btnDeRegisterAll()
-  - btnGetOnUp()
-  - btnGetOnDown()
-  - btnGetWhilePressed()
+  - ledToggle()
+- Schreibe die unten erwähnten Methoden. Verwende dazu die Methoden von `SimpleButton`.
+  - isDown()
+  - isUp()
+  - onDown(Runnable)
+  - onUp(Runnable)
+  - whilePressed(Runnable)
+  - reset()
+
+## `LedButtonTest.java`
+- Vervollständige den TestCase `LedButtonTest`.
+- Überlege welche Funktionalität sinnvollerweise getestet werden sollte
+- Damit getestet werden kann werden zwei weitere Methoden in `LedButton` benötigt
+  - `mockLed()`
+  - `mockButton()`
+  - Welchen Rückgabetyp müssen diese Methoden jeweils haben?
 
 ### Check Programmierung
 Die Programmierung lässt sich mit dem Button *Check* überprüfen. Nach erfolgreich abgeschlossenem Test kann mit der

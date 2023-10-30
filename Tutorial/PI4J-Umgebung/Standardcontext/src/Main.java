@@ -4,6 +4,8 @@ import com.pi4j.library.pigpio.PiGpio;
 import com.pi4j.plugin.pigpio.provider.gpio.digital.PiGpioDigitalOutputProvider;
 import com.pi4j.plugin.raspberrypi.platform.RaspberryPiPlatform;
 
+import com.pi4j.catalog.components.base.PIN;
+
 import static java.lang.Thread.sleep;
 
 public class Main {
@@ -37,7 +39,7 @@ public class Main {
 
         // Make a flashing light by toggling the LED every second
         for (int i = 0; i < 10; i++) {
-            System.out.println(led.toggleState());
+            System.out.println(led.toggle());
             sleep(1000);
         }
 

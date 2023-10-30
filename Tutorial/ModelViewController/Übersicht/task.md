@@ -1,8 +1,8 @@
 # Task 1/8: Übersicht
-Diese Lektion gibt eine Einführung in das ModelViewController (MVC) Design-Pattern.
+Diese Lektion gibt eine Einführung in das ModelViewController (MVC) Konzept.
 
 ## Lernziele
-- Ich kenne das Design-Pattern MVC.
+- Ich kenne das MVC Konzept.
 - Ich kenne die verschiedenen Layer (Model, View und Controller) und weiss, welche Funktionen diese übernehmen.
 - Ich kann eine bestehende MVC Applikation mit eigenen Komponenten erweitern.
 

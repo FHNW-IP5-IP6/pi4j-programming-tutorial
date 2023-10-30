@@ -1,32 +1,26 @@
 type: edu
 files:
-- name: src/Switch.java
-  visible: true
-  placeholders:
-  - offset: 350
-    length: 3220
-    placeholder_text: /* TODO Create the class*/
-- name: src/Main.java
-  visible: true
-  placeholders:
-  - offset: 1553
-    length: 50
-    placeholder_text: /* TODO initialize a new switch*/
-  - offset: 1667
-    length: 120
-    placeholder_text: /* TODO register an event on the functions of the switch */
-  - offset: 1910
-    length: 24
-    placeholder_text: /* TODO deregister all functions from the switch */
-- name: src/SimpleButton.java
-  visible: true
-- name: src/Component.java
-  visible: false
-- name: src/PIN.java
-  visible: false
-- name: test/SwitchTest.java
-  visible: false
-- name: test/ComponentTest.java
-  visible: false
-- name: src/Klassenmodifizierung-ImplementationKlassenmodifizierung.run.xml
-  visible: false
+  - name: src/Switch.java
+    visible: true
+  - name: src/Main.java
+    visible: true
+    placeholders:
+      - offset: 1704
+        length: 45
+        placeholder_text: /* TODO initialize a new switch*/
+      - offset: 1815
+        length: 143
+        placeholder_text: /* TODO register an event on the functions of the switch */
+      - offset: 2111
+        length: 18
+        placeholder_text: /* TODO deregister all functions from the switch */
+  - name: src/SimpleButton.java
+    visible: true
+  - name: src/Klassenmodifizierung-ImplementationKlassenmodifizierung.run.xml
+    visible: false
+  - name: build.gradle
+    visible: true
+  - name: test/SwitchTest.java
+    visible: true
+  - name: Switch.png
+    visible: true

@@ -3,31 +3,50 @@ files:
 - name: src/LedButton.java
   visible: true
   placeholders:
-  - offset: 278
-    length: 71
-    placeholder_text: /* TODO declare the objects button and led */
-  - offset: 636
-    length: 127
-    placeholder_text: /* TODO initialize the objects button and led */
-  - offset: 775
-    length: 347
-    placeholder_text: /* TODO create the led functions on the ledButton */
-  - offset: 1128
-    length: 814
-    placeholder_text: /* TODO create the button functions on the ledButton */
+  - offset: 396
+    length: 74
+    placeholder_text: |-
+      /* TODO  declare attributes for the LED and the Button
+      */
+  - offset: 749
+    length: 125
+    placeholder_text: "/* TODO initialize LED and Button, user SimpleLed and SimpleButton\
+      \ for this */"
+  - offset: 882
+    length: 171
+    placeholder_text: /* TODO implement the methods for the LED functionality*/
+  - offset: 1055
+    length: 397
+    placeholder_text: /* TODO implement all methods for the button functionality */
+  - offset: 1493
+    length: 67
+    placeholder_text: /* TODO reset everything */
+  - offset: 1568
+    length: 138
+    placeholder_text: /* TODO provide the mock-Methods you need for a proper JUnit-Test
+      */
 - name: src/Main.java
   visible: true
-- name: src/SimpleButton.java
-  visible: true
-- name: src/PIN.java
-  visible: false
-- name: src/Component.java
-  visible: false
-- name: test/ComponentTest.java
-  visible: false
+  placeholders:
+  - offset: 1816
+    length: 18
+    placeholder_text: /* TODO turn the LED of the LedButton on*/
+  - offset: 1984
+    length: 143
+    placeholder_text: /* TODO implement EventHandler for pressing and for depressing
+      the button*/
+  - offset: 2426
+    length: 112
+    placeholder_text: /* TODO let the LED of the LedButton blink several times*/
+  - offset: 2625
+    length: 18
+    placeholder_text: /* TODO turn led off and deregister all EventHandler by calling
+      reset()*/
 - name: src/Klassenmodifizierung-ImplementationWiederverwendung.run.xml
   visible: false
 - name: src/SimpleLed.java
   visible: true
-- name: test/LedButtonTest.java
-  visible: false
+- name: build.gradle
+  visible: true
+- name: src/SimpleButton.java
+  visible: true

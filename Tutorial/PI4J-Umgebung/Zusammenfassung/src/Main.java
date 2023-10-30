@@ -10,23 +10,22 @@ import com.pi4j.plugin.raspberrypi.platform.RaspberryPiPlatform;
 
 public class Main {
    public static void main(String[] args) {
-      final var piGpio = PiGpio.newNativeInstance();
-      var pi4j = Pi4J.newContextBuilder()
-              .noAutoDetect()
-              .add(new RaspberryPiPlatform() {
-                 @Override
-                 protected String[] getProviders() {
-                    return new String[]{};
-                 }
-              })
-              .add(PiGpioDigitalInputProvider.newInstance(piGpio),
-                      PiGpioDigitalOutputProvider.newInstance(piGpio),
-                      PiGpioPwmProvider.newInstance(piGpio),
-                      PiGpioSerialProvider.newInstance(piGpio),
-                      PiGpioSpiProvider.newInstance(piGpio),
-                      LinuxFsI2CProvider.newInstance()
-              )
-              .build();
+       final var piGpio = PiGpio.newNativeInstance();
+       final var pi4j = Pi4J.newContextBuilder()
+               .noAutoDetect()
+               .add(new RaspberryPiPlatform() {
+                   @Override
+                   protected String[] getProviders() {
+                       return new String[]{};
+                   }
+               })
+               .add(PiGpioDigitalInputProvider.newInstance(piGpio),
+                       PiGpioDigitalOutputProvider.newInstance(piGpio),
+                       PiGpioPwmProvider.newInstance(piGpio),
+                       PiGpioSerialProvider.newInstance(piGpio),
+                       PiGpioSpiProvider.newInstance(piGpio),
+                       LinuxFsI2CProvider.newInstance())
+               .build();
 
       // Run the application
       System.out.println("Application is running");

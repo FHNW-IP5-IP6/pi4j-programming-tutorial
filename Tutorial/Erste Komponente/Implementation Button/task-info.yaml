@@ -1,31 +1,27 @@
 type: edu
 files:
-- name: src/Main.java
-  visible: true
-  placeholders:
-  - offset: 1817
-    length: 75
-    placeholder_text: /* TODO declare and initialize an object button of SimpleButton.
-      Use pin 26 as input*/
-  - offset: 1937
-    length: 39
-    placeholder_text: /* TODO Register Event handlers to print a message when pressed and
-      depressed*/
-  - offset: 2147
-    length: 10
-    placeholder_text: /* TODO Turn off led */
-  - offset: 2248
-    length: 23
-    placeholder_text: /* TODO Deregister all Handlers */
-- name: test/Tests.java
-  visible: false
-- name: src/Component.java
-  visible: false
-- name: src/PIN.java
-  visible: false
-- name: src/SimpleButton.java
-  visible: true
-- name: src/ErsteKomponente-ImplementationButton.run.xml
-  visible: false
-- name: src/SimpleLED.java
-  visible: true
+  - name: src/Main.java
+    visible: true
+    placeholders:
+      - offset: 1849
+        length: 75
+        placeholder_text: /* TODO declare and initialize an object button of SimpleButton.
+          Use pin 26 as input*/
+      - offset: 1969
+        length: 34
+        placeholder_text: /* TODO Register Event handlers to print a message when pressed
+          and depressed*/
+      - offset: 2247
+        length: 12
+        placeholder_text: /* TODO Turn off led */
+      - offset: 2269
+        length: 15
+        placeholder_text: /* TODO Deregister all Handlers */
+  - name: src/SimpleButton.java
+    visible: true
+  - name: src/ErsteKomponente-ImplementationButton.run.xml
+    visible: false
+  - name: src/SimpleLed.java
+    visible: true
+  - name: build.gradle
+    visible: false

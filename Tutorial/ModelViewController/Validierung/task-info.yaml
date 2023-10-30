@@ -1,12 +1,13 @@
 type: choice
 is_multiple_choice: true
 options:
-- text: Ich kenne das Design pattern MVC.
+- text: Ich kenne das MVC Konzept.
   is_correct: true
-- text: Ich kenne die verschiedenen Layer und weiss, welche Funktionen diese übernehmen.
+- text: "Ich kenne die verschiedenen Elemente von MVC und weiss, welche Aufgaben diese übernehmen."
   is_correct: true
 - text: Ich kann eine bestehende MVC Applikation mit eigenen Komponenten erweitern
   is_correct: true
 files:
 - name: src/Main.java
   visible: true
+local_check: true

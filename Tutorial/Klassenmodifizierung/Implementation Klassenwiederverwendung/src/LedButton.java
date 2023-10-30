@@ -1,24 +1,25 @@
+import java.time.Duration;
+
 import com.pi4j.context.Context;
-import com.pi4j.io.gpio.digital.DigitalInput;
-import com.pi4j.io.gpio.digital.DigitalOutput;
-import com.pi4j.io.gpio.digital.DigitalState;
+import com.pi4j.plugin.mock.provider.gpio.digital.MockDigitalInput;
+import com.pi4j.plugin.mock.provider.gpio.digital.MockDigitalOutput;
+
+import com.pi4j.catalog.components.base.Component;
+import com.pi4j.catalog.components.base.PIN;
 
 public class LedButton extends Component {
-    protected static final long DEFAULT_DEBOUNCE = 10000;
-    protected final SimpleButton button;
-    protected final SimpleLed led;
+    private static final long DEFAULT_DEBOUNCE = 10000;
+
+    private final SimpleButton button;
+    private final SimpleLed    led;
 
     public LedButton(Context pi4j, PIN buttonAddress, Boolean inverted, PIN ledAddress) {
         this(pi4j, buttonAddress, inverted, ledAddress, DEFAULT_DEBOUNCE);
     }
 
     public LedButton(Context pi4j, PIN buttonAddress, boolean inverted, PIN ledAddress, long debounce) {
-        this.button = new SimpleButton(pi4j, buttonAddress, inverted, debounce);
-        this.led    = new SimpleLed(pi4j, ledAddress);
-    }
-
-    public void ledSetState(boolean on) {
-        led.setState(on);
+        button = new SimpleButton(pi4j, buttonAddress, inverted, debounce);
+        led    = new SimpleLed(pi4j, ledAddress);
     }
 
     public void ledOn() {
@@ -29,41 +30,40 @@ public class LedButton extends Component {
         led.off();
     }
 
-    public boolean ledToggleState() {
-        return led.toggleState();
+    public boolean ledToggle() {
+        return led.toggle();
     }
 
-    public DigitalOutput ledGetDigitalOutput() {
-        return led.getDigitalOutput();
-    }
-
-    public DigitalState btnGetState() { return button.getState(); }
-
-    public boolean btnIsDown() {
+    public boolean isDown() {
         return button.isDown();
     }
 
-    public boolean btnIsUp() {
+    public boolean isUp() {
         return button.isUp();
     }
 
-    public DigitalInput btnGetDigitalInput() {
-        return button.getDigitalInput();
-    }
+    public void onDown(Runnable method) { button.onDown(method); }
 
-    public void btnOnDown(Runnable method) { button.onDown(method); }
-
-    public void btnOnUp(Runnable method) {
+    public void onUp(Runnable method) {
         button.onUp(method);
     }
 
-    public void btnWhilePressed(Runnable method, long millis) {button.whilePressed(method, millis); }
+    public void whilePressed(Runnable method, Duration duration) {
+        button.whilePressed(method, duration);
+    }
 
-    public void btnDeRegisterAll(){ button.deRegisterAll(); }
+    @Override
+    public void reset(){
+        super.reset();
+        button.reset();
+        led.reset();
+    }
 
-    public Runnable btnGetOnUp(){return button.getOnUp();}
+    MockDigitalOutput mockLed(){
+        return led.mock();
+    }
 
-    public Runnable btnGetOnDown(){return button.getOnDown();}
-
-    public Runnable btnGetWhilePressed(){return button.getWhilePressed();}
+    MockDigitalInput mockButton() {
+        return button.mock();
+    }
 }

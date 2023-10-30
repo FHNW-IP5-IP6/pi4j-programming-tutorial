@@ -1,4 +1,5 @@
 import com.pi4j.Pi4J;
+import com.pi4j.catalog.components.base.PIN;
 import com.pi4j.library.pigpio.PiGpio;
 import com.pi4j.plugin.linuxfs.provider.i2c.LinuxFsI2CProvider;
 import com.pi4j.plugin.pigpio.provider.gpio.digital.PiGpioDigitalInputProvider;
@@ -12,9 +13,8 @@ import static java.lang.Thread.sleep;
 
 public class Main {
     public static void main(String[] args) throws InterruptedException {
-
         final var piGpio = PiGpio.newNativeInstance();
-        var pi4j = Pi4J.newContextBuilder()
+        final var pi4j = Pi4J.newContextBuilder()
                 .noAutoDetect()
                 .add(new RaspberryPiPlatform() {
                     @Override
@@ -23,17 +23,15 @@ public class Main {
                     }
                 })
                 .add(PiGpioDigitalInputProvider.newInstance(piGpio),
-                        PiGpioDigitalOutputProvider.newInstance(piGpio),
-                        PiGpioPwmProvider.newInstance(piGpio),
-                        PiGpioSerialProvider.newInstance(piGpio),
-                        PiGpioSpiProvider.newInstance(piGpio),
-                        LinuxFsI2CProvider.newInstance()
-                )
+                     PiGpioDigitalOutputProvider.newInstance(piGpio),
+                     PiGpioPwmProvider.newInstance(piGpio),
+                     PiGpioSerialProvider.newInstance(piGpio),
+                     PiGpioSpiProvider.newInstance(piGpio),
+                     LinuxFsI2CProvider.newInstance())
                 .build();
 
         //***********************************Start coding space************************************
 
-        // Run the application
         System.out.println("Application is running");
 
         // Create a new SimpleLED component
@@ -45,11 +43,11 @@ public class Main {
 
         // Make a flashing light by toggling the LED every second
         for (int i = 0; i < 10; i++) {
-        System.out.println(led.toggleState());
-        sleep(1000);
+            System.out.println(led.toggle());
+            sleep(1000);
         }
 
-        // That's all so turn off the relay and quit
+        // That's all so turn off the LED.
         led.off();
 
         // End of application

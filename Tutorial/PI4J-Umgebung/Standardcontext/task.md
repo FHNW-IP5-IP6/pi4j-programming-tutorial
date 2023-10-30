@@ -5,7 +5,7 @@ Das Gerüst ist eine Applikation, welche die Interaktion mit einer simplen LED e
 ---
 > **_Hinweis:_**
 >
-> Die Klasse *SimpleLed* wurde bereits aus dem Hardwarekatalog kopiert und
+> Die Klasse `SimpleLed` wurde bereits aus dem Hardwarekatalog kopiert und
 > in den Ordner src eingefügt.
 ---
 # Aufgabe
@@ -14,18 +14,18 @@ Das Gerüst ist eine Applikation, welche die Interaktion mit einer simplen LED e
 
 ---
 > **_Hinweis:_**
-> Die Aufgabe kann nur in der Klasse Main.java gelöst werden. Der Platzhalter zeigt an, wo. In der SimpleLed ist ersichtlich,
+> Die Aufgabe kann nur in der Klasse `Main.java` gelöst werden. Der Platzhalter zeigt an, wo. In  `SimpleLed` ist ersichtlich,
 > was für I/O Funktionalitäten die Klasse braucht.
 ---
 ## Check Programmierung
 Die Programmierung lässt sich mit dem Button *Check* überprüfen. Nach erfolgreich abgeschlossenem Test kann mit der
-Erstellung der Hardware begonnen werden. Ist der Test nicht erfolgreich, muss zuerst der Fehler behoben werden. Dabei können
-allfällige Hints oder ein Blick in die Lösung helfen.
+Erstellung der Hardware begonnen werden.
+
+Ist der Test nicht erfolgreich, muss zuerst der Fehler behoben werden. Dabei können allfällige Hints oder ein Blick in die Lösung helfen.
 
 ## Aufbau
 Als Nächstes muss die LED mit dem Raspberry Pi richtig verbunden werden. Das elektrische Layout von
-[*SimpleLed*](https://pi4j.com/examples/components/simpleled/) zeigt eine mögliche Lösung.
+[SimpleLed](https://pi4j.com/examples/components/simpleled/) zeigt eine mögliche Lösung.
 
 ## Remote Ausführung
-Die Applikation ist nun bereit, um auf dem Pi ausgeführt zu werden. Dazu ist eine
-Running-Config *PI4J-Umgebung-Standardcontext* hinterlegt.
+Die Applikation ist nun bereit, um auf dem Pi ausgeführt zu werden. Dazu ist eine  Running-Config *PI4J-Umgebung-Standardcontext* hinterlegt.

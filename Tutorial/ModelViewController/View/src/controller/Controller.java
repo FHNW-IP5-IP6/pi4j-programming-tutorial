@@ -1,7 +1,8 @@
 package controller;
 
 import model.Model;
-import util.mvcbase.ControllerBase;
+
+import com.pi4j.mvc.util.mvcbase.ControllerBase;
 
 public class Controller extends ControllerBase<Model> {
 
@@ -11,8 +12,8 @@ public class Controller extends ControllerBase<Model> {
         super(model);
     }
 
-    public void pressButton(){
-        increase(model.counter);
+    public void increaseCounter(){
+        increaseValue(model.counter);
 
         //using 'runLater' assures that new value is set on model
         runLater(m -> {

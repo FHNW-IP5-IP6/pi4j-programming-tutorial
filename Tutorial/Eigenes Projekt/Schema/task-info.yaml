@@ -3,9 +3,10 @@ is_multiple_choice: true
 options:
 - text: Dieses Schema wird funktionieren.
   is_correct: false
-- text: Die Grüne LED kann nie gesteuert werden.
+- text: Die grüne LED kann nie gesteuert werden.
   is_correct: true
-- text: Die Anordnung der Komponenten ist nicht vorteilhaft, besser wäre es, wenn die Buttons direkt neben ihren LED platziert wären.
+- text: "Die Anordnung der Komponenten ist nicht vorteilhaft, besser wäre es, wenn\
+    \ die Buttons direkt neben ihren LED platziert wären."
   is_correct: true
 - text: Die LED's brauchen alle einen gleich grossen Widerstand.
   is_correct: false
@@ -14,3 +15,4 @@ files:
   visible: true
 - name: SimonSays_Schema.png
   visible: false
+local_check: true

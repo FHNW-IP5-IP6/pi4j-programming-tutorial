@@ -3,46 +3,34 @@ files:
 - name: src/AppStarter.java
   visible: true
 - name: src/model/Model.java
-  visible: false
+  visible: true
 - name: src/controller/Controller.java
-  visible: false
-- name: src/util/mvcbase/PuiBase.java
-  visible: false
-- name: src/util/mvcbase/Projector.java
-  visible: false
-- name: src/util/mvcbase/ControllerBase.java
-  visible: false
-- name: src/util/mvcbase/ObservableValue.java
-  visible: false
-- name: src/util/mvcbase/ConcurrentTaskQueue.java
-  visible: false
-- name: src/view/components/helpers/PIN.java
-  visible: false
-- name: src/view/components/Component.java
-  visible: false
-- name: src/view/components/SimpleButton.java
   visible: true
 - name: src/view/View.java
   visible: true
   placeholders:
-  - offset: 373
-    length: 30
+  - offset: 337
+    length: 28
     placeholder_text: /* TODO declare the SimpleButton */
-  - offset: 662
+  - offset: 624
     length: 48
     placeholder_text: /* TODO initialize the SimpleButton */
-  - offset: 826
-    length: 23
+  - offset: 790
+    length: 15
     placeholder_text: /* TODO deregister the SimpleButton functions */
-  - offset: 1359
-    length: 39
+  - offset: 1318
+    length: 43
     placeholder_text: /* TODO connect the interaction from the button with the function
       of the controller */
-  - offset: 2212
-    length: 65
+  - offset: 2161
+    length: 69
     placeholder_text: /* TODO write to the console "You pressed the button x times."
       where x represents the new Value of the counter */
-- name: test/view/ViewTest.java
-  visible: false
 - name: src/ModelViewController-View.run.xml
   visible: false
+- name: src/view/components/SimpleButton.java
+  visible: true
+- name: build.gradle
+  visible: true
+- name: test/controller/ControllerTest.java
+  visible: true

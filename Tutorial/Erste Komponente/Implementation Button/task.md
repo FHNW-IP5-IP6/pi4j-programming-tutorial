@@ -5,18 +5,18 @@ aus dem Hardwarekatalog verwendet. Auf das Ereignis *Button gedrückt* soll sich
 ---
 > **_Hinweis:_**
 >
-> Die Klasse *SimpleButton* wurde bereits aus dem Hardwarekatalog kopiert und
-> in den Ordner src eingefügt.
+> Die Klasse `SimpleButton` wurde bereits aus dem Hardwarekatalog kopiert und
+> in den Ordner `src` eingefügt.
 ---
 
 # Aufgabe
 ## Programmierung
-- Deklariere das Objekt *button* vom Typ Simple Button
-- Initialisiere das Objekt *button*. Verwende dazu den Pin 26 auf dem Raspberry Pi
-- Wenn der Button gedrückt wird, soll sich der Zustand der LED ändern. Verwende dazu die Methode *toggleState* von SimpleLed
-- Nachdem die Zeit von 15s abgelaufen ist (nach sleep(15000)) soll die LED ausgeschalten werden, damit zum Schluss ein
+- Deklariere das Objekt `button` vom Typ `SimpleButton`.
+- Initialisiere das Objekt `button`. Verwende dazu den Pin 26 auf dem Raspberry Pi.
+- Wenn der Button gedrückt wird, soll sich der Zustand der LED ändern. Verwende dazu die Methode `toggle()` von `SimpleLed`.
+- Nach 15s (`sleep(15000)`) soll die LED ausgeschalten werden, damit zum Schluss ein
 definierter Zustand erreicht wird
-- Als letzte Ergänzung soll der Handler wieder deregistriert werden.
+- Als letzte Ergänzung soll der Handler wieder deregistriert werden. Verwende dazu die Methode `reset()`.
 
 ---
 > **_Hinweis:_**
@@ -39,9 +39,9 @@ der Lösung nach.
 
 ## Aufbau
 Als Nächstes muss der Taster mit dem Raspberry Pi richtig verbunden werden. Nutze dazu die
-Dokumentation [*SimpleButton*](https://pi4j.com/examples/components/simplebutton/)
+Dokumentation [SimpleButton](https://pi4j.com/examples/components/simplebutton/)
 des Hardwarekataloges auf der Pi4J Webseite.
 
 ## Remote Ausführung
 Die Applikation ist nun bereit, um auf dem Pi ausgeführt zu werden. Dazu ist eine
-Running-Config *ErsteKomponente-ImplementationButton* hinterlegt.
+Running-Config `ErsteKomponente-ImplementationButton` hinterlegt.

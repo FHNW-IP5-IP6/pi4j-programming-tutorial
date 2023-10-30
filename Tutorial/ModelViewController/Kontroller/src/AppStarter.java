@@ -15,7 +15,7 @@ public class AppStarter {
         final PiGpio piGpio = PiGpio.newNativeInstance();
 
         // Build Pi4J context with this platform and PiGPIO providers
-        Context pi4j = Pi4J.newContextBuilder()
+        final Context pi4j = Pi4J.newContextBuilder()
                 .noAutoDetect()
                 .add(new RaspberryPiPlatform() {
                     @Override
@@ -24,11 +24,12 @@ public class AppStarter {
                     }
                 })
                 .add(PiGpioDigitalInputProvider.newInstance(piGpio),
-                        PiGpioDigitalOutputProvider.newInstance(piGpio))
+                     PiGpioDigitalOutputProvider.newInstance(piGpio))
                 .build();
 
-        Controller controller = new Controller(new Model());
-        new View(controller, pi4j);
+        Model model = new Model();
+        Controller controller = new Controller(model);
+        View pui = new View(controller, pi4j);
 
         System.out.println("App started");
 
@@ -39,7 +40,7 @@ public class AppStarter {
         // is returned to the system.
         Runtime.getRuntime().addShutdownHook(new Thread(() -> {
             controller.shutdown();
-            pi4j.shutdown();
+            pui.shutdown();
             System.out.println("App stopped");
         }));
 

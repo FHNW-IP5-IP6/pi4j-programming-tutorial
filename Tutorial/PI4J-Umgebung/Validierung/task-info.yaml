@@ -5,7 +5,7 @@ options:
   is_correct: true
 - text: Ich kenne die Provider.
   is_correct: true
-- text: Ich verstehe, weshalb der Context heruntergefahren werden sollte.
+- text: "Ich verstehe, weshalb der Context heruntergefahren werden sollte."
   is_correct: true
 - text: Ich weiss wann ich welche Provider nutzen sollte.
   is_correct: true
@@ -14,3 +14,4 @@ options:
 files:
 - name: src/Main.java
   visible: true
+local_check: true

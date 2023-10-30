@@ -1,78 +1,76 @@
 type: edu
 files:
-- name: src/com/pi4j/catalog/components/helpers/PIN.java
-  visible: true
-- name: src/com/pi4j/catalog/components/Component.java
-  visible: true
-- name: src/com/pi4j/catalog/components/LedButton.java
-  visible: true
-- name: src/com/pi4j/catalog/components/SimpleLed.java
-  visible: true
-- name: src/com/pi4j/catalog/components/SimpleButton.java
-  visible: true
-- name: src/com/pi4j/mvc/util/mvcbase/PuiBase.java
-  visible: true
-- name: src/com/pi4j/mvc/util/mvcbase/Projector.java
-  visible: true
-- name: src/com/pi4j/mvc/util/mvcbase/ControllerBase.java
-  visible: true
-- name: src/com/pi4j/mvc/util/mvcbase/ObservableValue.java
-  visible: true
-- name: src/com/pi4j/mvc/util/mvcbase/ConcurrentTaskQueue.java
-  visible: true
-- name: src/com/pi4j/mvc/util/Pi4JContext.java
-  visible: true
-- name: src/com/pi4j/mvc/templatepuiapp/view/pui/PUI.java
-  visible: true
-  placeholders:
-  - offset: 577
-    length: 113
-    placeholder_text: /* TODO declare the used hardware */
-  - offset: 1033
-    length: 426
-    placeholder_text: /* TODO initialize the used hardware */
-  - offset: 1598
-    length: 116
-    placeholder_text: /* TODO deregister the hardware at shutdown */
-  - offset: 1957
-    length: 512
-    placeholder_text: /* TODO bind the controller functions to the functions of the
-      used hardware */
-  - offset: 2652
-    length: 305
-    placeholder_text: /* TODO listen to changes of the model and run actions */
-- name: src/com/pi4j/mvc/templatepuiapp/model/Model.java
-  visible: true
-  placeholders:
-  - offset: 170
-    length: 371
-    placeholder_text: /* TODO write the variables that are observed here */
-- name: src/com/pi4j/mvc/templatepuiapp/AppStarter.java
-  visible: true
-- name: src/com/pi4j/mvc/util/mvcbase/ObservableArray.java
-  visible: true
-- name: test/com/pi4j/mvc/templatepuiapp/view/pui/PUITest.java
-  visible: false
-- name: test/com/pi4j/mvc/templatepuiapp/model/ModelTest.java
-  visible: false
-- name: test/com/pi4j/mvc/templatepuiapp/controller/ControllerTest.java
-  visible: false
-- name: src/com/pi4j/mvc/templatepuiapp/controller/Controller.java
-  visible: true
-  placeholders:
-  - offset: 284
-    length: 560
-    placeholder_text: "/* TODO write the variables here, that don't need a change\
-      \ by listener */"
-  - offset: 1297
-    length: 2573
-    placeholder_text: /* TODO write the methods of the controller for SimonSays here
-      */
-- name: SimonSays-Hardware.png
-  visible: false
-- name: SimonSays_Schema.png
-  visible: false
-- name: EigenesProjekt-SimonSays.run.xml
-  visible: false
-- name: fritzing.zip
-  visible: true
+  - name: src/com/pi4j/mvc/simonsaysapp/view/pui/PUI.java
+    visible: true
+    placeholders:
+      - offset: 1936
+        length: 496
+        placeholder_text: /* TODO  call the appropriate method on controller if one of
+          the buttons is pressed*/
+      - offset: 2607
+        length: 336
+        placeholder_text: /* TODO turn the LEDs on or off if 'model.ledsGlowing' has changed*/
+  - name: src/com/pi4j/mvc/simonsaysapp/model/Model.java
+    visible: true
+  - name: src/com/pi4j/mvc/simonsaysapp/AppStarter.java
+    visible: true
+  - name: test/com/pi4j/mvc/templatepuiapp/view/pui/PUITest.java
+    visible: false
+  - name: test/com/pi4j/mvc/templatepuiapp/model/ModelTest.java
+    visible: false
+  - name: test/com/pi4j/mvc/templatepuiapp/controller/ControllerTest.java
+    visible: false
+  - name: src/com/pi4j/mvc/simonsaysapp/controller/Controller.java
+    visible: true
+    placeholders:
+      - offset: 446
+        length: 3524
+        placeholder_text: /* TODO implement the Controller */
+  - name: SimonSays-Hardware.png
+    visible: false
+  - name: SimonSays_Schema.png
+    visible: false
+  - name: EigenesProjekt-SimonSays.run.xml
+    visible: false
+  - name: fritzing.zip
+    visible: true
+  - name: src/com/pi4j/catalog/components/base/PwmActuator.java
+    visible: true
+  - name: src/com/pi4j/catalog/components/base/DigitalSensor.java
+    visible: true
+  - name: src/com/pi4j/catalog/components/base/I2CDevice.java
+    visible: true
+  - name: src/com/pi4j/catalog/components/base/SerialDevice.java
+    visible: true
+  - name: src/com/pi4j/catalog/components/base/SpiDevice.java
+    visible: true
+  - name: src/com/pi4j/catalog/components/base/DigitalActuator.java
+    visible: true
+  - name: src/com/pi4j/catalog/components/base/Component.java
+    visible: true
+  - name: src/com/pi4j/catalog/components/base/PIN.java
+    visible: true
+  - name: src/com/pi4j/catalog/components/ComponentTest.java
+    visible: true
+  - name: src/com/pi4j/catalog/components/SimpleLed.java
+    visible: true
+  - name: src/com/pi4j/catalog/components/SimpleButton.java
+    visible: true
+  - name: src/com/pi4j/mvc/util/mvcbase/PuiBase.java
+    visible: true
+  - name: src/com/pi4j/mvc/util/mvcbase/Projector.java
+    visible: true
+  - name: src/com/pi4j/mvc/util/mvcbase/ObservableArray.java
+    visible: true
+  - name: src/com/pi4j/mvc/util/mvcbase/ControllerBase.java
+    visible: true
+  - name: src/com/pi4j/mvc/util/mvcbase/ConcurrentTaskQueue.java
+    visible: true
+  - name: src/com/pi4j/mvc/util/mvcbase/MvcLogger.java
+    visible: true
+  - name: src/com/pi4j/mvc/util/mvcbase/ObservableValue.java
+    visible: true
+  - name: src/com/pi4j/mvc/util/Pi4JContext.java
+    visible: true
+  - name: src/com/pi4j/catalog/components/LedButton.java
+    visible: true

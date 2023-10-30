@@ -2,8 +2,10 @@ package com.pi4j.mvc.templatepuiapp.view.pui;
 
 import com.pi4j.Pi4J;
 import com.pi4j.context.Context;
-import com.pi4j.mvc.templatepuiapp.controller.Controller;
-import com.pi4j.mvc.templatepuiapp.model.Model;
+import com.pi4j.mvc.simonsaysapp.controller.Controller;
+import com.pi4j.mvc.simonsaysapp.model.Model;
+import com.pi4j.mvc.simonsaysapp.view.pui.PUI;
+
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
